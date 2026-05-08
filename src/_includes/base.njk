@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="view-transition" content="same-origin">
+  <title>{% if title %}{{ title }} · {% endif %}Planet WriteLog</title>
+  <meta name="description" content="Community content from MMS MVPs and presenters — blog posts, releases, videos.">
+  <link rel="stylesheet" href="/public/css/style.css">
+  <link rel="alternate" type="application/atom+xml" title="Planet WriteLog" href="/feed.xml">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-logo" href="/">
+        <span class="site-logo__mark" aria-hidden="true">◈</span>
+        Planet WriteLog
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Feed</a>
+        <a href="/people/" {% if page.url == "/people/" %}aria-current="page"{% endif %}>People</a>
+        <a href="/about/" {% if page.url == "/about/" %}aria-current="page"{% endif %}>About</a>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle light/dark theme" aria-pressed="false">
+        <span class="theme-toggle__icon">☀</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" class="site-main">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span>Planet WriteLog · MMS Community</span>
+      <span>
+        <a href="/feed.xml">Atom feed</a> ·
+        <a href="/opml.xml">OPML</a> ·
+        <a href="https://github.com/leghammer-git/planet-writelog">GitHub</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="/public/js/main.js" defer></script>
+</body>
+</html>

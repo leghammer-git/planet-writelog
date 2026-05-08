@@ -1,0 +1,14 @@
+{
+  "name": "Sofia Enrollez",
+  "handle": "sofia-enrollez",
+  "title": "Microsoft MVP · Modern Workplace",
+  "bio": "Helping organizations move to cloud-managed endpoints. Writes about Autopilot, Entra ID, and the chaos in between.",
+  "links": {
+    "website": "https://sofiaenrollez.example.com",
+    "github": "sofiaenrollez",
+    "linkedin": "sofiaenrollez"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://sofiaenrollez.example.com/feed/" }
+  ]
+}

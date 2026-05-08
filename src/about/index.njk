@@ -1,0 +1,67 @@
+---
+layout: base.njk
+title: About
+permalink: /about/
+---
+<article class="prose">
+  <h1>About Planet WriteLog</h1>
+  <p>
+    Planet WriteLog is a community aggregator for the
+    <a href="https://mmsmoa.com" rel="noopener noreferrer">Microsoft Management Summit (MMS)</a>
+    community. It surfaces new blog posts, GitHub releases, and YouTube videos from MVPs and
+    presenters — linking directly to their content, never republishing it.
+  </p>
+
+  <h2>How to add yourself</h2>
+  <ol>
+    <li>
+      Fork <a href="https://github.com/leghammer-git/planet-writelog">the repository</a>
+      on GitHub.
+    </li>
+    <li>
+      Create a new file <code>people/{your-handle}.json</code> following the schema below.
+      Your handle must be lowercase alphanumeric + hyphens and match the filename.
+    </li>
+    <li>
+      Open a pull request. CI will validate your JSON against the schema automatically.
+      Once merged, you'll appear in the feed within the hour.
+    </li>
+  </ol>
+
+  <h2>Person file schema</h2>
+  <pre><code>{
+  "name": "Your Name",
+  "handle": "your-handle",
+  "pronouns": "they/them",          // optional
+  "title": "MVP · Endpoint Management",
+  "bio": "One or two sentences.",
+  "avatar": "https://...",           // optional; falls back to GitHub avatar
+  "links": {
+    "website": "https://...",
+    "github": "your-handle",
+    "bluesky": "you.bsky.social",
+    "mastodon": "@you@infosec.exchange",
+    "linkedin": "your-linkedin-slug"
+  },
+  "feeds": [
+    { "type": "blog",            "url": "https://yourblog.com/feed.xml" },
+    { "type": "github-releases", "repo": "your-handle/your-repo" },
+    { "type": "youtube",         "channel_id": "UCxxxxxxxxxxxxxxxx" }
+  ]
+}</code></pre>
+
+  <h2>Feed types</h2>
+  <dl>
+    <dt><code>blog</code></dt>
+    <dd>Any RSS 2.0 or Atom feed URL.</dd>
+    <dt><code>github-releases</code></dt>
+    <dd>GitHub releases Atom feed for a repo you maintain (<code>owner/repo</code>).</dd>
+    <dt><code>youtube</code></dt>
+    <dd>Your YouTube channel ID (starts with <code>UC</code>). Find it in YouTube Studio → Settings → Channel → Advanced.</dd>
+  </dl>
+
+  <h2>Have questions?</h2>
+  <p>
+    Open an issue on <a href="https://github.com/leghammer-git/planet-writelog/issues">GitHub</a>.
+  </p>
+</article>

@@ -1,0 +1,44 @@
+---
+permalink: /opml.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Planet WriteLog — Community Feeds</title>
+    <dateCreated>{{ "" | dateISO }}</dateCreated>
+  </head>
+  <body>
+    <outline text="Planet WriteLog" title="Planet WriteLog">
+      {% for person in people %}
+        {% for feed in person.feeds %}
+          {% if feed.type == "blog" %}
+            <outline
+              type="rss"
+              text="{{ person.name }}"
+              title="{{ person.name }} — Blog"
+              xmlUrl="{{ feed.url }}"
+              htmlUrl="{{ person.links.website or feed.url }}"
+            />
+          {% elif feed.type == "github-releases" %}
+            <outline
+              type="rss"
+              text="{{ person.name }}"
+              title="{{ person.name }} — GitHub Releases ({{ feed.repo }})"
+              xmlUrl="https://github.com/{{ feed.repo }}/releases.atom"
+              htmlUrl="https://github.com/{{ feed.repo }}/releases"
+            />
+          {% elif feed.type == "youtube" %}
+            <outline
+              type="rss"
+              text="{{ person.name }}"
+              title="{{ person.name }} — YouTube"
+              xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id={{ feed.channel_id }}"
+              htmlUrl="https://www.youtube.com/channel/{{ feed.channel_id }}"
+            />
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </outline>
+  </body>
+</opml>

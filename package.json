@@ -1,0 +1,25 @@
+{
+  "name": "planet-writelog",
+  "version": "1.0.0",
+  "description": "MMS community aggregator — blog posts, releases, videos from MVPs and presenters",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "aggregate": "node scripts/aggregate.js",
+    "validate": "node scripts/validate-people.js"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "fast-xml-parser": "^4.4.0",
+    "node-fetch": "^3.3.2",
+    "p-limit": "^6.1.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "luxon": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,40 @@
+---
+layout: base.njk
+title: Feed
+---
+<section class="feed-header">
+  <h1 class="feed-header__title">Community Feed</h1>
+  <p class="feed-header__sub">Latest from MMS MVPs and presenters</p>
+
+  <div class="filter-bar" role="group" aria-label="Filter items">
+    <div class="filter-group" data-filter-group="type">
+      <span class="filter-label">Type</span>
+      <button class="pill pill--active" data-value="all">All</button>
+      <button class="pill" data-value="blog">Blog</button>
+      <button class="pill" data-value="github-releases">Releases</button>
+      <button class="pill" data-value="youtube">Videos</button>
+    </div>
+    <div class="filter-group" data-filter-group="person">
+      <span class="filter-label">Person</span>
+      <button class="pill pill--active" data-value="all">All</button>
+      {% for person in people %}
+        <button class="pill" data-value="{{ person.handle }}">{{ person.name }}</button>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="feed-results" class="feed-grid" aria-live="polite" aria-label="Feed items">
+  {% if items.length %}
+    {% for item in items %}
+      {% set item = item %}
+      {% include "item-card.njk" %}
+    {% endfor %}
+  {% else %}
+    <p class="feed-empty">No items yet — run <code>npm run aggregate</code> to fetch content.</p>
+  {% endif %}
+</section>
+
+<p class="feed-count" aria-live="polite">
+  Showing <span id="visible-count">{{ items.length }}</span> of {{ items.length }} items
+</p>

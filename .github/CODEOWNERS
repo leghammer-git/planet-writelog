@@ -1,0 +1,9 @@
+# Global owner — approves everything by default
+*  @leghammer-git
+
+# Each person owns their own people file.
+# Add a line here when you merge a new contributor.
+# Format: people/{handle}.json  @github-username
+people/mara-cloudson.json   @leghammer-git
+people/derek-patchfield.json  @leghammer-git
+people/sofia-enrollez.json  @leghammer-git

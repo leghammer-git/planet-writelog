@@ -1,0 +1,24 @@
+{%- set typeLabels = {
+  "blog": "Blog",
+  "github-releases": "Release",
+  "youtube": "Video"
+} -%}
+<article class="item-card" data-type="{{ item.type }}" data-person="{{ item.person_handle }}">
+  <header class="item-card__header">
+    <span class="item-card__badge item-card__badge--{{ item.type }}">
+      {{ typeLabels[item.type] or item.type }}
+    </span>
+    <span class="item-card__person">
+      <a href="/people/{{ item.person_handle }}/">{{ item.person_handle }}</a>
+    </span>
+    <time class="item-card__date" datetime="{{ item.published_at | dateISO }}">
+      {{ item.published_at | relativeDate }}
+    </time>
+  </header>
+  <h2 class="item-card__title">
+    <a href="{{ item.link }}" rel="noopener noreferrer" target="_blank">{{ item.title }}</a>
+  </h2>
+  {% if item.description %}
+    <p class="item-card__desc">{{ item.description }}</p>
+  {% endif %}
+</article>

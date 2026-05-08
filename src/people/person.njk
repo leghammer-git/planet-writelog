@@ -1,0 +1,61 @@
+---
+layout: base.njk
+pagination:
+  data: people
+  size: 1
+  alias: person
+permalink: /people/{{ person.handle }}/
+eleventyComputed:
+  title: "{{ person.name }}"
+---
+<section class="profile">
+  <div class="profile__header">
+    <img
+      class="profile__avatar"
+      src="{{ person.avatar or ('https://github.com/' + (person.links.github or person.handle) + '.png?size=120') }}"
+      alt="{{ person.name }}"
+      width="120"
+      height="120"
+    >
+    <div class="profile__meta">
+      <h1 class="profile__name">{{ person.name }}</h1>
+      <p class="profile__title">{{ person.title }}</p>
+      {% if person.pronouns %}
+        <span class="profile__pronouns">{{ person.pronouns }}</span>
+      {% endif %}
+      <p class="profile__bio">{{ person.bio }}</p>
+
+      <ul class="profile__links">
+        {% if person.links.website %}
+          <li><a href="{{ person.links.website }}" rel="noopener noreferrer">Website</a></li>
+        {% endif %}
+        {% if person.links.github %}
+          <li><a href="https://github.com/{{ person.links.github }}" rel="noopener noreferrer">GitHub</a></li>
+        {% endif %}
+        {% if person.links.bluesky %}
+          <li><a href="https://bsky.app/profile/{{ person.links.bluesky }}" rel="noopener noreferrer">Bluesky</a></li>
+        {% endif %}
+        {% if person.links.mastodon %}
+          <li><a href="{{ person.links.mastodon }}" rel="noopener noreferrer">Mastodon</a></li>
+        {% endif %}
+        {% if person.links.linkedin %}
+          <li><a href="https://linkedin.com/in/{{ person.links.linkedin }}" rel="noopener noreferrer">LinkedIn</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="person-feed">
+  <h2>Posts from {{ person.name }}</h2>
+  {%- set personItems = items | where("person_handle", person.handle) -%}
+  {% if personItems.length %}
+    <div class="feed-grid">
+      {% for item in personItems %}
+        {% include "item-card.njk" %}
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="feed-empty">No items yet for this person.</p>
+  {% endif %}
+</section>

@@ -1,0 +1,16 @@
+{
+  "name": "Derek Patchfield",
+  "handle": "derek-patchfield",
+  "pronouns": "he/him",
+  "title": "MMS Presenter · ConfigMgr Specialist",
+  "bio": "Configuration Manager admin turned PowerShell junkie. Speaker at MMS and other community events. Maintains several open-source CM tools.",
+  "links": {
+    "website": "https://derekpatchfield.example.com",
+    "github": "derekpatchfield",
+    "mastodon": "@derek@infosec.exchange"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://derekpatchfield.example.com/rss.xml" },
+    { "type": "github-releases", "repo": "derekpatchfield/cm-health-check" }
+  ]
+}

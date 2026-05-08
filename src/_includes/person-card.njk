@@ -1,0 +1,19 @@
+<article class="person-card">
+  <a href="/people/{{ person.handle }}/" class="person-card__link">
+    <img
+      class="person-card__avatar"
+      src="{{ person.avatar or ('https://github.com/' + (person.links.github or person.handle) + '.png?size=80') }}"
+      alt="{{ person.name }}"
+      width="80"
+      height="80"
+      loading="lazy"
+    >
+    <div class="person-card__body">
+      <h2 class="person-card__name">{{ person.name }}</h2>
+      <p class="person-card__title">{{ person.title }}</p>
+      {% if person.pronouns %}
+        <span class="person-card__pronouns">{{ person.pronouns }}</span>
+      {% endif %}
+    </div>
+  </a>
+</article>

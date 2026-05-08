@@ -1,0 +1,20 @@
+---
+layout: base.njk
+title: People
+permalink: /people/
+---
+<section class="page-header">
+  <h1>Community Members</h1>
+  <p>MVPs and presenters who share their work with the MMS community.</p>
+</section>
+
+<section class="people-grid" aria-label="Community members">
+  {% if people.length %}
+    {% for person in people %}
+      {% set person = person %}
+      {% include "person-card.njk" %}
+    {% endfor %}
+  {% else %}
+    <p>No people listed yet.</p>
+  {% endif %}
+</section>

@@ -1,0 +1,25 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Planet WriteLog</title>
+  <subtitle>Community content from MMS MVPs and presenters</subtitle>
+  <link href="https://planet-writelog.pages.dev/feed.xml" rel="self"/>
+  <link href="https://planet-writelog.pages.dev/"/>
+  <updated>{{ items[0].published_at | dateISO if items.length else "" }}</updated>
+  <id>https://planet-writelog.pages.dev/</id>
+  <author><name>Planet WriteLog</name></author>
+  {% for item in items | limit(100) %}
+  <entry>
+    <title>{{ item.title | escape }}</title>
+    <link href="{{ item.link }}"/>
+    <id>{{ item.id | escape }}</id>
+    <updated>{{ item.published_at | dateISO }}</updated>
+    <author><name>{{ item.person_handle }}</name></author>
+    <category term="{{ item.type }}"/>
+    {% if item.description %}<summary>{{ item.description | escape }}</summary>{% endif %}
+  </entry>
+  {% endfor %}
+</feed>
