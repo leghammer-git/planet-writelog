@@ -1,0 +1,10 @@
+{
+  "name": "Daniel Britze",
+  "handle": "daniel-britze",
+  "title": "Consultant",
+  "bio": "Cloud and security specialist with a passion for cybersecurity.",
+  "links": {},
+  "feeds": [
+    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Daniel Britze" }
+  ]
+}

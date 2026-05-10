@@ -6,7 +6,8 @@
   "bio": "Microsoft Intune and ConfigMgr specialist.",
   "links": {
     "website": "https://www.petervanderwoude.nl",
-    "twitter": "pvanderwoude"
+    "twitter": "pvanderwoude",
+    "github": "pvanderwoude"
   },
   "feeds": [
     { "type": "blog", "url": "https://www.petervanderwoude.nl/feed" }

@@ -1,0 +1,10 @@
+{
+  "name": "Frank van Zandwijk",
+  "handle": "frank-van-zandwijk",
+  "title": "Consultant",
+  "bio": "Cloud and infrastructure security specialist with a background in networking.",
+  "links": {},
+  "feeds": [
+    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Frank van Zandwijk" }
+  ]
+}

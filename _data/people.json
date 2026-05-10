@@ -29,31 +29,60 @@
     ]
   },
   {
-    "name": "Johan Arwidmark",
-    "handle": "johan-arwidmark",
-    "avatar": "https://images.mvp.microsoft.com/1784d172-3c9a-e411-93f2-9cb65495d3c4",
+    "name": "Ben Whitmore",
+    "handle": "ben-whitmore",
     "mvp": {
       "status": "active",
       "category": "Enterprise Mobility"
     },
     "title": "Consultant",
-    "bio": "required",
+    "bio": "Configuration Manager, Intune, and Windows deployment specialist.",
     "links": {
-      "website": "https://www.deploymentresearch.com/",
-      "facebook": "DeploymentResearch",
-      "github": "DeploymentResearch",
-      "linkedin": "jarwidmark",
-      "twitter": "jarwidmark",
-      "youtube": "@DeploymentResearch"
+      "website": "https://byteben.com",
+      "github": "byteben",
+      "twitter": "byteben"
     },
     "feeds": [
       {
         "type": "blog",
-        "url": "https://www.deploymentresearch.com/feed/"
+        "url": "https://byteben.com/bb/feed/"
+      },
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Ben Whitmore"
       },
       {
         "type": "github-user",
-        "username": "DeploymentResearch"
+        "username": "byteben"
+      }
+    ]
+  },
+  {
+    "name": "Daniel Britze",
+    "handle": "daniel-britze",
+    "title": "Consultant",
+    "bio": "Cloud and security specialist with a passion for cybersecurity.",
+    "links": {},
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://blog.mindcore.dk/feed/",
+        "author": "Daniel Britze"
+      }
+    ]
+  },
+  {
+    "name": "Frank van Zandwijk",
+    "handle": "frank-van-zandwijk",
+    "title": "Consultant",
+    "bio": "Cloud and infrastructure security specialist with a background in networking.",
+    "links": {},
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://blog.mindcore.dk/feed/",
+        "author": "Frank van Zandwijk"
       }
     ]
   },
@@ -83,6 +112,143 @@
     ]
   },
   {
+    "name": "Henning Hofflund",
+    "handle": "henning-hofflund",
+    "title": "Consultant",
+    "bio": "Infrastructure architect specializing in design and migration.",
+    "links": {},
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://blog.mindcore.dk/feed/",
+        "author": "Henning Hofflund"
+      }
+    ]
+  },
+  {
+    "name": "Johan Arwidmark",
+    "handle": "johan-arwidmark",
+    "avatar": "https://images.mvp.microsoft.com/1784d172-3c9a-e411-93f2-9cb65495d3c4",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Consultant",
+    "bio": "required",
+    "links": {
+      "website": "https://www.deploymentresearch.com/",
+      "facebook": "DeploymentResearch",
+      "github": "DeploymentResearch",
+      "linkedin": "jarwidmark",
+      "twitter": "jarwidmark",
+      "youtube": "@DeploymentResearch"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://www.deploymentresearch.com/feed/"
+      },
+      {
+        "type": "github-user",
+        "username": "DeploymentResearch"
+      }
+    ]
+  },
+  {
+    "name": "Lars Lohmann Blem",
+    "handle": "lars-lohmann-blem",
+    "title": "Consultant",
+    "bio": "Infrastructure architect with focus on Modern Workplace and Microsoft 365 security.",
+    "links": {
+      "linkedin": "llohmann",
+      "twitter": "lohmannlars"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://blog.mindcore.dk/feed/",
+        "author": "Lars Lohmann"
+      }
+    ]
+  },
+  {
+    "name": "Marcin Chwala",
+    "handle": "marcin-chwala",
+    "title": "Consultant",
+    "bio": "Modern workplace and infrastructure architect with focus on Microsoft 365.",
+    "links": {},
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://blog.mindcore.dk/feed/",
+        "author": "Marcin Chwala"
+      }
+    ]
+  },
+  {
+    "name": "Martin Vittrup Henriksen",
+    "handle": "martin-vittrup-henriksen",
+    "title": "Consultant",
+    "bio": "Infrastructure consultant with focus on cloud solutions in Microsoft 365 and Azure.",
+    "links": {
+      "linkedin": "martinvittruphenriksen",
+      "twitter": "Virtually_Human"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://blog.mindcore.dk/feed/",
+        "author": "Martin Vittrup Henriksen"
+      }
+    ]
+  },
+  {
+    "name": "Mattias Melkersen",
+    "handle": "mattias-melkersen",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Consultant",
+    "bio": "Configuration Manager, Intune, and Windows deployment specialist.",
+    "links": {
+      "website": "https://blog.mindcore.dk/",
+      "github": "MMelkersen",
+      "twitter": "MMelkersen",
+      "youtube": "@MEMtipsandtricks"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://blog.mindcore.dk/feed/",
+        "author": "Mattias Melkersen"
+      },
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Mattias Melkersen"
+      },
+      {
+        "type": "github-user",
+        "username": "MMelkersen"
+      }
+    ]
+  },
+  {
+    "name": "Michael Morten Sonne",
+    "handle": "michael-morten-sonne",
+    "title": "Consultant",
+    "bio": "Cloud and security specialist with focus on Microsoft 365.",
+    "links": {},
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://blog.mindcore.dk/feed/",
+        "author": "Michael Morten Sonne"
+      }
+    ]
+  },
+  {
     "name": "Michael Niehaus",
     "handle": "michael-niehaus",
     "mvp": {
@@ -108,27 +274,18 @@
     ]
   },
   {
-    "name": "Ben Whitmore",
-    "handle": "ben-whitmore",
-    "mvp": {
-      "status": "active",
-      "category": "Enterprise Mobility"
-    },
+    "name": "Michael Nielsen",
+    "handle": "michael-nielsen",
     "title": "Consultant",
-    "bio": "Configuration Manager, Intune, and Windows deployment specialist.",
+    "bio": "Cloud and security specialist focused on Microsoft backend products.",
     "links": {
-      "website": "https://byteben.com",
-      "github": "byteben",
-      "twitter": "byteben"
+      "linkedin": "michaelnielsen-31319244"
     },
     "feeds": [
       {
         "type": "blog",
-        "url": "https://byteben.com/feed"
-      },
-      {
-        "type": "github-user",
-        "username": "byteben"
+        "url": "https://blog.mindcore.dk/feed/",
+        "author": "Michael Nielsen"
       }
     ]
   },
@@ -142,13 +299,13 @@
     "title": "Consultant",
     "bio": "ConfigMgr, Windows deployment, and endpoint management.",
     "links": {
-      "website": "https://www.windowsnoob.com",
+      "website": "https://www.niallbrady.com/",
       "twitter": "niallbrady"
     },
     "feeds": [
       {
         "type": "blog",
-        "url": "https://www.windowsnoob.com/feed"
+        "url": "https://www.niallbrady.com/feed"
       }
     ]
   },
@@ -163,7 +320,8 @@
     "bio": "Microsoft Intune and ConfigMgr specialist.",
     "links": {
       "website": "https://www.petervanderwoude.nl",
-      "twitter": "pvanderwoude"
+      "twitter": "pvanderwoude",
+      "github": "pvanderwoude"
     },
     "feeds": [
       {
@@ -173,19 +331,23 @@
     ]
   },
   {
-    "name": "David Segura",
-    "handle": "david-segura",
+    "name": "Sune Thomsen",
+    "handle": "sune-thomsen",
+    "mvp": {
+      "status": "active",
+      "category": "Windows and Devices for IT"
+    },
     "title": "Consultant",
-    "bio": "OSDCloud creator and Windows imaging and deployment expert.",
+    "bio": "Modern Workplace consultant focused on Windows and device management.",
     "links": {
-      "website": "https://osdcloud.com",
-      "github": "OSDeploy",
-      "twitter": "SeguraOSD"
+      "linkedin": "sunethomsendk",
+      "twitter": "SuneThomsenDK"
     },
     "feeds": [
       {
-        "type": "github-user",
-        "username": "OSDeploy"
+        "type": "blog",
+        "url": "https://blog.mindcore.dk/feed/",
+        "author": "Sune Thomsen"
       }
     ]
   }

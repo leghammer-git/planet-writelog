@@ -10,7 +10,8 @@
     "twitter": "byteben"
   },
   "feeds": [
-    { "type": "blog", "url": "https://byteben.com/feed" },
+    { "type": "blog", "url": "https://byteben.com/bb/feed/" },
+    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Ben Whitmore" },
     { "type": "github-user", "username": "byteben" }
   ]
 }

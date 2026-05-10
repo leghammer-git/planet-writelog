@@ -1,0 +1,13 @@
+{
+  "name": "Lars Lohmann Blem",
+  "handle": "lars-lohmann-blem",
+  "title": "Consultant",
+  "bio": "Infrastructure architect with focus on Modern Workplace and Microsoft 365 security.",
+  "links": {
+    "linkedin": "llohmann",
+    "twitter": "lohmannlars"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Lars Lohmann" }
+  ]
+}

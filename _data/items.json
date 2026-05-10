@@ -1,5 +1,15 @@
 [
   {
+    "id": "https://msendpointmgr.com/?p=26441",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "Introducing Intune&#8217;s New App Inventory Feature",
+    "description": "App inventory is Intune&#8217;s new feature for collecting detailed application data from Windows devices, and it leaves the old Discovered apps report in the proverbial dust. Pull up a chair, pour yourself something stronger than a martini, and let me show you what I found when…",
+    "link": "https://msendpointmgr.com/2026/05/09/intune-app-inventory/",
+    "published_at": "2026-05-09T15:42:54.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
+  },
+  {
     "id": "https://www.deploymentresearch.com/?p=7472",
     "person_handle": "johan-arwidmark",
     "type": "blog",
@@ -8,6 +18,26 @@
     "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
     "published_at": "2026-05-06T20:30:40.000Z",
     "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://petervanderwoude.nl/?p=23185",
+    "person_handle": "peter-van-der-woude",
+    "type": "blog",
+    "title": "Locking down Windows devices by suppressing key combinations",
+    "description": "This week is not about something new. Not even close actually. This week is all about further locking down specific types of Windows devices, such as shared devices, kiosk devices, or even just actual locked down devices, by suppressing specific key combinations. There can be…",
+    "link": "https://petervanderwoude.nl/post/locking-down-windows-devices-by-suppressing-key-combinations/",
+    "published_at": "2026-05-04T17:45:00.000Z",
+    "fetched_at": "2026-05-10T12:18:07.635Z"
+  },
+  {
+    "id": "https://petervanderwoude.nl/?p=23177",
+    "person_handle": "peter-van-der-woude",
+    "type": "blog",
+    "title": "Introducing cross-tenant support for MAM on Windows devices",
+    "description": "This week is basically sort of a follow-up on last week. This week is all about introducing cross-tenant support for Mobile Application Management (MAM) on Windows devices. That functionality was already briefly mentioned during the previous blog post about protecting downloads…",
+    "link": "https://petervanderwoude.nl/post/introducing-cross-tenant-support-for-mam-on-windows-devices/",
+    "published_at": "2026-04-27T17:45:00.000Z",
+    "fetched_at": "2026-05-10T12:18:07.635Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=7463",
@@ -20,6 +50,16 @@
     "fetched_at": "2026-05-10T02:38:37.327Z"
   },
   {
+    "id": "https://www.niallbrady.com/?p=9929",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "Using a Windows 365 Cloud PC via a USB-C connected iPhone",
+    "description": "Introduction Microsoft released an update to Windows 365 recently that allows iPhone users to control the mouse via bluetooth when connected via a USB-C connected iPhone. In this blog post myself and my MVP buddy Paul Winstanley look at the &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2026/04/26/using-a-windows-365-cloud-pc-via-a-usb-c-connected-iphone/",
+    "published_at": "2026-04-26T19:57:42.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
     "id": "https://www.deploymentresearch.com/?p=7449",
     "person_handle": "johan-arwidmark",
     "type": "blog",
@@ -28,6 +68,96 @@
     "link": "https://www.deploymentresearch.com/parsing-intune-remediation-json-output/",
     "published_at": "2026-04-23T01:56:57.000Z",
     "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://petervanderwoude.nl/?p=23164",
+    "person_handle": "peter-van-der-woude",
+    "type": "blog",
+    "title": "Protecting downloads in MAM enrolled profiles on managed Windows devices",
+    "description": "This week is all about a combination of new features. That combination of features is allowing MAM enrollment on managed Windows devices and protecting downloads in Microsoft Edge. Both features are relatively new features in Microsoft Edge, that are both currently still behind…",
+    "link": "https://petervanderwoude.nl/post/protecting-downloads-in-mam-enrolled-profiles-on-managed-windows-devices/",
+    "published_at": "2026-04-20T18:45:00.000Z",
+    "fetched_at": "2026-05-10T12:18:07.635Z"
+  },
+  {
+    "id": "https://petervanderwoude.nl/?p=23154",
+    "person_handle": "peter-van-der-woude",
+    "type": "blog",
+    "title": "Working with the automatic enablement of Windows hotpatch security updates",
+    "description": "This week is all about the recently introduced configuration that will enable Windows hotpatch security updates by default. The configuration to enable the usage of hotpatch security updates has been available since the introduction of Windows 11 version 24H2, and can be…",
+    "link": "https://petervanderwoude.nl/post/working-with-the-automatic-enablement-of-windows-hotpatch-security-updates/",
+    "published_at": "2026-04-13T17:45:00.000Z",
+    "fetched_at": "2026-05-10T12:18:07.635Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=7007",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "To sysprep or not to sysprep, why are we still having this conversation?",
+    "description": "Going way back into the time machine, there were third-party utilities like GhostWalker (remember Ghost?) and NewSID (from Sysinternals) that could &#8220;prepare Windows for imaging.&#8221; Eventually, Microsoft said &#8220;you must use Sysprep, as that&#8217;s the only…",
+    "link": "https://oofhours.com/2026/04/11/to-sysprep-or-not-to-sysprep-why-are-we-still-having-this-conversation/",
+    "published_at": "2026-04-12T05:00:04.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6989",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Windows Installer: Almost a trick question&#8230;",
+    "description": "You&#8217;ve all probably seen a dialog like this when using a Windows Installer MSI to upgrade an existing product: OK, files are in use. And you&#8217;ve probably also seen messages where Windows Installer then says that it was unable to close the applications. But what do you…",
+    "link": "https://oofhours.com/2026/04/08/windows-installer-almost-a-trick-question/",
+    "published_at": "2026-04-09T00:53:51.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://petervanderwoude.nl/?p=23141",
+    "person_handle": "peter-van-der-woude",
+    "type": "blog",
+    "title": "Managing geolocation access for websites in Microsoft Edge",
+    "description": "This week is all about managing (geo)location access for websites in Microsoft Edge. When apps are allowed access to the location of the user, that also includes the Microsoft Edge browser. That means that &#8211; depending on the configuration in Microsoft Edge &#8211; every…",
+    "link": "https://petervanderwoude.nl/post/managing-geolocation-access-for-websites-in-microsoft-edge/",
+    "published_at": "2026-04-06T17:45:00.000Z",
+    "fetched_at": "2026-05-10T12:18:07.635Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6691",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Delivery Optimization downloads are changing, is your MCC ready?",
+    "description": "Microsoft announced late last year that the standalone version of Microsoft Connected Cache for Enterprise is now generally available (so no longer just in preview), with one new feature added: support for HTTPS content. Before we dig more into that, let me explain what…",
+    "link": "https://oofhours.com/2026/04/01/delivery-optimization-downloads-are-changing-is-your-mcc-ready/",
+    "published_at": "2026-04-01T08:01:21.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://petervanderwoude.nl/?p=23134",
+    "person_handle": "peter-van-der-woude",
+    "type": "blog",
+    "title": "Restoring Windows during first sign-in",
+    "description": "This week is all about the recently introduced Windows Restore functionality during first sign-in. That functionality is part of the Windows Backup for Organizations feature. That feature on itself not new, but the ability to restore during first sign-in is. Before, the ability…",
+    "link": "https://petervanderwoude.nl/post/restoring-windows-during-first-sign-in/",
+    "published_at": "2026-03-23T18:45:00.000Z",
+    "fetched_at": "2026-05-10T12:18:07.635Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6954",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Windows releases: secret decoder ring required",
+    "description": "It started off as a simple exercise: I want to grab the latest Insider build containing the features likely to be included in Windows 11 26H2 later this year. Which channel and build would that be? The answer, as illogical as it sounds, is &#8220;yes.&#8221; In true…",
+    "link": "https://oofhours.com/2026/03/22/windows-releases-secret-decoder-ring-required/",
+    "published_at": "2026-03-23T06:56:12.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9899",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "First looks at resizing Frontline Dedicated Cloud PC&#8217;s",
+    "description": "Introduction In a previous blog post I showed you how you can resize Enterprise Cloud PC&#8217;s, you can review that here. In this blog post myself and fellow MVP buddy Paul Winstanley teamed up again to look at the resize &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2026/03/22/first-looks-at-resizing-frontline-dedicated-cloud-pcs/",
+    "published_at": "2026-03-22T19:05:24.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=7414",
@@ -40,6 +170,66 @@
     "fetched_at": "2026-05-10T02:38:37.327Z"
   },
   {
+    "id": "https://petervanderwoude.nl/?p=23120",
+    "person_handle": "peter-van-der-woude",
+    "type": "blog",
+    "title": "Understanding the profile assignment of multi-app kiosk mode on Windows 11",
+    "description": "This week is all about multi-app kiosk mode on Windows 11. That on itself is not something really new and to get started with that, have a look at this post around configuring multi-app kiosk mode on Windows 11. The documentation, however, is getting better and better, by…",
+    "link": "https://petervanderwoude.nl/post/understanding-the-profile-assignment-of-multi-app-kiosk-mode-on-windows-11/",
+    "published_at": "2026-03-16T18:45:00.000Z",
+    "fetched_at": "2026-05-10T12:18:07.635Z"
+  },
+  {
+    "id": "https://petervanderwoude.nl/?p=23110",
+    "person_handle": "peter-van-der-woude",
+    "type": "blog",
+    "title": "Blocking the Microsoft Store Web Installer using Entra Internet Access",
+    "description": "This week is all about addressing a really specific scenario and that scenario is related to the Microsoft Store. Many organizations are preventing access to the Microsoft Store app by using the policy setting Turn off the Store application. That policy setting, however, does…",
+    "link": "https://petervanderwoude.nl/post/blocking-the-microsoft-store-web-installer-using-entra-internet-access/",
+    "published_at": "2026-03-09T18:45:00.000Z",
+    "fetched_at": "2026-05-10T12:18:07.635Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9878",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "First looks at the Remote Desktop Client app migration tool",
+    "description": "Introduction The Remote Desktop client app is commonly used for connecting to a variety of devices including: Connecting to Azure Virtual Desktop (AVD) Accessing Windows 365 Cloud PCs Access Remote Desktop Services (RDS) Connecting to remote PCs (when configured for &#8230;…",
+    "link": "https://www.niallbrady.com/2026/03/08/first-looks-at-the-remote-desktop-client-app-migration-tool/",
+    "published_at": "2026-03-08T19:07:10.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6935",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Discovering PowerShell provider dynamic parameters",
+    "description": "PowerShell ships with providers that expose things like file systems, the registry, certificates, environment variables, etc. To see which are available in your PowerShell session, you can use Get-PSProvider: Not surprisingly, these behave differently based on the type of data…",
+    "link": "https://oofhours.com/2026/03/03/discovering-powershell-provider-dynamic-parameters/",
+    "published_at": "2026-03-03T22:17:53.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://msendpointmgr.com/?p=26325",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "Security Copilot Agents in the Intune Admin Center",
+    "description": "Microsoft Security Copilot agents are now embedded directly inside the Intune admin center. In this post, I walk through real world testing of the Change Review Agent, Policy Configuration Agent, and more, including where they shine, where they fall short, and what this means…",
+    "link": "https://msendpointmgr.com/2026/03/03/security-copilot-agents-in-the-intune-admin-center/",
+    "published_at": "2026-03-03T15:44:51.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
+  },
+  {
+    "id": "https://petervanderwoude.nl/?p=23097",
+    "person_handle": "peter-van-der-woude",
+    "type": "blog",
+    "title": "Disabling MDM enrollment when adding work or school account",
+    "description": "This week is all about a recently introduced setting in the automatic enrollment configuration of Windows devices, and that setting is Disable MDM enrollment when adding work or school account. That is a setting that many IT administrators have been waiting for, as it addresses…",
+    "link": "https://petervanderwoude.nl/post/disabling-mdm-enrollment-when-adding-work-or-school-account/",
+    "published_at": "2026-03-02T18:45:00.000Z",
+    "fetched_at": "2026-05-10T12:18:07.635Z"
+  },
+  {
     "id": "https://www.deploymentresearch.com/?p=7383",
     "person_handle": "johan-arwidmark",
     "type": "blog",
@@ -48,6 +238,86 @@
     "link": "https://www.deploymentresearch.com/speeding-up-file-or-folder-copy-in-a-computer-lab/",
     "published_at": "2026-02-26T14:17:31.000Z",
     "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://petervanderwoude.nl/?p=23085",
+    "person_handle": "peter-van-der-woude",
+    "type": "blog",
+    "title": "Managing Copilot in Microsoft Edge",
+    "description": "This week is all about managing Copilot within Microsoft Edge. There were already some nice configurations available for a while and recently an additional configuration was added around sharing tenant-approved browser history with Copilot search. That was a nice trigger for…",
+    "link": "https://petervanderwoude.nl/post/managing-copilot-in-microsoft-edge/",
+    "published_at": "2026-02-23T18:45:00.000Z",
+    "fetched_at": "2026-05-10T12:18:07.635Z"
+  },
+  {
+    "id": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.3",
+    "person_handle": "ben-whitmore",
+    "type": "github-releases",
+    "title": "M365-Deployment-Tool v1.0.3",
+    "description": "- Replaced sample XMLs - Improved txt file output logic for PMPC Custom App and Win32 apps",
+    "link": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.3",
+    "published_at": "2026-02-23T12:08:50.000Z",
+    "fetched_at": "2026-05-10T12:18:07.252Z"
+  },
+  {
+    "id": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.2",
+    "person_handle": "ben-whitmore",
+    "type": "github-releases",
+    "title": "M365-Deployment-Tool v1.0.2",
+    "description": "- Remove staged Office Data files after packaging complete - New Sample added - Update NoZip logic. We only use the compress option when creating a PMPC Custom Apps",
+    "link": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.2",
+    "published_at": "2026-02-22T17:57:17.000Z",
+    "fetched_at": "2026-05-10T12:18:07.252Z"
+  },
+  {
+    "id": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.1",
+    "person_handle": "ben-whitmore",
+    "type": "github-releases",
+    "title": "M365-Deployment-Tool v1.0.1",
+    "description": "- Updated Comments to be more helpful - Improved base path handling - Added support for macOS (Cannot create intunewin file from macOS)",
+    "link": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.1",
+    "published_at": "2026-02-22T11:00:16.000Z",
+    "fetched_at": "2026-05-10T12:18:07.252Z"
+  },
+  {
+    "id": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.0",
+    "person_handle": "ben-whitmore",
+    "type": "github-releases",
+    "title": "M365-Deployment-Tool v1.0.0",
+    "description": "Initial release for feedback",
+    "link": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.0",
+    "published_at": "2026-02-10T15:26:06.000Z",
+    "fetched_at": "2026-05-10T12:18:07.252Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9827",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "First looks at Frontline Shared UES",
+    "description": "Introduction Windows 365 User Experience Sync (UES) is a cloud‑native capability designed to give users a seamless, consistent, and personalised Windows experience across Windows 365 Cloud PCs and Windows 365 Cloud Apps. Without UES in place on Frontline Shared devices, &#8230;…",
+    "link": "https://www.niallbrady.com/2026/02/02/first-looks-at-frontline-shared-ues/",
+    "published_at": "2026-02-02T19:44:34.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6917",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Looking for an MDT replacement? Consider DeployR.",
+    "description": "Since Microsoft unceremoniously announced the &#8220;immediate retirement&#8221; of the Microsoft Deployment Toolkit (something that isn&#8217;t surprising since it really hasn&#8217;t been updated in any significant way since 2013 and leverages obsolete technologies such as…",
+    "link": "https://oofhours.com/2026/02/02/looking-for-an-mdt-replacement-consider-deployr/",
+    "published_at": "2026-02-02T11:49:51.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://garytown.com/?p=6885",
+    "person_handle": "gary-blok",
+    "type": "blog",
+    "title": "DeployR &#8211; Backing up your Task Sequences and Content.",
+    "description": "You can find the basics here: Scripting for DeployR Server &#124; DeployR &#124; Product Documentation In this post I&#8217;ll be going a bit deeper into a Script I wrote to help backup specific things. I created it so I can transfer specific things from one environment to…",
+    "link": "https://garytown.com/deployr-backing-up-your-task-sequences-and-content",
+    "published_at": "2026-01-28T04:40:05.000Z",
+    "fetched_at": "2026-05-10T12:18:07.253Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=7363",
@@ -70,6 +340,86 @@
     "fetched_at": "2026-05-10T02:38:37.327Z"
   },
   {
+    "id": "http://oofhours.com/?p=6887",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Following up on the MDT security issue",
+    "description": "I mentioned in passing in a previous blog post that the &#8220;immediate retirement&#8221; of MDT was caused by Microsoft not wanting to fix a security vulnerability identified by security researchers in the MDT monitoring service. If you aren&#8217;t using the monitoring…",
+    "link": "https://oofhours.com/2026/01/23/following-up-on-the-mdt-security-issue/",
+    "published_at": "2026-01-23T20:13:43.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9788",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "January 2026 Cumulative Update breaks Windows app",
+    "description": "Introduction I started my day as always and launched the Windows app, I clicked my Cloud PC, entered my credentials and after a short delay I got an error shown below. The error shown above was &#8220;something went wrong&#8221; with &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2026/01/19/january-2026-cumulative-update-breaks-windows-app/",
+    "published_at": "2026-01-19T11:41:24.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6854",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "A complete history of MDT (abridged)",
+    "description": "Way back in 2008, I published a blog post (now captured by the Wayback Machine) that gave a concise history of BDD, now known as MDT. Eighteen years later, I can now complete that story and expand on some of the items in more detail. (I will refrain from getting too carried…",
+    "link": "https://oofhours.com/2026/01/18/a-complete-history-of-mdt-abridged/",
+    "published_at": "2026-01-19T07:13:17.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://garytown.com/?p=6876",
+    "person_handle": "gary-blok",
+    "type": "blog",
+    "title": "DeployR &#8211; Importing Custom Step Definitions",
+    "description": "So I&#8217;ve created a pile of step definitions to extend the out of box items included in DeployR. These are my own creation and not supported by 2Pint, but I have been known to help people who ask nicely.What are step definitions? These are the items that control what a step…",
+    "link": "https://garytown.com/deployr-importing-custom-step-definitions",
+    "published_at": "2026-01-13T20:00:14.000Z",
+    "fetched_at": "2026-05-10T12:18:07.253Z"
+  },
+  {
+    "id": "https://garytown.com/?p=6867",
+    "person_handle": "gary-blok",
+    "type": "blog",
+    "title": "DeployR &#8211; Next Gen OSD from 2Pint Software",
+    "description": "Ok folks, before I continue, I do work for 2Pint Software, and DeployR is one of our products, that said, I believe in the product and it&#8217;s one of the main reasons I joined 2Pint, to be part of the amazing team that created this product. I&#8217;ve been enjoying partnering…",
+    "link": "https://garytown.com/deployr-next-gen-osd-from-2pint-software",
+    "published_at": "2026-01-13T19:14:51.000Z",
+    "fetched_at": "2026-05-10T12:18:07.253Z"
+  },
+  {
+    "id": "https://msendpointmgr.com/?p=26104",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "Deep Dive: Troubleshooting Windows Update Scan Source",
+    "description": "Scan source behavior has always been a gray area, i&#8217;ve been down the rabbit hole several times, and in co-managed environments it has become genuinely difficult to get clarity. Between ConfigMgr, Intune policy, GPO, the Windows Update Agent and the modern Windows Settings…",
+    "link": "https://msendpointmgr.com/2026/01/12/troubleshooting-windows-update-scan-source/",
+    "published_at": "2026-01-12T10:26:54.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6835",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Still running ConfigMgr tech preview?  Not for long&#8230;",
+    "description": "Way back in December 2024, Microsoft released the ConfigMgr Tech Preview 2411 release. It wasn&#8217;t long after that before the India-based team maintaining ConfigMgr was either laid off or reassigned to other things, so not surprisingly there was then an announcement in…",
+    "link": "https://oofhours.com/2026/01/10/still-running-configmgr-tech-preview-not-for-long/",
+    "published_at": "2026-01-10T20:45:47.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6829",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "The MDT download is gone, so RIP",
+    "description": "We knew the day would come, and have talked about it for a while (see my previous post). In the march toward oblivion, Microsoft appears to have taken the last step now: the Microsoft Deployment Toolkit installer MSI files are no longer available on the Microsoft download…",
+    "link": "https://oofhours.com/2026/01/06/the-mdt-download-is-gone-so-rip/",
+    "published_at": "2026-01-06T22:01:30.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
     "id": "https://www.deploymentresearch.com/?p=7298",
     "person_handle": "johan-arwidmark",
     "type": "blog",
@@ -78,6 +428,36 @@
     "link": "https://www.deploymentresearch.com/windows-11-deployment-using-mdt-8456-with-windows-adk-26h1-build-28000/",
     "published_at": "2025-12-29T04:32:07.000Z",
     "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9784",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "First looks at the Windows 365 Cloud Input Protection Preview Feature",
+    "description": "Introduction While Windows 365 Cloud PCs deploy robust perimeter defences—encrypted transmission channels and multi-factor authentication that thwart network-level attacks—a critical vulnerability persists at the endpoint itself. Malicious software operating on local devices,…",
+    "link": "https://www.niallbrady.com/2025/12/21/windows-365-cloud-input-protection-preview-feature/",
+    "published_at": "2025-12-21T17:06:53.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9731",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "First looks at Windows 365 AI-enabled Cloud PCs",
+    "description": "Introduction Microsoft have invested a lot of time, effort and money on adding AI abilities to core parts of the Windows Operating System and the apps that run on it, for example Office 365 apps or dedicated AI apps such &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2025/12/13/first-looks-at-windows-365-ai-enabled-cloud-pcs/",
+    "published_at": "2025-12-13T18:13:40.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "https://garytown.com/?p=6833",
+    "person_handle": "gary-blok",
+    "type": "blog",
+    "title": "PowerShell OSD Frontend Project",
+    "description": "Hey Folks, so I recently had the need for a front end, so I looked at the regular community ones, but they didn&#8217;t fit my needs. TLDR: Code &#38; Instructions on GitHub: https://github.com/gwblok/2PintLabs/tree/main/DeployR/FrontEnd/FrontEndJSONDriven Personal Requirements…",
+    "link": "https://garytown.com/powershell-osd-frontend-project",
+    "published_at": "2025-12-09T21:12:51.000Z",
+    "fetched_at": "2026-05-10T12:18:07.253Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=7258",
@@ -90,6 +470,76 @@
     "fetched_at": "2026-05-10T02:38:37.327Z"
   },
   {
+    "id": "https://www.niallbrady.com/?p=9705",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "The rise and fall of SCCM Technical Preview",
+    "description": "Introduction Microsoft recently released a blog post outlining predictable changes to the cadence of update releases for SCCM formally known as System Center Configuration Manager. The pinned tweet below had some interesting replies which you can read yourself here. The &#8230;…",
+    "link": "https://www.niallbrady.com/2025/11/20/the-rise-and-fall-of-sccm-technical-preview/",
+    "published_at": "2025-11-20T07:23:37.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "https://garytown.com/?p=6824",
+    "person_handle": "gary-blok",
+    "type": "blog",
+    "title": "Dell BIOS Management &#8211; Native WMI &#038; CCTK",
+    "description": "Managing BIOS settings across Dell fleets can be fiddly, especially when you need the work to run inside Task Sequences and WinPE. The DeployR repository’s Dell BIOS folder provides two pragmatic approaches—CCTK (Dell Command &#124; Configure) and a native WMI-based method—so…",
+    "link": "https://garytown.com/dell-bios-management-native-wmi-cctk",
+    "published_at": "2025-11-18T14:22:17.000Z",
+    "fetched_at": "2026-05-10T12:18:07.253Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6805",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Feature updates can be bigger than expected too&#8230;",
+    "description": "I upgraded my last Windows 10 virtual machine from Windows 10 22H2 to Windows 11 25H2. The upgrade itself worked just fine (after I added a virtual TPM to the VM and expanded its available disk space). This was a media-based upgrade, using a 7GB (!) Windows 25H2 business…",
+    "link": "https://oofhours.com/2025/10/18/feature-updates-can-be-bigger-than-expected-too/",
+    "published_at": "2025-10-19T05:43:30.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6784",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Windows 11 cumulative updates: How can they possibly be that big?",
+    "description": "In a session at the MMS Music City event today, it was mentioned that the monthly cumulative update for October for Windows 11 25H2 was nearly 4GB: The speculation was that this was because of AI, that the models needed were bloating the size. That just really made me scratch my…",
+    "link": "https://oofhours.com/2025/10/16/windows-11-cumulative-updates-how-can-they-possibly-be-that-big/",
+    "published_at": "2025-10-17T04:19:46.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9664",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "Windows 365 and the External Identity preview – using a guest account to access Cloud PCs",
+    "description": "Introduction Ever wished you could spin up a Cloud PC not just for your employees, but for contractors, partners, or even external collaborators? Good news—External Identity (preview) support in Entra ID now makes that possible. You can invite external users &#8230; Continue…",
+    "link": "https://www.niallbrady.com/2025/10/06/windows-365-and-the-external-identity-preview-using-a-guest-account-to-access-cloud-pcs/",
+    "published_at": "2025-10-06T09:32:51.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9641",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "Using remediation scripts in Intune to grab Windows 365 health check logs",
+    "description": "Introduction In a previous post we took a look at how you can determine the health of the Windows app and you can read about that here. Please read it to understand the new feature and why this blog post &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2025/10/04/using-remediation-scripts-in-intune-to-grab-windows-365-health-check-logs/",
+    "published_at": "2025-10-04T16:48:40.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6775",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Updated UEFIv2 module posted",
+    "description": "Since Microsoft has posted some documentation that makes use of my UEFIv2 module, I figured I should fix the module so that it&#8217;s compatible with PowerShell 7. The new version 3.0 is available via the PowerShell Gallery; you can upgrade with: In addition to a simple fix to…",
+    "link": "https://oofhours.com/2025/10/03/updated-uefiv2-module-posted/",
+    "published_at": "2025-10-04T00:58:23.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
     "id": "https://www.deploymentresearch.com/?p=7177",
     "person_handle": "johan-arwidmark",
     "type": "blog",
@@ -98,6 +548,76 @@
     "link": "https://www.deploymentresearch.com/using-configmgr-sccm-to-refresh-a-lab-or-classroom/",
     "published_at": "2025-09-30T02:02:58.000Z",
     "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://garytown.com/?p=6799",
+    "person_handle": "gary-blok",
+    "type": "blog",
+    "title": "VSCode &#038; Git on Everything during OSD!",
+    "description": "Yeah, I&#8217;ve made the switch over to VSCode. I pretty much live in GitHub now days. I find my current website annoying since I&#8217;ve been working in GitBook at 2Pint Software. Don&#8217;t get me wrong, I still use PowerShell ISE for some things, like running scripts and…",
+    "link": "https://garytown.com/vscode-git-on-everything-during-osd",
+    "published_at": "2025-09-27T02:39:08.000Z",
+    "fetched_at": "2026-05-10T12:18:07.253Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9607",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "How healthy are your Windows 365 or Azure Virtual Desktop PC&#8217;s ?",
+    "description": "Introduction Microsoft has just pushed out yet another new feature for Windows 365 and Azure Virtual Desktop environments which is called health checks. Myself and my good friend Paul Winstanley took a look at the new feature and wanted to &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2025/09/24/how-healthy-are-your-windows-365-or-azure-virtual-desktop-pcs/",
+    "published_at": "2025-09-24T11:38:03.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6764",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "New Autopilot Branding release",
+    "description": "It&#8217;s been a while since there was an actual release of the Autopilot Branding script, although there were a few &#8220;preview&#8221; releases as we worked out kinks in the processes. Things are looking reasonably good now (thanks to feedback from several people on the…",
+    "link": "https://oofhours.com/2025/09/20/new-autopilot-branding-release/",
+    "published_at": "2025-09-21T07:08:47.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9602",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "Cloudy With a Chance of Apps",
+    "description": "Introduction A new feature for Windows 365, and now in preview, is Windows 365 Cloud Apps. Instead of giving users a full remote desktop session, Windows 365 Cloud Apps are published as individual applications that run on a Cloud PC &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2025/09/19/cloudy-with-a-chance-of-apps/",
+    "published_at": "2025-09-19T14:27:27.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9567",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "Expediting updates using Windows Autopatch",
+    "description": "Introduction In the previous post I showed you what happens when a user or admin reset&#8217;s Windows after the August 2025 cumulative update (KB5063875) , basically the reset fails (rolls back). That problem can be fixed by applying an out &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2025/09/01/expediting-updates-using-windows-autopatch/",
+    "published_at": "2025-09-01T16:39:18.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9549",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "August Cumulative update causing Windows reset problems",
+    "description": "Introduction If you use Windows reset via a Self-Service Windows Reset app or built in Windows functionality, or via an action in Microsoft Intune, you or your users may be in for a surprise this month. After attempting a reset, &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2025/08/30/august-cumulative-update-causing-windows-reset-problems/",
+    "published_at": "2025-08-30T16:32:54.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6738",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "A new milestone: 5 million views",
+    "description": "The number didn&#8217;t manage to flip over to 5 million while I was still awake, but it had passed that threshold this morning: Yes, that&#8217;s the number of views from the https://oofhours.com site. I hope that number will continue to climb. If you haven&#8217;t already,…",
+    "link": "https://oofhours.com/2025/08/19/a-new-milestone-5-million-views/",
+    "published_at": "2025-08-19T20:26:26.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=7129",
@@ -110,6 +630,16 @@
     "fetched_at": "2026-05-10T02:38:37.327Z"
   },
   {
+    "id": "https://www.niallbrady.com/?p=9427",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "Recovering a Windows 365 Cloud PC that was de-provisioned due to license expiration",
+    "description": "Introduction Microsoft pushed out some new updates for Windows 365 Cloud PC&#8217;s recently and one that we thought was interesting was this one, the ability to recover a Cloud PC that was de-provisioned due to license expiration. The de-provisioning of &#8230; Continue reading…",
+    "link": "https://www.niallbrady.com/2025/08/17/recovering-a-windows-365-cloud-pc-that-was-de-provisioned-due-to-license-expiration/",
+    "published_at": "2025-08-17T19:06:34.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
     "id": "https://www.deploymentresearch.com/?p=7116",
     "person_handle": "johan-arwidmark",
     "type": "blog",
@@ -118,6 +648,36 @@
     "link": "https://www.deploymentresearch.com/updating-windows-adk-for-windows-11-24h2-december-2024/",
     "published_at": "2025-08-17T02:21:12.000Z",
     "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6727",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Get ready to manage updates in OOBE, but only with Autopilot v1?",
+    "description": "As Rudy Ooms discovered on the Microsoft 365 Message Center, bulletin MC1134168 announced a change coming with the September 2025 cumulative update: You&#8217;ll be able to install updates at the end of OOBE again, and you&#8217;ll get a new control that enables you to turn that…",
+    "link": "https://oofhours.com/2025/08/15/get-ready-to-manage-updates-in-oobe-but-only-with-autopilot-v1/",
+    "published_at": "2025-08-16T04:45:20.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9438",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "Dipping your toes into Azure Virtual Desktop",
+    "description": "Introduction Look out for a new series of blogs from myself and my MVP buddy, Paul Winstanley as we explore the world of Azure Virtual Desktop (AVD). In the meantime, we have collaborated on a kick the tyres exercise to experience &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2025/08/12/dipping-your-toes-into-azure-virtual-desktop/",
+    "published_at": "2025-08-12T13:41:49.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6716",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Bigger monitors, new challenges",
+    "description": "For a long time, I&#8217;ve used three displays attached to my MacBook Pro (well, four counting the Mac&#8217;s display): One 32&#8243; monitor in the center, flanked by two 27&#8243; displays, one landscape (mostly for browsing) and one portrait (mostly for Teams/chatting). But…",
+    "link": "https://oofhours.com/2025/08/10/bigger-monitors-new-challenges/",
+    "published_at": "2025-08-10T22:58:00.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=7069",
@@ -130,6 +690,16 @@
     "fetched_at": "2026-05-10T02:38:37.327Z"
   },
   {
+    "id": "https://www.niallbrady.com/?p=9492",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "Why you should be using Patch My PC&#8217;s free home updater",
+    "description": "Introduction If you work with computers like I do, then the Patch My PC name should be very familiar to you. They&#8217;ve been at the forefront of Patching Windows computers in enterprises for years now and are well known, trusted, &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2025/07/23/why-you-should-be-using-patch-my-pcs-home-updater/",
+    "published_at": "2025-07-23T19:50:38.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
     "id": "https://www.deploymentresearch.com/?p=7050",
     "person_handle": "johan-arwidmark",
     "type": "blog",
@@ -138,6 +708,36 @@
     "link": "https://www.deploymentresearch.com/back-to-basics-enable-autologon-for-a-lab-via-registry/",
     "published_at": "2025-07-21T03:16:59.000Z",
     "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6680",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Attending EUC World 2025 Amplify event in Minneapolis?",
+    "description": "If you&#8217;re going to be in Minneapolis next month for the EUC World Amplify event, being held from August 4-7 on the University of Minnesota campus, be sure to look me up &#8212; I&#8217;ll be there as an attendee (a refreshing change from events where I&#8217;m either…",
+    "link": "https://oofhours.com/2025/07/14/attending-uec-world-2025-amplify-event-in-minneapolis/",
+    "published_at": "2025-07-14T20:05:51.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6674",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "A policy to remove Windows apps&#8230;",
+    "description": "In the &#8220;it&#8217;s about time&#8221; category, this one popped up on Bluesky today from Tero Alhonen: It&#8217;s time to start paying attention to the new Insider builds in the dev channel, since 25H2 isn&#8217;t far off.",
+    "link": "https://oofhours.com/2025/06/28/a-policy-to-remove-windows-apps/",
+    "published_at": "2025-06-28T15:57:51.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6663",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "ARM64 on Intune apps, finally&#8230;",
+    "description": "The latest &#8220;what&#8217;s new&#8221; doc update for Intune includes this tidbit: So now you can restrict ARM64 apps appropriately. Considering how many years ago this was first discussed, it&#8217;s about time. Here&#8217;s what it looks like, starting with the default of…",
+    "link": "https://oofhours.com/2025/06/25/arm64-on-intune-apps-finally/",
+    "published_at": "2025-06-25T22:58:31.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=6997",
@@ -150,6 +750,66 @@
     "fetched_at": "2026-05-10T02:38:37.327Z"
   },
   {
+    "id": "http://oofhours.com/?p=6658",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Updated Autopilot Branding package published",
+    "description": "Version 3.1.0 is now available with a variety of fixed based on customer feedback. See the release information for more details: https://github.com/mtniehaus/AutopilotBranding/releases/tag/3.1.0 Note that this version doesn&#8217;t use IntuneWinAppUtil.exe directly. Instead, the…",
+    "link": "https://oofhours.com/2025/06/01/updated-autopilot-branding-package-published/",
+    "published_at": "2025-06-01T08:15:39.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6647",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Speaking of APv2&#8230;",
+    "description": "Autopilot v2, a.k.a. Autopilot device preparation, was announced on May 22, 2024, it wasn&#8217;t really done yet. From the original annoucement (highlight added by me): Not sure about what they consider &#8220;soon&#8221; but here we are a year later and we&#8217;ve seen none…",
+    "link": "https://oofhours.com/2025/05/30/speaking-of-apv2/",
+    "published_at": "2025-05-30T12:42:19.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6631",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Using .intunewin files outside of Intune",
+    "description": "In my previous post about pre-provisioning, I showed three apps (MDT, Office, and PowerToys) that I was installing as part of a task sequence. What I didn&#8217;t show was the details for those apps. Sure, you can always add the same original app source files to SCCM, MDT, or…",
+    "link": "https://oofhours.com/2025/05/30/using-intunewin-files-outside-of-intune/",
+    "published_at": "2025-05-30T10:27:37.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6611",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "APv2 and pre-provisioning:  We can do that too",
+    "description": "Over a year ago when Autopilot v2 (a.k.a. device preparation) was announced, one of the missing features was pre-provisioning (formerly &#8220;white glove provisioning&#8221;). Maybe one of these days it will finally emerge. But until then, are there other options? Certainly.…",
+    "link": "https://oofhours.com/2025/05/30/apv2-and-pre-provisioning-we-can-do-that-too/",
+    "published_at": "2025-05-30T09:24:38.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6583",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "APv2 + HAADJ: Sure, why not",
+    "description": "When Microsoft announced Autopilot v2 (a.k.a. Autopilot device provisioning), they mentioned: Hybrid AD join is no longer recommended for use with Autopilot deployments. Autopilot device preparation profiles do not support Hybrid AD Join, but the existing Autopilot flows that do…",
+    "link": "https://oofhours.com/2025/05/29/apv2-haadj-sure-why-not/",
+    "published_at": "2025-05-30T05:38:56.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6560",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "An easy trick to get the old Notepad.exe back",
+    "description": "2025-05-30: Added a section at the bottom based on social media chatter. Microsoft has been investing quite a bit of effort into adding new functionality into Notepad, including AI functionality to help you write content. I don&#8217;t know who uses Notepad to do that sort of…",
+    "link": "https://oofhours.com/2025/05/29/an-easy-trick-to-get-the-old-notepad-exe-back/",
+    "published_at": "2025-05-29T09:29:23.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
     "id": "https://www.deploymentresearch.com/?p=6987",
     "person_handle": "johan-arwidmark",
     "type": "blog",
@@ -160,6 +820,76 @@
     "fetched_at": "2026-05-10T02:38:37.327Z"
   },
   {
+    "id": "https://garytown.com/?p=6721",
+    "person_handle": "gary-blok",
+    "type": "blog",
+    "title": "Simplifying Dell Command Warranty with PowerShell",
+    "description": "TLDR: Get-DellWarrantyInfo Function can be found here: garytown/hardware/Dell/CommandUpdate/EMPS/Dell-EMPSWarranty.ps1 In this post I&#8217;ll cover the Dell Warranty CLI tool they provide, and how I&#8217;ve converted it to use a &#8220;PowerShell Wrapper&#8221; to make it…",
+    "link": "https://garytown.com/dell-command-warranty-powershell",
+    "published_at": "2025-05-20T18:44:37.000Z",
+    "fetched_at": "2026-05-10T12:18:07.253Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9384",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "Moving one or more Windows 365 Cloud PCs to another location",
+    "description": "Introduction Microsoft recently released a new feature for Windows 365 Cloud PC&#8217;s namely the ability to move one or more Cloud PCs to another region. This involves editing a previously created provisioning policy and then deciding whether you want to &#8230; Continue…",
+    "link": "https://www.niallbrady.com/2025/05/08/moving-one-or-more-windows-365-cloud-pcs-to-another-location/",
+    "published_at": "2025-05-08T06:52:32.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6539",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "BitLocker auto-encrypts more systems with Windows 11 24H2",
+    "description": "The title says it all &#8212; well, not quite because the full description is more involved and nuanced. This post on LinkedIn from Sameer Agarwal, an Intune engineer at Microsoft, explains more: With Windows Autopilot, BitLocker automatically encrypts internal drives during the…",
+    "link": "https://oofhours.com/2025/05/02/bitlocker-auto-encrypts-more-systems-with-windows-11-24h2/",
+    "published_at": "2025-05-03T03:10:15.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6399",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "New Autopilot Branding package available",
+    "description": "In preparation for an MMSMOA 2025 session where I am talking about the Autopilot Branding package (among other things), I figured it was a good time to look through the feedback, issues, and pull requests and create a new release. The initial 3.0 release was published a couple…",
+    "link": "https://oofhours.com/2025/05/02/new-autopilot-branding-package-available/",
+    "published_at": "2025-05-02T19:52:52.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6508",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "What is Windows 11&#8217;s new UCPD &#8220;feature&#8221;?",
+    "description": "I was working on some changes to the Autopilot Branding package and testing them out on Windows 11 24H2 and noticed a problem: One of the registry values I was trying to adjust, to hide the Widget button from the task bar, wasn&#8217;t working; it would get an access denied…",
+    "link": "https://oofhours.com/2025/05/02/what-is-windows-11s-new-ucpd-feature/",
+    "published_at": "2025-05-02T16:40:34.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6456",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "What&#8217;s really happening on first user logon?",
+    "description": "When you initially sign into Windows, by default you&#8217;ll see the &#8220;pulsing color&#8221; screen as first-time &#8220;things&#8221; are done in the background: You can disable that &#8220;first sign-in animation&#8221; via GPO, MDM policy, or equivalent registry entry. I…",
+    "link": "https://oofhours.com/2025/05/02/whats-really-happening-on-first-user-logon/",
+    "published_at": "2025-05-02T16:07:02.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6462",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Next-generation Autopilot Troubleshooting",
+    "description": "I&#8217;ve done a few troubleshooting blog posts over the years, and they are easily the most popular on my site. This one in particular is still going strong (#1 post of all time), almost five years later: Windows Autopilot diagnostics: Digging deeper That post introduced a…",
+    "link": "https://oofhours.com/2025/05/01/next-generation-autopilot-troubleshooting/",
+    "published_at": "2025-05-01T19:30:50.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
     "id": "https://www.deploymentresearch.com/?p=6983",
     "person_handle": "johan-arwidmark",
     "type": "blog",
@@ -168,6 +898,36 @@
     "link": "https://www.deploymentresearch.com/hydration-kit-for-windows-server-2025-sql-server-2022-and-configmgr-current-branch/",
     "published_at": "2025-04-22T03:41:26.000Z",
     "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6401",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Automatically registering Autopilot devices with Intune",
+    "description": "I&#8217;ve seen a lot of blog posts about registering devices with Windows Autopilot, either at a command prompt in OOBE (Shift-F10, run PowerShell) or as part of some other automation. Now with Autopilot v2, there are actually two diferent types of registrations to be concerned…",
+    "link": "https://oofhours.com/2025/04/18/automatically-registering-autopilot-devices-with-intune/",
+    "published_at": "2025-04-18T19:56:06.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9365",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "Want to learn everything about managing devices in Intune? then THIS book is for you",
+    "description": "Introduction It&#8217;s not every day that you get asked to technically review a book about Microsoft Intune, but when you do and when you are asked by none other than Paul Winstanley who is my good buddy and fellow MVP, &#8230; Continue reading &#8594;",
+    "link": "https://www.niallbrady.com/2025/04/12/want-to-learn-everything-about-managing-devices-in-intune-then-this-book-is-for-you/",
+    "published_at": "2025-04-12T20:00:37.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
+  },
+  {
+    "id": "https://www.niallbrady.com/?p=9336",
+    "person_handle": "niall-brady",
+    "type": "blog",
+    "title": "Configuration Manager 2503 is out, 350 bugs fixed",
+    "description": "Introduction I noticed the following on Twitter announcing yet another release of ConfigMgr, this time version 2503, with hundreds of amazing new features, oh wait, no that was bugfixes.…",
+    "link": "https://www.niallbrady.com/2025/04/04/configuration-manager-2503-is-out-350-bugs-fixed/",
+    "published_at": "2025-04-04T19:34:41.000Z",
+    "fetched_at": "2026-05-10T12:18:07.462Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=6966",
@@ -198,6 +958,216 @@
     "link": "https://www.deploymentresearch.com/building-a-windows-11-24h2-reference-image-using-configmgr-sccm/",
     "published_at": "2025-03-30T03:08:22.000Z",
     "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6364",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Windows Autopilot v2:  Is it faster? It depends&#8230;",
+    "description": "Back when Autopilot v2 was announced, and carried over into the documentation, is a claim: [Windows Autopilot device preparation, a.k.a. Autopilot v2] reduces the time IT spends on deploying devices. OK, but what exactly does that mean? How does it reduce the time? I will assume…",
+    "link": "https://oofhours.com/2025/02/10/windows-autopilot-v2-is-it-faster-it-depends/",
+    "published_at": "2025-02-10T08:20:15.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6350",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Upgrading Hyper-V to Windows Server 2025",
+    "description": "I have one big Hyper-V server, currenting running Windows Server 2022 Datacenter, that I use for lots of things (with 12 cores, 272GB RAM, 8TB of disk space). Upgrading it to Windows Server 2025 should be a straight-forward process, right? Insert the media (mounted, downloaded…",
+    "link": "https://oofhours.com/2025/01/15/upgrading-hyper-v-to-windows-server-2025/",
+    "published_at": "2025-01-15T22:08:17.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6342",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Is SCCM failing to create WSUS indexes on your site server?",
+    "description": "TL;DR: SCCM maintenance tasks for WSUS no longer work if you are using WSUS with the Windows Internal Database (WID). When looking at the SCCM wsyncmgr.log, I noticed some SQL exceptions that occurred with each synchronization: It&#8217;s easy to see what it&#8217;s trying to…",
+    "link": "https://oofhours.com/2024/12/29/is-sccm-failing-to-create-wsus-indexes-on-your-site-server/",
+    "published_at": "2024-12-30T06:03:30.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6328",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Automatically update PowerShell 7.4 with WSUS or SCCM",
+    "description": "Microsoft enabled automatic updates for PowerShell with the release of PowerShell 7.2; that continues now with PowerShell 7.4. If you&#8217;re devices are updated from Windows Update directly and you&#8217;ve enabled updates when you installed PowerShell 7, you&#8217;re all set.…",
+    "link": "https://oofhours.com/2024/12/29/automatically-update-powershell-7-4-with-wsus-or-sccm/",
+    "published_at": "2024-12-30T01:31:55.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6307",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Love/hate: Windows imaging and licensing",
+    "description": "I spent a lot of time in the weeds around Windows licensing, but I&#8217;d prefer to forget it all. Sadly, that&#8217;s usually not an option, especially as I work on Windows imaging technologies. Since it&#8217;s been a while since I looked at that stuff, I figured I would…",
+    "link": "https://oofhours.com/2024/12/29/love-hate-windows-imaging-and-licensing/",
+    "published_at": "2024-12-29T09:49:14.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6301",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "New release of Autopilot Branding available",
+    "description": "I have merged in changes from the community to create a new release on GitHub, which you can find here: https://github.com/mtniehaus/AutopilotBranding/releases/tag/2024-12-27 You can find the release notes on the release itself: Follow the links to the pull requests (#11, #14)…",
+    "link": "https://oofhours.com/2024/12/27/new-release-of-autopilot-branding-available/",
+    "published_at": "2024-12-27T08:18:01.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6279",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "If your reseller tells you to buy PCs with Windows 11 Enterprise preinstalled, it&#8217;s time to find a new reseller",
+    "description": "I could stop there, but I won&#8217;t. In any case, let&#8217;s review the Windows Enterprise SKU licensing model, straight from the source: Windows 11 Enterprise is licensed as an upgrade license to Windows Pro. But doesn&#8217;t that mean you&#8217;re paying for Windows 11…",
+    "link": "https://oofhours.com/2024/12/21/if-your-reseller-tells-you-to-buy-pcs-with-windows-11-enterprise-preinstalled-its-time-to-find-a-new-reseller/",
+    "published_at": "2024-12-21T23:34:27.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6264",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Developing on Windows 11 ARM64, one year in",
+    "description": "After a long time working exclusively on Windows devices, I had switched to MacOS on a MacBook Pro a few years ago because that was the practical thing to do while working on cross-platform development based around open-source technologies. The biggest downside: it was an…",
+    "link": "https://oofhours.com/2024/12/17/developing-on-windows-11-arm64-one-year-in/",
+    "published_at": "2024-12-18T05:34:37.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6245",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "MDT has an end date",
+    "description": "After years of neglect, no one was terribly surprised when Microsoft said that MDT would not support Windows 11. Even prior to that, it was often up to the community to keep things working as new Windows and ADK releases came out. So it was also not surprising that the community…",
+    "link": "https://oofhours.com/2024/12/17/mdt-has-an-end-date/",
+    "published_at": "2024-12-17T18:22:04.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6216",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Capturing a Windows 11 image with MDT",
+    "description": "It&#8217;s something that I hadn&#8217;t tried in a while: Capturing a custom Windows 11 image using MDT. But there were a few posts on Reddit commenting about challenges doing so, so I thought I&#8217;d try it. First off, you should make sure that you have MDT fully updated;…",
+    "link": "https://oofhours.com/2024/12/17/capturing-a-windows-11-image-with-mdt/",
+    "published_at": "2024-12-17T09:09:39.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6201",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "CMPivot crashing on startup?  Maybe it&#8217;s config file is messed up.",
+    "description": "Sometimes I would like to try something and have it &#8220;just work.&#8221; Today was not one of those times. The task was simple: I want to try to use CMPivot to query information from my VMs. Step #1: Launch CMPivot from the ConfigMgr admin console. Nothing happens. Checking…",
+    "link": "https://oofhours.com/2024/11/26/cmpivot-crashing-on-startup-maybe-its-config-file-is-messed-up/",
+    "published_at": "2024-11-26T18:27:42.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6193",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "All done at Live 360! Tech Con",
+    "description": "Six conferences in one week, and boy am I tired. Well, really it was six events in one, all in the same place (Orlando) at the same time. But it was still tiring &#8212; 12+ hours of sleep later and I&#8217;m now functional again. This was the second year in a row that I…",
+    "link": "https://oofhours.com/2024/11/22/all-done-at-live-360-tech-con/",
+    "published_at": "2024-11-23T04:28:57.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6184",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Finally, a standalone version of Connected Cache for Delivery Optimization",
+    "description": "If you are using Windows 10 or 11 (i.e. everyone), you are using Delivery Optimization (DO) to download all sorts of things &#8212; see Phil Wilcock&#8217;s post for a good overview of where DO is used. In an ideal world, everything would be downloaded once from the internet and…",
+    "link": "https://oofhours.com/2024/10/30/finally-a-standalone-version-of-connected-cache-for-delivery-optimization/",
+    "published_at": "2024-10-31T03:13:51.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6169",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Windows 11 24H2 is available, but&#8230;",
+    "description": "Yes, Windows 11 24H2 is available to everyone (after being ARM64-only for a few months). As usual, there are a number of related items updated at the same time: What is available that you should ignore? The new Windows 11 Enterprise LTSC 2024 release. Just stick with the normal…",
+    "link": "https://oofhours.com/2024/10/30/windows-11-24h2-is-available-but/",
+    "published_at": "2024-10-31T01:44:37.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://garytown.com/?p=6595",
+    "person_handle": "gary-blok",
+    "type": "blog",
+    "title": "Dell Command Update &#8211; Install &#038; Manage via PowerShell",
+    "description": "So if you haven&#8217;t read my last post yet, Dell Command Update – pulling back the curtains – GARYTOWN ConfigMgr Blog, you should, as I go into how Dell Command Update (DCU) gets it&#8217;s feed of information under the hood. That is the basis for a lot of things I&#8217;ll…",
+    "link": "https://garytown.com/dell-command-update-install-manage-via-powershell",
+    "published_at": "2024-10-29T17:13:48.000Z",
+    "fetched_at": "2026-05-10T12:18:07.253Z"
+  },
+  {
+    "id": "https://garytown.com/?p=6570",
+    "person_handle": "gary-blok",
+    "type": "blog",
+    "title": "Dell Command Update &#8211; pulling back the curtains",
+    "description": "TLDR: You need to learn SKU&#8217;s (SystemSKUNumber) for Dell systems if you want to be successful in automation for Dell. &#8211; Script on GitHub for GARYTOWN&#8217;s Dell PS Functions early beta Alright, so I write a lot of PowerShell functions around Dell Command Update,…",
+    "link": "https://garytown.com/dell-command-update-pulling-back-the-curtains",
+    "published_at": "2024-10-27T23:40:15.000Z",
+    "fetched_at": "2026-05-10T12:18:07.253Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6148",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Another toy: the Snapdragon Dev Kit",
+    "description": "The Snapdragon Dev Kit, an ARM64 desktop PC running the new Qualcomm Snapdragon X Elite CPU, was announced at Build 2024 back in May 2024, and was supposed to ship in June. I ordered one in July and saw the ship date change a number of times, most recently to January 2025. But…",
+    "link": "https://oofhours.com/2024/10/16/another-toy-the-snapdragon-dev-kit/",
+    "published_at": "2024-10-16T23:09:49.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "https://garytown.com/?p=6534",
+    "person_handle": "gary-blok",
+    "type": "blog",
+    "title": "Dell Command Update – Creating the Offline Repo Content &#8211; AUTOMATION",
+    "description": "Dell Command Update Offline Repo SeriesPart 1: Dell Command Update – Leveraging with ConfigMgr – Offline Repo OverviewPart 2: Dell Command Update – Create Custom Catalog for Offline RepoPart 3: Dell Command Update – Creating the Offline Repo ContentPart 4: Dell Command Update –…",
+    "link": "https://garytown.com/dell-command-update-creating-the-offline-repo-content-automation",
+    "published_at": "2024-09-27T21:47:13.000Z",
+    "fetched_at": "2026-05-10T12:18:07.253Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6128",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Microsoft deprecated WSUS &#8212; should you care?",
+    "description": "Triggered by the publishing of documentation for Windows Server 2025 about features removed or no longer being developed, Microsoft published a separate post explicitly calling out one of those items: WSUS. While the Server post described it as &#8220;no longer being…",
+    "link": "https://oofhours.com/2024/09/24/microsoft-deprecated-wsus-should-you-care/",
+    "published_at": "2024-09-25T07:45:12.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/?p=6107",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "How complicated is OOBE?",
+    "description": "A long time ago, the original marketing materials for Windows Autopilot (before it had a name) were created by the engineers working on the product. It pitched Autopilot as a way to simplifying the out-of-box experience (OOBE) for Windows, even though it was Microsoft that made…",
+    "link": "https://oofhours.com/2024/09/24/how-complicated-is-oobe/",
+    "published_at": "2024-09-24T10:23:13.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
+  },
+  {
+    "id": "http://oofhours.com/2024/09/20/cumulative-updates-during-oobe-never-mind/",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Cumulative updates during OOBE: Never mind&#8230;",
+    "description": "Remember the change planned for October to start installing updates during OOBE? The one that didn&#8217;t have any controls? The one that interrupts the Autopilot user-driven flow by rebooting the computer in the middle of the process? Well, the Microsoft post announcing this…",
+    "link": "https://oofhours.com/2024/09/20/cumulative-updates-during-oobe-never-mind/",
+    "published_at": "2024-09-21T06:51:48.000Z",
+    "fetched_at": "2026-05-10T12:18:07.257Z"
   },
   {
     "id": "https://www.asquaredozen.com/2021/12/12/remove-teams-for-home-from-windows-11/",
@@ -260,6 +1230,36 @@
     "fetched_at": "2026-05-10T00:23:34.547Z"
   },
   {
+    "id": "https://byteben.com/bb/?p=3414",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "Microsoft Endpoint Blog Posts &#8211; A New Home",
+    "description": "Back in March 2021 I was invited to contribute over at https://MSEndpointMgr.com To avoid blog post duplication, you will find all my new ConfigMgr, Intune, Windows 10 and Azure related post at the URL above. I will still blog other content here at Byteben Thanks for your…",
+    "link": "https://byteben.com/bb/microsoft-endpoint-blogs-a-new-home/",
+    "published_at": "2021-05-09T11:00:59.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
+  },
+  {
+    "id": "https://byteben.com/bb/?p=3324",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "Automatically Migrate Applications from ConfigMgr to Intune with the Win32App Migration Tool",
+    "description": "The Win32App Migration Tool is a free community tool that has been developed to do the scoping and heavy lifting for you as you consider building Win32apps in Intune while using your ConfigMgr apps as a reference. The tool is designed to inventory ConfigMgr Applications and…",
+    "link": "https://byteben.com/bb/automatically-migrate-applications-from-configmgr-to-intune-with-the-win32app-migration-tool/",
+    "published_at": "2021-03-27T08:07:12.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
+  },
+  {
+    "id": "https://byteben.com/bb/?p=3312",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "User-Driven Home Drive Migrations to OneDrive using MEMCM",
+    "description": "This script wont necessarily fit your environment, it may do with tweaking, but my hope is that it will give you an idea of how you can approach different challenges using the different tools in you arsenal. TL;DR The script can be found here…",
+    "link": "https://byteben.com/bb/user-driven-home-drive-migrations-to-onedrive-using-memcm/",
+    "published_at": "2021-03-01T09:36:23.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
+  },
+  {
     "id": "https://www.asquaredozen.com/2021/02/04/using-configmgr-run-scripts-and-microsoft-quick-assist-to-repair-a-broken-domain-trust-relationship/",
     "person_handle": "adam-gross",
     "type": "blog",
@@ -268,6 +1268,16 @@
     "link": "https://www.asquaredozen.com/2021/02/04/using-configmgr-run-scripts-and-microsoft-quick-assist-to-repair-a-broken-domain-trust-relationship/",
     "published_at": "2021-02-04T06:10:23.000Z",
     "fetched_at": "2026-05-10T00:23:34.547Z"
+  },
+  {
+    "id": "https://byteben.com/bb/?p=3222",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "Update a Client Certificate Private Key using Intune Proactive Remediations",
+    "description": "It is not unusual to still see 3rd party products being used in Windows 10. Brad Anderson said &#8220;Making a big impact starts with making things really simple&#8221; when he outlined Microsoft&#8217;s vision for modern management. I get this completely and agree with the…",
+    "link": "https://byteben.com/bb/update-a-client-certificate-private-key-using-intune-proactive-remediations/",
+    "published_at": "2021-01-15T23:22:02.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
   },
   {
     "id": "https://www.asquaredozen.com/2021/01/12/how-to-find-settings-preventing-application-deletion-in-configmgr/",
@@ -280,6 +1290,26 @@
     "fetched_at": "2026-05-10T00:23:34.547Z"
   },
   {
+    "id": "https://byteben.com/bb/?p=3155",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "Deploy the Update for Removal of Adobe Flash Player (KB4577586) using Intune",
+    "description": "In our previous post How to Uninstall Adobe Flash Player from Windows 10 with ConfigMgr (byteben.com) we reviewed the End of Life for Adobe Flash Player and what that meant for Windows 10 devices. We also stepped through a tutorial showing you how to deploy the update with…",
+    "link": "https://byteben.com/bb/deploy-the-update-for-removal-of-adobe-flash-player-kb4577586-using-intune/",
+    "published_at": "2021-01-03T16:25:49.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
+  },
+  {
+    "id": "https://byteben.com/bb/?p=3073",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "How to Uninstall Adobe Flash Player from Windows 10 with ConfigMgr",
+    "description": "Update 22/01/21 I have now modified the script to include support for Windows Servers. In this tutorial, when prompted to download the updates from the Microsoft Update Catalog for &#8220;Windows 10&#8221;, also include updates for the server versions you plan to deploy the…",
+    "link": "https://byteben.com/bb/how-to-uninstall-adobe-flash-player-from-windows-10-with-configmgr/",
+    "published_at": "2021-01-02T16:25:32.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
+  },
+  {
     "id": "https://www.asquaredozen.com/2020/12/02/autopilot-profile-causes-device-rename-after-configmgr-osd-task-sequence-and-breaks-ad-domain-trust/",
     "person_handle": "adam-gross",
     "type": "blog",
@@ -288,6 +1318,36 @@
     "link": "https://www.asquaredozen.com/2020/12/02/autopilot-profile-causes-device-rename-after-configmgr-osd-task-sequence-and-breaks-ad-domain-trust/",
     "published_at": "2020-12-02T22:54:15.000Z",
     "fetched_at": "2026-05-10T00:23:34.547Z"
+  },
+  {
+    "id": "https://byteben.com/bb/?p=3056",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "Listing Actual vs Expected DNS Records for a Microsoft 365 Tenant with PowerShell",
+    "description": "In this post we will be looking at how we can list actual vs expected DNS records for a Microsoft 365 tenant with PowerShell. Background A Microsoft Office 365 Tenant requires certain DNS entries to be in place, for a verified domain, to ensure things like mail, collaboration…",
+    "link": "https://byteben.com/bb/listing-actual-vs-expected-dns-records-for-a-microsoft-365-tenant-with-powershell/",
+    "published_at": "2020-11-24T14:42:48.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
+  },
+  {
+    "id": "https://byteben.com/bb/?p=3031",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "Reports missing in the Configuration Manager Console",
+    "description": "You may have seen No Items Found when looking at the Monitoring > Reporting > Reports node in the Configuration Manager console TL;DR One of the more common reasons for your reports to be missing is an expired certificate on your SQL Server Reporting Services Web Service If this…",
+    "link": "https://byteben.com/bb/reports-missing-in-the-configuration-manager-console/",
+    "published_at": "2020-10-31T10:54:54.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
+  },
+  {
+    "id": "https://byteben.com/bb/?p=2991",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "Using scripts to evaluate Win32 app requirements &#8211; &#8220;Require Chassis equals Laptop&#8221;",
+    "description": "In this short post we will be looking at app requirements in the context of installing Win32 apps. What are App Requirements? App Requirements allow you to specify certain requirements are met before your app gets installed on your endpoint. If the requirements are not met the…",
+    "link": "https://byteben.com/bb/using-scripts-to-evaluate-win32-app-requirements-require-chassis-equals-laptop/",
+    "published_at": "2020-10-01T20:34:49.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
   },
   {
     "id": "https://www.asquaredozen.com/2020/09/30/new-post-on-sysmansquad-com-configmgr-and-the-case-of-the-mysterious-3da228be-34da-49f4-a081-66465b077429-folder/",
@@ -308,6 +1368,16 @@
     "link": "https://www.asquaredozen.com/2020/09/13/windows-10-feature-updates-testing-the-migneo-disable-parameter/",
     "published_at": "2020-09-13T16:54:40.000Z",
     "fetched_at": "2026-05-10T00:23:34.547Z"
+  },
+  {
+    "id": "https://byteben.com/bb/?p=2983",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "How to deploy the Company Portal app from Microsoft Intune",
+    "description": "In this lab we will Deploy the Company Portal App to our user&#8217;s Windows 10 devices. We will also look at the difference between &#8220;Online&#8221; and &#8220;Offline&#8221; apps in the Microsoft Store for Business and talk briefly about the new Company Portal App feature…",
+    "link": "https://byteben.com/bb/how-to-deploy-the-company-portal-app-from-microsoft-intune/",
+    "published_at": "2020-09-09T08:26:15.000Z",
+    "fetched_at": "2026-05-10T12:41:33.989Z"
   },
   {
     "id": "https://www.asquaredozen.com/2020/08/11/analyze-setupdiag-errors-for-feature-updates-in-configmgr-2008-technical-preview/",

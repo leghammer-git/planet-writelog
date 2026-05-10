@@ -1,0 +1,12 @@
+{
+  "name": "Michael Nielsen",
+  "handle": "michael-nielsen",
+  "title": "Consultant",
+  "bio": "Cloud and security specialist focused on Microsoft backend products.",
+  "links": {
+    "linkedin": "michaelnielsen-31319244"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Michael Nielsen" }
+  ]
+}

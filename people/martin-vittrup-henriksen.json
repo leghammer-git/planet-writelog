@@ -1,0 +1,13 @@
+{
+  "name": "Martin Vittrup Henriksen",
+  "handle": "martin-vittrup-henriksen",
+  "title": "Consultant",
+  "bio": "Infrastructure consultant with focus on cloud solutions in Microsoft 365 and Azure.",
+  "links": {
+    "linkedin": "martinvittruphenriksen",
+    "twitter": "Virtually_Human"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Martin Vittrup Henriksen" }
+  ]
+}

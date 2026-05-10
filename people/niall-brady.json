@@ -5,10 +5,10 @@
   "title": "Consultant",
   "bio": "ConfigMgr, Windows deployment, and endpoint management.",
   "links": {
-    "website": "https://www.windowsnoob.com",
+    "website": "https://www.niallbrady.com/",
     "twitter": "niallbrady"
   },
   "feeds": [
-    { "type": "blog", "url": "https://www.windowsnoob.com/feed" }
+    { "type": "blog", "url": "https://www.niallbrady.com/feed" }
   ]
 }

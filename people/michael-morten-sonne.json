@@ -1,0 +1,10 @@
+{
+  "name": "Michael Morten Sonne",
+  "handle": "michael-morten-sonne",
+  "title": "Consultant",
+  "bio": "Cloud and security specialist with focus on Microsoft 365.",
+  "links": {},
+  "feeds": [
+    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Michael Morten Sonne" }
+  ]
+}

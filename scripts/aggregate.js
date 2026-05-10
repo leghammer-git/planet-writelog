@@ -115,31 +115,43 @@ const feedTypes = {
     url(feed) {
       return feed.url;
     },
-    parse(xml, handle) {
+    parse(xml, handle, feedDef = {}) {
       const doc = parser.parse(xml);
+      const authorFilter = feedDef.author?.toLowerCase() ?? null;
+
+      function authorMatches(raw) {
+        if (!authorFilter) return true;
+        const val = typeof raw === "object" ? (raw?.name ?? raw?.["#text"] ?? "") : (raw ?? "");
+        return val.toLowerCase().includes(authorFilter);
+      }
+
       // Atom
       if (doc.feed?.entry) {
-        return doc.feed.entry.map((e) => ({
-          id: e.id || e.link?.["@_href"] || e.link,
-          person_handle: handle,
-          type: "blog",
-          title: typeof e.title === "object" ? e.title["#text"] : e.title || "",
-          description: cleanDesc(e.summary?.["#text"] || e.summary || e.content?.["#text"] || e.content || ""),
-          link: e.link?.["@_href"] || e.link || "",
-          published_at: toISO(e.published || e.updated),
-        }));
+        return doc.feed.entry
+          .filter((e) => authorMatches(e.author))
+          .map((e) => ({
+            id: e.id || e.link?.["@_href"] || e.link,
+            person_handle: handle,
+            type: "blog",
+            title: typeof e.title === "object" ? e.title["#text"] : e.title || "",
+            description: cleanDesc(e.summary?.["#text"] || e.summary || e.content?.["#text"] || e.content || ""),
+            link: e.link?.["@_href"] || e.link || "",
+            published_at: toISO(e.published || e.updated),
+          }));
       }
       // RSS
       const items = doc.rss?.channel?.item || doc.rdf?.channel?.item || [];
-      return items.map((i) => ({
-        id: i.guid?.["#text"] || i.guid || i.link || "",
-        person_handle: handle,
-        type: "blog",
-        title: typeof i.title === "object" ? i.title["#text"] : i.title || "",
-        description: cleanDesc(i.description || i["content:encoded"] || ""),
-        link: i.link || "",
-        published_at: toISO(i.pubDate || i["dc:date"]),
-      }));
+      return items
+        .filter((i) => authorMatches(i["dc:creator"] || i.author))
+        .map((i) => ({
+          id: i.guid?.["#text"] || i.guid || i.link || "",
+          person_handle: handle,
+          type: "blog",
+          title: typeof i.title === "object" ? i.title["#text"] : i.title || "",
+          description: cleanDesc(i.description || i["content:encoded"] || ""),
+          link: i.link || "",
+          published_at: toISO(i.pubDate || i["dc:date"]),
+        }));
     },
   },
 
@@ -230,66 +242,6 @@ const feedTypes = {
   },
 };
 
-// ── per-feed fetch + parse ────────────────────────────────────────────────────
-
-async function processFeed(db, person, feedDef) {
-  const handler = feedTypes[feedDef.type];
-  if (!handler) throw new Error(`Unknown feed type: ${feedDef.type}`);
-
-  const now = new Date().toISOString();
-  let parsed;
-  let url;
-
-  if (handler.fetchAll) {
-    url = `github-user:${feedDef.username}`;
-    parsed = await handler.fetchAll(feedDef, person.handle);
-  } else {
-    url = handler.url(feedDef);
-    const row = db.prepare("SELECT etag, last_modified FROM feeds WHERE url = ?").get(url);
-
-    const headers = {};
-    if (row?.etag) headers["If-None-Match"] = row.etag;
-    if (row?.last_modified) headers["If-Modified-Since"] = row.last_modified;
-
-    const res = await fetchWithRetry(url, { headers });
-
-    if (res.status === 304) return { url, newCount: 0, skipped: true };
-
-    if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-
-    const xml = await res.text();
-    parsed = handler.parse(xml, person.handle);
-
-    const upsertFeed = db.prepare(`
-      INSERT INTO feeds (url, etag, last_modified, fetched_at)
-      VALUES (?, ?, ?, ?)
-      ON CONFLICT(url) DO UPDATE SET etag=excluded.etag, last_modified=excluded.last_modified, fetched_at=excluded.fetched_at
-    `);
-    upsertFeed.run(url, res.headers.get("etag") || null, res.headers.get("last-modified") || null, now);
-  }
-
-  const insertItem = db.prepare(`
-    INSERT OR IGNORE INTO items (id, person_handle, type, title, description, link, published_at, fetched_at)
-    VALUES (@id, @person_handle, @type, @title, @description, @link, @published_at, @fetched_at)
-  `);
-
-  let newCount = 0;
-  db.exec("BEGIN");
-  try {
-    for (const item of parsed) {
-      if (!item.id || !item.link) continue;
-      const info = insertItem.run({ ...item, fetched_at: now });
-      if (info.changes > 0) newCount++;
-    }
-    db.exec("COMMIT");
-  } catch (e) {
-    db.exec("ROLLBACK");
-    throw e;
-  }
-
-  return { url, newCount, total: parsed.length };
-}
-
 // ── main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -303,22 +255,116 @@ async function main() {
     JSON.parse(readFileSync(join(PEOPLE_DIR, f), "utf8"))
   );
 
-  const limit = pLimit(CONCURRENCY);
+  // Group URL-based feeds by URL so each remote feed is fetched once, even
+  // when multiple people share the same feed URL (e.g. a multi-author blog).
+  const urlGroups = new Map(); // url -> [{ person, feedDef, handler }]
+  const fetchAllJobs = []; // { person, feedDef } — github-user etc.
 
-  const tasks = people.flatMap((person) =>
-    person.feeds.map((feedDef) =>
-      limit(async () => {
+  for (const person of people) {
+    for (const feedDef of person.feeds) {
+      const handler = feedTypes[feedDef.type];
+      if (!handler) continue;
+      if (handler.fetchAll) {
+        fetchAllJobs.push({ person, feedDef });
+      } else {
+        const url = handler.url(feedDef);
+        if (!urlGroups.has(url)) urlGroups.set(url, []);
+        urlGroups.get(url).push({ person, feedDef, handler });
+      }
+    }
+  }
+
+  const limit = pLimit(CONCURRENCY);
+  const now = new Date().toISOString();
+  const results = [];
+
+  const upsertFeed = db.prepare(`
+    INSERT INTO feeds (url, etag, last_modified, fetched_at)
+    VALUES (?, ?, ?, ?)
+    ON CONFLICT(url) DO UPDATE SET etag=excluded.etag, last_modified=excluded.last_modified, fetched_at=excluded.fetched_at
+  `);
+  const insertItem = db.prepare(`
+    INSERT OR IGNORE INTO items (id, person_handle, type, title, description, link, published_at, fetched_at)
+    VALUES (@id, @person_handle, @type, @title, @description, @link, @published_at, @fetched_at)
+  `);
+
+  function insertParsed(parsed) {
+    let newCount = 0;
+    db.exec("BEGIN");
+    try {
+      for (const item of parsed) {
+        if (!item.id || !item.link) continue;
+        const info = insertItem.run({ ...item, fetched_at: now });
+        if (info.changes > 0) newCount++;
+      }
+      db.exec("COMMIT");
+    } catch (e) {
+      db.exec("ROLLBACK");
+      throw e;
+    }
+    return newCount;
+  }
+
+  // Fetch each unique URL once, then parse + insert for every person sharing it
+  const urlTasks = [...urlGroups.entries()].map(([url, entries]) =>
+    limit(async () => {
+      const row = db.prepare("SELECT etag, last_modified FROM feeds WHERE url = ?").get(url);
+      const headers = {};
+      if (row?.etag) headers["If-None-Match"] = row.etag;
+      if (row?.last_modified) headers["If-Modified-Since"] = row.last_modified;
+
+      let res;
+      try {
+        res = await fetchWithRetry(url, { headers });
+      } catch (err) {
+        for (const { person, feedDef } of entries)
+          results.push({ person: person.handle, feed: feedDef.type, ok: false, error: err.message });
+        return;
+      }
+
+      if (res.status === 304) {
+        for (const { person, feedDef } of entries)
+          results.push({ person: person.handle, feed: feedDef.type, url, newCount: 0, skipped: true, ok: true });
+        return;
+      }
+
+      if (!res.ok) {
+        const msg = `HTTP ${res.status} for ${url}`;
+        for (const { person, feedDef } of entries)
+          results.push({ person: person.handle, feed: feedDef.type, ok: false, error: msg });
+        return;
+      }
+
+      const xml = await res.text();
+      upsertFeed.run(url, res.headers.get("etag") || null, res.headers.get("last-modified") || null, now);
+
+      for (const { person, feedDef, handler } of entries) {
         try {
-          const result = await processFeed(db, person, feedDef);
-          return { person: person.handle, feed: feedDef.type, ...result, ok: true };
+          const parsed = handler.parse(xml, person.handle, feedDef);
+          const newCount = insertParsed(parsed);
+          results.push({ person: person.handle, feed: feedDef.type, url, newCount, total: parsed.length, ok: true });
         } catch (err) {
-          return { person: person.handle, feed: feedDef.type, ok: false, error: err.message };
+          results.push({ person: person.handle, feed: feedDef.type, ok: false, error: err.message });
         }
-      })
-    )
+      }
+    })
   );
 
-  const results = await Promise.all(tasks);
+  // fetchAll feeds (e.g. github-user) are always per-person
+  const fetchAllTasks = fetchAllJobs.map(({ person, feedDef }) =>
+    limit(async () => {
+      const handler = feedTypes[feedDef.type];
+      try {
+        const parsed = await handler.fetchAll(feedDef, person.handle);
+        const newCount = insertParsed(parsed);
+        results.push({ person: person.handle, feed: feedDef.type, newCount, total: parsed.length, ok: true });
+      } catch (err) {
+        results.push({ person: person.handle, feed: feedDef.type, ok: false, error: err.message });
+      }
+    })
+  );
+
+  await Promise.all([...urlTasks, ...fetchAllTasks]);
 
   // Group by person for logging
   const byPerson = {};
