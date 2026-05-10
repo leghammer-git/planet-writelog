@@ -37,7 +37,7 @@
       "category": "Enterprise Mobility"
     },
     "title": "Consultant",
-    "bio": "",
+    "bio": "required",
     "links": {
       "website": "https://www.deploymentresearch.com/",
       "facebook": "DeploymentResearch",
