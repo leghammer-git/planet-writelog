@@ -1,0 +1,12 @@
+{
+  "name": "4sysops",
+  "handle": "4sysops",
+  "title": "Community Publication",
+  "bio": "Technical articles on Windows, Intune, ConfigMgr, PowerShell, and enterprise IT from the 4sysops community of authors.",
+  "links": {
+    "website": "https://4sysops.com"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://4sysops.com/feed/", "label": "4sysops" }
+  ]
+}

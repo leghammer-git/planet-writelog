@@ -12,7 +12,7 @@ eleventyComputed:
   <div class="profile__header">
     <img
       class="profile__avatar"
-      src="{{ person.avatar or ('https://github.com/' + (person.links.github or person.handle) + '.png?size=120') }}"
+      src="{{ person.avatar or (('https://github.com/' + person.links.github + '.png?size=120') if person.links.github else '/public/img/avatar-default.svg') }}"
       alt="{{ person.name }}"
       width="120"
       height="120"

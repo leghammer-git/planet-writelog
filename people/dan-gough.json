@@ -1,0 +1,13 @@
+{
+  "name": "Dan Gough",
+  "handle": "dan-gough",
+  "title": "Software Engineer",
+  "bio": "Application packaging and ConfigMgr expert at Patch My PC, author of the Packageology blog.",
+  "links": {
+    "website": "https://packageology.com",
+    "linkedin": "danielgough"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://packageology.com/feed.xml" }
+  ]
+}

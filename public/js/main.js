@@ -25,26 +25,56 @@
   });
 })();
 
-/* ── Filter pills ──────────────────────────────────────────────────────── */
+/* ── Filter pills + keyword + pagination ───────────────────────────────── */
 (function () {
   const grid = document.getElementById("feed-results");
   const countEl = document.getElementById("visible-count");
+  const totalEl = document.getElementById("total-count");
+  const loadMoreBtn = document.getElementById("load-more");
   if (!grid) return;
 
+  const PAGE_SIZE = 50;
   const cards = Array.from(grid.querySelectorAll(".item-card"));
   let activeType = "all";
   let activePerson = "all";
+  let activeSource = "all";
+  let activeKeyword = "";
+  let page = 1;
+
+  const sourceSelect = document.getElementById("source-select");
+  if (sourceSelect) {
+    const sources = [...new Set(cards.map((c) => c.dataset.source).filter(Boolean))].sort();
+    for (const s of sources) {
+      const opt = document.createElement("option");
+      opt.value = s;
+      opt.textContent = s;
+      sourceSelect.appendChild(opt);
+    }
+  }
 
   function applyFilters() {
-    let visible = 0;
+    const keyword = activeKeyword.toLowerCase();
+    const matched = [];
     for (const card of cards) {
       const typeMatch = activeType === "all" || card.dataset.type === activeType;
       const personMatch = activePerson === "all" || card.dataset.person === activePerson;
-      const show = typeMatch && personMatch;
-      card.hidden = !show;
-      if (show) visible++;
+      const sourceMatch = activeSource === "all" || card.dataset.source === activeSource;
+      const keywordMatch = !keyword || (card.dataset.title || "").includes(keyword);
+      if (typeMatch && personMatch && sourceMatch && keywordMatch) matched.push(card);
     }
-    if (countEl) countEl.textContent = visible;
+
+    const limit = page * PAGE_SIZE;
+    for (const card of cards) card.hidden = true;
+    for (let i = 0; i < Math.min(matched.length, limit); i++) matched[i].hidden = false;
+
+    if (countEl) countEl.textContent = Math.min(matched.length, limit);
+    if (totalEl) totalEl.textContent = matched.length;
+    if (loadMoreBtn) loadMoreBtn.hidden = matched.length <= limit;
+  }
+
+  function resetAndFilter() {
+    page = 1;
+    applyFilters();
   }
 
   document.querySelectorAll("[data-filter-group]").forEach((group) => {
@@ -54,7 +84,7 @@
         group.querySelectorAll(".pill").forEach((p) => p.classList.remove("pill--active"));
         pill.classList.add("pill--active");
         if (groupName === "type") activeType = pill.dataset.value;
-        applyFilters();
+        resetAndFilter();
       });
     });
   });
@@ -63,9 +93,27 @@
     select.addEventListener("change", () => {
       const groupName = select.dataset.filterSelect;
       if (groupName === "person") activePerson = select.value;
-      applyFilters();
+      if (groupName === "source") activeSource = select.value;
+      resetAndFilter();
     });
   });
+
+  const keywordInput = document.getElementById("keyword-input");
+  if (keywordInput) {
+    keywordInput.addEventListener("input", () => {
+      activeKeyword = keywordInput.value.trim();
+      resetAndFilter();
+    });
+  }
+
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener("click", () => {
+      page++;
+      applyFilters();
+    });
+  }
+
+  applyFilters();
 })();
 
 /* ── View Transitions ──────────────────────────────────────────────────── */

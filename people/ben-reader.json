@@ -1,0 +1,14 @@
+{
+  "name": "Ben Reader",
+  "handle": "ben-reader",
+  "title": "Principal Engineer",
+  "bio": "PowerShell and Intune specialist at Patch My PC, author of the Powers-Hell blog.",
+  "links": {
+    "website": "https://powers-hell.com",
+    "linkedin": "ben-reader-97223b7b",
+    "twitter": "powers_hell"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://powers-hell.com/index.xml" }
+  ]
+}

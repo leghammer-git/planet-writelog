@@ -1,0 +1,14 @@
+{
+  "name": "Justin Chalfant",
+  "handle": "justin-chalfant",
+  "title": "Founder and CEO",
+  "bio": "Founder and CEO of Patch My PC, long-time ConfigMgr and Intune community advocate.",
+  "links": {
+    "website": "https://patchmypc.com",
+    "linkedin": "justin-chalfant",
+    "twitter": "setupConfigMgr"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://patchmypc.com/feed/" }
+  ]
+}

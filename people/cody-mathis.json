@@ -1,0 +1,14 @@
+{
+  "name": "Cody Mathis",
+  "handle": "cody-mathis",
+  "title": "Software Engineer",
+  "bio": "ConfigMgr and Intune developer at Patch My PC, known for CMPivot and community tooling.",
+  "links": {
+    "github": "CodyMathis123",
+    "linkedin": "cody-mathis-22a717136",
+    "twitter": "CodyMathis123"
+  },
+  "feeds": [
+    { "type": "github-user", "username": "CodyMathis123" }
+  ]
+}

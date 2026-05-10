@@ -1,0 +1,14 @@
+{
+  "name": "Rudy Ooms",
+  "handle": "rudy-ooms",
+  "title": "Content Writer Manager",
+  "bio": "Intune and MDM specialist at Patch My PC, author of the Call4Cloud blog.",
+  "links": {
+    "website": "https://call4cloud.nl",
+    "linkedin": "rudy-ooms-90810136",
+    "twitter": "Mister_MDM"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://call4cloud.nl/feed/" }
+  ]
+}

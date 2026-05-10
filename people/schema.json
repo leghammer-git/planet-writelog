@@ -56,7 +56,8 @@
             "properties": {
               "type": { "const": "blog" },
               "url": { "type": "string", "format": "uri" },
-              "author": { "type": "string", "minLength": 1 }
+              "author": { "type": "string", "minLength": 1 },
+              "label": { "type": "string", "minLength": 1 }
             }
           },
           {
@@ -68,7 +69,8 @@
               "repo": {
                 "type": "string",
                 "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
-              }
+              },
+              "label": { "type": "string", "minLength": 1 }
             }
           },
           {
@@ -78,7 +80,8 @@
             "properties": {
               "type": { "const": "youtube" },
               "channel_id": { "type": "string", "pattern": "^UC[A-Za-z0-9_-]+$" },
-              "channel": { "type": "string", "pattern": "^@[\\w-]+$" }
+              "channel": { "type": "string", "pattern": "^@[\\w-]+$" },
+              "label": { "type": "string", "minLength": 1 }
             },
             "oneOf": [
               { "required": ["channel_id"] },
@@ -94,7 +97,8 @@
               "username": {
                 "type": "string",
                 "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?$"
-              }
+              },
+              "label": { "type": "string", "minLength": 1 }
             }
           }
         ]

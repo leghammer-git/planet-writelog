@@ -3,7 +3,7 @@
   "github-releases": "Release",
   "youtube": "Video"
 } -%}
-<article class="item-card" data-type="{{ item.type }}" data-person="{{ item.person_handle }}">
+<article class="item-card" data-type="{{ item.type }}" data-person="{{ item.person_handle }}" data-source="{{ item.source or '' }}" data-title="{{ item.title | lower }}">
   <header class="item-card__header">
     <span class="item-card__badge item-card__badge--{{ item.type }}">
       {{ typeLabels[item.type] or item.type }}
@@ -12,6 +12,9 @@
     <span class="item-card__person">
       <a href="/people/{{ item.person_handle }}/">{{ personData.name if personData else item.person_handle }}</a>{% if personData and personData.mvp %}<span class="mvp-badge mvp-badge--{{ personData.mvp.status }}" title="Microsoft MVP – {{ personData.mvp.category }}{% if personData.mvp.status == 'former' %} (Former){% endif %}"><svg class="mvp-badge__icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1 2 3.5v4c0 3.5 2.5 6.3 6 7.5 3.5-1.2 6-4 6-7.5v-4Z"/></svg>MVP</span>{% endif %}
     </span>
+    {% if item.source %}
+      <span class="item-card__source">{{ item.source }}</span>
+    {% endif %}
     <time class="item-card__date" datetime="{{ item.published_at | dateISO }}">
       {{ item.published_at | relativeDate }}
     </time>

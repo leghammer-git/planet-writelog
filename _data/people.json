@@ -1,5 +1,21 @@
 [
   {
+    "name": "4sysops",
+    "handle": "4sysops",
+    "title": "Community Publication",
+    "bio": "Technical articles on Windows, Intune, ConfigMgr, PowerShell, and enterprise IT from the 4sysops community of authors.",
+    "links": {
+      "website": "https://4sysops.com"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://4sysops.com/feed/",
+        "label": "4sysops"
+      }
+    ]
+  },
+  {
     "name": "Adam Gross",
     "handle": "adam-gross",
     "avatar": "https://images.mvp.microsoft.com/55313777-20fa-e911-a998-000d3a137a43?638562484892725476",
@@ -34,6 +50,39 @@
     ]
   },
   {
+    "name": "Anders Ahl",
+    "handle": "anders-ahl",
+    "title": "Global Product Owner for UEM & PAW",
+    "bio": "Global Product Owner for Unified Endpoint Management and Privileged Access Workstations at Ericsson.",
+    "links": {
+      "github": "GenerAhl",
+      "linkedin": "generahl"
+    },
+    "feeds": [
+      {
+        "type": "github-user",
+        "username": "GenerAhl"
+      }
+    ]
+  },
+  {
+    "name": "Ben Reader",
+    "handle": "ben-reader",
+    "title": "Principal Engineer",
+    "bio": "PowerShell and Intune specialist at Patch My PC, author of the Powers-Hell blog.",
+    "links": {
+      "website": "https://powers-hell.com",
+      "linkedin": "ben-reader-97223b7b",
+      "twitter": "powers_hell"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://powers-hell.com/index.xml"
+      }
+    ]
+  },
+  {
     "name": "Ben Whitmore",
     "handle": "ben-whitmore",
     "mvp": {
@@ -64,6 +113,77 @@
     ]
   },
   {
+    "name": "Brian Mason",
+    "handle": "brian-mason",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "IT Professional",
+    "bio": "ConfigMgr and endpoint management community contributor and TCSMUG blogger.",
+    "links": {
+      "website": "https://tcsmug.org/blogs/brian-mason"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://tcsmug.org/blogs/brian-mason?format=feed&type=rss"
+      }
+    ]
+  },
+  {
+    "name": "Bryan Dam",
+    "handle": "bryan-dam",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Patch Lover Extraordinaire, Patch My PC",
+    "bio": "ConfigMgr and endpoint management community contributor and TCSMUG blogger.",
+    "links": {
+      "website": "https://damgoodadmin.com/"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://damgoodadmin.com/feed/"
+      }
+    ]
+  },
+  {
+    "name": "Cody Mathis",
+    "handle": "cody-mathis",
+    "title": "Software Engineer",
+    "bio": "ConfigMgr and Intune developer at Patch My PC, known for CMPivot and community tooling.",
+    "links": {
+      "github": "CodyMathis123",
+      "linkedin": "cody-mathis-22a717136",
+      "twitter": "CodyMathis123"
+    },
+    "feeds": [
+      {
+        "type": "github-user",
+        "username": "CodyMathis123"
+      }
+    ]
+  },
+  {
+    "name": "Dan Gough",
+    "handle": "dan-gough",
+    "title": "Software Engineer",
+    "bio": "Application packaging and ConfigMgr expert at Patch My PC, author of the Packageology blog.",
+    "links": {
+      "website": "https://packageology.com",
+      "linkedin": "danielgough"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://packageology.com/feed.xml"
+      }
+    ]
+  },
+  {
     "name": "Daniel Britze",
     "handle": "daniel-britze",
     "title": "Consultant",
@@ -74,6 +194,34 @@
         "type": "blog",
         "url": "https://blog.mindcore.dk/feed/",
         "author": "Daniel Britze"
+      }
+    ]
+  },
+  {
+    "name": "Donna Ryan",
+    "handle": "donna-ryan",
+    "title": "Principal Consulting Engineer",
+    "bio": "ConfigMgr, Intune, and Azure Virtual Desktop specialist, creator of the WIM Witch image servicing tool.",
+    "links": {
+      "website": "http://www.thenotoriousdrr.com",
+      "bluesky": "thenotoriousdrr.bsky.social",
+      "github": "thenotoriousdrr",
+      "twitter": "TheNotoriousDRR",
+      "linkedin": "donna-ryan-wim-witch"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "http://www.thenotoriousdrr.com/feed/"
+      },
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Donna Ryan"
+      },
+      {
+        "type": "github-user",
+        "username": "thenotoriousdrr"
       }
     ]
   },
@@ -131,6 +279,68 @@
     ]
   },
   {
+    "name": "Jan Ketil Skanke",
+    "handle": "jan-ketil-skanke",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Principal Cloud Architect",
+    "bio": "COO at CloudWay and Enterprise Mobility MVP since 2016, focused on endpoint management, identity, and security.",
+    "links": {
+      "website": "https://cloudway.com",
+      "github": "JankeSkanke",
+      "twitter": "JankeSkanke",
+      "linkedin": "jankeskanke"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Jan Ketil Skanke"
+      },
+      {
+        "type": "github-user",
+        "username": "JankeSkanke"
+      }
+    ]
+  },
+  {
+    "name": "Jeff Carreon",
+    "handle": "jeff-carreon",
+    "title": "IT Professional",
+    "bio": "ConfigMgr and endpoint management community contributor and TCSMUG blogger.",
+    "links": {
+      "website": "https://tcsmug.org/blogs/jeff-carreon"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://tcsmug.org/blogs/jeff-carreon?format=feed&type=rss"
+      }
+    ]
+  },
+  {
+    "name": "Joe Loveless",
+    "handle": "joe-loveless",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "IT Professional",
+    "bio": "ConfigMgr and endpoint management community contributor.",
+    "links": {
+      "website": "https://endpointfeed.com",
+      "github": "Pacers31Colts18"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://joeloveless.com/blog/rss.xml"
+      }
+    ]
+  },
+  {
     "name": "Johan Arwidmark",
     "handle": "johan-arwidmark",
     "avatar": "https://images.mvp.microsoft.com/1784d172-3c9a-e411-93f2-9cb65495d3c4",
@@ -156,6 +366,105 @@
       {
         "type": "github-user",
         "username": "DeploymentResearch"
+      }
+    ]
+  },
+  {
+    "name": "Jordan Benzing",
+    "handle": "jordan-benzing",
+    "title": "Senior Consultant",
+    "bio": "ConfigMgr and endpoint management specialist, infrastructure consultant at TrueSec.",
+    "links": {
+      "website": "https://jordantheitguy.com",
+      "github": "JordanTheITGuy",
+      "twitter": "JordanTheITguy",
+      "linkedin": "jordan-benzing-432b0619"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://jordantheitguy.com/feed/"
+      },
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Jordan Benzing"
+      },
+      {
+        "type": "github-user",
+        "username": "JordanTheITGuy"
+      }
+    ]
+  },
+  {
+    "name": "Jörgen Nilsson",
+    "handle": "jorgen-nilsson",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Senior Consultant",
+    "bio": "Enterprise Mobility and Windows specialist at Onevinn, sharing tips on Intune, ConfigMgr, and modern endpoint management.",
+    "links": {
+      "website": "https://ccmexec.com",
+      "github": "ccmexec"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://ccmexec.com/feed/"
+      },
+      {
+        "type": "github-user",
+        "username": "ccmexec"
+      }
+    ]
+  },
+  {
+    "name": "Jose Schenardie",
+    "handle": "jose-schenardie",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Co-founder and CTO",
+    "bio": "Microsoft MVP, co-founder of Devicie and Secure Measure, endpoint management and cloud security specialist.",
+    "links": {
+      "website": "https://intune.tech",
+      "github": "schenardie",
+      "twitter": "schenardie",
+      "linkedin": "schenardie"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://intune.tech/feed/"
+      },
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Jose Schenardie"
+      },
+      {
+        "type": "github-user",
+        "username": "schenardie"
+      }
+    ]
+  },
+  {
+    "name": "Justin Chalfant",
+    "handle": "justin-chalfant",
+    "title": "Founder and CEO",
+    "bio": "Founder and CEO of Patch My PC, long-time ConfigMgr and Intune community advocate.",
+    "links": {
+      "website": "https://patchmypc.com",
+      "linkedin": "justin-chalfant",
+      "twitter": "setupConfigMgr"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://patchmypc.com/feed/"
       }
     ]
   },
@@ -208,6 +517,32 @@
     ]
   },
   {
+    "name": "Matt Zaske",
+    "handle": "matt-zaske",
+    "title": "IT Professional",
+    "bio": "ConfigMgr and endpoint management community contributor.",
+    "links": {
+      "website": "https://mattzaskeonline.info",
+      "github": "zaskem",
+      "youtube": "@zaskem"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://mattzaskeonline.info/feed"
+      },
+      {
+        "type": "github-user",
+        "username": "zaskem"
+      },
+      {
+        "type": "youtube",
+        "channel": "@zaskem",
+        "channel_id": "UCxZSeozfluj0vyKRFqsy1tQ"
+      }
+    ]
+  },
+  {
     "name": "Mattias Melkersen",
     "handle": "mattias-melkersen",
     "mvp": {
@@ -236,6 +571,63 @@
       {
         "type": "github-user",
         "username": "MMelkersen"
+      }
+    ]
+  },
+  {
+    "name": "Maurice Daly",
+    "handle": "maurice-daly",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Senior Security Architect",
+    "bio": "Enterprise Mobility MVP at Patch My PC, known for the Driver Automation Tool and ConfigMgr/Intune contributions.",
+    "links": {
+      "github": "maurice-daly",
+      "twitter": "modaly_it",
+      "linkedin": "mauricedaly"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Maurice Daly"
+      },
+      {
+        "type": "github-user",
+        "username": "maurice-daly"
+      }
+    ]
+  },
+  {
+    "name": "Michael Mardahl",
+    "handle": "michael-mardahl",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Cloud Architect",
+    "bio": "Enterprise Mobility MVP at APENTO, specializing in Microsoft 365, Azure, Intune, and cloud security.",
+    "links": {
+      "website": "https://iphase.dk/",
+      "github": "mardahl",
+      "twitter": "michael_mardahl",
+      "linkedin": "michael-mardahl"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://iphase.dk/rss.xml"
+      },
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Michael Mardahl"
+      },
+      {
+        "type": "github-user",
+        "username": "mardahl"
       }
     ]
   },
@@ -315,6 +707,65 @@
     ]
   },
   {
+    "name": "Nickolaj Andersen",
+    "handle": "nickolaj-andersen",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Senior Architect - End User Experience",
+    "bio": "Founder of MSEndpointMgr and Enterprise Mobility MVP at Ericsson, specializing in ConfigMgr, Intune, and endpoint automation.",
+    "links": {
+      "website": "https://msendpointmgr.com",
+      "github": "NickolajA",
+      "twitter": "NickolajA",
+      "linkedin": "nickolaj-andersen-mvp-2416273"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Nickolaj Andersen"
+      },
+      {
+        "type": "github-user",
+        "username": "NickolajA"
+      }
+    ]
+  },
+  {
+    "name": "Oliver Kieselbach",
+    "handle": "oliver-kieselbach",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Lead Cloud Architect",
+    "bio": "Enterprise Mobility MVP at glueckkanja AG, specializing in Modern IT, Intune, Windows, and cloud endpoint management.",
+    "links": {
+      "website": "https://oliverkieselbach.com",
+      "bluesky": "okieselb.bsky.social",
+      "github": "okieselbach",
+      "twitter": "okieselb",
+      "linkedin": "oliver-kieselbach-a4a3409"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://oliverkieselbach.com/feed/"
+      },
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Oliver Kieselbach"
+      },
+      {
+        "type": "github-user",
+        "username": "okieselbach"
+      }
+    ]
+  },
+  {
     "name": "Peter van der Woude",
     "handle": "peter-van-der-woude",
     "mvp": {
@@ -336,6 +787,124 @@
     ]
   },
   {
+    "name": "Rudy Ooms",
+    "handle": "rudy-ooms",
+    "title": "Content Writer Manager",
+    "bio": "Intune and MDM specialist at Patch My PC, author of the Call4Cloud blog.",
+    "links": {
+      "website": "https://call4cloud.nl",
+      "linkedin": "rudy-ooms-90810136",
+      "twitter": "Mister_MDM"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://call4cloud.nl/feed/"
+      }
+    ]
+  },
+  {
+    "name": "Ryan Ephgrave",
+    "handle": "ryan-ephgrave",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Consultant",
+    "bio": "ConfigMgr and endpoint management specialist, known for EphingAdmin tools and scripts.",
+    "links": {
+      "website": "http://ephingadmin.com",
+      "twitter": "EphingPosh"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "http://ephingadmin.com/feed"
+      }
+    ]
+  },
+  {
+    "name": "Sandy Zeng",
+    "handle": "sandy-zeng",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Senior Cloud Architect",
+    "bio": "Enterprise Mobility MVP since 2018, specializing in Intune, ConfigMgr, Microsoft Graph, and endpoint automation.",
+    "links": {
+      "website": "https://sandyzeng.com",
+      "github": "sandytsang",
+      "twitter": "sandy_tsang",
+      "linkedin": "sandy-tsang"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://sandyzeng.com/feed/"
+      },
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Sandy Zeng"
+      },
+      {
+        "type": "github-user",
+        "username": "sandytsang"
+      }
+    ]
+  },
+  {
+    "name": "Sherry Kissinger",
+    "handle": "sherry-kissinger",
+    "mvp": {
+      "status": "former",
+      "category": "Enterprise Mobility"
+    },
+    "title": "IT Professional",
+    "bio": "ConfigMgr and endpoint management community contributor and TCSMUG blogger.",
+    "links": {
+      "website": "https://tcsmug.org/blogs/sherry-kissinger"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://tcsmug.org/blogs/sherry-kissinger?format=feed&type=rss"
+      }
+    ]
+  },
+  {
+    "name": "Simon Skotheimsvik",
+    "handle": "simon-skotheimsvik",
+    "mvp": {
+      "status": "active",
+      "category": "Security"
+    },
+    "title": "Senior Cloud Consultant",
+    "bio": "Microsoft Security MVP at CloudWay, specializing in Microsoft 365, Intune, Entra ID, and endpoint security.",
+    "links": {
+      "website": "https://skotheimsvik.no",
+      "github": "simonskotheimsvik",
+      "twitter": "sskotheimsvik",
+      "linkedin": "simonskotheimsvik"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://skotheimsvik.no/feed/"
+      },
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Simon Skotheimsvik"
+      },
+      {
+        "type": "github-user",
+        "username": "SimonSkotheimsvik"
+      }
+    ]
+  },
+  {
     "name": "Sune Thomsen",
     "handle": "sune-thomsen",
     "mvp": {
@@ -353,6 +922,23 @@
         "type": "blog",
         "url": "https://blog.mindcore.dk/feed/",
         "author": "Sune Thomsen"
+      }
+    ]
+  },
+  {
+    "name": "Terence Beggs",
+    "handle": "terence-beggs",
+    "title": "Senior System Specialist",
+    "bio": "ConfigMgr and endpoint management specialist, WMUG community contributor.",
+    "links": {
+      "twitter": "terencebeggs",
+      "linkedin": "terence-beggs-56993510"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed/",
+        "author": "Terence Beggs"
       }
     ]
   }

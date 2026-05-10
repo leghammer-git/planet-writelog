@@ -1,0 +1,13 @@
+{
+  "name": "Bryan Dam",
+  "handle": "bryan-dam",
+  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "title": "Patch Lover Extraordinaire, Patch My PC",
+  "bio": "ConfigMgr and endpoint management community contributor and TCSMUG blogger.",
+  "links": {
+    "website": "https://damgoodadmin.com/"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://damgoodadmin.com/feed/" }
+  ]
+}

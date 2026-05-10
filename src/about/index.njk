@@ -32,32 +32,42 @@ permalink: /about/
   <pre><code>{
   "name": "Your Name",
   "handle": "your-handle",
+  "title": "Senior Consultant · Endpoint Management",
+  "bio": "One or two sentences. 300 characters max.",
   "pronouns": "they/them",          // optional
-  "title": "MVP · Endpoint Management",
-  "bio": "One or two sentences.",
-  "avatar": "https://...",           // optional; falls back to GitHub avatar
-  "links": {
+  "avatar": "https://...",          // optional; falls back to GitHub avatar
+  "mvp": {                          // optional
+    "status": "active",             // "active" or "former"
+    "category": "Enterprise Mobility"
+  },
+  "links": {                        // all optional
     "website": "https://...",
     "github": "your-handle",
     "bluesky": "you.bsky.social",
     "mastodon": "@you@infosec.exchange",
-    "linkedin": "your-linkedin-slug"
+    "linkedin": "your-linkedin-slug",
+    "twitter": "your-handle",
+    "youtube": "your-handle"
   },
   "feeds": [
     { "type": "blog",            "url": "https://yourblog.com/feed.xml" },
+    { "type": "blog",            "url": "https://shared-blog.com/feed.xml", "author": "Your Name" },
     { "type": "github-releases", "repo": "your-handle/your-repo" },
-    { "type": "youtube",         "channel_id": "UCxxxxxxxxxxxxxxxx" }
+    { "type": "github-user",     "username": "your-github-username" },
+    { "type": "youtube",         "channel": "@YourHandle" }
   ]
 }</code></pre>
 
   <h2>Feed types</h2>
   <dl>
     <dt><code>blog</code></dt>
-    <dd>Any RSS 2.0 or Atom feed URL.</dd>
+    <dd>Any RSS 2.0 or Atom feed URL. Add <code>"author": "Your Name"</code> to filter a shared or multi-author feed to only your posts.</dd>
     <dt><code>github-releases</code></dt>
-    <dd>GitHub releases Atom feed for a repo you maintain (<code>owner/repo</code>).</dd>
+    <dd>Releases from a specific repo you maintain (<code>owner/repo</code>).</dd>
+    <dt><code>github-user</code></dt>
+    <dd>Pulls the latest release (or most recent push) from each of your public repos. Useful if you maintain many small tools.</dd>
     <dt><code>youtube</code></dt>
-    <dd>Your YouTube channel ID (starts with <code>UC</code>). Find it in YouTube Studio → Settings → Channel → Advanced.</dd>
+    <dd>Your YouTube channel. Use <code>"channel": "@YourHandle"</code> (preferred) or <code>"channel_id": "UCxxxxxxxxxxxxxxxx"</code>. Find the ID in YouTube Studio → Settings → Channel → Advanced.</dd>
   </dl>
 
   <h2>Have questions?</h2>

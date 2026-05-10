@@ -14,6 +14,12 @@ title: Feed
       <button class="pill" data-value="github-releases">Releases</button>
       <button class="pill" data-value="youtube">Videos</button>
     </div>
+    <div class="filter-group" data-filter-group="source">
+      <label class="filter-label" for="source-select">Source</label>
+      <select class="filter-select" id="source-select" data-filter-select="source">
+        <option value="all">All sources</option>
+      </select>
+    </div>
     <div class="filter-group" data-filter-group="person">
       <label class="filter-label" for="person-select">Person</label>
       <select class="filter-select" id="person-select" data-filter-select="person">
@@ -22,6 +28,10 @@ title: Feed
           <option value="{{ person.handle }}">{{ person.name }}</option>
         {% endfor %}
       </select>
+    </div>
+    <div class="filter-group">
+      <label class="filter-label" for="keyword-input">Search</label>
+      <input class="filter-input" id="keyword-input" type="search" placeholder="Filter by keyword…" autocomplete="off">
     </div>
   </div>
 </section>
@@ -37,6 +47,10 @@ title: Feed
   {% endif %}
 </section>
 
+<div class="load-more-wrap">
+  <button class="load-more-btn" id="load-more" hidden>Load more</button>
+</div>
+
 <p class="feed-count" aria-live="polite">
-  Showing <span id="visible-count">{{ items.length }}</span> of {{ items.length }} items
+  Showing <span id="visible-count">{{ items.length }}</span> of <span id="total-count">{{ items.length }}</span> items
 </p>

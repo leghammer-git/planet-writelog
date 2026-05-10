@@ -1,0 +1,18 @@
+{
+  "name": "Jörgen Nilsson",
+  "handle": "jorgen-nilsson",
+  "mvp": {
+    "status": "active",
+    "category": "Enterprise Mobility"
+  },
+  "title": "Senior Consultant",
+  "bio": "Enterprise Mobility and Windows specialist at Onevinn, sharing tips on Intune, ConfigMgr, and modern endpoint management.",
+  "links": {
+    "website": "https://ccmexec.com",
+    "github": "ccmexec"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://ccmexec.com/feed/" },
+    { "type": "github-user", "username": "ccmexec" }
+  ]
+}

@@ -44,6 +44,7 @@ function openDb() {
       fetched_at TEXT NOT NULL
     );
   `);
+  try { db.exec("ALTER TABLE items ADD COLUMN source TEXT"); } catch {}
   return db;
 }
 
@@ -53,8 +54,8 @@ function seedFromJson(db) {
   if (!existsSync(path)) return;
   const existing = JSON.parse(readFileSync(path, "utf8"));
   const insert = db.prepare(`
-    INSERT OR IGNORE INTO items (id, person_handle, type, title, description, link, published_at, fetched_at)
-    VALUES (@id, @person_handle, @type, @title, @description, @link, @published_at, @fetched_at)
+    INSERT OR IGNORE INTO items (id, person_handle, type, title, description, link, published_at, fetched_at, source)
+    VALUES (@id, @person_handle, @type, @title, @description, @link, @published_at, @fetched_at, @source)
   `);
   for (const r of existing) insert.run(r);
 }
@@ -115,6 +116,13 @@ function cleanDesc(raw) {
   return truncate(decodeEntities(stripHtml(raw)), DESC_MAX);
 }
 
+function deriveSource(feedDef) {
+  if (feedDef.label) return feedDef.label;
+  if (feedDef.type === "youtube") return "YouTube";
+  if (feedDef.type === "github-releases" || feedDef.type === "github-user") return "GitHub";
+  try { return new URL(feedDef.url).hostname.replace(/^www\./, ""); } catch { return ""; }
+}
+
 function toISO(val) {
   if (!val) return new Date().toISOString();
   const d = new Date(val);
@@ -147,6 +155,7 @@ const parser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: "@_",
   isArray: (name) => ["entry", "item"].includes(name),
+  processEntities: { enabled: true, maxTotalExpansions: 10000 },
 });
 
 // ── feed type registry ────────────────────────────────────────────────────────
@@ -347,12 +356,12 @@ async function main() {
     ON CONFLICT(url) DO UPDATE SET etag=excluded.etag, last_modified=excluded.last_modified, fetched_at=excluded.fetched_at
   `);
   const insertItem = db.prepare(`
-    INSERT OR IGNORE INTO items (id, person_handle, type, title, description, link, published_at, fetched_at)
-    VALUES (@id, @person_handle, @type, @title, @description, @link, @published_at, @fetched_at)
+    INSERT OR IGNORE INTO items (id, person_handle, type, title, description, link, published_at, fetched_at, source)
+    VALUES (@id, @person_handle, @type, @title, @description, @link, @published_at, @fetched_at, @source)
   `);
   const replaceItem = db.prepare(`
-    INSERT OR REPLACE INTO items (id, person_handle, type, title, description, link, published_at, fetched_at)
-    VALUES (@id, @person_handle, @type, @title, @description, @link, @published_at, @fetched_at)
+    INSERT OR REPLACE INTO items (id, person_handle, type, title, description, link, published_at, fetched_at, source)
+    VALUES (@id, @person_handle, @type, @title, @description, @link, @published_at, @fetched_at, @source)
   `);
 
   function insertParsed(parsed) {
@@ -422,7 +431,8 @@ async function main() {
 
       for (const { person, feedDef, handler } of entries) {
         try {
-          const parsed = handler.parse(xml, person.handle, feedDef);
+          const source = deriveSource(feedDef);
+          const parsed = handler.parse(xml, person.handle, feedDef).map((item) => ({ ...item, source }));
           const newCount = insertParsed(parsed);
           results.push({ person: person.handle, feed: feedDef.type, url, newCount, total: parsed.length, ok: true });
         } catch (err) {
@@ -437,7 +447,9 @@ async function main() {
     limit(async () => {
       const handler = feedTypes[feedDef.type];
       try {
-        const parsed = await handler.fetchAll(feedDef, person.handle);
+        const source = deriveSource(feedDef);
+        const rawParsed = await handler.fetchAll(feedDef, person.handle);
+        const parsed = rawParsed.map((item) => ({ ...item, source }));
         const newCount = upsertParsed(parsed);
         results.push({ person: person.handle, feed: feedDef.type, newCount, total: parsed.length, ok: true });
       } catch (err) {

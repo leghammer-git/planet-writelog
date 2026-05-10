@@ -6,9 +6,10 @@
   "bio": "ConfigMgr and endpoint management community contributor.",
   "links": {
     "website": "https://joeloveless.com",
+    "website": "https://endpointfeed.com",
     "github": "Pacers31Colts18"
   },
   "feeds": [
-    { "type": "blog", "url": "https://joeloveless.com/feed" }
+    { "type": "blog", "url": "https://joeloveless.com/blog/rss.xml" }
   ]
 }
