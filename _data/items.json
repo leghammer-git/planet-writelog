@@ -106,118 +106,7 @@
     "description": "Sample files for the Deployment Research Blog",
     "link": "https://github.com/DeploymentResearch/DRFiles",
     "published_at": "2026-05-06T20:28:59.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://4sysops.com/?p=1610550",
-    "person_handle": "4sysops",
-    "type": "blog",
-    "title": "Windows 11 April 2026 new features: app removal, SID hardening, and hotpatch default",
-    "description": "The April 2026 Windows update cycle includes several changes that matter to IT administrators. Source",
-    "link": "https://4sysops.com/archives/windows-11-april-2026-new-features-app-removal-sid-hardening-and-hotpatch-default/",
-    "published_at": "2026-05-06T19:27:24.000Z",
-    "fetched_at": "2026-05-10T15:26:46.032Z",
-    "source": "4sysops"
-  },
-  {
-    "id": "https://4sysops.com/?p=1610570",
-    "person_handle": "4sysops",
-    "type": "blog",
-    "title": "Multipath Reliable Connection (MRC): a new, open networking protocol for AI supercomputers",
-    "description": "OpenAI, together with AMD, Broadcom, Microsoft, and NVIDIA, published a new paper describing MRC (Multipath Reliable Connection), a new networking protocol designed for large AI training clusters. MRC addresses two of the most critical problems in these networks: traffic…",
-    "link": "https://4sysops.com/archives/multipath-reliable-connection-mrc-a-new-open-networking-protocol-for-ai-supercomputers/",
-    "published_at": "2026-05-06T16:07:12.000Z",
-    "fetched_at": "2026-05-10T15:26:46.032Z",
-    "source": "4sysops"
-  },
-  {
-    "id": "https://github.com/zaskem/IntuneStack",
-    "person_handle": "matt-zaske",
-    "type": "github-releases",
-    "title": "IntuneStack",
-    "description": "",
-    "link": "https://github.com/zaskem/IntuneStack",
-    "published_at": "2026-05-06T13:23:16.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/zaskem/homeassistant-core",
-    "person_handle": "matt-zaske",
-    "type": "github-releases",
-    "title": "homeassistant-core",
-    "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
-    "link": "https://github.com/zaskem/homeassistant-core",
-    "published_at": "2026-05-06T13:09:00.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/Ccmexec/Remediation-Scripts",
-    "person_handle": "jorgen-nilsson",
-    "type": "github-releases",
-    "title": "Remediation-Scripts",
-    "description": "Repository with remediation scripts",
-    "link": "https://github.com/Ccmexec/Remediation-Scripts",
-    "published_at": "2026-05-06T02:33:07.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://iphase.dk/posts/misc/outlook-netscaler-las-license-drop/",
-    "person_handle": "michael-mardahl",
-    "type": "blog",
-    "title": "The Outlook Issue That Wasn't Outlook: A NetScaler LAS Licensing War Story",
-    "description": "How an Outlook connectivity incident that looked like Exchange or TLS trouble turned out to be a NetScaler license drop after Citrix LAS migration.",
-    "link": "https://iphase.dk/posts/misc/outlook-netscaler-las-license-drop/",
-    "published_at": "2026-05-06T00:00:00.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "https://4sysops.com/?p=1610526",
-    "person_handle": "4sysops",
-    "type": "blog",
-    "title": "Microsoft Copilot Cowork: New AI features for Microsoft 365",
-    "description": "Microsoft 365 Copilot Cowork moves beyond chat-based AI responses by acting as an autonomous agent—an AI that can perform multi-step tasks on your behalf across Outlook, Teams, Word, Excel, and other Microsoft 365 services. Cowork is built on top of Work IQ, Microsoft's…",
-    "link": "https://4sysops.com/archives/microsoft-copilot-cowork-new-ai-features-for-microsoft-365/",
-    "published_at": "2026-05-05T19:01:21.000Z",
-    "fetched_at": "2026-05-10T15:26:46.032Z",
-    "source": "4sysops"
-  },
-  {
-    "id": "https://4sysops.com/?p=1610507",
-    "person_handle": "4sysops",
-    "type": "blog",
-    "title": "Windows 365 Flex, AVD Hybrid, and pricing changes explained",
-    "description": "Microsoft announced three updates for its cloud desktop products in May 2026: a 20% price cut for Windows 365 Business, a rename of Windows 365 Frontline to Windows 365 Flex, and a public preview of Azure Virtual Desktop (AVD) Hybrid, which lets you run cloud-managed virtual…",
-    "link": "https://4sysops.com/archives/windows-365-flex-avd-hybrid-and-pricing-changes-explained/",
-    "published_at": "2026-05-05T19:00:52.000Z",
-    "fetched_at": "2026-05-10T15:26:46.032Z",
-    "source": "4sysops"
-  },
-  {
-    "id": "https://patchmypc.com/?p=183824",
-    "person_handle": "justin-chalfant",
-    "type": "blog",
-    "title": "WSUS URLs redirect to HTTPS when HSTS is enabled",
-    "description": "WSUS content URLs may redirect from HTTP port 8530 to HTTPS port 443 when HSTS is enabled or cached for the WSUS host name. This article explains the symptoms, cause, verification steps, and how to clear cached HSTS state on affected clients. The post WSUS URLs redirect to HTTPS…",
-    "link": "https://patchmypc.com/kb/wsus-urls-redirect-to-https-when-hsts-is-enabled/",
-    "published_at": "2026-05-05T12:43:04.000Z",
-    "fetched_at": "2026-05-10T15:26:46.032Z",
-    "source": "patchmypc.com"
-  },
-  {
-    "id": "https://4sysops.com/?p=1610414",
-    "person_handle": "4sysops",
-    "type": "blog",
-    "title": "Microsoft 365 Backup: Restore individual files and folders with granular restore",
-    "description": "Microsoft 365 Backup now lets you recover individual files and folders from SharePoint and OneDrive backups without rolling back an entire site or account. This granular restore feature became generally available in late April 2026. You need the SharePoint Backup Administrator…",
-    "link": "https://4sysops.com/archives/microsoft-365-backup-restore-individual-files-and-folders-with-granular-restore/",
-    "published_at": "2026-05-04T20:10:45.000Z",
-    "fetched_at": "2026-05-10T15:26:46.032Z",
-    "source": "4sysops"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://petervanderwoude.nl/?p=23185",
@@ -392,8 +281,7 @@
     "description": "My Personal area to work on 2Pint Tech",
     "link": "https://github.com/gwblok/2PintLabs",
     "published_at": "2026-04-27T22:22:24.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/mmelkersen/EndpointManager",
@@ -403,8 +291,7 @@
     "description": "",
     "link": "https://github.com/mmelkersen/EndpointManager",
     "published_at": "2026-04-27T18:54:25.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://petervanderwoude.nl/?p=23177",
@@ -436,8 +323,7 @@
     "description": "",
     "link": "https://github.com/gwblok/MMS",
     "published_at": "2026-04-27T15:44:48.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=7463",
@@ -656,19 +542,7 @@
     "description": "",
     "link": "https://github.com/byteben/MEM",
     "published_at": "2026-04-14T10:51:37.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/schenardie/postiz-app",
-    "person_handle": "jose-schenardie",
-    "type": "github-releases",
-    "title": "postiz-app",
-    "description": "📨 The ultimate social media scheduling tool, with a bunch of AI 🤖",
-    "link": "https://github.com/schenardie/postiz-app",
-    "published_at": "2026-04-14T01:07:28.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://petervanderwoude.nl/?p=23154",
@@ -744,30 +618,7 @@
     "description": "GaryTown Scripts, Downloads, Etc",
     "link": "https://github.com/gwblok/garytown",
     "published_at": "2026-04-10T19:33:32.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://patchmypc.com/?p=180882",
-    "person_handle": "justin-chalfant",
-    "type": "blog",
-    "title": "The Story Behind: IT1272653 and the Company Portal Stuck on Download Pending",
-    "description": "In 1.101.103.0, Microsoft changed the IME config into a companion file, and that first transition appears to be where the file disappeared during upgrade. In 1.101.105.0, the same model remained, but the missing config could finally be recreated, which explains why the issue…",
-    "link": "https://patchmypc.com/blog/it1272653-company-portal-stuck-on-downloading/",
-    "published_at": "2026-04-09T12:27:13.000Z",
-    "fetched_at": "2026-05-10T15:26:46.032Z",
-    "source": "patchmypc.com"
-  },
-  {
-    "id": "https://call4cloud.nl/the-story-behind-it1272653-and-the-company-portal-stuck-on-download-pending/",
-    "person_handle": "rudy-ooms",
-    "type": "blog",
-    "title": "The Story Behind: IT1272653 and the Company Portal Stuck on Download Pending",
-    "description": "The moment the IME version 1.101.105.0 was released, and the IME stopped responding completely, with no new logs being written, I knew where to look. Microsoft needed a way to […]",
-    "link": "https://patchmypc.com/blog/the-story-behind-it1272653-and-the-company-portal-stuck-on-download-pending/",
-    "published_at": "2026-04-09T12:27:13.000Z",
-    "fetched_at": "2026-05-10T15:26:46.032Z",
-    "source": "call4cloud.nl"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "http://oofhours.com/?p=6989",
@@ -1107,8 +958,7 @@
     "description": "Demo for course",
     "link": "https://github.com/DeploymentResearch/demo2",
     "published_at": "2026-03-09T16:12:59.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://www.niallbrady.com/?p=9878",
@@ -1283,8 +1133,7 @@
     "description": "- Replaced sample XMLs - Improved txt file output logic for PMPC Custom App and Win32 apps",
     "link": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.3",
     "published_at": "2026-02-23T12:08:50.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://blog.mindcore.dk/?p=11720",
@@ -1393,8 +1242,7 @@
     "description": "",
     "link": "https://github.com/DeploymentResearch/HydrationKitWS2025",
     "published_at": "2026-02-06T02:58:15.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://www.niallbrady.com/?p=9827",
@@ -1547,8 +1395,7 @@
     "description": "",
     "link": "https://github.com/byteben/CheeseIpsum",
     "published_at": "2026-01-19T08:14:59.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://blog.mindcore.dk/?p=11801",
@@ -1877,30 +1724,7 @@
     "description": "Enable Public Contributions",
     "link": "https://github.com/gwblok/memdocs",
     "published_at": "2025-12-09T02:05:26.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/CodyMathis123/zmk-config-cornholius",
-    "person_handle": "cody-mathis",
-    "type": "github-releases",
-    "title": "zmk-config-cornholius",
-    "description": "Repo for the cornhollious keyboard.",
-    "link": "https://github.com/CodyMathis123/zmk-config-cornholius",
-    "published_at": "2025-12-08T13:52:11.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/zaskem/AdventOfCode-2025",
-    "person_handle": "matt-zaske",
-    "type": "github-releases",
-    "title": "AdventOfCode-2025",
-    "description": "",
-    "link": "https://github.com/zaskem/AdventOfCode-2025",
-    "published_at": "2025-12-01T15:37:10.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=7258",
@@ -2086,8 +1910,7 @@
     "description": "A PowerShell module designed to rapidly hydrate a ConfigMgr lab on Hyper-V.",
     "link": "https://github.com/AdamGrossTX/CMHyperHydrate",
     "published_at": "2025-10-10T13:52:09.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://www.niallbrady.com/?p=9664",
@@ -2394,8 +2217,7 @@
     "description": "This repository will be holding tools that I use for various purposes",
     "link": "https://github.com/mmelkersen/Tools",
     "published_at": "2025-08-11T11:57:41.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "http://oofhours.com/?p=6716",
@@ -2636,19 +2458,7 @@
     "description": "Misc powershell scripts",
     "link": "https://github.com/AdamGrossTX/Toolbox",
     "published_at": "2025-06-13T15:42:39.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://joeloveless.com/blog/cis-benchmarks-enterprise-win11",
-    "person_handle": "joe-loveless",
-    "type": "blog",
-    "title": "Examining CIS Microsoft Windows 11 Enterprise Benchmark in a Hybrid Environment",
-    "description": "Review of CIS Microsoft Windows 11 Enterprise Benchmark in a hybrid environment",
-    "link": "https://joeloveless.com/blog/cis-benchmarks-enterprise-win11",
-    "published_at": "2025-06-12T00:00:00.000Z",
-    "fetched_at": "2026-05-10T14:34:42.732Z",
-    "source": null
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "http://oofhours.com/?p=6658",
@@ -2768,8 +2578,7 @@
     "description": "A collection of scripts related to Software Updates",
     "link": "https://github.com/AdamGrossTX/SoftwareUpdateScripts",
     "published_at": "2025-05-23T17:17:47.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://garytown.com/?p=6721",
@@ -2812,30 +2621,7 @@
     "description": "Enable Public Contributions",
     "link": "https://github.com/byteben/memdocs",
     "published_at": "2025-05-16T11:01:56.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/GenerAhl/memdocs",
-    "person_handle": "anders-ahl",
-    "type": "github-releases",
-    "title": "memdocs",
-    "description": "Enable Public Contributions",
-    "link": "https://github.com/GenerAhl/memdocs",
-    "published_at": "2025-05-14T07:50:08.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://joeloveless.com/blog/cis-benchmarks-avd-multisession",
-    "person_handle": "joe-loveless",
-    "type": "blog",
-    "title": "CIS L1 Benchmarks in Intune with AVD Multi-Session Hosts",
-    "description": "Details on what settings aren't in scope with AVD Multi-Session hosts.",
-    "link": "https://joeloveless.com/blog/cis-benchmarks-avd-multisession",
-    "published_at": "2025-05-13T00:00:00.000Z",
-    "fetched_at": "2026-05-10T14:34:42.732Z",
-    "source": null
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://www.niallbrady.com/?p=9384",
@@ -2911,52 +2697,7 @@
     "description": "Demo Content from MMSMOA 2025",
     "link": "https://github.com/AdamGrossTX/MMAMOA2025",
     "published_at": "2025-04-30T02:03:44.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/schenardie/Templates",
-    "person_handle": "jose-schenardie",
-    "type": "github-releases",
-    "title": "Templates",
-    "description": "",
-    "link": "https://github.com/schenardie/Templates",
-    "published_at": "2025-04-30T01:51:24.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://joeloveless.com/blog/entra-grouprandomization",
-    "person_handle": "joe-loveless",
-    "type": "blog",
-    "title": "Creating Intune Randomized Rollouts with Entra Group Membership",
-    "description": "Creating Intune Randomized Rollouts with Entra Group Membership",
-    "link": "https://joeloveless.com/blog/entra-grouprandomization",
-    "published_at": "2025-04-26T00:00:00.000Z",
-    "fetched_at": "2026-05-10T14:34:42.732Z",
-    "source": null
-  },
-  {
-    "id": "https://github.com/mardahl/mem-summit-draws-unleashed",
-    "person_handle": "michael-mardahl",
-    "type": "github-releases",
-    "title": "mem-summit-draws-unleashed",
-    "description": "",
-    "link": "https://github.com/mardahl/mem-summit-draws-unleashed",
-    "published_at": "2025-04-25T17:43:56.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/mardahl/SchedAttachmentRipper",
-    "person_handle": "michael-mardahl",
-    "type": "github-releases",
-    "title": "SchedAttachmentRipper",
-    "description": "A Python Selenium solution to download all attachments from a Sched.com event.",
-    "link": "https://github.com/mardahl/SchedAttachmentRipper",
-    "published_at": "2025-04-25T09:28:36.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=6983",
@@ -3043,8 +2784,7 @@
     "description": "The ConfigMgr Image Factory is an automated process for generating reference images based on build and capture task sequences in ConfigMgr (SCCM)",
     "link": "https://github.com/DeploymentResearch/ConfigMgrImageFactory",
     "published_at": "2025-03-30T05:30:50.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=6948",
@@ -3109,52 +2849,7 @@
     "description": "Various scripts to be used in MSGraph",
     "link": "https://github.com/byteben/MSGraph",
     "published_at": "2025-02-24T09:18:57.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/CodyMathis123/nice60-zmk-config",
-    "person_handle": "cody-mathis",
-    "type": "github-releases",
-    "title": "nice60-zmk-config",
-    "description": "",
-    "link": "https://github.com/CodyMathis123/nice60-zmk-config",
-    "published_at": "2025-02-22T00:59:26.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/okieselbach/Autopilot-Manager-Client",
-    "person_handle": "oliver-kieselbach",
-    "type": "github-releases",
-    "title": "Autopilot-Manager-Client",
-    "description": "The client component to work with Autopilot-Manager. the client gathers Autopilot information and sends it to the Autopilot-Manager app service for approval.",
-    "link": "https://github.com/okieselbach/Autopilot-Manager-Client",
-    "published_at": "2025-02-17T15:53:49.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "http://oliverkieselbach.com/?p=9615",
-    "person_handle": "oliver-kieselbach",
-    "type": "blog",
-    "title": "Autopilot Manager v2",
-    "description": "It’s been a while since I updated the Autopilot Manager solution but here we go with an update to support Windows Corporate Identifiers. Maybe a quick recap of what Autopilot Manger is. The idea is a more user friendly on-the-fly Autopilot hardware hash upload to the Intune…",
-    "link": "https://oliverkieselbach.com/2025/02/17/autopilot-manager-v2/",
-    "published_at": "2025-02-17T15:51:01.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "https://ccmexec.com/?p=8477",
-    "person_handle": "jorgen-nilsson",
-    "type": "blog",
-    "title": "Managing extensions in Visual Studio Code",
-    "description": "Managing extensions in Visual Studio code is supported since version 1.96 (November 2024) and is a very welcome addition. We can block extensions, allow extensions or control exactly which version of an extension that is allowed and more. ADMX/ADML files are now included in the…",
-    "link": "https://ccmexec.com/2025/02/managing-extensions-in-visual-studio-code/",
-    "published_at": "2025-02-13T21:43:32.000Z",
-    "fetched_at": "2026-05-10T15:26:46.032Z",
-    "source": "ccmexec.com"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "http://oofhours.com/?p=6364",
@@ -3197,63 +2892,7 @@
     "description": "This repo contains community scripts for managing StifleR",
     "link": "https://github.com/gwblok/2Pint-StifleR",
     "published_at": "2025-01-31T21:20:05.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/Ccmexec/Intune-MEM",
-    "person_handle": "jorgen-nilsson",
-    "type": "github-releases",
-    "title": "Intune-MEM",
-    "description": "",
-    "link": "https://github.com/Ccmexec/Intune-MEM",
-    "published_at": "2025-01-29T12:51:36.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "http://oliverkieselbach.com/?p=9421",
-    "person_handle": "oliver-kieselbach",
-    "type": "blog",
-    "title": "SyncML Viewer Update with Autopilot hash decoding",
-    "description": "I spent some time to further enhance the SyncML Viewer utility (see here to learn more about the tool). This release (Version 1.4.0) fixes some minor bugs, and added some new features. Three of them are worth mentioning here. So, I’m showing them quickly in this update post.…",
-    "link": "https://oliverkieselbach.com/2025/01/27/syncml-viewer-update-with-autopilot-hash-decoding/",
-    "published_at": "2025-01-27T14:00:29.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "https://github.com/okieselbach/ScoopExtras",
-    "person_handle": "oliver-kieselbach",
-    "type": "github-releases",
-    "title": "ScoopExtras",
-    "description": "📦 The Extras bucket for Scoop.",
-    "link": "https://github.com/okieselbach/ScoopExtras",
-    "published_at": "2025-01-24T18:32:06.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/okieselbach/winget-pkgs",
-    "person_handle": "oliver-kieselbach",
-    "type": "github-releases",
-    "title": "winget-pkgs",
-    "description": "The Microsoft community Windows Package Manager manifest repository",
-    "link": "https://github.com/okieselbach/winget-pkgs",
-    "published_at": "2025-01-21T10:30:31.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/okieselbach/SyncMLViewer",
-    "person_handle": "oliver-kieselbach",
-    "type": "github-releases",
-    "title": "SyncMLViewer v1.4.0",
-    "description": "- added Autopilot Hardware Hash decode function (thanks to Michael Niehaus!) - added NodeCache Lookup - added Hex Viewer - added more AutoComplete samples - added GridSplitter for SyncML Requests Window - added count of total received bytes (tooltip on capturing icon) - added…",
-    "link": "https://github.com/okieselbach/SyncMLViewer/releases/tag/v1.4.0",
-    "published_at": "2025-01-21T10:04:38.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "http://oofhours.com/?p=6350",
@@ -3296,19 +2935,7 @@
     "description": "",
     "link": "https://github.com/byteben/Win32App-Migration-Tool",
     "published_at": "2025-01-08T19:46:05.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/mardahl/Mardahl",
-    "person_handle": "michael-mardahl",
-    "type": "github-releases",
-    "title": "Mardahl",
-    "description": "",
-    "link": "https://github.com/mardahl/Mardahl",
-    "published_at": "2024-12-31T12:24:20.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "http://oofhours.com/?p=6342",
@@ -3582,19 +3209,7 @@
     "description": "Demo content from MMS Flamingo 2024",
     "link": "https://github.com/AdamGrossTX/MMSFLL2024DemoContent",
     "published_at": "2024-10-23T14:06:28.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/zaskem/basic-graph-rest-powershell",
-    "person_handle": "matt-zaske",
-    "type": "github-releases",
-    "title": "basic-graph-rest-powershell",
-    "description": "A basic REST powershell module to interact with the Graph API.",
-    "link": "https://github.com/zaskem/basic-graph-rest-powershell",
-    "published_at": "2024-10-23T14:00:30.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/AdamGrossTX/MGGraphHelperFunctions",
@@ -3604,8 +3219,7 @@
     "description": "A collection of helper functions to interact with the Microsoft Graph API using the Microsoft.Graph module.",
     "link": "https://github.com/AdamGrossTX/MGGraphHelperFunctions",
     "published_at": "2024-10-19T04:05:20.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "http://oofhours.com/?p=6148",
@@ -3791,19 +3405,7 @@
     "description": "Enable Public Contributions",
     "link": "https://github.com/AdamGrossTX/memdocs",
     "published_at": "2024-07-15T21:32:20.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://skotheimsvik.no/?p=2678",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "Intune Hack To Open A URL At Windows Login",
-    "description": "Opening a specific URL at Windows login can ensure that users see important announcements, resources, or company intranet pages as soon as they log into their devices. Join me in exploring alternatives to find the best… The post Intune Hack To Open A URL At Windows Login first…",
-    "link": "https://skotheimsvik.no/intune-hack-to-open-a-url-at-windows-login?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=intune-hack-to-open-a-url-at-windows-login",
-    "published_at": "2024-07-15T07:37:34.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/DeploymentResearch/HydrationKitWS2022",
@@ -3813,30 +3415,7 @@
     "description": "",
     "link": "https://github.com/DeploymentResearch/HydrationKitWS2022",
     "published_at": "2024-07-12T14:28:18.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/okieselbach/Intune",
-    "person_handle": "oliver-kieselbach",
-    "type": "github-releases",
-    "title": "Intune",
-    "description": "Intune Scripts and Helpers.",
-    "link": "https://github.com/okieselbach/Intune",
-    "published_at": "2024-07-05T09:17:48.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/schenardie/EndpointAnalyticsRemediationScripts",
-    "person_handle": "jose-schenardie",
-    "type": "github-releases",
-    "title": "EndpointAnalyticsRemediationScripts",
-    "description": "",
-    "link": "https://github.com/schenardie/EndpointAnalyticsRemediationScripts",
-    "published_at": "2024-07-05T00:58:03.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/byteben/Leeds2024",
@@ -3846,19 +3425,7 @@
     "description": "",
     "link": "https://github.com/byteben/Leeds2024",
     "published_at": "2024-06-28T15:49:34.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://skotheimsvik.no/?p=2652",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "Automatic Calendar Availability – 2024 Efficiency Boost",
-    "description": "Seamlessly scheduling meetings and collaborating effectively is paramount in today’s fast-paced work environment. Over the years, I’ve seen firsthand the transformative impact of automating calendar-sharing settings on organizational efficiency. This experience has reinforced my…",
-    "link": "https://skotheimsvik.no/automatic-calendar-availability-2024-efficiency-boost?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=automatic-calendar-availability-2024-efficiency-boost",
-    "published_at": "2024-06-19T17:14:17.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "yt:video:huApux9aDoo",
@@ -3912,8 +3479,7 @@
     "description": "Solution to manage kiosk user accounts and configure autologon",
     "link": "https://github.com/AdamGrossTX/ManagedUserManagement",
     "published_at": "2024-05-20T00:32:25.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/DeploymentResearch/HydrationKitWS2019",
@@ -3923,85 +3489,7 @@
     "description": "",
     "link": "https://github.com/DeploymentResearch/HydrationKitWS2019",
     "published_at": "2024-05-17T02:23:27.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/zaskem/mms-moa-2024-github-demo",
-    "person_handle": "matt-zaske",
-    "type": "github-releases",
-    "title": "mms-moa-2024-github-demo",
-    "description": "",
-    "link": "https://github.com/zaskem/mms-moa-2024-github-demo",
-    "published_at": "2024-05-09T14:04:54.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://skotheimsvik.no/?p=2518",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "Intune Script Recovery Shortcut – Skip Graph Permissions!",
-    "description": "Intune’s platform and remediation scripts offer admins a powerful toolset to overcome limitations and effortlessly enhance Intune’s capabilities. But what if you need to recover a forgotten script? Follow me as I delve into the Intune… The post Intune Script Recovery Shortcut –…",
-    "link": "https://skotheimsvik.no/intune-script-recovery-shortcut-skip-graph-permissions?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=intune-script-recovery-shortcut-skip-graph-permissions",
-    "published_at": "2024-05-08T03:59:49.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "https://github.com/JordanTheITGuy/MMS2024Demos",
-    "person_handle": "jordan-benzing",
-    "type": "github-releases",
-    "title": "MMS2024Demos",
-    "description": "Demo code for MMS 2024",
-    "link": "https://github.com/JordanTheITGuy/MMS2024Demos",
-    "published_at": "2024-05-07T16:53:59.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://skotheimsvik.no/?p=2439",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "Easy Universal Print For macOS On A5",
-    "description": "A year ago, I wrote a blog post about leveraging Microsoft Universal Print to overcome obstacles on your journey to the cloud. Since then, the universal print service has evolved, accommodating even the printing needs of… The post Easy Universal Print For macOS On A5 first…",
-    "link": "https://skotheimsvik.no/easy-universal-print-for-macos-on-a5?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=easy-universal-print-for-macos-on-a5",
-    "published_at": "2024-04-30T22:41:39.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "https://skotheimsvik.no/?p=2404",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "Intune Suite’s Cloud PKI & Unifi Authentication Made Simple",
-    "description": "If you’ve been navigating the world of 802.1x network authentication using Intune and third-party tools, get ready for a game-changer. With the introduction of the Intune Suite featuring Cloud PKI, the path to secure network connectivity… The post Intune Suite’s Cloud PKI &…",
-    "link": "https://skotheimsvik.no/intune-suites-cloud-pki-unifi-authentication-made-simple?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=intune-suites-cloud-pki-unifi-authentication-made-simple",
-    "published_at": "2024-04-26T14:28:56.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "https://github.com/schenardie/memdocs",
-    "person_handle": "jose-schenardie",
-    "type": "github-releases",
-    "title": "memdocs",
-    "description": "Enable Public Contributions",
-    "link": "https://github.com/schenardie/memdocs",
-    "published_at": "2024-04-22T17:02:46.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://skotheimsvik.no/?p=2384",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "Intune Double Click Mystery: Feature or Bug Unveiled?",
-    "description": "Once upon a time, I easily navigated device compliance issues from the device blade in Intune. But somewhere along the line, that function vanished into thin air. Today, by sheer chance, I stumbled upon how to… The post Intune Double Click Mystery: Feature or Bug Unveiled? first…",
-    "link": "https://skotheimsvik.no/intune-double-click-mystery-feature-or-bug-unveiled?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=intune-double-click-mystery-feature-or-bug-unveiled",
-    "published_at": "2024-04-18T14:12:07.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "yt:video:8CORpmLd1H0",
@@ -4209,19 +3697,7 @@
     "description": "",
     "link": "https://github.com/gwblok/Gather-Script-For-ConfigMgr-TS",
     "published_at": "2024-02-29T03:59:08.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "http://oliverkieselbach.com/?p=6654",
-    "person_handle": "oliver-kieselbach",
-    "type": "blog",
-    "title": "Enhancing usability of SyncML Viewer",
-    "description": "As promised in my last post about WiFi and certificate-based authentication, I spent some time creating a new SyncML Viewer version v1.3.0. This time I would say I focused on the usability of the tool. I added a lot of features since version 1.2.0. I’m going to demonstrate a few…",
-    "link": "https://oliverkieselbach.com/2024/02/23/enhancing-usability-of-syncml-viewer/",
-    "published_at": "2024-02-23T19:03:11.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/gwblok/PSD",
@@ -4231,30 +3707,7 @@
     "description": "PowerShell Deployment",
     "link": "https://github.com/gwblok/PSD",
     "published_at": "2024-02-22T18:10:57.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "http://oliverkieselbach.com/?p=6551",
-    "person_handle": "oliver-kieselbach",
-    "type": "blog",
-    "title": "How to configure certificate-based WiFi with Intune",
-    "description": "I think everyone agrees about the fact that most users are working with a laptop nowadays. This means a majority of their time they are using WiFi connections to do their work. So, in a cloud era where we don’t have many on-premises services anymore, the connectivity to get…",
-    "link": "https://oliverkieselbach.com/2024/02/21/how-to-configure-certificate-based-wifi-with-intune/",
-    "published_at": "2024-02-21T11:27:01.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "https://skotheimsvik.no/?p=2203",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "FIDO2 Magic: Using the Offpad with Microsoft 365",
-    "description": "Discover the Offpad: Your Keycard to Password-Free Cybersecurity! This blog post will dive into the revolutionary Offpad – a device that eliminates the need for passwords, two-factor authentication, face scans, or verification codes. Compatible with Microsoft… The post FIDO2…",
-    "link": "https://skotheimsvik.no/fido2-magic-using-the-offpad-with-microsoft-365?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fido2-magic-using-the-offpad-with-microsoft-365",
-    "published_at": "2024-02-19T23:17:46.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/AdamGrossTX/appledb",
@@ -4264,74 +3717,7 @@
     "description": "",
     "link": "https://github.com/AdamGrossTX/appledb",
     "published_at": "2024-02-19T20:16:18.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/JankeSkanke/EntraIDPIMElevation",
-    "person_handle": "jan-ketil-skanke",
-    "type": "github-releases",
-    "title": "EntraIDPIMElevation",
-    "description": "Repository for Invoke-EntraIDPimElevations script on PowerShell Gallery.",
-    "link": "https://github.com/JankeSkanke/EntraIDPIMElevation",
-    "published_at": "2024-02-19T15:32:03.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/mardahl/SilentCertBasedAzureVPN",
-    "person_handle": "michael-mardahl",
-    "type": "github-releases",
-    "title": "SilentCertBasedAzureVPN",
-    "description": "A scripted solution to silently deploy a certificated based authentication profile as Always On to the new user managed Azure VPN client",
-    "link": "https://github.com/mardahl/SilentCertBasedAzureVPN",
-    "published_at": "2024-02-12T18:53:32.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://skotheimsvik.no/?p=1997",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "Secure Oversharing: Elevate Email Security with Intune and DLP",
-    "description": "In the ever-evolving landscape of cybersecurity, protecting sensitive information is paramount. Microsoft has introduced a proactive feature in Outlook for Microsoft 365 that holds emails for Data Loss Prevention (DLP) scanning and alerts users with a… The post Secure…",
-    "link": "https://skotheimsvik.no/secure-oversharing-elevate-email-security-with-intune-and-dlp?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=secure-oversharing-elevate-email-security-with-intune-and-dlp",
-    "published_at": "2024-02-09T07:24:15.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "https://tcsmug.org/blogs/sherry-kissinger/584-entraid-msgraph-powershell-set-or-query-device-extensionattributes",
-    "person_handle": "sherry-kissinger",
-    "type": "blog",
-    "title": "EntraID MSGraph Powershell Set or Query Device extensionAttributes",
-    "description": "I was recently tasked with using the EntraID SDK (think get-mgDevice and update-MgDevice) to query, clear, or update any one of the 15 extensionAttributes which are available for Azure / EntraID devices. Devices. Not users. There were lots of examples out there on setting…",
-    "link": "https://tcsmug.org/blogs/sherry-kissinger/584-entraid-msgraph-powershell-set-or-query-device-extensionattributes",
-    "published_at": "2024-02-09T02:21:50.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "http://oliverkieselbach.com/?p=6403",
-    "person_handle": "oliver-kieselbach",
-    "type": "blog",
-    "title": "MDM Local Management using SyncML Viewer",
-    "description": "A month ago, I published a new version of the SyncML Viewer to support MMP-C. With this release I came to the idea of integrating some SyncML requests functionality. Sending local SyncML requests to the Windows OS and letting it process the OMA DM commands and get results back.…",
-    "link": "https://oliverkieselbach.com/2024/02/05/mdm-local-management-using-syncml-viewer/",
-    "published_at": "2024-02-05T12:39:24.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "https://iphase.dk/posts/identity/2-for-1-admin-mail-enable-unlicensed-admin-accounts/",
-    "person_handle": "michael-mardahl",
-    "type": "blog",
-    "title": "2 for 1 - Mail Enable Unlicensed Admin Accounts - 2024 Edition",
-    "description": "How to save on Exchange Online licensing for admin accounts by using plus addressing or distribution list redirection to receive admin mail without purchasing additional licenses.",
-    "link": "https://iphase.dk/posts/identity/2-for-1-admin-mail-enable-unlicensed-admin-accounts/",
-    "published_at": "2024-02-02T00:00:00.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "yt:video:GFfiPz3B638",
@@ -4352,52 +3738,7 @@
     "description": "Documentation for the Microsoft Graph REST API",
     "link": "https://github.com/AdamGrossTX/microsoft-graph-docs-contrib",
     "published_at": "2024-01-29T21:54:43.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/schenardie/schenardie",
-    "person_handle": "jose-schenardie",
-    "type": "github-releases",
-    "title": "schenardie",
-    "description": "",
-    "link": "https://github.com/schenardie/schenardie",
-    "published_at": "2024-01-17T22:46:48.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://skotheimsvik.no/?p=2116",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "I Have Been Copiloted – What Happened?",
-    "description": "I Have Been Copiloted – What Happened? Microsoft launched Copilot Pro this week, bringing AI-powered features to our known Office applications like Word, Excel, PowerPoint, Teams, and Outlook. I have got my license assigned through CloudWay.… The post I Have Been Copiloted –…",
-    "link": "https://skotheimsvik.no/i-have-been-copiloted-what-happened?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=i-have-been-copiloted-what-happened",
-    "published_at": "2024-01-17T15:09:49.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "https://skotheimsvik.no/?p=2026",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "Intune Chronicles: The Automation Secrets of Seamless Group Tags",
-    "description": "Unlock seamless Autopilot management with Intune group tag automation. Effortlessly sort, integrate, and assign profiles for efficient device management! Table Of Contents The Background Moving from legacy device management to cloud-based management in Microsoft Intune using……",
-    "link": "https://skotheimsvik.no/intune-chronicles-the-automation-secrets-of-seamless-group-tags?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=intune-chronicles-the-automation-secrets-of-seamless-group-tags",
-    "published_at": "2024-01-16T15:22:09.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
-  },
-  {
-    "id": "https://github.com/SimonSkotheimsvik/memdocs",
-    "person_handle": "simon-skotheimsvik",
-    "type": "github-releases",
-    "title": "memdocs",
-    "description": "Enable Public Contributions",
-    "link": "https://github.com/SimonSkotheimsvik/memdocs",
-    "published_at": "2024-01-12T20:46:08.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/AdamGrossTX/OfficeDocs-SkypeForBusiness",
@@ -4462,19 +3803,7 @@
     "description": "",
     "link": "https://github.com/byteben/M365",
     "published_at": "2024-01-05T08:40:32.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://skotheimsvik.no/?p=1980",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "Boost Your Copilot: Prepare Your Devices Now With Intune Mastery",
-    "description": "Microsoft Copilot introduces a seamless collaborative experience within popular Microsoft applications like Teams, Word, PowerPoint, Teams, Excel, and Outlook. To ensure your organization’s devices are ready for Copilot, follow this post to prepare your devices now… The post…",
-    "link": "https://skotheimsvik.no/boost-your-copilot-prepare-your-devices-now-with-intune-mastery?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=boost-your-copilot-prepare-your-devices-now-with-intune-mastery",
-    "published_at": "2023-12-14T18:25:51.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "yt:video:dBOYNaBA64M",
@@ -4572,8 +3901,7 @@
     "description": "12 Lessons, Get Started Building with Generative AI 🔗 https://microsoft.github.io/generative-ai-for-beginners/",
     "link": "https://github.com/mmelkersen/generative-ai-for-beginners",
     "published_at": "2023-11-28T12:50:00.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "yt:video:JDSVRFgGT9o",
@@ -4658,10 +3986,9 @@
     "type": "github-releases",
     "title": "MMSMiami",
     "description": "",
-    "link": "https://github.com/JankeSkanke/MMSMiami",
-    "published_at": "2023-10-30T17:29:58.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "link": "https://github.com/gwblok/driverpacks",
+    "published_at": "2023-05-25T01:16:21.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/zaskem/mms-miami-2023-ghpages-demo",
@@ -4680,10 +4007,9 @@
     "type": "github-releases",
     "title": "TMOrlando2023",
     "description": "",
-    "link": "https://github.com/JankeSkanke/TMOrlando2023",
-    "published_at": "2023-10-25T09:48:33.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "link": "https://github.com/gwblok/SureRecover",
+    "published_at": "2022-12-21T18:14:35.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/SimonSkotheimsvik/EndpointAnalyticsRemediationScripts",
@@ -4697,15 +4023,14 @@
     "source": "GitHub"
   },
   {
-    "id": "https://skotheimsvik.no/?p=1889",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "Unlock the Copilot Advantage: Supercharge Your Entra ID User Data",
-    "description": "In today’s bustling digital landscape, keeping your Entra ID (Azure AD) user data in shipshape is more vital than ever. Think of it as tidying up your digital space – a bit of housekeeping to ensure… The post Unlock the Copilot Advantage: Supercharge Your Entra ID User Data…",
-    "link": "https://skotheimsvik.no/unlock-the-copilot-advantage-supercharge-your-entra-id-user-data?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=unlock-the-copilot-advantage-supercharge-your-entra-id-user-data",
-    "published_at": "2023-10-22T22:08:26.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
+    "id": "https://github.com/gwblok/FU.WhyAmIBlocked",
+    "person_handle": "gary-blok",
+    "type": "github-releases",
+    "title": "FU.WhyAmIBlocked",
+    "description": "",
+    "link": "https://github.com/gwblok/FU.WhyAmIBlocked",
+    "published_at": "2022-09-28T13:23:22.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/AdamGrossTX/ConfigMgr.AdminService",
@@ -4719,26 +4044,24 @@
     "source": "GitHub"
   },
   {
-    "id": "yt:video:fR42uROrgsY",
-    "person_handle": "adam-gross",
-    "type": "youtube",
-    "title": "2023E08 - Android Provisioning (I.T)",
-    "description": "Visit our websites and social media for more or to get in touch with us Steve Hosking - Microsoft MMD Team https://www.twitter.com/OnPremCloudGuy https://github.com/onpremcloudguy Adam Gross - Microsoft MVP - Enterprise Mobility https://www.twitter.com/AdamGrossTX…",
-    "link": "https://www.youtube.com/watch?v=fR42uROrgsY",
-    "published_at": "2023-10-17T17:53:34.000Z",
-    "fetched_at": "2026-05-10T13:27:42.338Z",
-    "source": null
+    "id": "https://github.com/mmelkersen/memdocs",
+    "person_handle": "mattias-melkersen",
+    "type": "github-releases",
+    "title": "memdocs",
+    "description": "Enable Public Contributions",
+    "link": "https://github.com/mmelkersen/memdocs",
+    "published_at": "2022-09-20T13:05:47.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/GenerAhl/windows-powershell-docs",
     "person_handle": "anders-ahl",
     "type": "github-releases",
-    "title": "windows-powershell-docs",
-    "description": "This repo is used to contribute to Windows 10, Windows Server 2016, and MDOP PowerShell module documentation.",
-    "link": "https://github.com/GenerAhl/windows-powershell-docs",
-    "published_at": "2023-10-04T07:12:23.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "title": "OSDCloud",
+    "description": "",
+    "link": "https://github.com/mmelkersen/OSDCloud",
+    "published_at": "2022-08-26T10:40:07.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/AdamGrossTX/AzureVirtualDesktopTF",
@@ -4752,15 +4075,14 @@
     "source": "GitHub"
   },
   {
-    "id": "https://skotheimsvik.no/?p=1862",
-    "person_handle": "simon-skotheimsvik",
-    "type": "blog",
-    "title": "Autopilot Nightmare: How a Simple Mistake Turned My PC into a Digital Captive!",
-    "description": "Learn from my mistake when a trial turned into captivity! Uncover the twist that left my PC trapped in the digital chains of Microsoft Autopilot. 💻🔐 Don’t let this happen to you! About a year ago,… The post Autopilot Nightmare: How a Simple Mistake Turned My PC into a Digital…",
-    "link": "https://skotheimsvik.no/autopilot-nightmare-how-a-simple-mistake-turned-my-pc-into-a-digital-captive?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=autopilot-nightmare-how-a-simple-mistake-turned-my-pc-into-a-digital-captive",
-    "published_at": "2023-09-26T14:05:58.000Z",
-    "fetched_at": "2026-05-10T14:29:55.951Z",
-    "source": null
+    "id": "https://github.com/byteben/Windows-11",
+    "person_handle": "ben-whitmore",
+    "type": "github-releases",
+    "title": "Windows-11",
+    "description": "",
+    "link": "https://github.com/byteben/Windows-11",
+    "published_at": "2022-08-02T13:15:07.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/AdamGrossTX/azure-docs",
@@ -4821,12 +4143,11 @@
     "id": "https://github.com/mardahl/azure-docs",
     "person_handle": "michael-mardahl",
     "type": "github-releases",
-    "title": "azure-docs",
-    "description": "Open source documentation of Microsoft Azure",
-    "link": "https://github.com/mardahl/azure-docs",
-    "published_at": "2023-08-23T10:26:57.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "title": "microsoft-365-docs",
+    "description": "This repo is used to host the source for the Microsoft 365 documentation on https://docs.microsoft.com.",
+    "link": "https://github.com/mmelkersen/microsoft-365-docs",
+    "published_at": "2022-05-09T19:41:56.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://skotheimsvik.no/?p=1778",
@@ -4865,34 +4186,31 @@
     "id": "https://github.com/zaskem/blueskybot-holidayprogress",
     "person_handle": "matt-zaske",
     "type": "github-releases",
-    "title": "blueskybot-holidayprogress",
-    "description": "A novelty bot in PHP to post the \"progress\" toward (and announcement of) the next holiday/event on a Google calendar.",
-    "link": "https://github.com/zaskem/blueskybot-holidayprogress",
-    "published_at": "2023-07-09T23:36:19.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "title": "MEMSummit2022",
+    "description": "",
+    "link": "https://github.com/mmelkersen/MEMSummit2022",
+    "published_at": "2022-03-24T10:18:56.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/zaskem/twitterbot-holidayprogress",
     "person_handle": "matt-zaske",
     "type": "github-releases",
-    "title": "twitterbot-holidayprogress",
-    "description": "A novelty bot in PHP to tweet the \"progess\" toward and announcement of the next holiday/event.",
-    "link": "https://github.com/zaskem/twitterbot-holidayprogress",
-    "published_at": "2023-07-04T21:47:19.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "title": "windows-itpro-docs",
+    "description": "This is used for contributions to the Windows 10 content for IT professionals on docs.microsoft.com.",
+    "link": "https://github.com/mmelkersen/windows-itpro-docs",
+    "published_at": "2022-03-08T14:49:23.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/zaskem/twitterbot-dadjokes",
     "person_handle": "matt-zaske",
     "type": "github-releases",
-    "title": "twitterbot-dadjokes",
-    "description": "A novelty bot written in PHP to respond to @-mention \"dad joke\" requests.",
-    "link": "https://github.com/zaskem/twitterbot-dadjokes",
-    "published_at": "2023-07-04T21:47:11.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "title": "HPIA-Repository-Downloader",
+    "description": "The script is designed to create and maintain HP Image Assistant offline repositories with a GUI interface, and to update the repository with scripted runtime options",
+    "link": "https://github.com/gwblok/HPIA-Repository-Downloader",
+    "published_at": "2022-02-25T16:18:46.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://github.com/zaskem/twitterbot-mmsbot",
@@ -4986,12 +4304,41 @@
     "id": "https://github.com/Ccmexec/Presentations",
     "person_handle": "jorgen-nilsson",
     "type": "github-releases",
-    "title": "Presentations",
-    "description": "",
-    "link": "https://github.com/Ccmexec/Presentations",
-    "published_at": "2023-05-25T09:09:56.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "title": "Windows",
+    "description": "Various scripts for automating stuff on Windows",
+    "link": "https://github.com/mmelkersen/Windows",
+    "published_at": "2021-04-20T14:28:44.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
+  },
+  {
+    "id": "https://byteben.com/bb/?p=3324",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "Automatically Migrate Applications from ConfigMgr to Intune with the Win32App Migration Tool",
+    "description": "The Win32App Migration Tool is a free community tool that has been developed to do the scoping and heavy lifting for you as you consider building Win32apps in Intune while using your ConfigMgr apps as a reference. The tool is designed to inventory ConfigMgr Applications and…",
+    "link": "https://byteben.com/bb/automatically-migrate-applications-from-configmgr-to-intune-with-the-win32app-migration-tool/",
+    "published_at": "2021-03-27T08:07:12.000Z",
+    "fetched_at": "2026-05-10T13:20:13.899Z"
+  },
+  {
+    "id": "https://byteben.com/bb/?p=3312",
+    "person_handle": "ben-whitmore",
+    "type": "blog",
+    "title": "User-Driven Home Drive Migrations to OneDrive using MEMCM",
+    "description": "This script wont necessarily fit your environment, it may do with tweaking, but my hope is that it will give you an idea of how you can approach different challenges using the different tools in you arsenal. TL;DR The script can be found here…",
+    "link": "https://byteben.com/bb/user-driven-home-drive-migrations-to-onedrive-using-memcm/",
+    "published_at": "2021-03-01T09:36:23.000Z",
+    "fetched_at": "2026-05-10T13:20:13.899Z"
+  },
+  {
+    "id": "https://github.com/byteben/OneDrive",
+    "person_handle": "ben-whitmore",
+    "type": "github-releases",
+    "title": "OneDrive",
+    "description": "PowerShell Scripts for OneDrive Discovery and remediation in WIndows 10 / SCCM",
+    "link": "https://github.com/byteben/OneDrive",
+    "published_at": "2021-03-01T09:27:51.000Z",
+    "fetched_at": "2026-05-10T13:27:42.338Z"
   },
   {
     "id": "https://github.com/gwblok/driverpacks",
@@ -4999,10 +4346,9 @@
     "type": "github-releases",
     "title": "driverpacks",
     "description": "",
-    "link": "https://github.com/gwblok/driverpacks",
-    "published_at": "2023-05-25T01:16:21.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
+    "link": "https://github.com/gwblok/TechNetRecovered",
+    "published_at": "2021-02-24T06:02:10.000Z",
+    "fetched_at": "2026-05-10T14:54:08.462Z"
   },
   {
     "id": "https://skotheimsvik.no/?p=1536",
