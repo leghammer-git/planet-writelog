@@ -3,7 +3,7 @@
   "$id": "https://planet-writelog/people/schema.json",
   "title": "Person",
   "type": "object",
-  "required": ["name", "handle", "title", "bio", "feeds"],
+  "required": ["name", "handle", "mvp", "title", "bio", "feeds"],
   "additionalProperties": false,
   "properties": {
     "name": { "type": "string", "minLength": 1 },
@@ -21,10 +21,13 @@
       "additionalProperties": false,
       "properties": {
         "website": { "type": "string", "format": "uri" },
-        "github": { "type": "string" },
         "bluesky": { "type": "string" },
+        "facebook": { "type": "string" },
+        "github": { "type": "string" },
+        "linkedin": { "type": "string" },
         "mastodon": { "type": "string" },
-        "linkedin": { "type": "string" }
+        "twitter": { "type": "string" },
+        "youtube": { "type": "string" }
       }
     },
     "feeds": {

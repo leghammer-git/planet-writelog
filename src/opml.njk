@@ -5,11 +5,11 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="2.0">
   <head>
-    <title>Planet WriteLog — Community Feeds</title>
+    <title>Planet Write-Log — Community Feeds</title>
     <dateCreated>{{ "" | dateISO }}</dateCreated>
   </head>
   <body>
-    <outline text="Planet WriteLog" title="Planet WriteLog">
+    <outline text="Planet Write-Log" title="Planet Write-Log">
       {% for person in people %}
         {% for feed in person.feeds %}
           {% if feed.type == "blog" %}

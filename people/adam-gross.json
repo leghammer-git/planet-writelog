@@ -14,6 +14,7 @@
     "youtube": "@IntuneTraining"
   },
   "feeds": [
-    { "type": "blog", "url": "https://www.asquaredozen.com/index.xml" }
+    { "type": "blog", "url": "https://www.asquaredozen.com/index.xml" },
+    { "type": "github-releases", "url": "https://github.com/AdamGrossTX?tab=repositories" }
   ]
 }
