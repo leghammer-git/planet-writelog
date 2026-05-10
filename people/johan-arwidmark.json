@@ -4,7 +4,7 @@
   "avatar": "https://images.mvp.microsoft.com/1784d172-3c9a-e411-93f2-9cb65495d3c4",
   "mvp": { "status": "active", "category": "Enterprise Mobility" },
   "title": "Consultant",
-  "bio": "",
+  "bio": "required",
   "links": {
     "website": "https://www.deploymentresearch.com/",
     "facebook": "DeploymentResearch",
