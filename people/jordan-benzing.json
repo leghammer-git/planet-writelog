@@ -1,0 +1,17 @@
+{
+  "name": "Jordan Benzing",
+  "handle": "jordan-benzing",
+  "title": "Senior Consultant",
+  "bio": "ConfigMgr and endpoint management specialist, infrastructure consultant at TrueSec.",
+  "links": {
+    "website": "https://jordantheitguy.com",
+    "github": "JordanTheITGuy",
+    "twitter": "JordanTheITguy",
+    "linkedin": "jordan-benzing-432b0619"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://jordantheitguy.com/feed/" },
+    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Jordan Benzing" },
+    { "type": "github-user", "username": "JordanTheITGuy" }
+  ]
+}

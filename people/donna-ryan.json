@@ -1,0 +1,18 @@
+{
+  "name": "Donna Ryan",
+  "handle": "donna-ryan",
+  "title": "Principal Consulting Engineer",
+  "bio": "ConfigMgr, Intune, and Azure Virtual Desktop specialist, creator of the WIM Witch image servicing tool.",
+  "links": {
+    "website": "http://www.thenotoriousdrr.com",
+    "bluesky": "thenotoriousdrr.bsky.social",
+    "github": "thenotoriousdrr",
+    "twitter": "TheNotoriousDRR",
+    "linkedin": "donna-ryan-wim-witch"
+  },
+  "feeds": [
+    { "type": "blog", "url": "http://www.thenotoriousdrr.com/feed/" },
+    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Donna Ryan" },
+    { "type": "github-user", "username": "thenotoriousdrr" }
+  ]
+}

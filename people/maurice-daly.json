@@ -1,0 +1,16 @@
+{
+  "name": "Maurice Daly",
+  "handle": "maurice-daly",
+  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "title": "Senior Security Architect",
+  "bio": "Enterprise Mobility MVP at Patch My PC, known for the Driver Automation Tool and ConfigMgr/Intune contributions.",
+  "links": {
+    "github": "maurice-daly",
+    "twitter": "modaly_it",
+    "linkedin": "mauricedaly"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Maurice Daly" },
+    { "type": "github-user", "username": "maurice-daly" }
+  ]
+}

@@ -285,9 +285,17 @@ ul,ol { padding-left: 1.5rem; }
 .item-card__badge--github-releases { color: var(--badge-release); background: var(--badge-release-bg); }
 .item-card__badge--youtube         { color: var(--badge-youtube); background: var(--badge-youtube-bg); }
 
-.item-card__person { font-size: .82rem; color: var(--color-text-muted); }
-.item-card__person a { color: inherit; }
-.item-card__person a:hover { color: var(--color-accent); text-decoration: none; }
+.item-card__person { font-size: .82rem; color: var(--color-text-muted); display: inline-flex; align-items: center; gap: .35rem; }
+.item-card__person a {
+  color: var(--color-text);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: .15rem .45rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.item-card__person a:hover { color: var(--color-accent); border-color: var(--color-accent); text-decoration: none; }
 .item-card__date {
   margin-left: auto;
   font-size: .78rem;

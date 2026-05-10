@@ -1,0 +1,14 @@
+{
+  "name": "Joe Loveless",
+  "handle": "joe-loveless",
+  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "title": "IT Professional",
+  "bio": "ConfigMgr and endpoint management community contributor.",
+  "links": {
+    "website": "https://joeloveless.com",
+    "github": "Pacers31Colts18"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://joeloveless.com/feed" }
+  ]
+}

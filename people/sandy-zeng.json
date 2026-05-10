@@ -1,0 +1,18 @@
+{
+  "name": "Sandy Zeng",
+  "handle": "sandy-zeng",
+  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "title": "Senior Cloud Architect",
+  "bio": "Enterprise Mobility MVP since 2018, specializing in Intune, ConfigMgr, Microsoft Graph, and endpoint automation.",
+  "links": {
+    "website": "https://sandyzeng.com",
+    "github": "sandytsang",
+    "twitter": "sandy_tsang",
+    "linkedin": "sandy-tsang"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://sandyzeng.com/feed/" },
+    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Sandy Zeng" },
+    { "type": "github-user", "username": "sandytsang" }
+  ]
+}

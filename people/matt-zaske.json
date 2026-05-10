@@ -1,0 +1,16 @@
+{
+  "name": "Matt Zaske",
+  "handle": "matt-zaske",
+  "title": "IT Professional",
+  "bio": "ConfigMgr and endpoint management community contributor.",
+  "links": {
+    "website": "https://mattzaskeonline.info",
+    "github": "zaskem",
+    "youtube": "@zaskem"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://mattzaskeonline.info/feed" },
+    { "type": "github-user", "username": "zaskem" },
+    { "type": "youtube", "channel": "@zaskem" }
+  ]
+}

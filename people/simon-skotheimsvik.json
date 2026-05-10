@@ -1,0 +1,18 @@
+{
+  "name": "Simon Skotheimsvik",
+  "handle": "simon-skotheimsvik",
+  "mvp": { "status": "active", "category": "Security" },
+  "title": "Senior Cloud Consultant",
+  "bio": "Microsoft Security MVP at CloudWay, specializing in Microsoft 365, Intune, Entra ID, and endpoint security.",
+  "links": {
+    "website": "https://skotheimsvik.no",
+    "github": "simonskotheimsvik",
+    "twitter": "sskotheimsvik",
+    "linkedin": "simonskotheimsvik"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://skotheimsvik.no/feed/" },
+    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Simon Skotheimsvik" },
+    { "type": "github-user", "username": "SimonSkotheimsvik" }
+  ]
+}
