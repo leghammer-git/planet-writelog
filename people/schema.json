@@ -36,7 +36,12 @@
         "linkedin": { "type": "string" },
         "mastodon": { "type": "string" },
         "twitter": { "type": "string" },
-        "youtube": { "type": "string" }
+        "youtube": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+          ]
+        }
       }
     },
     "feeds": {
@@ -68,12 +73,17 @@
           },
           {
             "type": "object",
-            "required": ["type", "channel_id"],
+            "required": ["type"],
             "additionalProperties": false,
             "properties": {
               "type": { "const": "youtube" },
-              "channel_id": { "type": "string", "pattern": "^UC[A-Za-z0-9_-]+$" }
-            }
+              "channel_id": { "type": "string", "pattern": "^UC[A-Za-z0-9_-]+$" },
+              "channel": { "type": "string", "pattern": "^@[\\w-]+$" }
+            },
+            "oneOf": [
+              { "required": ["channel_id"] },
+              { "required": ["channel"] }
+            ]
           },
           {
             "type": "object",

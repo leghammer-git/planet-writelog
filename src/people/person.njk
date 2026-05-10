@@ -53,7 +53,13 @@ eleventyComputed:
           <li><a href="https://x.com/{{ person.links.twitter }}" rel="noopener noreferrer" target="_blank">Twitter</a></li>
         {% endif %}
         {% if person.links.youtube %}
-          <li><a href="https://youtube.com/{{ person.links.youtube }}" rel="noopener noreferrer" target="_blank">Youtube</a></li>
+          {% if person.links.youtube is string %}
+            <li><a href="https://youtube.com/{{ person.links.youtube }}" rel="noopener noreferrer" target="_blank">YouTube</a></li>
+          {% else %}
+            {% for channel in person.links.youtube %}
+              <li><a href="https://youtube.com/{{ channel }}" rel="noopener noreferrer" target="_blank">YouTube ({{ channel }})</a></li>
+            {% endfor %}
+          {% endif %}
         {% endif %}
       </ul>
     </div>

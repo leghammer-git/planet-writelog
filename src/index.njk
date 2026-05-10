@@ -15,11 +15,13 @@ title: Feed
       <button class="pill" data-value="youtube">Videos</button>
     </div>
     <div class="filter-group" data-filter-group="person">
-      <span class="filter-label">Person</span>
-      <button class="pill pill--active" data-value="all">All</button>
-      {% for person in people %}
-        <button class="pill" data-value="{{ person.handle }}">{{ person.name }}</button>
-      {% endfor %}
+      <label class="filter-label" for="person-select">Person</label>
+      <select class="filter-select" id="person-select" data-filter-select="person">
+        <option value="all">Everyone</option>
+        {% for person in people %}
+          <option value="{{ person.handle }}">{{ person.name }}</option>
+        {% endfor %}
+      </select>
     </div>
   </div>
 </section>

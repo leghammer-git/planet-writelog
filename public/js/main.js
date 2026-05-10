@@ -54,9 +54,16 @@
         group.querySelectorAll(".pill").forEach((p) => p.classList.remove("pill--active"));
         pill.classList.add("pill--active");
         if (groupName === "type") activeType = pill.dataset.value;
-        if (groupName === "person") activePerson = pill.dataset.value;
         applyFilters();
       });
+    });
+  });
+
+  document.querySelectorAll("[data-filter-select]").forEach((select) => {
+    select.addEventListener("change", () => {
+      const groupName = select.dataset.filterSelect;
+      if (groupName === "person") activePerson = select.value;
+      applyFilters();
     });
   });
 })();

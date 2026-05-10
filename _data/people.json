@@ -25,6 +25,11 @@
       {
         "type": "github-user",
         "username": "AdamGrossTX"
+      },
+      {
+        "type": "youtube",
+        "channel": "@IntuneTraining",
+        "channel_id": "UCfmMlhX5TW8cicxHw6ExYVA"
       }
     ]
   },

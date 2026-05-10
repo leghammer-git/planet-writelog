@@ -15,6 +15,7 @@
   },
   "feeds": [
     { "type": "blog", "url": "https://www.asquaredozen.com/index.xml" },
-    { "type": "github-user", "username": "AdamGrossTX" }
+    { "type": "github-user", "username": "AdamGrossTX" },
+    { "type": "youtube", "channel": "@IntuneTraining" }
   ]
 }
