@@ -46,6 +46,7 @@ All fields except `name`, `handle`, `title`, `bio`, and at least one feed are op
 |---|---|
 | `blog` | Any RSS 2.0 or Atom feed URL |
 | `github-releases` | GitHub releases Atom feed for `owner/repo` |
+| `github-user` | All releases across a GitHub user's public repos (uses GitHub API; set `GITHUB_TOKEN` env var to avoid rate limits) |
 | `youtube` | YouTube channel feed for `channel_id` (starts with `UC`) |
 
 ---

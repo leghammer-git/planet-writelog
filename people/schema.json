@@ -3,7 +3,7 @@
   "$id": "https://planet-writelog/people/schema.json",
   "title": "Person",
   "type": "object",
-  "required": ["name", "handle", "mvp", "title", "bio", "feeds"],
+  "required": ["name", "handle", "title", "bio", "feeds"],
   "additionalProperties": false,
   "properties": {
     "name": { "type": "string", "minLength": 1 },
@@ -14,6 +14,15 @@
     },
     "pronouns": { "type": "string" },
     "title": { "type": "string", "minLength": 1 },
+    "mvp": {
+      "type": "object",
+      "required": ["status", "category"],
+      "additionalProperties": false,
+      "properties": {
+        "status":   { "type": "string", "enum": ["active", "former"] },
+        "category": { "type": "string", "minLength": 1 }
+      }
+    },
     "bio": { "type": "string", "minLength": 1, "maxLength": 300 },
     "avatar": { "type": "string", "format": "uri" },
     "links": {
@@ -63,6 +72,18 @@
             "properties": {
               "type": { "const": "youtube" },
               "channel_id": { "type": "string", "pattern": "^UC[A-Za-z0-9_-]+$" }
+            }
+          },
+          {
+            "type": "object",
+            "required": ["type", "username"],
+            "additionalProperties": false,
+            "properties": {
+              "type": { "const": "github-user" },
+              "username": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?$"
+              }
             }
           }
         ]

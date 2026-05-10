@@ -9,7 +9,14 @@
       loading="lazy"
     >
     <div class="person-card__body">
-      <h2 class="person-card__name">{{ person.name }}</h2>
+      <div class="person-card__name-row">
+        <h2 class="person-card__name">{{ person.name }}</h2>
+        {% if person.mvp %}
+          <span class="mvp-badge mvp-badge--{{ person.mvp.status }}" title="Microsoft MVP · {{ person.mvp.category }}{% if person.mvp.status == 'former' %} (Former){% endif %}">
+            <svg class="mvp-badge__icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1 2 3.5v4c0 3.5 2.5 6.3 6 7.5 3.5-1.2 6-4 6-7.5v-4Z"/></svg>MVP
+          </span>
+        {% endif %}
+      </div>
       <p class="person-card__title">{{ person.title }}</p>
       {% if person.pronouns %}
         <span class="person-card__pronouns">{{ person.pronouns }}</span>

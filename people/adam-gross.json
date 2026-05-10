@@ -2,8 +2,8 @@
   "name": "Adam Gross",
   "handle": "adam-gross",
   "avatar": "https://images.mvp.microsoft.com/55313777-20fa-e911-a998-000d3a137a43?638562484892725476",
-  "mvp": "Microsoft Enterprise Mobility",
-  "title": "Microsoft MVP · Modern Workplace",
+  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "title": "Consultant",
   "bio": "Endpoint automation, PowerShell scripting, and Intune device management.",
   "links": {
     "website": "http://www.asquaredozen.com",
@@ -15,6 +15,6 @@
   },
   "feeds": [
     { "type": "blog", "url": "https://www.asquaredozen.com/index.xml" },
-    { "type": "github-releases", "url": "https://github.com/AdamGrossTX?tab=repositories" }
+    { "type": "github-user", "username": "AdamGrossTX" }
   ]
 }

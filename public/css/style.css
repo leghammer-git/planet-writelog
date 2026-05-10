@@ -335,6 +335,59 @@ ul,ol { padding-left: 1.5rem; }
   margin-top: .2rem;
 }
 
+/* ── MVP badge ────────────────────────────────────────────────────────── */
+.person-card__name-row {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  flex-wrap: wrap;
+  margin-bottom: .15rem;
+}
+.person-card__name-row .person-card__name { margin: 0; }
+
+.mvp-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .25rem;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  padding: .2rem .45rem;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+.mvp-badge--active {
+  color: #1a56db;
+  background: #ebf5ff;
+}
+.mvp-badge--former {
+  color: var(--color-text-muted);
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+}
+.mvp-badge--full {
+  font-size: .78rem;
+  padding: .25rem .65rem;
+  margin-bottom: .5rem;
+}
+.mvp-badge__icon {
+  width: .85em;
+  height: .85em;
+  flex-shrink: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .mvp-badge--active {
+    color: #76a9fa;
+    background: #1e3a5f;
+  }
+}
+[data-theme="dark"] .mvp-badge--active {
+  color: #76a9fa;
+  background: #1e3a5f;
+}
+
 /* ── Profile page ─────────────────────────────────────────────────────── */
 .profile { margin-bottom: 3rem; }
 .profile__header {

@@ -183,6 +183,51 @@ const feedTypes = {
       });
     },
   },
+
+  "github-user": {
+    async fetchAll(feedDef, handle) {
+      const { username } = feedDef;
+      const headers = {
+        Accept: "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": "planet-writelog-aggregator",
+      };
+      if (process.env.GITHUB_TOKEN) headers["Authorization"] = `Bearer ${process.env.GITHUB_TOKEN}`;
+
+      const reposRes = await fetchWithRetry(
+        `https://api.github.com/users/${username}/repos?sort=pushed&per_page=30&type=public`,
+        { headers }
+      );
+      if (!reposRes.ok) throw new Error(`GitHub API ${reposRes.status} for user ${username}`);
+      const repos = await reposRes.json();
+
+      const innerLimit = pLimit(5);
+      const nested = await Promise.all(
+        repos.map((repo) =>
+          innerLimit(async () => {
+            const relRes = await fetchWithRetry(
+              `https://api.github.com/repos/${username}/${repo.name}/releases?per_page=5`,
+              { headers }
+            );
+            if (!relRes.ok) return [];
+            const releases = await relRes.json();
+            return releases
+              .filter((r) => !r.draft)
+              .map((r) => ({
+                id: r.html_url,
+                person_handle: handle,
+                type: "github-releases",
+                title: `${repo.name} ${r.tag_name}`,
+                description: cleanDesc(r.body || ""),
+                link: r.html_url,
+                published_at: toISO(r.published_at || r.created_at),
+              }));
+          })
+        )
+      );
+      return nested.flat();
+    },
+  },
 };
 
 // ── per-feed fetch + parse ────────────────────────────────────────────────────
@@ -191,29 +236,37 @@ async function processFeed(db, person, feedDef) {
   const handler = feedTypes[feedDef.type];
   if (!handler) throw new Error(`Unknown feed type: ${feedDef.type}`);
 
-  const url = handler.url(feedDef);
-  const row = db.prepare("SELECT etag, last_modified FROM feeds WHERE url = ?").get(url);
-
-  const headers = {};
-  if (row?.etag) headers["If-None-Match"] = row.etag;
-  if (row?.last_modified) headers["If-Modified-Since"] = row.last_modified;
-
-  const res = await fetchWithRetry(url, { headers });
-
-  if (res.status === 304) return { url, newCount: 0, skipped: true };
-
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-
-  const xml = await res.text();
-  const parsed = handler.parse(xml, person.handle);
-
   const now = new Date().toISOString();
-  const upsertFeed = db.prepare(`
-    INSERT INTO feeds (url, etag, last_modified, fetched_at)
-    VALUES (?, ?, ?, ?)
-    ON CONFLICT(url) DO UPDATE SET etag=excluded.etag, last_modified=excluded.last_modified, fetched_at=excluded.fetched_at
-  `);
-  upsertFeed.run(url, res.headers.get("etag") || null, res.headers.get("last-modified") || null, now);
+  let parsed;
+  let url;
+
+  if (handler.fetchAll) {
+    url = `github-user:${feedDef.username}`;
+    parsed = await handler.fetchAll(feedDef, person.handle);
+  } else {
+    url = handler.url(feedDef);
+    const row = db.prepare("SELECT etag, last_modified FROM feeds WHERE url = ?").get(url);
+
+    const headers = {};
+    if (row?.etag) headers["If-None-Match"] = row.etag;
+    if (row?.last_modified) headers["If-Modified-Since"] = row.last_modified;
+
+    const res = await fetchWithRetry(url, { headers });
+
+    if (res.status === 304) return { url, newCount: 0, skipped: true };
+
+    if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+
+    const xml = await res.text();
+    parsed = handler.parse(xml, person.handle);
+
+    const upsertFeed = db.prepare(`
+      INSERT INTO feeds (url, etag, last_modified, fetched_at)
+      VALUES (?, ?, ?, ?)
+      ON CONFLICT(url) DO UPDATE SET etag=excluded.etag, last_modified=excluded.last_modified, fetched_at=excluded.fetched_at
+    `);
+    upsertFeed.run(url, res.headers.get("etag") || null, res.headers.get("last-modified") || null, now);
+  }
 
   const insertItem = db.prepare(`
     INSERT OR IGNORE INTO items (id, person_handle, type, title, description, link, published_at, fetched_at)

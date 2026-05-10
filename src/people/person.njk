@@ -20,6 +20,11 @@ eleventyComputed:
     <div class="profile__meta">
       <h1 class="profile__name">{{ person.name }}</h1>
       <p class="profile__title">{{ person.title }}</p>
+      {% if person.mvp %}
+        <span class="mvp-badge mvp-badge--{{ person.mvp.status }} mvp-badge--full">
+          <svg class="mvp-badge__icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1 2 3.5v4c0 3.5 2.5 6.3 6 7.5 3.5-1.2 6-4 6-7.5v-4Z"/></svg>Microsoft MVP · {{ person.mvp.category }}{% if person.mvp.status == 'former' %} · Former{% endif %}
+        </span>
+      {% endif %}
       {% if person.pronouns %}
         <span class="profile__pronouns">{{ person.pronouns }}</span>
       {% endif %}
