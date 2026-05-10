@@ -56,5 +56,137 @@
         "username": "DeploymentResearch"
       }
     ]
+  },
+  {
+    "name": "Gary Blok",
+    "handle": "gary-blok",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Consultant",
+    "bio": "ConfigMgr, Intune, OSD, and Windows packaging specialist.",
+    "links": {
+      "website": "https://garytown.com",
+      "github": "gwblok",
+      "twitter": "gwblok"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://garytown.com/feed"
+      },
+      {
+        "type": "github-user",
+        "username": "gwblok"
+      }
+    ]
+  },
+  {
+    "name": "Michael Niehaus",
+    "handle": "michael-niehaus",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Consultant",
+    "bio": "Windows Autopilot, Intune, and modern device provisioning expert.",
+    "links": {
+      "website": "https://oofhours.com",
+      "github": "mniehaus",
+      "twitter": "mniehaus"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://oofhours.com/feed"
+      },
+      {
+        "type": "github-user",
+        "username": "mniehaus"
+      }
+    ]
+  },
+  {
+    "name": "Ben Whitmore",
+    "handle": "ben-whitmore",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Consultant",
+    "bio": "Configuration Manager, Intune, and Windows deployment specialist.",
+    "links": {
+      "website": "https://byteben.com",
+      "github": "byteben",
+      "twitter": "byteben"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://byteben.com/feed"
+      },
+      {
+        "type": "github-user",
+        "username": "byteben"
+      }
+    ]
+  },
+  {
+    "name": "Niall Brady",
+    "handle": "niall-brady",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Consultant",
+    "bio": "ConfigMgr, Windows deployment, and endpoint management.",
+    "links": {
+      "website": "https://www.windowsnoob.com",
+      "twitter": "niallbrady"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://www.windowsnoob.com/feed"
+      }
+    ]
+  },
+  {
+    "name": "Peter van der Woude",
+    "handle": "peter-van-der-woude",
+    "mvp": {
+      "status": "active",
+      "category": "Enterprise Mobility"
+    },
+    "title": "Consultant",
+    "bio": "Microsoft Intune and ConfigMgr specialist.",
+    "links": {
+      "website": "https://www.petervanderwoude.nl",
+      "twitter": "pvanderwoude"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://www.petervanderwoude.nl/feed"
+      }
+    ]
+  },
+  {
+    "name": "David Segura",
+    "handle": "david-segura",
+    "title": "Consultant",
+    "bio": "OSDCloud creator and Windows imaging and deployment expert.",
+    "links": {
+      "website": "https://osdcloud.com",
+      "github": "OSDeploy",
+      "twitter": "SeguraOSD"
+    },
+    "feeds": [
+      {
+        "type": "github-user",
+        "username": "OSDeploy"
+      }
+    ]
   }
 ]

@@ -1,0 +1,16 @@
+{
+  "name": "Ben Whitmore",
+  "handle": "ben-whitmore",
+  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "title": "Consultant",
+  "bio": "Configuration Manager, Intune, and Windows deployment specialist.",
+  "links": {
+    "website": "https://byteben.com",
+    "github": "byteben",
+    "twitter": "byteben"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://byteben.com/feed" },
+    { "type": "github-user", "username": "byteben" }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Niall Brady",
+  "handle": "niall-brady",
+  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "title": "Consultant",
+  "bio": "ConfigMgr, Windows deployment, and endpoint management.",
+  "links": {
+    "website": "https://www.windowsnoob.com",
+    "twitter": "niallbrady"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://www.windowsnoob.com/feed" }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Michael Niehaus",
+  "handle": "michael-niehaus",
+  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "title": "Consultant",
+  "bio": "Windows Autopilot, Intune, and modern device provisioning expert.",
+  "links": {
+    "website": "https://oofhours.com",
+    "github": "mniehaus",
+    "twitter": "mniehaus"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://oofhours.com/feed" },
+    { "type": "github-user", "username": "mniehaus" }
+  ]
+}

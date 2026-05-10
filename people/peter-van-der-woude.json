@@ -1,0 +1,14 @@
+{
+  "name": "Peter van der Woude",
+  "handle": "peter-van-der-woude",
+  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "title": "Consultant",
+  "bio": "Microsoft Intune and ConfigMgr specialist.",
+  "links": {
+    "website": "https://www.petervanderwoude.nl",
+    "twitter": "pvanderwoude"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://www.petervanderwoude.nl/feed" }
+  ]
+}

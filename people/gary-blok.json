@@ -1,0 +1,16 @@
+{
+  "name": "Gary Blok",
+  "handle": "gary-blok",
+  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "title": "Consultant",
+  "bio": "ConfigMgr, Intune, OSD, and Windows packaging specialist.",
+  "links": {
+    "website": "https://garytown.com",
+    "github": "gwblok",
+    "twitter": "gwblok"
+  },
+  "feeds": [
+    { "type": "blog", "url": "https://garytown.com/feed" },
+    { "type": "github-user", "username": "gwblok" }
+  ]
+}

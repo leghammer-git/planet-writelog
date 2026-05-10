@@ -1,0 +1,14 @@
+{
+  "name": "David Segura",
+  "handle": "david-segura",
+  "title": "Consultant",
+  "bio": "OSDCloud creator and Windows imaging and deployment expert.",
+  "links": {
+    "website": "https://osdcloud.com",
+    "github": "OSDeploy",
+    "twitter": "SeguraOSD"
+  },
+  "feeds": [
+    { "type": "github-user", "username": "OSDeploy" }
+  ]
+}
