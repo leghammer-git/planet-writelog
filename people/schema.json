@@ -23,7 +23,7 @@
         "category": { "type": "string", "minLength": 1 }
       }
     },
-    "bio": { "type": "string", "minLength": 1, "maxLength": 300 },
+    "bio": { "type": "string", "minLength": 0, "maxLength": 300 },
     "avatar": { "type": "string", "format": "uri" },
     "links": {
       "type": "object",
