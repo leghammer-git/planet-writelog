@@ -1,66 +1,23 @@
 [
   {
-    "name": "Derek Patchfield",
-    "handle": "derek-patchfield",
-    "pronouns": "he/him",
-    "title": "MMS Presenter · ConfigMgr Specialist",
-    "bio": "Configuration Manager admin turned PowerShell junkie. Speaker at MMS and other community events. Maintains several open-source CM tools.",
-    "links": {
-      "website": "https://derekpatchfield.example.com",
-      "github": "derekpatchfield",
-      "mastodon": "@derek@infosec.exchange"
-    },
-    "feeds": [
-      {
-        "type": "blog",
-        "url": "https://derekpatchfield.example.com/rss.xml"
-      },
-      {
-        "type": "github-releases",
-        "repo": "derekpatchfield/cm-health-check"
-      }
-    ]
-  },
-  {
-    "name": "Mara Cloudson",
-    "handle": "mara-cloudson",
-    "pronouns": "she/her",
-    "title": "Microsoft Endpoint Management MVP",
-    "bio": "Intune architect and automation enthusiast. 10 years deploying Windows at scale; now writing about it so you don't have to re-invent the wheel.",
-    "links": {
-      "website": "https://maracloudson.example.com",
-      "github": "maracloudson",
-      "bluesky": "mara.bsky.social"
-    },
-    "feeds": [
-      {
-        "type": "blog",
-        "url": "https://maracloudson.example.com/feed.xml"
-      },
-      {
-        "type": "github-releases",
-        "repo": "maracloudson/intune-toolkit"
-      },
-      {
-        "type": "youtube",
-        "channel_id": "UCabc123ExampleChannelAA"
-      }
-    ]
-  },
-  {
-    "name": "Sofia Enrollez",
-    "handle": "sofia-enrollez",
+    "name": "Adam Gross",
+    "handle": "adam-gross",
+    "avatar": "https://images.mvp.microsoft.com/55313777-20fa-e911-a998-000d3a137a43?638562484892725476",
+    "mvp": "Microsoft Enterprise Mobility",
     "title": "Microsoft MVP · Modern Workplace",
-    "bio": "Helping organizations move to cloud-managed endpoints. Writes about Autopilot, Entra ID, and the chaos in between.",
+    "bio": "Endpoint automation, PowerShell scripting, and Intune device management.",
     "links": {
-      "website": "https://sofiaenrollez.example.com",
-      "github": "sofiaenrollez",
-      "linkedin": "sofiaenrollez"
+      "website": "http://www.asquaredozen.com",
+      "facebook": "grossac",
+      "github": "AdamGrossTX",
+      "linkedin": "asquaredozen",
+      "twitter": "AdamGrossTX",
+      "youtube": "@IntuneTraining"
     },
     "feeds": [
       {
         "type": "blog",
-        "url": "https://sofiaenrollez.example.com/feed/"
+        "url": "https://www.asquaredozen.com/index.xml"
       }
     ]
   }
