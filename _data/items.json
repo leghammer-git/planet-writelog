@@ -1,5 +1,205 @@
 [
   {
+    "id": "https://www.deploymentresearch.com/?p=7472",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Creating UEFI 2023 Compliant WinPE ISO Files",
+    "description": "If you've been keeping WinPE up to date with the Windows UEFI CA 2023 trust chain, you already know the basics: download the latest ADK, slipstream the cumulative update into WinPE, copy the _EX boot files from the patched WIM into the ISO, and run oscdimg. Microsoft's…",
+    "link": "https://www.deploymentresearch.com/creating-uefi-2023-compliant-winpe-iso-files/",
+    "published_at": "2026-05-06T20:30:40.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7463",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Extending Hardware Inventory for Secure Boot Data in ConfigMgr (SCCM)",
+    "description": "A few weeks ago, during our Secure Boot 2026 community course, we received several questions about community solutions for using ConfigMgr to inventory and track progress of UEFI 2023 certificate installations. At the time, I wasn’t aware of any, but this week during Office…",
+    "link": "https://www.deploymentresearch.com/extending-hardware-inventory-for-secure-boot-data-in-configmgr-sccm/",
+    "published_at": "2026-04-27T15:00:17.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7449",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Parsing Intune Remediation JSON Output",
+    "description": "Recently we've been discussing Secure Boot Certificate updates a lot. There have been many new tools to help us as administrators report on the status of those updates across our fleets and one of the popular tools has been a remediation script released by Microsoft found here:…",
+    "link": "https://www.deploymentresearch.com/parsing-intune-remediation-json-output/",
+    "published_at": "2026-04-23T01:56:57.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7414",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "To Use or Not to Use MDT",
+    "description": "Windows deployment isn’t going anywhere, no matter how often Microsoft talks about a cloud-only future. Out in the real world, imaging, task sequences, and controlled builds are still critical for many organizations. MDT hasn’t been developed since 2019, aside from a BIOS…",
+    "link": "https://www.deploymentresearch.com/to-use-or-not-to-use-mdt/",
+    "published_at": "2026-03-20T23:15:22.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7383",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Speeding up File Copy in a Computer Lab",
+    "description": "In our labs, we often need to copy large files to multiple lab machines. These days, we have 10 GBE network cards on all file servers, but it wasn't long ago that we had only a 1 Gbps connection between the file server and the switch that connected the clients. To minimize the…",
+    "link": "https://www.deploymentresearch.com/speeding-up-file-or-folder-copy-in-a-computer-lab/",
+    "published_at": "2026-02-26T14:17:31.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7363",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Quick Tip &#8211; Enable vTPM on Hyper-V VMs",
+    "description": "Here is a quick PowerShell script to enable vTPM on one or more VMs in Hyper-V. Here is a quick PowerShell script to enable vTPM on one or more VMs in Hyper-V. The post Quick Tip &#8211; Enable vTPM on Hyper-V VMs appeared first on Deployment Research .",
+    "link": "https://www.deploymentresearch.com/quick-tip-enable-vtpm-on-hyper-v-vms/",
+    "published_at": "2026-01-25T22:13:17.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7356",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Quick Tip &#8211; Migrate Windows 11 VMs with TPM Enabled to New Hyper-V Host",
+    "description": "If you ever need to migrate a few Windows 11 VMs, with TPM (vTPM) activated, from one Hyper-V host to another, this is how. Export Certificates and VMs on the Old Hyper-V Host In addition to exporting the VMs, you also need to export the two certificates that are created when…",
+    "link": "https://www.deploymentresearch.com/quick-tip-migrate-windows-11-vms-with-tpm-enabled-to-new-hyper-v-host/",
+    "published_at": "2026-01-24T05:13:56.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7298",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Windows 11 Deployment &#8211; Using MDT 8456 with Windows ADK 26H1 (Build 28000)",
+    "description": "Since Microsoft doesn't officially support Windows 11 Deployments with MDT, nor support any Windows ADK version newer than Windows ADK for Windows 10, version 1809 (build 17763), it's up to the OSD community to make it work. On the good side, with millions of MDT downloads…",
+    "link": "https://www.deploymentresearch.com/windows-11-deployment-using-mdt-8456-with-windows-adk-26h1-build-28000/",
+    "published_at": "2025-12-29T04:32:07.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7258",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Preventing Windows Updates During OSD with ConfigMgr",
+    "description": "A question came in from the community that hits a very real pain point in ConfigMgr OSD:“Why is Windows Update suddenly running during my Task Sequence?” If you’ve spent any time building Task Sequences, you’ve likely seen this in action. You carefully design the flow to deploy…",
+    "link": "https://www.deploymentresearch.com/preventing-windows-updates-during-osd-with-configmgr/",
+    "published_at": "2025-11-25T14:27:49.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7177",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Using ConfigMgr (SCCM) to Refresh a Lab or Classroom",
+    "description": "I’m a geek who lives for automation. My happy place is a classroom full of PCs that just work—fresh images, clean profiles, the right drivers—so students can focus on learning instead of login drama. This post is about using the ConfigMgr Computer Refresh scenario to reset…",
+    "link": "https://www.deploymentresearch.com/using-configmgr-sccm-to-refresh-a-lab-or-classroom/",
+    "published_at": "2025-09-30T02:02:58.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7129",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Back to Basics &#8211; Using an AutoUnattend.xml file to Automate Windows 11 Setup from Media",
+    "description": "Occasionally, I receive questions on how to use an AutoUnattend.xml file to automate the Windows 11 Setup. Here is a blog post on how to do just that, and as a bonus, I added instructions on how to stage PowerShell scripts and a Provisioning Package as part of the process. For…",
+    "link": "https://www.deploymentresearch.com/back-to-basics-using-an-autounattend-xml-file-to-automate-windows-11-setup-from-media/",
+    "published_at": "2025-08-18T05:31:38.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7116",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Updating Windows ADK for Windows 11 24H2 (December 2024)",
+    "description": "Starting with Windows ADK 10.1.26100.2454 (December 2024), Microsoft now publishes ADK patches for both feature updates and bug fixes. Rather than a full uninstall/install, you can simply apply a patch file to your existing setup and keep it updated. When updates are issued,…",
+    "link": "https://www.deploymentresearch.com/updating-windows-adk-for-windows-11-24h2-december-2024/",
+    "published_at": "2025-08-17T02:21:12.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7069",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Setup Guide &#8211; Microsoft Connected Cache for Enterprise and Education (GA)",
+    "description": "On July 23, 2025, Microsoft announced the general availability (GA) of the standalone Microsoft Connected Cache&#160;solution, which features a slightly different setup compared to the preview release. Here is a guide on getting it going. The GA version is still free to use. You…",
+    "link": "https://www.deploymentresearch.com/setup-guide-microsoft-connected-cache-for-enterprise-and-education-ga/",
+    "published_at": "2025-07-24T05:47:33.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=7050",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Back to Basics &#8211; Enable AutoLogon for a Lab via Registry",
+    "description": "In a lab environment, it's quite useful to have different users logged on automatically to speed up automation and testing. In a ConfigMgr (SCCM) environment, this can be configured during OSD, or afterwards via Run Scripts or a Configuration Baseline. Note: This is intended for…",
+    "link": "https://www.deploymentresearch.com/back-to-basics-enable-autologon-for-a-lab-via-registry/",
+    "published_at": "2025-07-21T03:16:59.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=6997",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Intune Feature Update Policies Plan B &#8211; Inside the Windows Update Assistant",
+    "description": "The Windows Update Assistant is a Microsoft utility that installs feature updates on your machines. For example, upgrading Windows 10 22H2 to Windows 11 24H2. While it's primarily designed for individual ad-hoc upgrades, I've seen a few organizations running this as an…",
+    "link": "https://www.deploymentresearch.com/intune-feature-update-policies-plan-b-inside-the-windows-update-assistant/",
+    "published_at": "2025-06-25T18:45:40.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=6987",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "A Pretty Good Copy OSD Logs Script for ConfigMgr (SCCM)",
+    "description": "Here is a Pretty Good Copy OSD Logs Script for ConfigMgr (SCCM) and instructions on how to add it. The script will generate a Zip archive of OSD-related logs and upload it to a file share. Credits: Authenticate and ZipFiles functions from Johan Schrewelius (@josch62). The Script…",
+    "link": "https://www.deploymentresearch.com/a-pretty-good-copy-osd-logs-script-for-configmgr-sccm/",
+    "published_at": "2025-05-29T04:30:09.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=6983",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Hydration Kit for Windows Server 2025, SQL Server 2022 and ConfigMgr Current Branch",
+    "description": "We're happy to announce the Hydration Kit for Windows Server 2025, SQL Server 2022 and ConfigMgr Current Branch has been released! This kit builds a complete ConfigMgr Current Branch 2403 infrastructure running on Windows Server 2025 and SQL Server 2022, including optional…",
+    "link": "https://www.deploymentresearch.com/hydration-kit-for-windows-server-2025-sql-server-2022-and-configmgr-current-branch/",
+    "published_at": "2025-04-22T03:41:26.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=6966",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Quick OSD Tip &#8211; Pause until GO",
+    "description": "Here is a PowerShell version of a VBScript trick I've been using to pause sequences without relying on the Task Sequence Debugger or the ServiceUI.exe component from MDT. The script searches for a GO.txt file in the root of the system drive (X: if you are in WinPE, or C: if you…",
+    "link": "https://www.deploymentresearch.com/quick-osd-tip-pause-until-go/",
+    "published_at": "2025-04-01T14:32:24.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=6948",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Creating a No-Prompt ConfigMgr Boot Image ISO",
+    "description": "Here are two PowerShell scripts that can be used to create a No-Prompt ConfigMgr Boot Image ISO. This is particularly useful when performing large-scale deployments of virtual machines, or for any automation related to VM deployments, such as our Image Factory solution for…",
+    "link": "https://www.deploymentresearch.com/creating-a-no-prompt-configmgr-boot-image-iso/",
+    "published_at": "2025-03-30T05:15:56.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
+    "id": "https://www.deploymentresearch.com/?p=6899",
+    "person_handle": "johan-arwidmark",
+    "type": "blog",
+    "title": "Building a Windows 11 24H2 Reference Image using ConfigMgr (SCCM)",
+    "description": "Since Windows Vista, creating reference images is no longer technically required, as Microsoft's ISO files already contain deployable WIM images. When needed, reference images are primarily used to expedite deployments and enhance network efficiency. However, with modern…",
+    "link": "https://www.deploymentresearch.com/building-a-windows-11-24h2-reference-image-using-configmgr-sccm/",
+    "published_at": "2025-03-30T03:08:22.000Z",
+    "fetched_at": "2026-05-10T02:38:37.327Z"
+  },
+  {
     "id": "https://www.asquaredozen.com/2021/12/12/remove-teams-for-home-from-windows-11/",
     "person_handle": "adam-gross",
     "type": "blog",
