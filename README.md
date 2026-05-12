@@ -1,3 +1,6 @@
+# Check out https://EndpointFeed.com
+I had my idea too late. Use this instead^^^^
+
 # Planet WriteLog
 
 A community aggregator for the [Microsoft Management Summit (MMS)](https://mmsmoa.com) community. Surfaces blog posts, GitHub releases, and YouTube videos from MVPs and presenters — linking out, never republishing.
