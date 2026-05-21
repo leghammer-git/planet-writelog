@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: aggregate
+  cancel-in-progress: false
+
 jobs:
   aggregate:
     runs-on: ubuntu-latest
@@ -36,7 +40,7 @@ jobs:
         run: |
           git config user.name  "planet-writelog[bot]"
           git config user.email "planet-writelog[bot]@users.noreply.github.com"
+          git pull --rebase origin master
           git add _data/items.json _data/people.json
           git diff --cached --quiet || git commit -m "chore: update feed data [skip ci]"
-          git pull --rebase origin master
           git push
