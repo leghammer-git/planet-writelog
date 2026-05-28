@@ -18,7 +18,7 @@
     "description": "IntuneAutomate - FREE Community Intune toolset designed for Automating key Intune tasks",
     "link": "https://github.com/Croxleyboy/IntuneAutomate",
     "published_at": "2026-05-28T09:45:05.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -154,17 +154,6 @@
     "source": "YouTube"
   },
   {
-    "id": "https://github.com/DeploymentResearch/DRFiles",
-    "person_handle": "johan-arwidmark",
-    "type": "github-releases",
-    "title": "DRFiles",
-    "description": "Sample files for the Deployment Research Blog",
-    "link": "https://github.com/DeploymentResearch/DRFiles",
-    "published_at": "2026-05-25T04:23:45.000Z",
-    "fetched_at": "2026-05-28T03:42:31.043Z",
-    "source": "GitHub"
-  },
-  {
     "id": "https://4sysops.com/?p=1611069",
     "person_handle": "4sysops",
     "type": "blog",
@@ -220,6 +209,17 @@
     "source": "YouTube"
   },
   {
+    "id": "https://github.com/andrew-s-taylor/WindowsAutopilotInfo",
+    "person_handle": "andrew-taylor",
+    "type": "github-releases",
+    "title": "WindowsAutopilotInfo",
+    "description": "",
+    "link": "https://github.com/andrew-s-taylor/WindowsAutopilotInfo",
+    "published_at": "2026-05-21T12:34:40.000Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
+    "source": "GitHub"
+  },
+  {
     "id": "https://4sysops.com/?p=1611297",
     "person_handle": "4sysops",
     "type": "blog",
@@ -271,7 +271,7 @@
     "description": "Windows Autopatch in the Intune admin center now includes an updated Secure Boot status report that provides device-level visibility into certificate readiness ahead of the 2026 expiry deadline. The report shows which devices have Secure Boot enabled, whether their certificates…",
     "link": "https://4sysops.com/archives/new-windows-autopatch-secure-boot-status-report-in-intune-admin-center/",
     "published_at": "2026-05-19T19:46:13.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "4sysops"
   },
   {
@@ -282,7 +282,7 @@
     "description": "The May 2026 cumulative update KB5089549 added a new C:\\Windows\\SecureBoot\\ExampleRolloutScripts folder containing seven PowerShell scripts. These scripts are part of Microsoft's sample toolkit for managing Secure Boot certificate migration across enterprise environments. This…",
     "link": "https://4sysops.com/archives/windows-11-secureboot-folder-powershell-scripts-explained/",
     "published_at": "2026-05-19T19:44:37.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "4sysops"
   },
   {
@@ -304,7 +304,7 @@
     "description": "",
     "link": "https://github.com/byteben/Windows-11",
     "published_at": "2026-05-19T16:24:45.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -326,7 +326,7 @@
     "description": "The Driver Automation Tool is back and better than ever in version 10. This marks 10 years of development, and some new additions, including Intune support. The post Driver Automation Tool – Upgraded appeared first on MSEndpointMgr .",
     "link": "https://msendpointmgr.com/2026/05/19/driver-automation-tool-upgraded/",
     "published_at": "2026-05-19T11:49:43.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "msendpointmgr.com"
   },
   {
@@ -403,7 +403,7 @@
     "description": "If you've patched a Windows 11 device with KB5089549 (the May 12, 2026 cumulative update) and looked in the root of C:\\Windows lately, you've probably noticed something new: a SecureBoot folder containing an ExampleRolloutScripts subfolder with seven PowerShell scripts inside.…",
     "link": "https://www.deploymentresearch.com/secure-boot-rollout-scripts-added-in-may-2026-security-update/",
     "published_at": "2026-05-19T05:58:43.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "deploymentresearch.com"
   },
   {
@@ -414,7 +414,7 @@
     "description": "Microsoft has made Platform Single Sign-On (PSSO) during Automated Device Enrollment (ADE) generally available for macOS. The new EnableRegistrationDuringSetup setting in Microsoft Intune completes device registration and SSO configuration automatically during Setup Assistant —…",
     "link": "https://4sysops.com/archives/automate-platform-sso-setup-during-macos-enrollment-with-microsoft-intune/",
     "published_at": "2026-05-18T19:11:43.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "4sysops"
   },
   {
@@ -425,7 +425,7 @@
     "description": "Microsoft Identity Manager (MIM) 2016 Service Pack 3 (SP3) became generally available on May 14, 2026, after an initial release in late March 2026 that Microsoft quietly withdrew without public explanation. SP3 is primarily a platform compatibility update: it adds support for…",
     "link": "https://4sysops.com/archives/microsoft-identity-manager-2016-sp3-sql-server-2022-azure-sql-and-ad-fs-sso/",
     "published_at": "2026-05-18T19:10:51.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "4sysops"
   },
   {
@@ -436,8 +436,19 @@
     "description": "This week is all about the new and enhanced app inventory for Windows devices. A lot has been written about that feature already, but it is such an important enhancement that it deserves it place on this blog as well. For many years the best thing for app inventory in Microsoft…",
     "link": "https://petervanderwoude.nl/post/introducing-enhanced-app-inventory-for-windows-devices/",
     "published_at": "2026-05-18T17:45:00.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "petervanderwoude.nl"
+  },
+  {
+    "id": "https://github.com/DeploymentResearch/DRFiles",
+    "person_handle": "johan-arwidmark",
+    "type": "github-releases",
+    "title": "DRFiles",
+    "description": "Sample files for the Deployment Research Blog",
+    "link": "https://github.com/DeploymentResearch/DRFiles",
+    "published_at": "2026-05-18T15:55:25.000Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
+    "source": "GitHub"
   },
   {
     "id": "https://msendpointmgr.com/?p=26465",
@@ -447,7 +458,7 @@
     "description": "Writing documentation for Intune and endpoint management environments often comes down to a practical constraint that is easy to underestimate. You need accurate, consistent visuals from mobile devices, and you need them in a format that can be reused across guides, training…",
     "link": "https://msendpointmgr.com/2026/05/18/1phonemirror-free-screen-mirroring-tool-for-intune-admin/",
     "published_at": "2026-05-18T13:11:08.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "msendpointmgr.com"
   },
   {
@@ -491,7 +502,7 @@
     "description": "What we learned in dealing with Intune profiles, and our way of dealing with security exceptions.",
     "link": "https://joeloveless.com/blog/how-to-deal-with-intune-profile-exceptions",
     "published_at": "2026-05-17T00:00:00.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "joeloveless.com"
   },
   {
@@ -513,7 +524,7 @@
     "description": "This blog will show you all the information you need to know about the new Intune Sync Debug Tool. Which can be downloaded here: call4cloud-code/Intune-Sync-Debug-Tool-V2: Intune Sync Debug Tool V2 […]",
     "link": "https://call4cloud.nl/intune-sync-debug-toolkit/",
     "published_at": "2026-05-15T16:27:27.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "call4cloud.nl"
   },
   {
@@ -524,7 +535,7 @@
     "description": "There is a quiet change going on when it comes to how Intune admins manage devices today, that being the surge of demand to support users on macOS. Over the past 18 months in particular lots of organisations have seen this shift towards supporting / enabling their users to use…",
     "link": "https://msendpointmgr.com/2026/05/15/macos-platfom-sso-registration-with-ade/",
     "published_at": "2026-05-15T15:40:27.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "msendpointmgr.com"
   },
   {
@@ -546,7 +557,7 @@
     "description": "Thank you to everyone who joined us in Naperville for the Intune event. We appreciate you spending the day with us, and hope you picked up a few things you can actually use in your environment. Below are the links and resources we covered during the event. Links…",
     "link": "https://www.deploymentresearch.com/follow-up-resources-from-the-may-14-2026-intune-event/",
     "published_at": "2026-05-15T14:47:47.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "deploymentresearch.com"
   },
   {
@@ -579,7 +590,7 @@
     "description": "Microsoft Desired State Configuration (DSC) v3.2.0 reached general availability on April 29, 2026. DSC is a tool that lets you describe how a Windows or Linux system should be configured — services running, firewall rules in place, features installed — and then automatically…",
     "link": "https://4sysops.com/archives/dsc-v3-2-0-new-windows-resources-version-pinning-and-bicep-integration/",
     "published_at": "2026-05-14T20:38:15.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "4sysops"
   },
   {
@@ -590,7 +601,7 @@
     "description": "Microsoft is simplifying how you access Copilot in Word, Excel, and PowerPoint by reducing the number of entry points to just two. A new floating icon sits in the bottom-right corner of the document canvas, and a contextual entry point appears when you interact with content.…",
     "link": "https://4sysops.com/archives/microsoft-365-copilot-new-entry-points-smart-suggestions-and-keyboard-shortcuts/",
     "published_at": "2026-05-14T20:37:59.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "4sysops"
   },
   {
@@ -601,7 +612,7 @@
     "description": "My Personal area to work on 2Pint Tech",
     "link": "https://github.com/gwblok/2PintLabs",
     "published_at": "2026-05-14T18:34:01.000Z",
-    "fetched_at": "2026-05-28T21:09:28.175Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "GitHub"
   },
   {
@@ -634,7 +645,7 @@
     "description": "Download IntuneWin files from Microsoft Intune with the rebuilt IntuneWin Downloader. This version makes it easier to find assigned Win32 apps and recover the original app content when the source files are no longer available. The post Download IntuneWin Files from Microsoft…",
     "link": "https://patchmypc.com/blog/download-intunewin-files-from-microsoft-intune/",
     "published_at": "2026-05-14T07:31:49.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "patchmypc.com"
   },
   {
@@ -645,7 +656,7 @@
     "description": "In the first version of the IntuneWin Downloader, the goal was simple: Download IntuneWin content from Intune and recover the original Win32 app source files when they were no longer […]",
     "link": "https://patchmypc.com/blog/download-intunewin-files-from-microsoft-intune/",
     "published_at": "2026-05-14T07:31:49.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "call4cloud.nl"
   },
   {
@@ -656,7 +667,7 @@
     "description": "Microsoft is introducing Cloud-Initiated Driver Recovery, a mechanism that automatically rolls back a faulty driver on your devices via Windows Update, without requiring any action from you or your hardware vendor. The feature is aimed at closing a gap where a bad driver could…",
     "link": "https://4sysops.com/archives/cloud-initiated-driver-recovery-automatic-windows-update-rollback/",
     "published_at": "2026-05-13T19:39:25.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "4sysops"
   },
   {
@@ -667,7 +678,7 @@
     "description": "Microsoft announced two significant updates: Agent 365 reached general availability as a management tool for AI agents in the Microsoft 365 admin center, and Copilot Cowork — a feature that runs multi-step tasks on your behalf in the background — gained mobile support, reusable…",
     "link": "https://4sysops.com/archives/agent-365-ga-and-copilot-cowork-new-m365-ai-agent-controls/",
     "published_at": "2026-05-13T19:38:59.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "4sysops"
   },
   {
@@ -678,7 +689,7 @@
     "description": "GaryTown Scripts, Downloads, Etc",
     "link": "https://github.com/gwblok/garytown",
     "published_at": "2026-05-13T18:45:15.000Z",
-    "fetched_at": "2026-05-28T21:09:28.175Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "GitHub"
   },
   {
@@ -700,7 +711,7 @@
     "description": "This release contains a fix as noted below. This will be made available via the self-update channel over the coming days. You can upgrade in place now by downloading the latest MSI installer. Fixes The post Patch My PC Publisher Production Version 2.2.2.0 Released appeared first…",
     "link": "https://patchmypc.com/release-notes/production-release/patch-my-pc-publisher-production-version-2-2-2-0-released/",
     "published_at": "2026-05-13T17:49:18.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "patchmypc.com"
   },
   {
@@ -733,7 +744,7 @@
     "description": "Maintenance Window Settings Catalog briefly showed up in the Intune In development documentation and was later pulled back. The Settings Catalog experience is no longer listed, but the Windows Update CSP still exposes the maintenance window policy settings. The post Maintenance…",
     "link": "https://patchmypc.com/blog/maintenance-window-settings-catalog-and-its-gone/",
     "published_at": "2026-05-13T06:26:50.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "patchmypc.com"
   },
   {
@@ -744,7 +755,7 @@
     "description": "A while ago, I wrote about something interesting that showed up in the Intune “In development” documentation. Microsoft mentioned new Maintenance Window settings for OS updates, drivers, and updates in […]",
     "link": "https://patchmypc.com/blog/maintenance-window-settings-catalog-and-its-gone/",
     "published_at": "2026-05-13T06:26:50.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "call4cloud.nl"
   },
   {
@@ -766,7 +777,7 @@
     "description": "Microsoft Discovery is a cloud-based enterprise platform that uses agentic AI — software that can plan and independently execute multi-step research tasks without constant human input — to accelerate research and development (R&D). Announced at Microsoft Build 2025 and now in…",
     "link": "https://4sysops.com/archives/what-is-microsoft-discovery/",
     "published_at": "2026-05-12T20:25:54.000Z",
-    "fetched_at": "2026-05-20T00:18:51.463Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "4sysops"
   },
   {
@@ -1107,7 +1118,7 @@
     "description": "Repository with remediation scripts",
     "link": "https://github.com/Ccmexec/Remediation-Scripts",
     "published_at": "2026-05-06T02:33:07.000Z",
-    "fetched_at": "2026-05-20T09:36:36.804Z",
+    "fetched_at": "2026-05-10T15:34:28.456Z",
     "source": "GitHub"
   },
   {
@@ -1230,6 +1241,17 @@
     "published_at": "2026-05-04T11:56:37.000Z",
     "fetched_at": "2026-05-28T22:13:51.405Z",
     "source": "YouTube"
+  },
+  {
+    "id": "https://github.com/ChanderManiPandey2022/Update-Win11_24H2-TO-Win11_25H2_Uising_Intune_Proactive_Remediations-",
+    "person_handle": "chander-mani-pandey",
+    "type": "github-releases",
+    "title": "Update-Win11_24H2-TO-Win11_25H2_Uising_Intune_Proactive_Remediations- v1.0",
+    "description": "",
+    "link": "https://github.com/ChanderManiPandey2022/Update-Win11_24H2-TO-Win11_25H2_Uising_Intune_Proactive_Remediations-/releases/tag/v1.0",
+    "published_at": "2026-05-04T11:51:35.000Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
+    "source": "GitHub"
   },
   {
     "id": "yt:video:q4P2rje-JiY",
@@ -1558,7 +1580,7 @@
     "description": "",
     "link": "https://github.com/gwblok/MMS",
     "published_at": "2026-04-27T15:44:48.000Z",
-    "fetched_at": "2026-05-28T21:09:28.175Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "GitHub"
   },
   {
@@ -1659,6 +1681,17 @@
     "published_at": "2026-04-24T12:16:01.000Z",
     "fetched_at": "2026-05-28T22:13:51.405Z",
     "source": "YouTube"
+  },
+  {
+    "id": "https://github.com/andrew-s-taylor/Presentations",
+    "person_handle": "andrew-taylor",
+    "type": "github-releases",
+    "title": "Presentations",
+    "description": "",
+    "link": "https://github.com/andrew-s-taylor/Presentations",
+    "published_at": "2026-04-24T11:16:41.000Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
+    "source": "GitHub"
   },
   {
     "id": "yt:video:3ob5Q7QTvVk",
@@ -1998,7 +2031,7 @@
     "description": "",
     "link": "https://github.com/byteben/MEM",
     "published_at": "2026-04-14T10:51:37.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -2156,6 +2189,17 @@
     "source": "YouTube"
   },
   {
+    "id": "https://github.com/ChanderManiPandey2022/Allow-oR-Block-Win32-Apps-to-install-During-Autopilot-ESP-",
+    "person_handle": "chander-mani-pandey",
+    "type": "github-releases",
+    "title": "Allow-oR-Block-Win32-Apps-to-install-During-Autopilot-ESP- v1.0",
+    "description": "",
+    "link": "https://github.com/ChanderManiPandey2022/Allow-oR-Block-Win32-Apps-to-install-During-Autopilot-ESP-/releases/tag/v1.0",
+    "published_at": "2026-04-08T19:04:52.000Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
+    "source": "GitHub"
+  },
+  {
     "id": "https://blog.mindcore.dk/?p=12227",
     "person_handle": "lars-lohmann-blem",
     "type": "blog",
@@ -2218,7 +2262,7 @@
     "description": "Intune Automation",
     "link": "https://github.com/Croxleyboy/IntuneScripts",
     "published_at": "2026-04-06T11:18:27.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -2636,7 +2680,7 @@
     "description": "Demo for course",
     "link": "https://github.com/DeploymentResearch/demo2",
     "published_at": "2026-03-09T16:12:59.000Z",
-    "fetched_at": "2026-05-28T03:42:31.043Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "GitHub"
   },
   {
@@ -2867,7 +2911,7 @@
     "description": "- Replaced sample XMLs - Improved txt file output logic for PMPC Custom App and Win32 apps",
     "link": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.3",
     "published_at": "2026-02-23T12:08:50.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -2966,7 +3010,7 @@
     "description": "### Fixed - **README**: Corrected all code samples to use actual parameter names (\\-Resources\\, \\-Baseline\\ hashtable, \\-ReferencePath\\/\\-DifferencePath\\, correct \\Compare-UTCMSnapshot\\ export parameters) - **README**: Removed non-existent \\-Mode\\ parameter from \\Connect-UTCM\\…",
     "link": "https://github.com/JankeSkanke/UTCM/releases/tag/v0.1.1",
     "published_at": "2026-02-18T13:12:19.000Z",
-    "fetched_at": "2026-05-26T22:20:34.897Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "GitHub"
   },
   {
@@ -3065,7 +3109,7 @@
     "description": "",
     "link": "https://github.com/DeploymentResearch/HydrationKitWS2025",
     "published_at": "2026-02-06T02:58:15.000Z",
-    "fetched_at": "2026-05-28T03:42:31.043Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "GitHub"
   },
   {
@@ -3329,7 +3373,7 @@
     "description": "",
     "link": "https://github.com/byteben/CheeseIpsum",
     "published_at": "2026-01-19T08:14:59.000Z",
-    "fetched_at": "2026-05-28T21:09:28.175Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -3637,7 +3681,7 @@
     "description": "Miryoku is an ergonomic, minimal, orthogonal, and universal keyboard layout. Miryoku QMK is the Miryoku implementation for QMK.",
     "link": "https://github.com/CodyMathis123/miryoku_qmk",
     "published_at": "2025-12-23T06:52:36.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -3648,7 +3692,7 @@
     "description": "",
     "link": "https://github.com/CodyMathis123/qmk_userspace/releases/tag/latest",
     "published_at": "2025-12-23T05:55:33.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -3725,7 +3769,7 @@
     "description": "Miryoku is an ergonomic, minimal, orthogonal, and universal keyboard layout. Miryoku ZMK is the Miryoku implementation for ZMK.",
     "link": "https://github.com/CodyMathis123/miryoku_zmk",
     "published_at": "2025-12-14T17:57:36.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -3780,7 +3824,7 @@
     "description": "Enable Public Contributions",
     "link": "https://github.com/gwblok/memdocs",
     "published_at": "2025-12-09T02:05:26.000Z",
-    "fetched_at": "2026-05-28T21:09:28.175Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "GitHub"
   },
   {
@@ -3791,7 +3835,7 @@
     "description": "Repo for the cornhollious keyboard.",
     "link": "https://github.com/CodyMathis123/zmk-config-cornholius",
     "published_at": "2025-12-08T13:52:11.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "GitHub"
   },
   {
@@ -3857,7 +3901,7 @@
     "description": "Access Microsoft Intune tenant metrics quickly on the go",
     "link": "https://github.com/Croxleyboy/IntuneAutomateMobile",
     "published_at": "2025-11-26T11:47:16.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -3989,7 +4033,7 @@
     "description": "Public release for IntuneHRFlow - Automated Power Automate flows for onboarding and offboarding users with Intune and Entra",
     "link": "https://github.com/Croxleyboy/IntuneHRAutomation",
     "published_at": "2025-11-10T14:40:02.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -4022,7 +4066,7 @@
     "description": "Speaker content from NIC2025",
     "link": "https://github.com/JankeSkanke/2025",
     "published_at": "2025-11-07T08:48:58.000Z",
-    "fetched_at": "2026-05-26T15:32:46.704Z",
+    "fetched_at": "2026-05-10T15:34:28.456Z",
     "source": "GitHub"
   },
   {
@@ -4044,7 +4088,7 @@
     "description": "",
     "link": "https://github.com/JankeSkanke/BugCheckCodes",
     "published_at": "2025-11-03T13:00:03.000Z",
-    "fetched_at": "2026-05-26T15:32:46.704Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "GitHub"
   },
   {
@@ -4198,7 +4242,7 @@
     "description": "A PowerShell module designed to rapidly hydrate a ConfigMgr lab on Hyper-V.",
     "link": "https://github.com/AdamGrossTX/CMHyperHydrate",
     "published_at": "2025-10-10T13:52:09.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -4572,7 +4616,7 @@
     "description": "PowerShell Module for managing the MEMCM client",
     "link": "https://github.com/CodyMathis123/PSCCMClient",
     "published_at": "2025-08-29T16:14:04.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-20T00:20:29.756Z",
     "source": "GitHub"
   },
   {
@@ -4693,7 +4737,7 @@
     "description": "Helpful tools to automate Intune tasks",
     "link": "https://github.com/Croxleyboy/IntuneAndPowerAutomate",
     "published_at": "2025-08-15T15:05:47.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -5056,7 +5100,7 @@
     "description": "Source code behind the Windows Subsystem for Linux documentation.",
     "link": "https://github.com/GenerAhl/WSL",
     "published_at": "2025-06-26T08:03:45.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -5111,7 +5155,7 @@
     "description": "Misc powershell scripts",
     "link": "https://github.com/AdamGrossTX/Toolbox",
     "published_at": "2025-06-13T15:42:39.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -5124,6 +5168,17 @@
     "published_at": "2025-06-12T00:00:00.000Z",
     "fetched_at": "2026-05-10T14:34:42.732Z",
     "source": null
+  },
+  {
+    "id": "https://github.com/andrew-s-taylor/public",
+    "person_handle": "andrew-taylor",
+    "type": "github-releases",
+    "title": "public DeBloat",
+    "description": "Zip version to retain the signature",
+    "link": "https://github.com/andrew-s-taylor/public/releases/tag/DeBloat",
+    "published_at": "2025-06-09T07:21:55.000Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
+    "source": "GitHub"
   },
   {
     "id": "yt:video:n36FKIRqc6k",
@@ -5254,7 +5309,7 @@
     "description": "A collection of scripts related to Software Updates",
     "link": "https://github.com/AdamGrossTX/SoftwareUpdateScripts",
     "published_at": "2025-05-23T17:17:47.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -5309,7 +5364,7 @@
     "description": "Enable Public Contributions",
     "link": "https://github.com/byteben/memdocs",
     "published_at": "2025-05-16T11:01:56.000Z",
-    "fetched_at": "2026-05-28T21:09:28.175Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -5320,7 +5375,7 @@
     "description": "Enable Public Contributions",
     "link": "https://github.com/GenerAhl/memdocs",
     "published_at": "2025-05-14T07:50:08.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   },
   {
@@ -5441,62 +5496,7 @@
     "description": "Demo Content from MMSMOA 2025",
     "link": "https://github.com/AdamGrossTX/MMAMOA2025",
     "published_at": "2025-04-30T02:03:44.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://github.com/schenardie/Templates",
-    "person_handle": "jose-schenardie",
-    "type": "github-releases",
-    "title": "Templates",
-    "description": "",
-    "link": "https://github.com/schenardie/Templates",
-    "published_at": "2025-04-30T01:51:24.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://joostgelijsteen.com/?p=2615",
-    "person_handle": "joost-gelijsteen",
-    "type": "blog",
-    "title": "Windows device configuration policies are moving to Settings catalog template. What you need to know",
-    "description": "In recent months, Microsoft has been rolling out an important change that impacts how we configure Windows devices through Intune. If you’ve been using device configuration profiles based on the “Templates” (such as Endpoint Protection, Edition Upgrade, or Firewall settings),…",
-    "link": "https://joostgelijsteen.com/settings-catalog-template/",
-    "published_at": "2025-04-29T11:49:40.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
-    "source": "joostgelijsteen.com"
-  },
-  {
-    "id": "https://github.com/Croxleyboy/HRPulse",
-    "person_handle": "andy-jones",
-    "type": "github-releases",
-    "title": "HRPulse",
-    "description": "Web App for HR Pulse - the front end to IntuneHRFlow",
-    "link": "https://github.com/Croxleyboy/HRPulse",
-    "published_at": "2025-04-27T08:29:09.000Z",
-    "fetched_at": "2026-05-28T22:13:51.405Z",
-    "source": "GitHub"
-  },
-  {
-    "id": "https://joeloveless.com/blog/entra-grouprandomization",
-    "person_handle": "joe-loveless",
-    "type": "blog",
-    "title": "Creating Intune Randomized Rollouts with Entra Group Membership",
-    "description": "Creating Intune Randomized Rollouts with Entra Group Membership",
-    "link": "https://joeloveless.com/blog/entra-grouprandomization",
-    "published_at": "2025-04-26T00:00:00.000Z",
-    "fetched_at": "2026-05-10T14:34:42.732Z",
-    "source": null
-  },
-  {
-    "id": "https://github.com/mardahl/mem-summit-draws-unleashed",
-    "person_handle": "michael-mardahl",
-    "type": "github-releases",
-    "title": "mem-summit-draws-unleashed",
-    "description": "",
-    "link": "https://github.com/mardahl/mem-summit-draws-unleashed",
-    "published_at": "2025-04-25T17:43:56.000Z",
-    "fetched_at": "2026-05-10T15:34:28.456Z",
+    "fetched_at": "2026-05-28T22:27:49.513Z",
     "source": "GitHub"
   }
 ]
