@@ -1,0 +1,23 @@
+{
+  "name": "Laurent GÃ©beau",
+  "handle": "laurent-gebeau",
+  "avatar": "https://images.mvp.microsoft.com/8f53d96c-3c9a-e411-93f2-9cb65495d3c4",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "IT speclialised in Microsoft technologies, co-owner of Axeperf.com.",
+  "links": {
+    "facebook": "lgebeau",
+    "github": "LGebeau",
+    "linkedin": "laurentgebeau",
+    "twitter": "mtoo"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "LGebeau"
+    }
+  ]
+}

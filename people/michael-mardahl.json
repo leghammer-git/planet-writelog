@@ -1,18 +1,27 @@
 {
   "name": "Michael Mardahl",
   "handle": "michael-mardahl",
-  "mvp": { "status": "active", "category": "Enterprise Mobility" },
   "title": "Cloud Architect",
   "bio": "Enterprise Mobility MVP at APENTO, specializing in Microsoft 365, Azure, Intune, and cloud security.",
   "links": {
     "website": "https://iphase.dk/",
     "github": "mardahl",
-    "twitter": "michael_mardahl",
-    "linkedin": "michael-mardahl"
+    "linkedin": "michael-mardahl",
+    "twitter": "michael_mardahl"
   },
   "feeds": [
-    { "type": "blog", "url": "https://iphase.dk/rss.xml" },
-    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Michael Mardahl" },
-    { "type": "github-user", "username": "mardahl" }
+    {
+      "type": "blog",
+      "url": "https://iphase.dk/rss.xml"
+    },
+    {
+      "type": "blog",
+      "url": "https://msendpointmgr.com/feed/",
+      "author": "Michael Mardahl"
+    },
+    {
+      "type": "github-user",
+      "username": "mardahl"
+    }
   ]
 }

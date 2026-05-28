@@ -1,0 +1,21 @@
+{
+  "name": "Davide Salsi",
+  "handle": "davide-salsi",
+  "avatar": "https://images.mvp.microsoft.com/bbe9e354-f4bd-eb11-bacc-0022481f2c24?638877568470523950",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Help organizations in the process of adopting modern endpoint management",
+  "links": {
+    "website": "https://emm-blog.com/",
+    "linkedin": "davidesalsi"
+  },
+  "feeds": [
+    {
+      "type": "blog",
+      "url": "https://emm-blog.com/feed"
+    }
+  ]
+}

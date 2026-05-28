@@ -1,0 +1,23 @@
+{
+  "name": "Kallum Kyle",
+  "handle": "kallum-kyle",
+  "avatar": "https://images.mvp.microsoft.com/31ddf349-f109-4d75-97b1-c48ef3fe7380?638554365370788684",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Other",
+  "bio": "Cloud-Native Endpoint Administrator",
+  "links": {
+    "website": "https://KalOnThe.Net",
+    "bluesky": "krysonthe.net",
+    "github": "kooties",
+    "linkedin": "kallum-kyle"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "kooties"
+    }
+  ]
+}

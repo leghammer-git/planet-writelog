@@ -9,8 +9,17 @@
     "youtube": "@zaskem"
   },
   "feeds": [
-    { "type": "blog", "url": "https://mattzaskeonline.info/feed" },
-    { "type": "github-user", "username": "zaskem" },
-    { "type": "youtube", "channel": "@zaskem" }
+    {
+      "type": "blog",
+      "url": "https://mattzaskeonline.info/feed"
+    },
+    {
+      "type": "github-user",
+      "username": "zaskem"
+    },
+    {
+      "type": "youtube",
+      "channel": "@zaskem"
+    }
   ]
 }

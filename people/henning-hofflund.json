@@ -5,6 +5,10 @@
   "bio": "Infrastructure architect specializing in design and migration.",
   "links": {},
   "feeds": [
-    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Henning Hofflund" }
+    {
+      "type": "blog",
+      "url": "https://blog.mindcore.dk/feed/",
+      "author": "Henning Hofflund"
+    }
   ]
 }

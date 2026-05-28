@@ -1,7 +1,6 @@
 {
   "name": "Sune Thomsen",
   "handle": "sune-thomsen",
-  "mvp": { "status": "active", "category": "Windows and Devices for IT" },
   "title": "Consultant",
   "bio": "Modern Workplace consultant focused on Windows and device management.",
   "links": {
@@ -9,6 +8,10 @@
     "twitter": "SuneThomsenDK"
   },
   "feeds": [
-    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Sune Thomsen" }
+    {
+      "type": "blog",
+      "url": "https://blog.mindcore.dk/feed/",
+      "author": "Sune Thomsen"
+    }
   ]
 }

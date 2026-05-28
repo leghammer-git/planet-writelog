@@ -1,0 +1,21 @@
+{
+  "name": "Roman Kleyn",
+  "handle": "roman-kleyn",
+  "avatar": "https://images.mvp.microsoft.com/1f658c91-4482-492d-a96f-1534b60b7737?638787773398210008",
+  "mvp": {
+    "status": "active",
+    "category": "Windows and Devices"
+  },
+  "title": "Product/program/project Manager",
+  "bio": "Dedicated to everything Workplace",
+  "links": {
+    "website": "https://stoked4workplace.com",
+    "linkedin": "roman-kleyn-042280115"
+  },
+  "feeds": [
+    {
+      "type": "blog",
+      "url": "https://stoked4workplace.com/feed"
+    }
+  ]
+}

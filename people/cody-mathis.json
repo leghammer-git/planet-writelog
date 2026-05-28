@@ -9,6 +9,9 @@
     "twitter": "CodyMathis123"
   },
   "feeds": [
-    { "type": "github-user", "username": "CodyMathis123" }
+    {
+      "type": "github-user",
+      "username": "CodyMathis123"
+    }
   ]
 }

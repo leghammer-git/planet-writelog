@@ -1,18 +1,33 @@
 {
   "name": "Jose Schenardie",
   "handle": "jose-schenardie",
-  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "avatar": "https://images.mvp.microsoft.com/eb4cae59-49ed-4a20-9073-ca3a87752573?638448826675654502",
+  "mvp": {
+    "status": "active",
+    "category": "Enterprise Mobility"
+  },
   "title": "Co-founder and CTO",
   "bio": "Microsoft MVP, co-founder of Devicie and Secure Measure, endpoint management and cloud security specialist.",
   "links": {
     "website": "https://intune.tech",
+    "bluesky": "schenardie.bsky.social",
     "github": "schenardie",
-    "twitter": "schenardie",
-    "linkedin": "schenardie"
+    "linkedin": "schenardie",
+    "twitter": "schenardie"
   },
   "feeds": [
-    { "type": "blog", "url": "https://intune.tech/feed/" },
-    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Jose Schenardie" },
-    { "type": "github-user", "username": "schenardie" }
+    {
+      "type": "blog",
+      "url": "https://intune.tech/feed/"
+    },
+    {
+      "type": "blog",
+      "url": "https://msendpointmgr.com/feed/",
+      "author": "Jose Schenardie"
+    },
+    {
+      "type": "github-user",
+      "username": "schenardie"
+    }
   ]
 }

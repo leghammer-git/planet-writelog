@@ -1,0 +1,22 @@
+{
+  "name": "Niels Kok",
+  "handle": "niels-kok",
+  "avatar": "https://images.mvp.microsoft.com/5219e35b-2c20-ec11-b6e6-000d3a1fcc1f?638562210031386853",
+  "mvp": {
+    "status": "active",
+    "category": "Windows and Devices"
+  },
+  "title": "Developer",
+  "bio": "MVP | Blogger | Consultant | Microsoft 365 | Microsoft Azure",
+  "links": {
+    "github": "Ruthhl3ss",
+    "linkedin": "niels-kok-79823360",
+    "twitter": "NielsKok5"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "Ruthhl3ss"
+    }
+  ]
+}

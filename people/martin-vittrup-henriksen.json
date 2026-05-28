@@ -8,6 +8,10 @@
     "twitter": "Virtually_Human"
   },
   "feeds": [
-    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Martin Vittrup Henriksen" }
+    {
+      "type": "blog",
+      "url": "https://blog.mindcore.dk/feed/",
+      "author": "Martin Vittrup Henriksen"
+    }
   ]
 }

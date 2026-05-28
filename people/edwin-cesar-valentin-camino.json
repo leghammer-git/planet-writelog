@@ -1,0 +1,21 @@
+{
+  "name": "Edwin Cesar Valentin Camino",
+  "handle": "edwin-cesar-valentin-camino",
+  "avatar": "https://images.mvp.microsoft.com/bda73360-0557-4ea9-a317-f213c00ca668?639056659144704265",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Especialista en Microsoft 365 y seguridad de dispositivos",
+  "links": {
+    "website": "https://emprendevalentin.com",
+    "linkedin": "evalentin365"
+  },
+  "feeds": [
+    {
+      "type": "blog",
+      "url": "https://emprendevalentin.com/feed"
+    }
+  ]
+}

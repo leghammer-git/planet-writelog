@@ -1,7 +1,6 @@
 {
   "name": "Ryan Ephgrave",
   "handle": "ryan-ephgrave",
-  "mvp": { "status": "active", "category": "Enterprise Mobility" },
   "title": "Consultant",
   "bio": "ConfigMgr and endpoint management specialist, known for EphingAdmin tools and scripts.",
   "links": {
@@ -9,6 +8,9 @@
     "twitter": "EphingPosh"
   },
   "feeds": [
-    { "type": "blog", "url": "http://ephingadmin.com/feed" }
+    {
+      "type": "blog",
+      "url": "http://ephingadmin.com/feed"
+    }
   ]
 }

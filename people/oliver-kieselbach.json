@@ -1,19 +1,34 @@
 {
   "name": "Oliver Kieselbach",
   "handle": "oliver-kieselbach",
-  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "avatar": "https://images.mvp.microsoft.com/a9bb4e9c-aa90-e811-813c-3863bb2bca60",
+  "mvp": {
+    "status": "active",
+    "category": "Enterprise Mobility"
+  },
   "title": "Lead Cloud Architect",
   "bio": "Enterprise Mobility MVP at glueckkanja AG, specializing in Modern IT, Intune, Windows, and cloud endpoint management.",
   "links": {
     "website": "https://oliverkieselbach.com",
     "bluesky": "okieselb.bsky.social",
+    "facebook": "oliver.kieselbach.520",
     "github": "okieselbach",
-    "twitter": "okieselb",
-    "linkedin": "oliver-kieselbach-a4a3409"
+    "linkedin": "oliver-kieselbach",
+    "twitter": "okieselb"
   },
   "feeds": [
-    { "type": "blog", "url": "https://oliverkieselbach.com/feed/" },
-    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Oliver Kieselbach" },
-    { "type": "github-user", "username": "okieselbach" }
+    {
+      "type": "blog",
+      "url": "https://oliverkieselbach.com/feed/"
+    },
+    {
+      "type": "blog",
+      "url": "https://msendpointmgr.com/feed/",
+      "author": "Oliver Kieselbach"
+    },
+    {
+      "type": "github-user",
+      "username": "okieselbach"
+    }
   ]
 }

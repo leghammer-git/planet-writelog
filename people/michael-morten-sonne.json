@@ -5,6 +5,10 @@
   "bio": "Cloud and security specialist with focus on Microsoft 365.",
   "links": {},
   "feeds": [
-    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Michael Morten Sonne" }
+    {
+      "type": "blog",
+      "url": "https://blog.mindcore.dk/feed/",
+      "author": "Michael Morten Sonne"
+    }
   ]
 }

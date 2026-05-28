@@ -1,0 +1,27 @@
+{
+  "name": "Violet Hansen",
+  "handle": "violet-hansen",
+  "avatar": "https://images.mvp.microsoft.com/4edbca65-7979-4779-b7e4-d182e123259b?638877589034787041",
+  "mvp": {
+    "status": "active",
+    "category": "Cloud and Datacenter Management"
+  },
+  "title": "Developer",
+  "bio": "Windows Developer, Cyber Security Enthusiast, Security Solution Architect",
+  "links": {
+    "website": "https://hotcakex.github.io/",
+    "github": "HotCakeX",
+    "twitter": "CyberCakeX",
+    "youtube": "@hotcakex"
+  },
+  "feeds": [
+    {
+      "type": "youtube",
+      "channel": "@hotcakex"
+    },
+    {
+      "type": "github-user",
+      "username": "HotCakeX"
+    }
+  ]
+}

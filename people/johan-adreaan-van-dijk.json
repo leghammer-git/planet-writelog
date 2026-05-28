@@ -1,0 +1,21 @@
+{
+  "name": "Johan Adreaan van Dijk",
+  "handle": "johan-adreaan-van-dijk",
+  "avatar": "https://images.mvp.microsoft.com/240e995a-bc49-496c-9593-38120dde4f3d?639047055928370699",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Microsoft Modern Workspace consultant \u0026 enthusiast",
+  "links": {
+    "website": "https://www.xplorethecloud.nl",
+    "linkedin": "vandijkarno"
+  },
+  "feeds": [
+    {
+      "type": "blog",
+      "url": "https://www.xplorethecloud.nl/feed"
+    }
+  ]
+}

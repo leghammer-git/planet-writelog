@@ -1,0 +1,21 @@
+{
+  "name": "Mahmood Kinani",
+  "handle": "mahmood-kinani",
+  "avatar": "https://images.mvp.microsoft.com/ffdc7d5b-0cce-ed11-a7c6-000d3a5603d3",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "A husband, father and big fan of Bayern Munich soccer club",
+  "links": {
+    "github": "MoeKinani",
+    "linkedin": "moe-kinani-7b530159"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "MoeKinani"
+    }
+  ]
+}

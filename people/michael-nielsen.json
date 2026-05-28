@@ -7,6 +7,10 @@
     "linkedin": "michaelnielsen-31319244"
   },
   "feeds": [
-    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Michael Nielsen" }
+    {
+      "type": "blog",
+      "url": "https://blog.mindcore.dk/feed/",
+      "author": "Michael Nielsen"
+    }
   ]
 }

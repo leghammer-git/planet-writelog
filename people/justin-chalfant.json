@@ -9,6 +9,9 @@
     "twitter": "setupConfigMgr"
   },
   "feeds": [
-    { "type": "blog", "url": "https://patchmypc.com/feed/" }
+    {
+      "type": "blog",
+      "url": "https://patchmypc.com/feed/"
+    }
   ]
 }

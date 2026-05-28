@@ -1,0 +1,22 @@
+{
+  "name": "Johannes Geir Kristjansson",
+  "handle": "johannes-geir-kristjansson",
+  "avatar": "https://images.mvp.microsoft.com/e3354da4-4b4c-ec11-8f8e-00224827f7fc",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "What is the problem you are trying to solve?",
+  "links": {
+    "website": "https://johannesblog.com/",
+    "bluesky": "jgkps.bsky.social",
+    "twitter": "jgkps"
+  },
+  "feeds": [
+    {
+      "type": "blog",
+      "url": "https://johannesblog.com/feed"
+    }
+  ]
+}

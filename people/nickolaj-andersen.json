@@ -1,17 +1,29 @@
 {
   "name": "Nickolaj Andersen",
   "handle": "nickolaj-andersen",
-  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "avatar": "https://images.mvp.microsoft.com/84b8d699-7733-e611-8129-c4346bac7bfc",
+  "mvp": {
+    "status": "active",
+    "category": "Enterprise Mobility"
+  },
   "title": "Senior Architect - End User Experience",
   "bio": "Founder of MSEndpointMgr and Enterprise Mobility MVP at Ericsson, specializing in ConfigMgr, Intune, and endpoint automation.",
   "links": {
-    "website": "https://msendpointmgr.com",
+    "website": "https://www.msendpointmgr.com",
+    "facebook": "msendpointmgr",
     "github": "NickolajA",
-    "twitter": "NickolajA",
-    "linkedin": "nickolaj-andersen-mvp-2416273"
+    "linkedin": "nickolaj-andersen-mvp-2416273",
+    "twitter": "NickolajA"
   },
   "feeds": [
-    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Nickolaj Andersen" },
-    { "type": "github-user", "username": "NickolajA" }
+    {
+      "type": "blog",
+      "url": "https://msendpointmgr.com/feed/",
+      "author": "Nickolaj Andersen"
+    },
+    {
+      "type": "github-user",
+      "username": "NickolajA"
+    }
   ]
 }

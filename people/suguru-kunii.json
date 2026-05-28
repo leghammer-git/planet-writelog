@@ -1,0 +1,24 @@
+{
+  "name": "Suguru Kunii",
+  "handle": "suguru-kunii",
+  "avatar": "https://images.mvp.microsoft.com/33f78fa8-3c9a-e411-93f2-9cb65495d3c4?638693849546632074",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Microsoft Defender XDRå…¨èˆ¬ã«é–¢ã‚ã‚‹ãƒˆãƒ¬ãƒ¼ãƒ‹ãƒ³ã‚°ã€ã‚»ãƒŸãƒŠãƒ¼ã€å„ç¨®ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆã®åŸ·ç­†ãƒ»ç¿»è¨³ã‚’æ‹…å½“ã—ã¦ã„ã¾ã™ã€‚",
+  "links": {
+    "website": "https://azuread.net",
+    "facebook": "suguru.kunii.5",
+    "github": "sophiakunii",
+    "linkedin": "kuniisan-station",
+    "twitter": "kuniisuguru"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "sophiakunii"
+    }
+  ]
+}

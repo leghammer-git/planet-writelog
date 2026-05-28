@@ -7,12 +7,22 @@
     "website": "http://www.thenotoriousdrr.com",
     "bluesky": "thenotoriousdrr.bsky.social",
     "github": "thenotoriousdrr",
-    "twitter": "TheNotoriousDRR",
-    "linkedin": "donna-ryan-wim-witch"
+    "linkedin": "donna-ryan-wim-witch",
+    "twitter": "TheNotoriousDRR"
   },
   "feeds": [
-    { "type": "blog", "url": "http://www.thenotoriousdrr.com/feed/" },
-    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Donna Ryan" },
-    { "type": "github-user", "username": "thenotoriousdrr" }
+    {
+      "type": "blog",
+      "url": "http://www.thenotoriousdrr.com/feed/"
+    },
+    {
+      "type": "blog",
+      "url": "https://msendpointmgr.com/feed/",
+      "author": "Donna Ryan"
+    },
+    {
+      "type": "github-user",
+      "username": "thenotoriousdrr"
+    }
   ]
 }

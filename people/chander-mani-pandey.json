@@ -1,0 +1,27 @@
+{
+  "name": "Chander Mani Pandey",
+  "handle": "chander-mani-pandey",
+  "avatar": "https://images.mvp.microsoft.com/5e5cadce-0cfc-4aec-927a-2ae438d8fb87?638688452084285458",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Chander Mani Pandey: IT Expert, Tech Enthusiast, and Creative Content Creator",
+  "links": {
+    "github": "ChanderManiPandey2022",
+    "linkedin": "chandermanipandey",
+    "twitter": "Mani_CMPandey",
+    "youtube": "@ChanderManiPandey"
+  },
+  "feeds": [
+    {
+      "type": "youtube",
+      "channel": "@ChanderManiPandey"
+    },
+    {
+      "type": "github-user",
+      "username": "ChanderManiPandey2022"
+    }
+  ]
+}

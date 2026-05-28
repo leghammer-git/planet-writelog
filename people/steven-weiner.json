@@ -1,0 +1,29 @@
+{
+  "name": "Steven Weiner",
+  "handle": "steven-weiner",
+  "avatar": "https://images.mvp.microsoft.com/f24f80f5-286b-4a27-9a00-92e932070b9b?638501834246379024",
+  "mvp": {
+    "status": "active",
+    "category": "Windows and Devices"
+  },
+  "title": "Consultant",
+  "bio": "From musician to computer nerd.",
+  "links": {
+    "website": "https://getrubix.com",
+    "bluesky": "getrubix.bsky.social",
+    "github": "stevecapacity",
+    "linkedin": "stevew25",
+    "twitter": "getrubix",
+    "youtube": "@getrubix"
+  },
+  "feeds": [
+    {
+      "type": "youtube",
+      "channel": "@getrubix"
+    },
+    {
+      "type": "github-user",
+      "username": "stevecapacity"
+    }
+  ]
+}

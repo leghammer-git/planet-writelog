@@ -1,13 +1,23 @@
 {
   "name": "Bryan Dam",
   "handle": "bryan-dam",
-  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "avatar": "https://images.mvp.microsoft.com/8319e89f-2510-ea11-a811-000d3a8ccba0",
+  "mvp": {
+    "status": "active",
+    "category": "Enterprise Mobility"
+  },
   "title": "Patch Lover Extraordinaire, Patch My PC",
   "bio": "ConfigMgr and endpoint management community contributor and TCSMUG blogger.",
   "links": {
-    "website": "https://damgoodadmin.com/"
+    "website": "https://damgoodadmin.com/",
+    "github": "bryandam",
+    "linkedin": "bryan-dam-1772b1151",
+    "twitter": "bdam555"
   },
   "feeds": [
-    { "type": "blog", "url": "https://damgoodadmin.com/feed/" }
+    {
+      "type": "blog",
+      "url": "https://damgoodadmin.com/feed/"
+    }
   ]
 }

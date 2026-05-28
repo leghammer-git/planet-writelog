@@ -1,17 +1,35 @@
 {
   "name": "Ben Whitmore",
   "handle": "ben-whitmore",
-  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "avatar": "https://images.mvp.microsoft.com/d6b1b9b4-0d07-ec11-b6e6-000d3a57952c?638877482496899599",
+  "mvp": {
+    "status": "active",
+    "category": "Enterprise Mobility"
+  },
   "title": "Consultant",
   "bio": "Configuration Manager, Intune, and Windows deployment specialist.",
   "links": {
     "website": "https://byteben.com",
+    "bluesky": "byteben.bsky.social",
+    "facebook": "ben.whitmore.16",
     "github": "byteben",
-    "twitter": "byteben"
+    "linkedin": "byteben",
+    "twitter": "byteben",
+    "youtube": "UCYmYW0dOijMvq4FJwqy3c2g"
   },
   "feeds": [
-    { "type": "blog", "url": "https://byteben.com/bb/feed/" },
-    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Ben Whitmore" },
-    { "type": "github-user", "username": "byteben" }
+    {
+      "type": "blog",
+      "url": "https://byteben.com/bb/feed/"
+    },
+    {
+      "type": "blog",
+      "url": "https://msendpointmgr.com/feed/",
+      "author": "Ben Whitmore"
+    },
+    {
+      "type": "github-user",
+      "username": "byteben"
+    }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "name": "Harvansh Singh",
+  "handle": "harvansh-singh",
+  "avatar": "https://images.mvp.microsoft.com/c1e628cb-3236-4ca3-b9bc-4744e4a2eebe?638501720465781867",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Product/program/project Manager",
+  "bio": "Microsoft MVP for Microsoft and Enterprise and Platform Security",
+  "links": {
+    "website": "https://endusersupports.com/",
+    "facebook": "groups/1471644366315967",
+    "github": "harvansh007",
+    "linkedin": "harvansh-singh-mvp-8a320658",
+    "twitter": "Vansh0072010"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "harvansh007"
+    }
+  ]
+}

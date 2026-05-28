@@ -9,6 +9,9 @@
     "twitter": "powers_hell"
   },
   "feeds": [
-    { "type": "blog", "url": "https://powers-hell.com/index.xml" }
+    {
+      "type": "blog",
+      "url": "https://powers-hell.com/index.xml"
+    }
   ]
 }

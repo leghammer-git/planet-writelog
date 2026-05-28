@@ -1,0 +1,29 @@
+{
+  "name": "Timmy Andersson",
+  "handle": "timmy-andersson",
+  "avatar": "https://images.mvp.microsoft.com/7e02d51f-2610-ea11-a811-000d3a8ccb3e",
+  "mvp": {
+    "status": "active",
+    "category": "M365"
+  },
+  "title": "Consultant",
+  "bio": ".",
+  "links": {
+    "website": "https://timmyit.com/",
+    "bluesky": "timmyit.com",
+    "github": "timmyit",
+    "linkedin": "timmy-andersson-61408292",
+    "twitter": "TimmyITdotcom",
+    "youtube": "UCStHA8I0cjpj4LpTQ3YS-tA"
+  },
+  "feeds": [
+    {
+      "type": "youtube",
+      "channel_id": "UCStHA8I0cjpj4LpTQ3YS-tA"
+    },
+    {
+      "type": "github-user",
+      "username": "timmyit"
+    }
+  ]
+}

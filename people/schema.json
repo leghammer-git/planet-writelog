@@ -15,6 +15,7 @@
     "pronouns": { "type": "string" },
     "title": { "type": "string", "minLength": 1 },
     "mvp": {
+      "description": "Omit this field when MVP status is unknown or inapplicable. 'active' = current MVP; 'former' = confirmed past MVP only.",
       "type": "object",
       "required": ["status", "category"],
       "additionalProperties": false,

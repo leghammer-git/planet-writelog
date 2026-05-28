@@ -1,0 +1,22 @@
+{
+  "name": "Anders Green",
+  "handle": "anders-green",
+  "avatar": "https://images.mvp.microsoft.com/77b6c612-79cf-4b74-b950-2cacc31a9b6d?638475740782619531",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Tech and music",
+  "links": {
+    "website": "https://blog.devicemetal.com",
+    "bluesky": "andersgreen.bsky.social",
+    "linkedin": "mrgreenofficial"
+  },
+  "feeds": [
+    {
+      "type": "blog",
+      "url": "https://blog.devicemetal.com/feed"
+    }
+  ]
+}

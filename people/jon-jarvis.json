@@ -1,0 +1,23 @@
+{
+  "name": "Jon Jarvis",
+  "handle": "jon-jarvis",
+  "avatar": "https://images.mvp.microsoft.com/73e0934a-1e9e-ed11-83ff-000d3a5600fa",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Other",
+  "bio": "Microsoft MVP - Intune \u0026 Windows 365",
+  "links": {
+    "website": "https://www.cloudendpoint.ai",
+    "linkedin": "jonjarvisuk",
+    "twitter": "jonjarvis",
+    "youtube": "UChvsfcaPkPH-hLmfGmh9p1w"
+  },
+  "feeds": [
+    {
+      "type": "youtube",
+      "channel_id": "UChvsfcaPkPH-hLmfGmh9p1w"
+    }
+  ]
+}

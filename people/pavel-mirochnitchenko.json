@@ -1,0 +1,22 @@
+{
+  "name": "Pavel Mirochnitchenko",
+  "handle": "pavel-mirochnitchenko",
+  "avatar": "https://images.mvp.microsoft.com/f574f0bf-3b5a-4e66-88dd-0f3adb3987ef?638502281603453396",
+  "mvp": {
+    "status": "active",
+    "category": "Windows and Devices"
+  },
+  "title": "Consultant",
+  "bio": "Certified Intune Windows expert",
+  "links": {
+    "facebook": "pavel.mirochnitchenko",
+    "github": "yannara",
+    "linkedin": "yannara"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "yannara"
+    }
+  ]
+}

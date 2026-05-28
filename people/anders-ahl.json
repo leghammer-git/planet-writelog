@@ -1,13 +1,16 @@
 {
   "name": "Anders Ahl",
   "handle": "anders-ahl",
-  "title": "Global Product Owner for UEM & PAW",
+  "title": "Global Product Owner for UEM \u0026 PAW",
   "bio": "Global Product Owner for Unified Endpoint Management and Privileged Access Workstations at Ericsson.",
   "links": {
     "github": "GenerAhl",
     "linkedin": "generahl"
   },
   "feeds": [
-    { "type": "github-user", "username": "GenerAhl" }
+    {
+      "type": "github-user",
+      "username": "GenerAhl"
+    }
   ]
 }

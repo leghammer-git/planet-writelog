@@ -1,0 +1,22 @@
+{
+  "name": "Nicklas Olsen",
+  "handle": "nicklas-olsen",
+  "avatar": "https://images.mvp.microsoft.com/7d17e568-1bb9-4e65-8728-9cc601a9f263?638764239898762758",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Microsoft Intune Enthusiast",
+  "links": {
+    "website": "https://www.learnintune.net/",
+    "linkedin": "nicklas-o-40337b205",
+    "twitter": "olsen96967"
+  },
+  "feeds": [
+    {
+      "type": "blog",
+      "url": "https://www.learnintune.net/feed"
+    }
+  ]
+}

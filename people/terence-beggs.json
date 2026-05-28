@@ -4,10 +4,14 @@
   "title": "Senior System Specialist",
   "bio": "ConfigMgr and endpoint management specialist, WMUG community contributor.",
   "links": {
-    "twitter": "terencebeggs",
-    "linkedin": "terence-beggs-56993510"
+    "linkedin": "terence-beggs-56993510",
+    "twitter": "terencebeggs"
   },
   "feeds": [
-    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Terence Beggs" }
+    {
+      "type": "blog",
+      "url": "https://msendpointmgr.com/feed/",
+      "author": "Terence Beggs"
+    }
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Somesh Pathak",
+  "handle": "somesh-pathak",
+  "avatar": "https://images.mvp.microsoft.com/eff86aaf-ff3e-ed11-bba3-000d3a197333",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Other",
+  "bio": "Passionate about endpoints, Intune, Apple, endpoint security \u0026 inclusion in tech",
+  "links": {
+    "github": "pathaksomesh06",
+    "linkedin": "someshpathak",
+    "twitter": "pathak_somesh"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "pathaksomesh06"
+    }
+  ]
+}

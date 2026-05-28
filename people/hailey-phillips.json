@@ -1,0 +1,24 @@
+{
+  "name": "Hailey Phillips",
+  "handle": "hailey-phillips",
+  "avatar": "https://images.mvp.microsoft.com/608c1fae-225c-4416-b713-fc4265b2ff5c?638554469349839145",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Other",
+  "bio": "Focused on providing real-world solutions to everyday IT issues.",
+  "links": {
+    "website": "https://www.allwayshype.com",
+    "bluesky": "allwayshype.com",
+    "github": "Allwayshype",
+    "linkedin": "Hailey-Phillips-b1744882",
+    "twitter": "Allwayshype"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "Allwayshype"
+    }
+  ]
+}

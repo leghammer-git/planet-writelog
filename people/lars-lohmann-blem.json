@@ -8,6 +8,10 @@
     "twitter": "lohmannlars"
   },
   "feeds": [
-    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Lars Lohmann" }
+    {
+      "type": "blog",
+      "url": "https://blog.mindcore.dk/feed/",
+      "author": "Lars Lohmann"
+    }
   ]
 }

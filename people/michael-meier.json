@@ -1,0 +1,21 @@
+{
+  "name": "Michael Meier",
+  "handle": "michael-meier",
+  "avatar": "https://images.mvp.microsoft.com/971696a2-eec5-4440-b5bd-4176c9799c2f?638408263926040797",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Developer",
+  "bio": "IT Systemadministrator at Krones AG, Intune MVP",
+  "links": {
+    "github": "mmeierm",
+    "linkedin": "michael-meier-ba3b72210"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "mmeierm"
+    }
+  ]
+}

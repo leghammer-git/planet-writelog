@@ -1,0 +1,28 @@
+{
+  "name": "Niklas Tinner",
+  "handle": "niklas-tinner",
+  "avatar": "https://images.mvp.microsoft.com/63b511d2-6232-4751-b1c2-fe300d289655?638766108012156683",
+  "mvp": {
+    "status": "active",
+    "category": "Windows and Devices"
+  },
+  "title": "Consultant",
+  "bio": "Founder Oceanleaf ðŸŒ±",
+  "links": {
+    "website": "https://oceanleaf.ch/",
+    "github": "thenikk",
+    "linkedin": "niklas-tinner",
+    "twitter": "NiklasTinner",
+    "youtube": "@oceanleafnt"
+  },
+  "feeds": [
+    {
+      "type": "youtube",
+      "channel": "@oceanleafnt"
+    },
+    {
+      "type": "github-user",
+      "username": "thenikk"
+    }
+  ]
+}

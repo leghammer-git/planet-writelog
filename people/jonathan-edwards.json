@@ -1,0 +1,22 @@
+{
+  "name": "Jonathan Edwards",
+  "handle": "jonathan-edwards",
+  "avatar": "https://images.mvp.microsoft.com/a0656082-22ff-4a1f-8f75-701544055496?638976586649196378",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "MSP Owner and YouTuber",
+  "links": {
+    "facebook": "groups/microsoft365mastery",
+    "linkedin": "jonathanjedwards",
+    "youtube": "@bearded365guy"
+  },
+  "feeds": [
+    {
+      "type": "youtube",
+      "channel": "@bearded365guy"
+    }
+  ]
+}

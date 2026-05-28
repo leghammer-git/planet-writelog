@@ -1,0 +1,22 @@
+{
+  "name": "Gannon Novak",
+  "handle": "gannon-novak",
+  "avatar": "https://images.mvp.microsoft.com/52e7412d-a239-4baf-80b2-2d3de6e14f55?638633748629468861",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Cloud Consultant - Intune, Entra, AVD",
+  "links": {
+    "website": "https://smbtothecloud.com/",
+    "github": "gnon17",
+    "linkedin": "gannon-n"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "gnon17"
+    }
+  ]
+}

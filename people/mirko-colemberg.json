@@ -1,0 +1,22 @@
+{
+  "name": "Mirko Colemberg",
+  "handle": "mirko-colemberg",
+  "avatar": "https://images.mvp.microsoft.com/7ea9c260-070b-e511-af2f-6c3be5a8e740",
+  "mvp": {
+    "status": "active",
+    "category": "Windows and Devices"
+  },
+  "title": "Researcher",
+  "bio": "Form the Community for the community",
+  "links": {
+    "facebook": "slaet",
+    "github": "slaet",
+    "twitter": "configmgr_ch"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "slaet"
+    }
+  ]
+}

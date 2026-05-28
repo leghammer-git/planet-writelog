@@ -1,0 +1,23 @@
+{
+  "name": "Simon Hartmann Eriksen",
+  "handle": "simon-hartmann-eriksen",
+  "avatar": "https://images.mvp.microsoft.com/b2b65e6e-eecc-491b-a8c9-3c9c7082fc58?638790945517049705",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Senior Consultant | Crafting secure, seamless, and modern endpoint experiences",
+  "links": {
+    "website": "https://simsenblog.dk",
+    "linkedin": "simoneriksendk",
+    "twitter": "Sim0nEriksen",
+    "youtube": "@IntuneInsiderDK"
+  },
+  "feeds": [
+    {
+      "type": "youtube",
+      "channel": "@IntuneInsiderDK"
+    }
+  ]
+}

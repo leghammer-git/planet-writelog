@@ -1,0 +1,22 @@
+{
+  "name": "Henver Rodrigo Gomes Soares",
+  "handle": "henver-rodrigo-gomes-soares",
+  "avatar": "https://images.mvp.microsoft.com/97d48576-c71a-49c0-a9f3-488fb5f79a8e?638686639341929878",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "IT Specialist | Microsoft 365 | Modern Workplace | CyberSecurity",
+  "links": {
+    "linkedin": "henversoares",
+    "twitter": "HenverRodrigo",
+    "youtube": "@MSMWBR"
+  },
+  "feeds": [
+    {
+      "type": "youtube",
+      "channel": "@MSMWBR"
+    }
+  ]
+}

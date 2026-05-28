@@ -1,0 +1,23 @@
+{
+  "name": "Joost Gelijsteen",
+  "handle": "joost-gelijsteen",
+  "avatar": "https://images.mvp.microsoft.com/3943ada2-ff3e-ed11-bba3-000d3a197333?639062293558714218",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "MVP | Blogger | Microsoft 365 | Microsoft Endpoint Manager",
+  "links": {
+    "website": "https://joostgelijsteen.com",
+    "bluesky": "mdmlab.nl",
+    "linkedin": "jgelijsteen",
+    "twitter": "jgelijsteen"
+  },
+  "feeds": [
+    {
+      "type": "blog",
+      "url": "https://joostgelijsteen.com/feed"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Nicola Suter",
+  "handle": "nicola-suter",
+  "avatar": "https://images.mvp.microsoft.com/51ab894c-e8d5-45f7-956f-43b7173ee0eb?638501518676469422",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "All things related to endpoints and security",
+  "links": {
+    "website": "https://tech.nicolonsky.ch",
+    "github": "nicolonsky",
+    "linkedin": "nicolasuter",
+    "twitter": "nicolonsky"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "nicolonsky"
+    }
+  ]
+}

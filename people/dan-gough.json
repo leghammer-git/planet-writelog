@@ -8,6 +8,9 @@
     "linkedin": "danielgough"
   },
   "feeds": [
-    { "type": "blog", "url": "https://packageology.com/feed.xml" }
+    {
+      "type": "blog",
+      "url": "https://packageology.com/feed.xml"
+    }
   ]
 }

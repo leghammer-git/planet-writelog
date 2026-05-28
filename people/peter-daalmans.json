@@ -1,0 +1,25 @@
+{
+  "name": "Peter Daalmans",
+  "handle": "peter-daalmans",
+  "avatar": "https://images.mvp.microsoft.com/71e968c6-3c9a-e411-93f2-9cb65495d3c4",
+  "mvp": {
+    "status": "active",
+    "category": "Windows and Devices"
+  },
+  "title": "Consultant",
+  "bio": "Principal Consultant at SecMinds Solutions",
+  "links": {
+    "website": "https://modernmanagement.blog/",
+    "bluesky": "daalmans.com",
+    "facebook": "peter.daalmans",
+    "linkedin": "pdaalmans",
+    "twitter": "pdaalmans",
+    "youtube": "UCATgd7LEiyl94QogiEqHspA"
+  },
+  "feeds": [
+    {
+      "type": "youtube",
+      "channel_id": "UCATgd7LEiyl94QogiEqHspA"
+    }
+  ]
+}

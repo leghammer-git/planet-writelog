@@ -1,0 +1,23 @@
+{
+  "name": "Gabriel Luiz",
+  "handle": "gabriel-luiz",
+  "avatar": "https://images.mvp.microsoft.com/8b81ae81-ed9f-ea11-a811-000d3a8dfe0d?638270478430490169",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Content Creator",
+  "bio": "Knowledge is only valid when shared.",
+  "links": {
+    "facebook": "gabrielluizbh",
+    "github": "gabrielluizbh",
+    "linkedin": "gabrielluizbh",
+    "twitter": "gabrielluizbh"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "gabrielluizbh"
+    }
+  ]
+}

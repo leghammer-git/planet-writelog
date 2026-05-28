@@ -1,0 +1,22 @@
+{
+  "name": "Maxime Guillemin",
+  "handle": "maxime-guillemin",
+  "avatar": "https://images.mvp.microsoft.com/124923c6-99be-4e8c-81db-514a4cc8e22b?638949009395560682",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Tech Blogger-Speaker | Intune | co-founder WPNinjas Belgium",
+  "links": {
+    "website": "https://cloudflow.be",
+    "github": "MG-Cloudflow",
+    "linkedin": "maxime-guillemin-526618161"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "MG-Cloudflow"
+    }
+  ]
+}

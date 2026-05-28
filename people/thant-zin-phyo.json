@@ -1,0 +1,22 @@
+{
+  "name": "Thant Zin Phyo",
+  "handle": "thant-zin-phyo",
+  "avatar": "https://images.mvp.microsoft.com/843dc7cc-9f71-4ce6-8c2f-4c324a40b61a?639106034301811690",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "MCT, MCE, MVP, AWS CB",
+  "links": {
+    "website": "https://www.credly.com/users/thant-zin-phyo",
+    "facebook": "groups/microsoft365communitymyanmar",
+    "youtube": "@ThantZinPhyo"
+  },
+  "feeds": [
+    {
+      "type": "youtube",
+      "channel": "@ThantZinPhyo"
+    }
+  ]
+}

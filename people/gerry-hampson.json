@@ -1,0 +1,21 @@
+{
+  "name": "Gerry Hampson",
+  "handle": "gerry-hampson",
+  "avatar": "https://images.mvp.microsoft.com/62822a7d-070b-e511-af2f-6c3be5a8e740",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Gerry is a consultant based in Ireland and is a specialist in client management.",
+  "links": {
+    "github": "gerryhampson",
+    "twitter": "GerryHampson"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "gerryhampson"
+    }
+  ]
+}

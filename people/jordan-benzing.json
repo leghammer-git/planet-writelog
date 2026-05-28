@@ -6,12 +6,22 @@
   "links": {
     "website": "https://jordantheitguy.com",
     "github": "JordanTheITGuy",
-    "twitter": "JordanTheITguy",
-    "linkedin": "jordan-benzing-432b0619"
+    "linkedin": "jordan-benzing-432b0619",
+    "twitter": "JordanTheITguy"
   },
   "feeds": [
-    { "type": "blog", "url": "https://jordantheitguy.com/feed/" },
-    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Jordan Benzing" },
-    { "type": "github-user", "username": "JordanTheITGuy" }
+    {
+      "type": "blog",
+      "url": "https://jordantheitguy.com/feed/"
+    },
+    {
+      "type": "blog",
+      "url": "https://msendpointmgr.com/feed/",
+      "author": "Jordan Benzing"
+    },
+    {
+      "type": "github-user",
+      "username": "JordanTheITGuy"
+    }
   ]
 }

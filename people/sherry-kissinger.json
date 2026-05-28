@@ -1,13 +1,15 @@
 {
   "name": "Sherry Kissinger",
   "handle": "sherry-kissinger",
-  "mvp": { "status": "former", "category": "Enterprise Mobility" },
   "title": "IT Professional",
   "bio": "ConfigMgr and endpoint management community contributor and TCSMUG blogger.",
   "links": {
     "website": "https://tcsmug.org/blogs/sherry-kissinger"
   },
   "feeds": [
-    { "type": "blog", "url": "https://tcsmug.org/blogs/sherry-kissinger?format=feed&type=rss" }
+    {
+      "type": "blog",
+      "url": "https://tcsmug.org/blogs/sherry-kissinger?format=feed\u0026type=rss"
+    }
   ]
 }

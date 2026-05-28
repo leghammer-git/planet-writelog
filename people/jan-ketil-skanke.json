@@ -1,17 +1,29 @@
 {
   "name": "Jan Ketil Skanke",
   "handle": "jan-ketil-skanke",
-  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "avatar": "https://images.mvp.microsoft.com/8b6051c9-dc7e-e611-80f8-c4346badb51c",
+  "mvp": {
+    "status": "active",
+    "category": "Enterprise Mobility"
+  },
   "title": "Principal Cloud Architect",
   "bio": "COO at CloudWay and Enterprise Mobility MVP since 2016, focused on endpoint management, identity, and security.",
   "links": {
-    "website": "https://cloudway.com",
+    "website": "https://msendpointmgr.com/author/jankeskanke/",
+    "bluesky": "jankeskanke.com",
     "github": "JankeSkanke",
-    "twitter": "JankeSkanke",
-    "linkedin": "jankeskanke"
+    "linkedin": "jankeskanke",
+    "twitter": "jankeskanke"
   },
   "feeds": [
-    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Jan Ketil Skanke" },
-    { "type": "github-user", "username": "JankeSkanke" }
+    {
+      "type": "blog",
+      "url": "https://msendpointmgr.com/feed/",
+      "author": "Jan Ketil Skanke"
+    },
+    {
+      "type": "github-user",
+      "username": "JankeSkanke"
+    }
   ]
 }

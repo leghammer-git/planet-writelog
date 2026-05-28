@@ -1,14 +1,24 @@
 {
   "name": "Rudy Ooms",
   "handle": "rudy-ooms",
+  "avatar": "https://images.mvp.microsoft.com/33543f3c-f4bd-eb11-bacc-0022481f2c24",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
   "title": "Content Writer Manager",
   "bio": "Intune and MDM specialist at Patch My PC, author of the Call4Cloud blog.",
   "links": {
     "website": "https://call4cloud.nl",
-    "linkedin": "rudy-ooms-90810136",
-    "twitter": "Mister_MDM"
+    "bluesky": "call4cloud.nl",
+    "linkedin": "rudyooms",
+    "twitter": "Mister_MDM",
+    "youtube": "UC13sLCGRsNzZj_foX1yDQKg"
   },
   "feeds": [
-    { "type": "blog", "url": "https://call4cloud.nl/feed/" }
+    {
+      "type": "blog",
+      "url": "https://call4cloud.nl/feed/"
+    }
   ]
 }

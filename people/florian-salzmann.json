@@ -1,0 +1,24 @@
+{
+  "name": "Florian Salzmann",
+  "handle": "florian-salzmann",
+  "avatar": "https://images.mvp.microsoft.com/1500dd37-1e9e-ed11-83ff-000d3a5600fa",
+  "mvp": {
+    "status": "active",
+    "category": "Security"
+  },
+  "title": "Consultant",
+  "bio": "Tech \u0026 Travel Enthusiast ðŸ’»âœˆï¸",
+  "links": {
+    "website": "https://msnugget.com",
+    "bluesky": "elflorian.ch",
+    "github": "FlorianSLZ",
+    "linkedin": "fsalzmann",
+    "twitter": "FlorianSLZ"
+  },
+  "feeds": [
+    {
+      "type": "github-user",
+      "username": "FlorianSLZ"
+    }
+  ]
+}

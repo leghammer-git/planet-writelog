@@ -1,18 +1,34 @@
 {
   "name": "Mattias Melkersen",
   "handle": "mattias-melkersen",
-  "mvp": { "status": "active", "category": "Enterprise Mobility" },
+  "avatar": "https://images.mvp.microsoft.com/8ce58342-f4bd-eb11-bacc-0022481f2c24",
+  "mvp": {
+    "status": "active",
+    "category": "Enterprise Mobility"
+  },
   "title": "Consultant",
   "bio": "Configuration Manager, Intune, and Windows deployment specialist.",
   "links": {
     "website": "https://blog.mindcore.dk/",
-    "github": "MMelkersen",
+    "github": "mmelkersen",
+    "linkedin": "mattiasmelkersen",
     "twitter": "MMelkersen",
     "youtube": "@MEMtipsandtricks"
   },
   "feeds": [
-    { "type": "blog", "url": "https://blog.mindcore.dk/feed/", "author": "Mattias Melkersen" },
-    { "type": "blog", "url": "https://msendpointmgr.com/feed/", "author": "Mattias Melkersen" },
-    { "type": "github-user", "username": "MMelkersen" }
+    {
+      "type": "blog",
+      "url": "https://blog.mindcore.dk/feed/",
+      "author": "Mattias Melkersen"
+    },
+    {
+      "type": "blog",
+      "url": "https://msendpointmgr.com/feed/",
+      "author": "Mattias Melkersen"
+    },
+    {
+      "type": "github-user",
+      "username": "MMelkersen"
+    }
   ]
 }
