@@ -21,6 +21,7 @@
         <a href="/people/" {% if page.url == "/people/" %}aria-current="page"{% endif %}>People</a>
         <a href="/about/" {% if page.url == "/about/" %}aria-current="page"{% endif %}>About</a>
       </nav>
+      <span class="build-date">Updated {{ buildDate | dateTimeUTC }}</span>
       <button class="theme-toggle" aria-label="Toggle light/dark theme" aria-pressed="false">
         <span class="theme-toggle__icon">☀</span>
       </button>

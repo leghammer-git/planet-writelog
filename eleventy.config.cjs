@@ -4,9 +4,16 @@ module.exports = function (eleventyConfig) {
   // Passthrough
   eleventyConfig.addPassthroughCopy("public");
 
+  // Expose build timestamp so templates can display "last updated"
+  eleventyConfig.addGlobalData("buildDate", () => new Date().toISOString());
+
   // Filters
   eleventyConfig.addFilter("dateDisplay", (dateStr) => {
     return DateTime.fromISO(dateStr).toFormat("dd LLL yyyy");
+  });
+
+  eleventyConfig.addFilter("dateTimeUTC", (dateStr) => {
+    return DateTime.fromISO(dateStr, { zone: "utc" }).toFormat("dd LLL yyyy, HH:mm 'UTC'");
   });
 
   eleventyConfig.addFilter("dateISO", (dateStr) => {
