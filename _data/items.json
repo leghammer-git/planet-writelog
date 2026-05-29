@@ -1,5 +1,27 @@
 [
   {
+    "id": "https://github.com/Croxleyboy/IntuneAutomate",
+    "person_handle": "andy-jones",
+    "type": "github-releases",
+    "title": "IntuneAutomate",
+    "description": "IntuneAutomate - FREE Community Intune toolset designed for Automating key Intune tasks",
+    "link": "https://github.com/Croxleyboy/IntuneAutomate",
+    "published_at": "2026-05-29T09:35:30.000Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
+    "source": "GitHub"
+  },
+  {
+    "id": "http://oofhours.com/?p=7022",
+    "person_handle": "michael-niehaus",
+    "type": "blog",
+    "title": "Time to move to Entra Cloud Sync",
+    "description": "I’ve been using Entra Connect Sync, formerly AAD Connect, for a long time (going back to the days when ADFS was considered “the best way” — but it was also the most complex to implement and I had no real desire to do that). But with recent improvements to the Hybrid Azure AD…",
+    "link": "https://oofhours.com/2026/05/29/time-to-move-to-entra-cloud-sync/",
+    "published_at": "2026-05-29T08:20:03.000Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
+    "source": "oofhours.com"
+  },
+  {
     "id": "https://4sysops.com/?p=1611011",
     "person_handle": "4sysops",
     "type": "blog",
@@ -9,17 +31,6 @@
     "published_at": "2026-05-28T20:29:18.000Z",
     "fetched_at": "2026-05-28T21:09:28.175Z",
     "source": "4sysops"
-  },
-  {
-    "id": "https://github.com/Croxleyboy/IntuneAutomate",
-    "person_handle": "andy-jones",
-    "type": "github-releases",
-    "title": "IntuneAutomate",
-    "description": "IntuneAutomate - FREE Community Intune toolset designed for Automating key Intune tasks",
-    "link": "https://github.com/Croxleyboy/IntuneAutomate",
-    "published_at": "2026-05-28T09:45:05.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
-    "source": "GitHub"
   },
   {
     "id": "https://4sysops.com/?p=1610059",
@@ -216,7 +227,7 @@
     "description": "",
     "link": "https://github.com/andrew-s-taylor/WindowsAutopilotInfo",
     "published_at": "2026-05-21T12:34:40.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -304,7 +315,7 @@
     "description": "",
     "link": "https://github.com/byteben/Windows-11",
     "published_at": "2026-05-19T16:24:45.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -1250,7 +1261,7 @@
     "description": "",
     "link": "https://github.com/ChanderManiPandey2022/Update-Win11_24H2-TO-Win11_25H2_Uising_Intune_Proactive_Remediations-/releases/tag/v1.0",
     "published_at": "2026-05-04T11:51:35.000Z",
-    "fetched_at": "2026-05-28T22:27:49.513Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -1690,7 +1701,7 @@
     "description": "",
     "link": "https://github.com/andrew-s-taylor/Presentations",
     "published_at": "2026-04-24T11:16:41.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -2031,7 +2042,7 @@
     "description": "",
     "link": "https://github.com/byteben/MEM",
     "published_at": "2026-04-14T10:51:37.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -2262,7 +2273,7 @@
     "description": "Intune Automation",
     "link": "https://github.com/Croxleyboy/IntuneScripts",
     "published_at": "2026-04-06T11:18:27.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -2911,7 +2922,7 @@
     "description": "- Replaced sample XMLs - Improved txt file output logic for PMPC Custom App and Win32 apps",
     "link": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.3",
     "published_at": "2026-02-23T12:08:50.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -3681,7 +3692,7 @@
     "description": "Miryoku is an ergonomic, minimal, orthogonal, and universal keyboard layout. Miryoku QMK is the Miryoku implementation for QMK.",
     "link": "https://github.com/CodyMathis123/miryoku_qmk",
     "published_at": "2025-12-23T06:52:36.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -3901,7 +3912,7 @@
     "description": "Access Microsoft Intune tenant metrics quickly on the go",
     "link": "https://github.com/Croxleyboy/IntuneAutomateMobile",
     "published_at": "2025-11-26T11:47:16.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -4033,7 +4044,7 @@
     "description": "Public release for IntuneHRFlow - Automated Power Automate flows for onboarding and offboarding users with Intune and Entra",
     "link": "https://github.com/Croxleyboy/IntuneHRAutomation",
     "published_at": "2025-11-10T14:40:02.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -4242,7 +4253,7 @@
     "description": "A PowerShell module designed to rapidly hydrate a ConfigMgr lab on Hyper-V.",
     "link": "https://github.com/AdamGrossTX/CMHyperHydrate",
     "published_at": "2025-10-10T13:52:09.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -4737,7 +4748,7 @@
     "description": "Helpful tools to automate Intune tasks",
     "link": "https://github.com/Croxleyboy/IntuneAndPowerAutomate",
     "published_at": "2025-08-15T15:05:47.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -5100,7 +5111,7 @@
     "description": "Source code behind the Windows Subsystem for Linux documentation.",
     "link": "https://github.com/GenerAhl/WSL",
     "published_at": "2025-06-26T08:03:45.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -5155,7 +5166,7 @@
     "description": "Misc powershell scripts",
     "link": "https://github.com/AdamGrossTX/Toolbox",
     "published_at": "2025-06-13T15:42:39.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -5177,7 +5188,7 @@
     "description": "Zip version to retain the signature",
     "link": "https://github.com/andrew-s-taylor/public/releases/tag/DeBloat",
     "published_at": "2025-06-09T07:21:55.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -5309,7 +5320,7 @@
     "description": "A collection of scripts related to Software Updates",
     "link": "https://github.com/AdamGrossTX/SoftwareUpdateScripts",
     "published_at": "2025-05-23T17:17:47.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -5364,7 +5375,7 @@
     "description": "Enable Public Contributions",
     "link": "https://github.com/byteben/memdocs",
     "published_at": "2025-05-16T11:01:56.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -5375,7 +5386,7 @@
     "description": "Enable Public Contributions",
     "link": "https://github.com/GenerAhl/memdocs",
     "published_at": "2025-05-14T07:50:08.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
+    "fetched_at": "2026-05-29T11:37:07.872Z",
     "source": "GitHub"
   },
   {
@@ -5487,16 +5498,5 @@
     "published_at": "2025-05-01T19:30:50.000Z",
     "fetched_at": "2026-05-10T13:20:13.899Z",
     "source": null
-  },
-  {
-    "id": "https://github.com/AdamGrossTX/MMAMOA2025",
-    "person_handle": "adam-gross",
-    "type": "github-releases",
-    "title": "MMAMOA2025",
-    "description": "Demo Content from MMSMOA 2025",
-    "link": "https://github.com/AdamGrossTX/MMAMOA2025",
-    "published_at": "2025-04-30T02:03:44.000Z",
-    "fetched_at": "2026-05-29T07:58:03.141Z",
-    "source": "GitHub"
   }
 ]
