@@ -18,7 +18,7 @@
     "description": "IntuneAutomate - FREE Community Intune toolset designed for Automating key Intune tasks",
     "link": "https://github.com/Croxleyboy/IntuneAutomate",
     "published_at": "2026-05-28T09:45:05.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -216,7 +216,7 @@
     "description": "",
     "link": "https://github.com/andrew-s-taylor/WindowsAutopilotInfo",
     "published_at": "2026-05-21T12:34:40.000Z",
-    "fetched_at": "2026-05-28T23:18:13.019Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -304,7 +304,7 @@
     "description": "",
     "link": "https://github.com/byteben/Windows-11",
     "published_at": "2026-05-19T16:24:45.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -1690,7 +1690,7 @@
     "description": "",
     "link": "https://github.com/andrew-s-taylor/Presentations",
     "published_at": "2026-04-24T11:16:41.000Z",
-    "fetched_at": "2026-05-28T23:18:13.019Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -2031,7 +2031,7 @@
     "description": "",
     "link": "https://github.com/byteben/MEM",
     "published_at": "2026-04-14T10:51:37.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -2262,7 +2262,7 @@
     "description": "Intune Automation",
     "link": "https://github.com/Croxleyboy/IntuneScripts",
     "published_at": "2026-04-06T11:18:27.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -2911,7 +2911,7 @@
     "description": "- Replaced sample XMLs - Improved txt file output logic for PMPC Custom App and Win32 apps",
     "link": "https://github.com/byteben/M365-Deployment-Tool/releases/tag/v1.0.3",
     "published_at": "2026-02-23T12:08:50.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -3373,7 +3373,7 @@
     "description": "",
     "link": "https://github.com/byteben/CheeseIpsum",
     "published_at": "2026-01-19T08:14:59.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -3901,7 +3901,7 @@
     "description": "Access Microsoft Intune tenant metrics quickly on the go",
     "link": "https://github.com/Croxleyboy/IntuneAutomateMobile",
     "published_at": "2025-11-26T11:47:16.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -4033,7 +4033,7 @@
     "description": "Public release for IntuneHRFlow - Automated Power Automate flows for onboarding and offboarding users with Intune and Entra",
     "link": "https://github.com/Croxleyboy/IntuneHRAutomation",
     "published_at": "2025-11-10T14:40:02.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -4242,7 +4242,7 @@
     "description": "A PowerShell module designed to rapidly hydrate a ConfigMgr lab on Hyper-V.",
     "link": "https://github.com/AdamGrossTX/CMHyperHydrate",
     "published_at": "2025-10-10T13:52:09.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -4737,7 +4737,7 @@
     "description": "Helpful tools to automate Intune tasks",
     "link": "https://github.com/Croxleyboy/IntuneAndPowerAutomate",
     "published_at": "2025-08-15T15:05:47.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -5100,7 +5100,7 @@
     "description": "Source code behind the Windows Subsystem for Linux documentation.",
     "link": "https://github.com/GenerAhl/WSL",
     "published_at": "2025-06-26T08:03:45.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -5155,7 +5155,7 @@
     "description": "Misc powershell scripts",
     "link": "https://github.com/AdamGrossTX/Toolbox",
     "published_at": "2025-06-13T15:42:39.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -5177,7 +5177,7 @@
     "description": "Zip version to retain the signature",
     "link": "https://github.com/andrew-s-taylor/public/releases/tag/DeBloat",
     "published_at": "2025-06-09T07:21:55.000Z",
-    "fetched_at": "2026-05-28T23:18:13.019Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -5309,7 +5309,7 @@
     "description": "A collection of scripts related to Software Updates",
     "link": "https://github.com/AdamGrossTX/SoftwareUpdateScripts",
     "published_at": "2025-05-23T17:17:47.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -5364,7 +5364,7 @@
     "description": "Enable Public Contributions",
     "link": "https://github.com/byteben/memdocs",
     "published_at": "2025-05-16T11:01:56.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -5375,7 +5375,7 @@
     "description": "Enable Public Contributions",
     "link": "https://github.com/GenerAhl/memdocs",
     "published_at": "2025-05-14T07:50:08.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   },
   {
@@ -5496,7 +5496,7 @@
     "description": "Demo Content from MMSMOA 2025",
     "link": "https://github.com/AdamGrossTX/MMAMOA2025",
     "published_at": "2025-04-30T02:03:44.000Z",
-    "fetched_at": "2026-05-29T03:42:31.451Z",
+    "fetched_at": "2026-05-29T07:58:03.141Z",
     "source": "GitHub"
   }
 ]
