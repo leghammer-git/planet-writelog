@@ -1,24 +1,32 @@
 {
-  "name": "Nicklas Ahlberg",
-  "handle": "nicklas-ahlberg",
-  "avatar": "https://images.mvp.microsoft.com/ac3241e1-b667-ec11-8943-0022482d7705",
-  "mvp": {
-    "status": "active",
-    "category": "Windows and Devices"
-  },
-  "title": "Consultant",
-  "bio": "Microsoft MVP - Intune",
-  "links": {
-    "website": "https://rockenroll.tech",
-    "bluesky": "nicklasahlberg.bsky.social",
-    "github": "NicklasAhlberg",
-    "linkedin": "nicklasahlberg",
-    "twitter": "AhlbergNicklas"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "NicklasAhlberg"
-    }
-  ]
+  "name":  "Nicklas Ahlberg",
+  "handle":  "nicklas-ahlberg",
+  "avatar":  "https://images.mvp.microsoft.com/ac3241e1-b667-ec11-8943-0022482d7705",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Windows and Devices"
+      },
+  "title":  "Consultant",
+  "bio":  "Microsoft MVP - Intune",
+  "links":  {
+        "website":  "https://rockenroll.tech",
+        "bluesky":  "nicklasahlberg.bsky.social",
+        "github":  "NicklasAhlberg",
+        "linkedin":  "nicklasahlberg",
+        "twitter":  "AhlbergNicklas"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "NicklasAhlberg"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:2ao2ufq62j275peqf3lbpmvv/rss"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://www.rockenroll.tech/feed"
+        }
+      ]
 }

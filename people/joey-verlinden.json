@@ -1,23 +1,27 @@
 {
-  "name": "Joey Verlinden",
-  "handle": "joey-verlinden",
-  "avatar": "https://images.mvp.microsoft.com/e69756e1-1d9e-ed11-83ff-000d3a5600fa?638667751390383362",
-  "mvp": {
-    "status": "active",
-    "category": "Windows and Devices"
-  },
-  "title": "Consultant",
-  "bio": "Biography",
-  "links": {
-    "website": "http://www.joeyverlinden.com",
-    "github": "j0eyv",
-    "linkedin": "joeyverlinden",
-    "twitter": "jvldn1"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "j0eyv"
-    }
-  ]
+  "name":  "Joey Verlinden",
+  "handle":  "joey-verlinden",
+  "avatar":  "https://images.mvp.microsoft.com/e69756e1-1d9e-ed11-83ff-000d3a5600fa?638667751390383362",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Windows and Devices"
+      },
+  "title":  "Consultant",
+  "bio":  "Biography",
+  "links":  {
+        "website":  "http://www.joeyverlinden.com",
+        "github":  "j0eyv",
+        "linkedin":  "joeyverlinden",
+        "twitter":  "jvldn1"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "j0eyv"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://www.joeyverlinden.com/feed"
+        }
+      ]
 }

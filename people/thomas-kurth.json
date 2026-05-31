@@ -1,23 +1,27 @@
 {
-  "name": "Thomas Kurth",
-  "handle": "thomas-kurth",
-  "avatar": "https://images.mvp.microsoft.com/9093f405-2610-ea11-a811-000d3a8ccba0",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "#LifeLongLearning is the key to success!",
-  "links": {
-    "website": "https://www.wpninjas.ch",
-    "github": "ThomasKur",
-    "linkedin": "thomas-kurth-a86b7851",
-    "twitter": "ThomasKurth_ch"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "ThomasKur"
-    }
-  ]
+  "name":  "Thomas Kurth",
+  "handle":  "thomas-kurth",
+  "avatar":  "https://images.mvp.microsoft.com/9093f405-2610-ea11-a811-000d3a8ccba0",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "#LifeLongLearning is the key to success!",
+  "links":  {
+        "website":  "https://www.wpninjas.ch",
+        "github":  "ThomasKur",
+        "linkedin":  "thomas-kurth-a86b7851",
+        "twitter":  "ThomasKurth_ch"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "ThomasKur"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://medium.com/@kurtli_thomas/feed"
+        }
+      ]
 }

@@ -14,7 +14,7 @@ const PEOPLE_DIR = join(root, "people");
 const DATA_DIR = join(root, "_data");
 const CONCURRENCY = 10;
 const TIMEOUT_MS = 15_000;
-const MAX_ITEMS = 500;
+const MAX_ITEMS = 5000;
 const DESC_MAX = 280;
 
 // ── database setup ────────────────────────────────────────────────────────────
@@ -57,7 +57,14 @@ function seedFromJson(db) {
     INSERT OR IGNORE INTO items (id, person_handle, type, title, description, link, published_at, fetched_at, source)
     VALUES (@id, @person_handle, @type, @title, @description, @link, @published_at, @fetched_at, @source)
   `);
-  for (const r of existing) insert.run(r);
+  db.exec("BEGIN");
+  try {
+    for (const r of existing) insert.run(r);
+    db.exec("COMMIT");
+  } catch (e) {
+    db.exec("ROLLBACK");
+    throw e;
+  }
 }
 
 // ── HTTP helpers ──────────────────────────────────────────────────────────────
@@ -314,18 +321,20 @@ async function main() {
     JSON.parse(readFileSync(join(PEOPLE_DIR, f), "utf8"))
   );
 
-  // Resolve YouTube channel handles (@name → UC…) with DB caching
-  for (const person of people) {
-    for (const feedDef of person.feeds) {
-      if (feedDef.type === "youtube" && feedDef.channel && !feedDef.channel_id) {
-        try {
-          feedDef.channel_id = await resolveYouTubeChannelId(feedDef.channel, db);
-        } catch (err) {
-          console.warn(`  ⚠ Could not resolve YouTube channel ${feedDef.channel} for ${person.handle}: ${err.message}`);
-        }
-      }
-    }
-  }
+  // Resolve YouTube channel handles (@name → UC…) with DB caching — runs in parallel
+  await Promise.all(
+    people.flatMap((person) =>
+      person.feeds
+        .filter((f) => f.type === "youtube" && f.channel && !f.channel_id)
+        .map((feedDef) =>
+          resolveYouTubeChannelId(feedDef.channel, db)
+            .then((id) => { feedDef.channel_id = id; })
+            .catch((err) => console.warn(
+              `  ⚠ Could not resolve YouTube channel ${feedDef.channel} for ${person.handle}: ${err.message}`
+            ))
+        )
+    )
+  );
 
   // Group URL-based feeds by URL so each remote feed is fetched once, even
   // when multiple people share the same feed URL (e.g. a multi-author blog).
@@ -482,15 +491,10 @@ async function main() {
   console.log(`────────────────────────────────────────────────────────`);
   console.log(`  Total new items: ${totalNew}`);
 
-  // Write _data/items.json (most recent 500)
+  // Write _data/items.json (most recent MAX_ITEMS) — entities already decoded before DB insert
   const allItems = db
     .prepare("SELECT * FROM items ORDER BY published_at DESC LIMIT ?")
-    .all(MAX_ITEMS)
-    .map((item) => ({
-      ...item,
-      title: decodeEntities(item.title),
-      description: decodeEntities(item.description),
-    }));
+    .all(MAX_ITEMS);
   writeFileSync(join(DATA_DIR, "items.json"), JSON.stringify(allItems, null, 2));
 
   // Write _data/people.json

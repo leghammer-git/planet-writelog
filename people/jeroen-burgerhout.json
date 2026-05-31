@@ -1,25 +1,33 @@
 {
-  "name": "Jeroen Burgerhout",
-  "handle": "jeroen-burgerhout",
-  "avatar": "https://images.mvp.microsoft.com/8275db10-5372-4514-9b06-9d10185327b2?638877640905037647",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "Tech Lead Modern Workplace | MCT | CEO (Chief Everything Officer)",
-  "links": {
-    "website": "https://burgerhout.org",
-    "bluesky": "jeroen.burgerhout.org",
-    "facebook": "jeroen.burgerhout",
-    "github": "BurgerhoutJ",
-    "linkedin": "jeroenburgerhout",
-    "twitter": "BurgerhoutJ"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "BurgerhoutJ"
-    }
-  ]
+  "name":  "Jeroen Burgerhout",
+  "handle":  "jeroen-burgerhout",
+  "avatar":  "https://images.mvp.microsoft.com/8275db10-5372-4514-9b06-9d10185327b2?638877640905037647",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "Tech Lead Modern Workplace | MCT | CEO (Chief Everything Officer)",
+  "links":  {
+        "website":  "https://burgerhout.org",
+        "bluesky":  "jeroen.burgerhout.org",
+        "facebook":  "jeroen.burgerhout",
+        "github":  "BurgerhoutJ",
+        "linkedin":  "jeroenburgerhout",
+        "twitter":  "BurgerhoutJ"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "BurgerhoutJ"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://www.burgerhout.org/rss"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:hbrt2gnnm7gwj66sdm7khpvn/rss"
+        }
+      ]
 }

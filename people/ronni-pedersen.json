@@ -1,0 +1,21 @@
+{
+  "name":  "Ronni Pedersen",
+  "handle":  "ronni-pedersen",
+  "avatar":  "https://images.mvp.microsoft.com/732d88ae-3c9a-e411-93f2-9cb65495d3c4?638801716300627201",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Windows and Devices / Security"
+      },
+  "title":  "Geek :-)",
+  "bio":  "Ronni works as a Microsoft Certified Cloud Architect with APENTO in Denmark. He\u0027s working with designing and deploying management solutions based on Microsoft Endpoint Manager (SCCM and Microsoft Intune), Enterprise Mobility + Security and Microsoft Azure.\r\n\r\nMember of Microsoft Partner Expert Te...",
+  "links":  {
+        "twitter":  "ronnipedersen",
+        "facebook":  "?ref=logo#!/groups/196465560389943"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://www.ronnipedersen.com/feed"
+        }
+      ]
+}

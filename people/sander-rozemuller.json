@@ -1,24 +1,28 @@
 {
-  "name": "Sander Rozemuller",
-  "handle": "sander-rozemuller",
-  "avatar": "https://images.mvp.microsoft.com/26a9c8f7-0d07-ec11-b6e6-000d3a57952c",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Developer",
-  "bio": "Microsoft MVP | Automation First! | Blogger | WP Ninja | Public Speaker",
-  "links": {
-    "website": "https://rozemuller.com",
-    "bluesky": "sander.rozemuller.com",
-    "github": "srozemuller",
-    "linkedin": "sanderrozemuller",
-    "twitter": "SandeRozemuller"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "srozemuller"
-    }
-  ]
+  "name":  "Sander Rozemuller",
+  "handle":  "sander-rozemuller",
+  "avatar":  "https://images.mvp.microsoft.com/26a9c8f7-0d07-ec11-b6e6-000d3a57952c",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Developer",
+  "bio":  "Microsoft MVP | Automation First! | Blogger | WP Ninja | Public Speaker",
+  "links":  {
+        "website":  "https://rozemuller.com",
+        "bluesky":  "sander.rozemuller.com",
+        "github":  "srozemuller",
+        "linkedin":  "sanderrozemuller",
+        "twitter":  "SandeRozemuller"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "srozemuller"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://rozemuller.com/index.xml"
+        }
+      ]
 }

@@ -1,24 +1,36 @@
 {
-  "name": "Peter van der Woude",
-  "handle": "peter-van-der-woude",
-  "avatar": "https://images.mvp.microsoft.com/c81d7f49-fa0a-e511-b73f-6c3be5bde970?638281988879231440",
-  "mvp": {
-    "status": "active",
-    "category": "Enterprise Mobility"
-  },
-  "title": "Consultant",
-  "bio": "Microsoft Intune and ConfigMgr specialist.",
-  "links": {
-    "website": "https://www.petervanderwoude.nl/",
-    "bluesky": "pvanderwoude.bsky.social",
-    "github": "pvanderwoude",
-    "linkedin": "peterwoude",
-    "twitter": "pvanderwoude"
-  },
-  "feeds": [
-    {
-      "type": "blog",
-      "url": "https://www.petervanderwoude.nl/feed"
-    }
-  ]
+  "name":  "Peter van der Woude",
+  "handle":  "peter-van-der-woude",
+  "avatar":  "https://images.mvp.microsoft.com/c81d7f49-fa0a-e511-b73f-6c3be5bde970?638281988879231440",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Enterprise Mobility"
+      },
+  "title":  "Consultant",
+  "bio":  "Microsoft Intune and ConfigMgr specialist.",
+  "links":  {
+        "website":  "https://www.petervanderwoude.nl/",
+        "bluesky":  "pvanderwoude.bsky.social",
+        "github":  "pvanderwoude",
+        "linkedin":  "peterwoude",
+        "twitter":  "pvanderwoude"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://www.petervanderwoude.nl/feed"
+        },
+        {
+          "type":  "github-user",
+          "username":  "pvanderwoude"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:mvb3b5gu4ic3tovzs46abmh5/rss"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://petervanderwoude.nl/feed"
+        }
+      ]
 }

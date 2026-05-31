@@ -1,0 +1,15 @@
+{
+  "name":  "Workplace Ninja Summit \u0026#8211; The Workplace Summit of Europe",
+  "handle":  "wpninjas",
+  "title":  "Community Publication",
+  "bio":  "",
+  "links":  {
+        "website":  "https://summit.wpninjas.global"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://summit.wpninjas.global/feed"
+        }
+      ]
+}

@@ -1,29 +1,37 @@
 {
-  "name": "JÃƒÂ¶rgen Nilsson",
-  "handle": "jorgen-nilsson",
-  "avatar": "https://images.mvp.microsoft.com/bbbd70c0-3c9a-e411-93f2-9cb65495d3c4",
-  "mvp": {
-    "status": "active",
-    "category": "Enterprise Mobility"
-  },
-  "title": "Senior Consultant",
-  "bio": "Enterprise Mobility and Windows specialist at Onevinn, sharing tips on Intune, ConfigMgr, and modern endpoint management.",
-  "links": {
-    "website": "https://ccmexec.com",
-    "bluesky": "ccmexec.bsky.social",
-    "facebook": "jor.nilsson",
-    "github": "ccmexec",
-    "linkedin": "ccmexec",
-    "twitter": "ccmexec"
-  },
-  "feeds": [
-    {
-      "type": "blog",
-      "url": "https://ccmexec.com/feed/"
-    },
-    {
-      "type": "github-user",
-      "username": "ccmexec"
-    }
-  ]
+  "name":  "JÃƒÂ¶rgen Nilsson",
+  "handle":  "jorgen-nilsson",
+  "avatar":  "https://images.mvp.microsoft.com/bbbd70c0-3c9a-e411-93f2-9cb65495d3c4",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Enterprise Mobility"
+      },
+  "title":  "Senior Consultant",
+  "bio":  "Enterprise Mobility and Windows specialist at Onevinn, sharing tips on Intune, ConfigMgr, and modern endpoint management.",
+  "links":  {
+        "website":  "https://ccmexec.com",
+        "bluesky":  "ccmexec.bsky.social",
+        "facebook":  "jor.nilsson",
+        "github":  "ccmexec",
+        "linkedin":  "ccmexec",
+        "twitter":  "ccmexec"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://ccmexec.com/feed/"
+        },
+        {
+          "type":  "github-user",
+          "username":  "ccmexec"
+        },
+        {
+          "type":  "github-user",
+          "username":  "SweJorgen"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:4lojutgvrmstyfzzzifykvxu/rss"
+        }
+      ]
 }

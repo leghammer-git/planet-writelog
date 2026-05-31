@@ -1,21 +1,25 @@
 {
-  "name": "Dean Ellerby",
-  "handle": "dean-ellerby",
-  "avatar": "https://images.mvp.microsoft.com/733f4e0c-b767-ec11-8943-0022482d7705?638562243867062680",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Trainer",
-  "bio": "Security MVP focussing on Intune",
-  "links": {
-    "linkedin": "deanellerby",
-    "youtube": "@DeanEllerbyMVP"
-  },
-  "feeds": [
-    {
-      "type": "youtube",
-      "channel": "@DeanEllerbyMVP"
-    }
-  ]
+  "name":  "Dean Ellerby",
+  "handle":  "dean-ellerby",
+  "avatar":  "https://images.mvp.microsoft.com/733f4e0c-b767-ec11-8943-0022482d7705?638562243867062680",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Trainer",
+  "bio":  "Security MVP focussing on Intune",
+  "links":  {
+        "linkedin":  "deanellerby",
+        "youtube":  "@DeanEllerbyMVP"
+      },
+  "feeds":  [
+        {
+          "type":  "youtube",
+          "channel":  "@DeanEllerbyMVP"
+        },
+        {
+          "type":  "youtube",
+          "channel":  "@thecmc"
+        }
+      ]
 }

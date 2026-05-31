@@ -1,29 +1,33 @@
 {
-  "name": "Johan Arwidmark",
-  "handle": "johan-arwidmark",
-  "avatar": "https://images.mvp.microsoft.com/1784d172-3c9a-e411-93f2-9cb65495d3c4",
-  "mvp": {
-    "status": "active",
-    "category": "Enterprise Mobility"
-  },
-  "title": "Consultant",
-  "bio": "required",
-  "links": {
-    "website": "https://www.deploymentresearch.com/",
-    "facebook": "DeploymentResearch",
-    "github": "deploymentresearch",
-    "linkedin": "jarwidmark",
-    "twitter": "jarwidmark",
-    "youtube": "@DeploymentResearch"
-  },
-  "feeds": [
-    {
-      "type": "blog",
-      "url": "https://www.deploymentresearch.com/feed/"
-    },
-    {
-      "type": "github-user",
-      "username": "DeploymentResearch"
-    }
-  ]
+  "name":  "Johan Arwidmark",
+  "handle":  "johan-arwidmark",
+  "avatar":  "https://images.mvp.microsoft.com/1784d172-3c9a-e411-93f2-9cb65495d3c4",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Enterprise Mobility"
+      },
+  "title":  "Consultant",
+  "bio":  "required",
+  "links":  {
+        "website":  "https://www.deploymentresearch.com/",
+        "facebook":  "DeploymentResearch",
+        "github":  "deploymentresearch",
+        "linkedin":  "jarwidmark",
+        "twitter":  "jarwidmark",
+        "youtube":  "@DeploymentResearch"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://www.deploymentresearch.com/feed/"
+        },
+        {
+          "type":  "github-user",
+          "username":  "DeploymentResearch"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://deploymentresearch.com/feed"
+        }
+      ]
 }

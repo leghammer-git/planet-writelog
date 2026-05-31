@@ -1,29 +1,33 @@
 {
-  "name": "Damien VAN ROBAEYS",
-  "handle": "damien-van-robaeys",
-  "avatar": "https://images.mvp.microsoft.com/b1c59ea6-c7fa-e611-8104-3863bb363e80?638285615608041604",
-  "mvp": {
-    "status": "active",
-    "category": "Microsoft Azure"
-  },
-  "title": "Consultant",
-  "bio": "Focuses on PowerShell, Intune, MECM and all things relative to automation.",
-  "links": {
-    "website": "https://www.systanddeploy.com/",
-    "facebook": "systanddeploy",
-    "github": "damienvanrobaeys",
-    "linkedin": "damien-van-robaeys-2a648627",
-    "twitter": "syst_and_deploy",
-    "youtube": "UCcR6WiAcC3LXp7ulnu1LoCw"
-  },
-  "feeds": [
-    {
-      "type": "youtube",
-      "channel_id": "UCcR6WiAcC3LXp7ulnu1LoCw"
-    },
-    {
-      "type": "github-user",
-      "username": "damienvanrobaeys"
-    }
-  ]
+  "name":  "Damien VAN ROBAEYS",
+  "handle":  "damien-van-robaeys",
+  "avatar":  "https://images.mvp.microsoft.com/b1c59ea6-c7fa-e611-8104-3863bb363e80?638285615608041604",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Microsoft Azure"
+      },
+  "title":  "Consultant",
+  "bio":  "Focuses on PowerShell, Intune, MECM and all things relative to automation.",
+  "links":  {
+        "website":  "https://www.systanddeploy.com/",
+        "facebook":  "systanddeploy",
+        "github":  "damienvanrobaeys",
+        "linkedin":  "damien-van-robaeys-2a648627",
+        "twitter":  "syst_and_deploy",
+        "youtube":  "UCcR6WiAcC3LXp7ulnu1LoCw"
+      },
+  "feeds":  [
+        {
+          "type":  "youtube",
+          "channel_id":  "UCcR6WiAcC3LXp7ulnu1LoCw"
+        },
+        {
+          "type":  "github-user",
+          "username":  "damienvanrobaeys"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://www.workplaceninjas.fr/feeds/posts/default"
+        }
+      ]
 }

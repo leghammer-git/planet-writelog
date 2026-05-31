@@ -1,24 +1,32 @@
 {
-  "name": "Dustin Gullett",
-  "handle": "dustin-gullett",
-  "avatar": "https://images.mvp.microsoft.com/ccc685b5-0a1e-4d75-bcb2-d196a73709c8?638869647364614398",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "Microsoft Security Enthusiast, Community Advocate \u0026 25-Year IT Veteran",
-  "links": {
-    "website": "https://zerototrust.tech",
-    "bluesky": "zerototrust.tech",
-    "github": "dgulle",
-    "linkedin": "dustin-gullett-83607b1ba",
-    "twitter": "gullett_d"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "dgulle"
-    }
-  ]
+  "name":  "Dustin Gullett",
+  "handle":  "dustin-gullett",
+  "avatar":  "https://images.mvp.microsoft.com/ccc685b5-0a1e-4d75-bcb2-d196a73709c8?638869647364614398",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "Microsoft Security Enthusiast, Community Advocate \u0026 25-Year IT Veteran",
+  "links":  {
+        "website":  "https://zerototrust.tech",
+        "bluesky":  "zerototrust.tech",
+        "github":  "dgulle",
+        "linkedin":  "dustin-gullett-83607b1ba",
+        "twitter":  "gullett_d"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "dgulle"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:bhegzmytyifqewuriw535wps/rss"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://zerototrust.tech/feed"
+        }
+      ]
 }

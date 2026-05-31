@@ -1,24 +1,32 @@
 {
-  "name": "James Robinson",
-  "handle": "james-robinson",
-  "avatar": "https://images.mvp.microsoft.com/0d76426f-95fb-ed11-8f6d-000d3a560942",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "Modern Management \u0026 Cloud-Native Advocate. Neurodivergent Loudmouth.",
-  "links": {
-    "website": "https://skiptotheendpoint.co.uk",
-    "bluesky": "skiptotheendpoint.co.uk",
-    "github": "SkipToTheEndpoint",
-    "linkedin": "skiptotheendpoint",
-    "twitter": "SkipToEndpoint"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "SkipToTheEndpoint"
-    }
-  ]
+  "name":  "James Robinson",
+  "handle":  "james-robinson",
+  "avatar":  "https://images.mvp.microsoft.com/0d76426f-95fb-ed11-8f6d-000d3a560942",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "Modern Management \u0026 Cloud-Native Advocate. Neurodivergent Loudmouth.",
+  "links":  {
+        "website":  "https://skiptotheendpoint.co.uk",
+        "bluesky":  "skiptotheendpoint.co.uk",
+        "github":  "SkipToTheEndpoint",
+        "linkedin":  "skiptotheendpoint",
+        "twitter":  "SkipToEndpoint"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "SkipToTheEndpoint"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:qwjsq326qowfmzoz52r6uwbu/rss"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://skiptotheendpoint.co.uk/rss"
+        }
+      ]
 }

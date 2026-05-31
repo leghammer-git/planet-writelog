@@ -1,22 +1,26 @@
 {
-  "name": "Johannes Geir Kristjansson",
-  "handle": "johannes-geir-kristjansson",
-  "avatar": "https://images.mvp.microsoft.com/e3354da4-4b4c-ec11-8f8e-00224827f7fc",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "What is the problem you are trying to solve?",
-  "links": {
-    "website": "https://johannesblog.com/",
-    "bluesky": "jgkps.bsky.social",
-    "twitter": "jgkps"
-  },
-  "feeds": [
-    {
-      "type": "blog",
-      "url": "https://johannesblog.com/feed"
-    }
-  ]
+  "name":  "Johannes Geir Kristjansson",
+  "handle":  "johannes-geir-kristjansson",
+  "avatar":  "https://images.mvp.microsoft.com/e3354da4-4b4c-ec11-8f8e-00224827f7fc",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "What is the problem you are trying to solve?",
+  "links":  {
+        "website":  "https://johannesblog.com/",
+        "bluesky":  "jgkps.bsky.social",
+        "twitter":  "jgkps"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://johannesblog.com/feed"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:mt2if6rcohf2hy4ap6ysdfqe/rss"
+        }
+      ]
 }

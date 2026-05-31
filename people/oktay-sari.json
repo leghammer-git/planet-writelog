@@ -1,28 +1,32 @@
 {
-  "name": "Oktay Sari",
-  "handle": "oktay-sari",
-  "avatar": "https://images.mvp.microsoft.com/fa54078a-6d27-ed11-9db2-000d3a1028ba",
-  "mvp": {
-    "status": "active",
-    "category": "Windows and Devices"
-  },
-  "title": "Consultant",
-  "bio": "Oktay is an experienced consultant focussing on Intune and all things security.",
-  "links": {
-    "facebook": "oktay.sari.nl",
-    "github": "oktay-sari",
-    "linkedin": "oktaysari",
-    "twitter": "oktay_sari",
-    "youtube": "UCOH1EpeoyDNDZh813aqG0vw"
-  },
-  "feeds": [
-    {
-      "type": "youtube",
-      "channel_id": "UCOH1EpeoyDNDZh813aqG0vw"
-    },
-    {
-      "type": "github-user",
-      "username": "oktay-sari"
-    }
-  ]
+  "name":  "Oktay Sari",
+  "handle":  "oktay-sari",
+  "avatar":  "https://images.mvp.microsoft.com/fa54078a-6d27-ed11-9db2-000d3a1028ba",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Windows and Devices"
+      },
+  "title":  "Consultant",
+  "bio":  "Oktay is an experienced consultant focussing on Intune and all things security.",
+  "links":  {
+        "facebook":  "oktay.sari.nl",
+        "github":  "oktay-sari",
+        "linkedin":  "oktaysari",
+        "twitter":  "oktay_sari",
+        "youtube":  "UCOH1EpeoyDNDZh813aqG0vw"
+      },
+  "feeds":  [
+        {
+          "type":  "youtube",
+          "channel_id":  "UCOH1EpeoyDNDZh813aqG0vw"
+        },
+        {
+          "type":  "github-user",
+          "username":  "oktay-sari"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://allthingscloud.blog/feed"
+        }
+      ]
 }

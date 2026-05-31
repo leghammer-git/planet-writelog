@@ -1,24 +1,32 @@
 {
-  "name": "Rudy Ooms",
-  "handle": "rudy-ooms",
-  "avatar": "https://images.mvp.microsoft.com/33543f3c-f4bd-eb11-bacc-0022481f2c24",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Content Writer Manager",
-  "bio": "Intune and MDM specialist at Patch My PC, author of the Call4Cloud blog.",
-  "links": {
-    "website": "https://call4cloud.nl",
-    "bluesky": "call4cloud.nl",
-    "linkedin": "rudyooms",
-    "twitter": "Mister_MDM",
-    "youtube": "UC13sLCGRsNzZj_foX1yDQKg"
-  },
-  "feeds": [
-    {
-      "type": "blog",
-      "url": "https://call4cloud.nl/feed/"
-    }
-  ]
+  "name":  "Rudy Ooms",
+  "handle":  "rudy-ooms",
+  "avatar":  "https://images.mvp.microsoft.com/33543f3c-f4bd-eb11-bacc-0022481f2c24",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Content Writer Manager",
+  "bio":  "Intune and MDM specialist at Patch My PC, author of the Call4Cloud blog.",
+  "links":  {
+        "website":  "https://call4cloud.nl",
+        "bluesky":  "call4cloud.nl",
+        "linkedin":  "rudyooms",
+        "twitter":  "Mister_MDM",
+        "youtube":  "UC13sLCGRsNzZj_foX1yDQKg"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://call4cloud.nl/feed/"
+        },
+        {
+          "type":  "youtube",
+          "channel_id":  "UC13sLCGRsNzZj_foX1yDQKg"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:2xpj4rj7haxq2qzrhq5pfgr7/rss"
+        }
+      ]
 }

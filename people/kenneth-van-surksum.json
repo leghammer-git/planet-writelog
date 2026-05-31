@@ -1,22 +1,30 @@
 {
-  "name": "Kenneth van Surksum",
-  "handle": "kenneth-van-surksum",
-  "avatar": "https://images.mvp.microsoft.com/ef9307f9-3c9a-e411-93f2-9cb65495d3c4",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "Modern Workplace consultant at Itgration \u0026 Secure At Work",
-  "links": {
-    "bluesky": "kennethvs.nl",
-    "facebook": "kvansurksum",
-    "github": "kennethvs"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "kennethvs"
-    }
-  ]
+  "name":  "Kenneth van Surksum",
+  "handle":  "kenneth-van-surksum",
+  "avatar":  "https://images.mvp.microsoft.com/ef9307f9-3c9a-e411-93f2-9cb65495d3c4",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "Modern Workplace consultant at Itgration \u0026 Secure At Work",
+  "links":  {
+        "bluesky":  "kennethvs.nl",
+        "facebook":  "kvansurksum",
+        "github":  "kennethvs"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "kennethvs"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:ig4vcvbphsbcjxyxpvw2xsfy/rss"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://www.vansurksum.com/feed"
+        }
+      ]
 }

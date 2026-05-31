@@ -1,24 +1,28 @@
 {
-  "name": "Joymalya Basu Roy",
-  "handle": "joymalya-basu-roy",
-  "avatar": "https://images.mvp.microsoft.com/d00804aa-6c60-eb11-a812-000d3a8ccaf5",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "Service Architect @Atos | MVP for Microsoft Intune",
-  "links": {
-    "website": "https://www.joymalya.com/",
-    "facebook": "JoymalyaBR",
-    "github": "jbasuroy369",
-    "linkedin": "joymalyabasuroy",
-    "twitter": "jbasuroy369"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "jbasuroy369"
-    }
-  ]
+  "name":  "Joymalya Basu Roy",
+  "handle":  "joymalya-basu-roy",
+  "avatar":  "https://images.mvp.microsoft.com/d00804aa-6c60-eb11-a812-000d3a8ccaf5",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "Service Architect @Atos | MVP for Microsoft Intune",
+  "links":  {
+        "website":  "https://www.joymalya.com/",
+        "facebook":  "JoymalyaBR",
+        "github":  "jbasuroy369",
+        "linkedin":  "joymalyabasuroy",
+        "twitter":  "jbasuroy369"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "jbasuroy369"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://joymalya.com/feed"
+        }
+      ]
 }

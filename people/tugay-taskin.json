@@ -1,27 +1,31 @@
 {
-  "name": "Tugay Taskin",
-  "handle": "tugay-taskin",
-  "avatar": "https://images.mvp.microsoft.com/3a7fc300-2f08-4a80-8599-0b9b18f5fbb5?638759203891857730",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Developer",
-  "bio": "Founder and Developer @ TUGI.CH",
-  "links": {
-    "website": "https://blog.tugi.ch",
-    "github": "tugich",
-    "linkedin": "ttugi",
-    "youtube": "@TUGI_CH"
-  },
-  "feeds": [
-    {
-      "type": "youtube",
-      "channel": "@TUGI_CH"
-    },
-    {
-      "type": "github-user",
-      "username": "tugich"
-    }
-  ]
+  "name":  "Tugay Taskin",
+  "handle":  "tugay-taskin",
+  "avatar":  "https://images.mvp.microsoft.com/3a7fc300-2f08-4a80-8599-0b9b18f5fbb5?638759203891857730",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Developer",
+  "bio":  "Founder and Developer @ TUGI.CH",
+  "links":  {
+        "website":  "https://blog.tugi.ch",
+        "github":  "tugich",
+        "linkedin":  "ttugi",
+        "youtube":  "@TUGI_CH"
+      },
+  "feeds":  [
+        {
+          "type":  "youtube",
+          "channel":  "@TUGI_CH"
+        },
+        {
+          "type":  "github-user",
+          "username":  "tugich"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://blog.tugi.ch/feed"
+        }
+      ]
 }

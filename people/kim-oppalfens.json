@@ -1,22 +1,26 @@
 {
-  "name": "Kim Oppalfens",
-  "handle": "kim-oppalfens",
-  "avatar": "https://images.mvp.microsoft.com/9b84d172-3c9a-e411-93f2-9cb65495d3c4",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "A short summary about yorself",
-  "links": {
-    "github": "Kimoppalfens",
-    "linkedin": "kimoppalfens",
-    "twitter": "Thewmiguy"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "Kimoppalfens"
-    }
-  ]
+  "name":  "Kim Oppalfens",
+  "handle":  "kim-oppalfens",
+  "avatar":  "https://images.mvp.microsoft.com/9b84d172-3c9a-e411-93f2-9cb65495d3c4",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "A short summary about yorself",
+  "links":  {
+        "github":  "Kimoppalfens",
+        "linkedin":  "kimoppalfens",
+        "twitter":  "Thewmiguy"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "Kimoppalfens"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://www.oscc.be/feed.xml"
+        }
+      ]
 }

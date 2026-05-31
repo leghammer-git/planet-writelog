@@ -1,24 +1,24 @@
 {
-  "name": "Shady Khorshed",
-  "handle": "shady-khorshed",
-  "avatar": "https://images.mvp.microsoft.com/a4975921-a265-4887-b40f-b6826b1ccd74?638741744894943143",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Researcher",
-  "bio": "Microsoft Intune",
-  "links": {
-    "website": "https://www.linkedin.com/newsletters/7064162802201972738/",
-    "bluesky": "shadykhorshed.bsky.social",
-    "linkedin": "shadykhorshed",
-    "twitter": "Shady_Khorshed",
-    "youtube": "@ShadyKhorshed"
-  },
-  "feeds": [
-    {
-      "type": "youtube",
-      "channel": "@ShadyKhorshed"
-    }
-  ]
+  "name":  "Shady Khorshed",
+  "handle":  "shady-khorshed",
+  "avatar":  "https://images.mvp.microsoft.com/a4975921-a265-4887-b40f-b6826b1ccd74?638741744894943143",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Researcher",
+  "bio":  "Microsoft Intune",
+  "links":  {
+        "website":  "https://www.linkedin.com/newsletters/7064162802201972738/",
+        "bluesky":  "shadykhorshed.bsky.social",
+        "linkedin":  "shadykhorshed",
+        "twitter":  "Shady_Khorshed",
+        "youtube":  "@ShadyKhorshed"
+      },
+  "feeds":  [
+        {
+          "type":  "youtube",
+          "channel":  "@ShadyKhorshed"
+        }
+      ]
 }

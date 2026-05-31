@@ -1,24 +1,28 @@
 {
-  "name": "Simon Binder",
-  "handle": "simon-binder",
-  "avatar": "https://images.mvp.microsoft.com/75ea3dc3-66c1-e811-816b-3863bb2e0320?639126383010986831",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "Lead Architect",
-  "links": {
-    "bluesky": "did:plc:r3otzfechenth2gplpkxu6rg",
-    "facebook": "simon.binder.10420",
-    "github": "Bindertech",
-    "linkedin": "simonbinderadvania",
-    "twitter": "bindertech"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "Bindertech"
-    }
-  ]
+  "name":  "Simon Binder",
+  "handle":  "simon-binder",
+  "avatar":  "https://images.mvp.microsoft.com/75ea3dc3-66c1-e811-816b-3863bb2e0320?639126383010986831",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "Lead Architect",
+  "links":  {
+        "bluesky":  "did:plc:r3otzfechenth2gplpkxu6rg",
+        "facebook":  "simon.binder.10420",
+        "github":  "Bindertech",
+        "linkedin":  "simonbinderadvania",
+        "twitter":  "bindertech"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "Bindertech"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bindertech.wordpress.com/feed"
+        }
+      ]
 }

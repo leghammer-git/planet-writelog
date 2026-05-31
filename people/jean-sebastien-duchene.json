@@ -1,29 +1,33 @@
 {
-  "name": "Jean-Sebastien Duchene",
-  "handle": "jean-sebastien-duchene",
-  "avatar": "https://images.mvp.microsoft.com/338d78ba-3c9a-e411-93f2-9cb65495d3c4?638767674413809257",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "Giving my knowledges to the greatest number of people",
-  "links": {
-    "website": "https://www.microsofttouch.fr",
-    "facebook": "jeansebastienduchenepro",
-    "github": "jsduchene",
-    "linkedin": "jeansebastienduchene",
-    "twitter": "microsofttouch",
-    "youtube": "@pulsivit"
-  },
-  "feeds": [
-    {
-      "type": "youtube",
-      "channel": "@pulsivit"
-    },
-    {
-      "type": "github-user",
-      "username": "jsduchene"
-    }
-  ]
+  "name":  "Jean-Sebastien Duchene",
+  "handle":  "jean-sebastien-duchene",
+  "avatar":  "https://images.mvp.microsoft.com/338d78ba-3c9a-e411-93f2-9cb65495d3c4?638767674413809257",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "Giving my knowledges to the greatest number of people",
+  "links":  {
+        "website":  "https://www.microsofttouch.fr",
+        "facebook":  "jeansebastienduchenepro",
+        "github":  "jsduchene",
+        "linkedin":  "jeansebastienduchene",
+        "twitter":  "microsofttouch",
+        "youtube":  "@pulsivit"
+      },
+  "feeds":  [
+        {
+          "type":  "youtube",
+          "channel":  "@pulsivit"
+        },
+        {
+          "type":  "github-user",
+          "username":  "jsduchene"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://www.microsofttouch.fr/members/anonymous/activities/rss"
+        }
+      ]
 }

@@ -1,29 +1,37 @@
 {
-  "name": "Matthew Levy",
-  "handle": "matthew-levy",
-  "avatar": "https://images.mvp.microsoft.com/5b085d3d-e697-e911-a990-000d3a137208",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "Principal architect, consultant",
-  "links": {
-    "website": "https://mattchatt.co.za/blog",
-    "bluesky": "mattchatt.co.za",
-    "github": "matthewjlevy",
-    "linkedin": "mattlevy42",
-    "twitter": "MattChatt42",
-    "youtube": "@mattchatt2702"
-  },
-  "feeds": [
-    {
-      "type": "youtube",
-      "channel": "@mattchatt2702"
-    },
-    {
-      "type": "github-user",
-      "username": "matthewjlevy"
-    }
-  ]
+  "name":  "Matthew Levy",
+  "handle":  "matthew-levy",
+  "avatar":  "https://images.mvp.microsoft.com/5b085d3d-e697-e911-a990-000d3a137208",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "Principal architect, consultant",
+  "links":  {
+        "website":  "https://mattchatt.co.za/blog",
+        "bluesky":  "mattchatt.co.za",
+        "github":  "matthewjlevy",
+        "linkedin":  "mattlevy42",
+        "twitter":  "MattChatt42",
+        "youtube":  "@mattchatt2702"
+      },
+  "feeds":  [
+        {
+          "type":  "youtube",
+          "channel":  "@mattchatt2702"
+        },
+        {
+          "type":  "github-user",
+          "username":  "matthewjlevy"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://mattchatt.co.za/feed"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:lgog3uicapcu2ichso4hqw6o/rss"
+        }
+      ]
 }

@@ -1,0 +1,22 @@
+{
+  "name":  "Jesus Octavio Rdz de Santiago",
+  "handle":  "jesus-octavio-rdz-de-santiago",
+  "avatar":  "https://images.mvp.microsoft.com/a19007f9-3c9a-e411-93f2-9cb65495d3c4?639011558835813185",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security / Windows and Devices"
+      },
+  "title":  "Senior Desktop Engineer",
+  "bio":  "I am a Modern Endpoint Architect with more than a decade of experience driving End-User Computing (EUC) transformation projects across Latin America. In my role as Senior Desktop Engineer, I specialize in designing, implementing, and scaling Microsoft 365 + Windows solutions that enable secure, e...",
+  "links":  {
+        "twitter":  "DeploymentMX",
+        "facebook":  "octavio.de.santiago",
+        "linkedin":  "octaviordz"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://blogs.itpro.es/octaviordz/feed"
+        }
+      ]
+}

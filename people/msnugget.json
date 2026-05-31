@@ -1,0 +1,15 @@
+{
+  "name":  "msnugget",
+  "handle":  "msnugget",
+  "title":  "Community Publication",
+  "bio":  "",
+  "links":  {
+        "website":  "https://msnugget.com"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://msnugget.com/feed"
+        }
+      ]
+}

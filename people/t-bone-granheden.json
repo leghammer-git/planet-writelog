@@ -1,30 +1,34 @@
 {
-  "name": "T-Bone Granheden",
-  "handle": "t-bone-granheden",
-  "avatar": "https://images.mvp.microsoft.com/264dfd60-f4bd-eb11-bacc-0022481f2c24",
-  "mvp": {
-    "status": "active",
-    "category": "Windows and Devices"
-  },
-  "title": "Researcher",
-  "bio": "Mr T-Bone: Prime Cut Expertise in Intune, AVD \u0026 Modern Workplace Tech",
-  "links": {
-    "website": "https://www.tbone.se",
-    "bluesky": "tbone.se",
-    "facebook": "mrtbone.se",
-    "github": "Mr-Tbone",
-    "linkedin": "mrtbone",
-    "twitter": "mrtbone_se",
-    "youtube": "@mrtbone_se"
-  },
-  "feeds": [
-    {
-      "type": "youtube",
-      "channel": "@mrtbone_se"
-    },
-    {
-      "type": "github-user",
-      "username": "Mr-Tbone"
-    }
-  ]
+  "name":  "T-Bone Granheden",
+  "handle":  "t-bone-granheden",
+  "avatar":  "https://images.mvp.microsoft.com/264dfd60-f4bd-eb11-bacc-0022481f2c24",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Windows and Devices"
+      },
+  "title":  "Researcher",
+  "bio":  "Mr T-Bone: Prime Cut Expertise in Intune, AVD \u0026 Modern Workplace Tech",
+  "links":  {
+        "website":  "https://www.tbone.se",
+        "bluesky":  "tbone.se",
+        "facebook":  "mrtbone.se",
+        "github":  "Mr-Tbone",
+        "linkedin":  "mrtbone",
+        "twitter":  "mrtbone_se",
+        "youtube":  "@mrtbone_se"
+      },
+  "feeds":  [
+        {
+          "type":  "youtube",
+          "channel":  "@mrtbone_se"
+        },
+        {
+          "type":  "github-user",
+          "username":  "Mr-Tbone"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://www.tbone.se/feed"
+        }
+      ]
 }

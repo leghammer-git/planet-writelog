@@ -1,29 +1,37 @@
 {
-  "name": "Maurice Daly",
-  "handle": "maurice-daly",
-  "avatar": "https://images.mvp.microsoft.com/d2c0c322-c8fa-e611-8104-3863bb363e80",
-  "mvp": {
-    "status": "active",
-    "category": "Enterprise Mobility"
-  },
-  "title": "Senior Security Architect",
-  "bio": "Enterprise Mobility MVP at Patch My PC, known for the Driver Automation Tool and ConfigMgr/Intune contributions.",
-  "links": {
-    "bluesky": "mauricedaly.com",
-    "facebook": "MSEndpointMgr",
-    "github": "MSEndpointMgr",
-    "linkedin": "mauricedaly",
-    "twitter": "modaly_it"
-  },
-  "feeds": [
-    {
-      "type": "blog",
-      "url": "https://msendpointmgr.com/feed/",
-      "author": "Maurice Daly"
-    },
-    {
-      "type": "github-user",
-      "username": "maurice-daly"
-    }
-  ]
+  "name":  "Maurice Daly",
+  "handle":  "maurice-daly",
+  "avatar":  "https://images.mvp.microsoft.com/d2c0c322-c8fa-e611-8104-3863bb363e80",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Enterprise Mobility"
+      },
+  "title":  "Senior Security Architect",
+  "bio":  "Enterprise Mobility MVP at Patch My PC, known for the Driver Automation Tool and ConfigMgr/Intune contributions.",
+  "links":  {
+        "bluesky":  "mauricedaly.com",
+        "facebook":  "MSEndpointMgr",
+        "github":  "MSEndpointMgr",
+        "linkedin":  "mauricedaly",
+        "twitter":  "modaly_it"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://msendpointmgr.com/feed/",
+          "author":  "Maurice Daly"
+        },
+        {
+          "type":  "github-user",
+          "username":  "maurice-daly"
+        },
+        {
+          "type":  "github-user",
+          "username":  "MSEndpointMgr"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:hzpaaegs6euphrpwhn2wnatm/rss"
+        }
+      ]
 }

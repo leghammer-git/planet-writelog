@@ -1,0 +1,15 @@
+{
+  "name":  "Anoop C Nair",
+  "handle":  "anoopcnair",
+  "title":  "Community Publication",
+  "bio":  "",
+  "links":  {
+        "website":  "https://www.anoopcnair.com/author/jiteshkumar"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://www.anoopcnair.com/feed"
+        }
+      ]
+}

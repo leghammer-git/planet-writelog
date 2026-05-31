@@ -1,23 +1,27 @@
 {
-  "name": "Eswar Koneti",
-  "handle": "eswar-koneti",
-  "avatar": "https://images.mvp.microsoft.com/9f6532cb-6a8c-e711-811e-3863bb36edf8?638563961794583715",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "Helping organizations with Microsoft Intune and the Modern Workplace",
-  "links": {
-    "facebook": "Eskonr",
-    "github": "eskonr",
-    "linkedin": "eskonr",
-    "twitter": "eskonr"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "eskonr"
-    }
-  ]
+  "name":  "Eswar Koneti",
+  "handle":  "eswar-koneti",
+  "avatar":  "https://images.mvp.microsoft.com/9f6532cb-6a8c-e711-811e-3863bb36edf8?638563961794583715",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "Helping organizations with Microsoft Intune and the Modern Workplace",
+  "links":  {
+        "facebook":  "Eskonr",
+        "github":  "eskonr",
+        "linkedin":  "eskonr",
+        "twitter":  "eskonr"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "eskonr"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://eskonr.com/feed"
+        }
+      ]
 }

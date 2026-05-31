@@ -1,24 +1,36 @@
 {
-  "name": "Yutaro Tamai",
-  "handle": "yutaro-tamai",
-  "avatar": "https://images.mvp.microsoft.com/020f1d17-7042-ea11-a812-000d3a8cc689?638438811091997643",
-  "mvp": {
-    "status": "active",
-    "category": "Windows and Devices"
-  },
-  "title": "Consultant",
-  "bio": "My main areas are Configuration Manager (ConfigMgr) and Microsoft Intune",
-  "links": {
-    "website": "https://sccm.jp",
-    "facebook": "tamaiyutaro",
-    "github": "tamaiyutaro",
-    "linkedin": "yutaro-tamai-9b594a70",
-    "twitter": "tamai_pc"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "tamaiyutaro"
-    }
-  ]
+  "name":  "Yutaro Tamai",
+  "handle":  "yutaro-tamai",
+  "avatar":  "https://images.mvp.microsoft.com/020f1d17-7042-ea11-a812-000d3a8cc689?638438811091997643",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Windows and Devices"
+      },
+  "title":  "Consultant",
+  "bio":  "My main areas are Configuration Manager (ConfigMgr) and Microsoft Intune",
+  "links":  {
+        "website":  "https://sccm.jp",
+        "facebook":  "tamaiyutaro",
+        "github":  "tamaiyutaro",
+        "linkedin":  "yutaro-tamai-9b594a70",
+        "twitter":  "tamai_pc"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "tamaiyutaro"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://wccj.connpass.com/ja.atom"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://sccm.jp/feed"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://configmgr.connpass.com/ja.atom"
+        }
+      ]
 }

@@ -1,22 +1,26 @@
 {
-  "name": "Mark Orr",
-  "handle": "mark-orr",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Developer",
-  "bio": "Microsoft Architect | Intune, Entra ID \u0026 PowerShell Advocate",
-  "links": {
-    "website": "https://orr365.tech/",
-    "github": "markorr321",
-    "linkedin": "markorr321",
-    "twitter": "MarkHunterOrr"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "markorr321"
-    }
-  ]
+  "name":  "Mark Orr",
+  "handle":  "mark-orr",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Developer",
+  "bio":  "Microsoft Architect | Intune, Entra ID \u0026 PowerShell Advocate",
+  "links":  {
+        "website":  "https://orr365.tech/",
+        "github":  "markorr321",
+        "linkedin":  "markorr321",
+        "twitter":  "MarkHunterOrr"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "markorr321"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://orr365.tech/feed"
+        }
+      ]
 }

@@ -1,33 +1,41 @@
 {
-  "name": "Adam Gross",
-  "handle": "adam-gross",
-  "avatar": "https://images.mvp.microsoft.com/55313777-20fa-e911-a998-000d3a137a43?638562484892725476",
-  "mvp": {
-    "status": "active",
-    "category": "Enterprise Mobility"
-  },
-  "title": "Consultant",
-  "bio": "Endpoint automation, PowerShell scripting, and Intune device management.",
-  "links": {
-    "website": "https://sysmansquad.com/meet-the-squad/",
-    "facebook": "grossac",
-    "github": "AdamGrossTX",
-    "linkedin": "asquaredozen",
-    "twitter": "AdamGrossTX",
-    "youtube": "UCfmMlhX5TW8cicxHw6ExYVA"
-  },
-  "feeds": [
-    {
-      "type": "blog",
-      "url": "https://www.asquaredozen.com/index.xml"
-    },
-    {
-      "type": "github-user",
-      "username": "AdamGrossTX"
-    },
-    {
-      "type": "youtube",
-      "channel": "@IntuneTraining"
-    }
-  ]
+  "name":  "Adam Gross",
+  "handle":  "adam-gross",
+  "avatar":  "https://images.mvp.microsoft.com/55313777-20fa-e911-a998-000d3a137a43?638562484892725476",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Enterprise Mobility"
+      },
+  "title":  "Consultant",
+  "bio":  "Endpoint automation, PowerShell scripting, and Intune device management.",
+  "links":  {
+        "website":  "https://sysmansquad.com",
+        "facebook":  "grossac",
+        "github":  "AdamGrossTX",
+        "linkedin":  "asquaredozen",
+        "twitter":  "AdamGrossTX",
+        "youtube":  "UCfmMlhX5TW8cicxHw6ExYVA"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://www.asquaredozen.com"
+        },
+        {
+          "type":  "github-user",
+          "username":  "AdamGrossTX"
+        },
+        {
+          "type":  "youtube",
+          "channel":  "@IntuneTraining"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://www.systemcenterdudes.com/team/feed"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://www.asquaredozen.com/index.xml"
+        }
+      ]
 }

@@ -1,23 +1,31 @@
 {
-  "name": "Frans Oudendorp",
-  "handle": "frans-oudendorp",
-  "avatar": "https://images.mvp.microsoft.com/7a68750c-003f-ed11-bba3-000d3a197333",
-  "mvp": {
-    "status": "active",
-    "category": "Security"
-  },
-  "title": "Consultant",
-  "bio": "Married | Father of 7 | Podcast Host | Speaker | NinjaCat | Technical fellow",
-  "links": {
-    "bluesky": "oudendorp.nl",
-    "github": "foudendorp",
-    "linkedin": "fransoudendorp",
-    "twitter": "oudendorp"
-  },
-  "feeds": [
-    {
-      "type": "github-user",
-      "username": "foudendorp"
-    }
-  ]
+  "name":  "Frans Oudendorp",
+  "handle":  "frans-oudendorp",
+  "avatar":  "https://images.mvp.microsoft.com/7a68750c-003f-ed11-bba3-000d3a197333",
+  "mvp":  {
+        "status":  "active",
+        "category":  "Security"
+      },
+  "title":  "Consultant",
+  "bio":  "Married | Father of 7 | Podcast Host | Speaker | NinjaCat | Technical fellow",
+  "links":  {
+        "bluesky":  "oudendorp.nl",
+        "github":  "foudendorp",
+        "linkedin":  "fransoudendorp",
+        "twitter":  "oudendorp"
+      },
+  "feeds":  [
+        {
+          "type":  "github-user",
+          "username":  "foudendorp"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://bsky.app/profile/did:plc:eh7hwdjf6f4q3gb4dkqhlp3m/rss"
+        },
+        {
+          "type":  "blog",
+          "url":  "https://talkingsecurity.nl/feed"
+        }
+      ]
 }

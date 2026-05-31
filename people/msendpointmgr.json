@@ -1,0 +1,15 @@
+{
+  "name":  "MSEndpointMgr",
+  "handle":  "msendpointmgr",
+  "title":  "Community Publication",
+  "bio":  "",
+  "links":  {
+        "website":  "https://msendpointmgr.com/author/benw"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://msendpointmgr.com/feed"
+        }
+      ]
+}

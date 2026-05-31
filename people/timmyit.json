@@ -1,0 +1,15 @@
+{
+  "name":  "TimmyIT.com",
+  "handle":  "timmyit",
+  "title":  "Community Publication",
+  "bio":  "",
+  "links":  {
+        "website":  "https://timmyit.com"
+      },
+  "feeds":  [
+        {
+          "type":  "blog",
+          "url":  "https://timmyit.com/feed"
+        }
+      ]
+}
