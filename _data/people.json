@@ -26,7 +26,7 @@
     "title": "Consultant",
     "bio": "Endpoint automation, PowerShell scripting, and Intune device management.",
     "links": {
-      "website": "https://sysmansquad.com/meet-the-squad/",
+      "website": "https://sysmansquad.com",
       "facebook": "grossac",
       "github": "AdamGrossTX",
       "linkedin": "asquaredozen",
@@ -36,7 +36,7 @@
     "feeds": [
       {
         "type": "blog",
-        "url": "https://www.asquaredozen.com/index.xml"
+        "url": "https://www.asquaredozen.com"
       },
       {
         "type": "github-user",
@@ -46,6 +46,14 @@
         "type": "youtube",
         "channel": "@IntuneTraining",
         "channel_id": "UCfmMlhX5TW8cicxHw6ExYVA"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.systemcenterdudes.com/team/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.asquaredozen.com/index.xml"
       }
     ]
   },
@@ -84,6 +92,10 @@
       {
         "type": "blog",
         "url": "https://blog.devicemetal.com/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:yrj72ycu3rt7n2td74u6mrrf/rss"
       }
     ]
   },
@@ -106,6 +118,18 @@
       {
         "type": "github-user",
         "username": "andrew-s-taylor"
+      },
+      {
+        "type": "blog",
+        "url": "https://andrewstaylor.com/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://infosec.exchange/@andrewtaylor.rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:4weetj2jgbbwy4w6skoygrpm/rss"
       }
     ]
   },
@@ -130,6 +154,10 @@
       {
         "type": "github-user",
         "username": "Croxleyboy"
+      },
+      {
+        "type": "blog",
+        "url": "https://move2modern.uk/index.php/feed"
       }
     ]
   },
@@ -151,6 +179,21 @@
       {
         "type": "youtube",
         "channel_id": "UCcFBkThqXF2iQWP-sUeW4gQ"
+      }
+    ]
+  },
+  {
+    "name": "Anoop C Nair",
+    "handle": "anoopcnair",
+    "title": "Community Publication",
+    "bio": "",
+    "links": {
+      "website": "https://www.anoopcnair.com/author/jiteshkumar"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://www.anoopcnair.com/feed"
       }
     ]
   },
@@ -203,6 +246,14 @@
       {
         "type": "github-user",
         "username": "byteben"
+      },
+      {
+        "type": "youtube",
+        "channel_id": "UCYmYW0dOijMvq4FJwqy3c2g"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:wanglrnewptpw4bhbktvahi5/rss"
       }
     ]
   },
@@ -241,6 +292,25 @@
       {
         "type": "blog",
         "url": "https://damgoodadmin.com/feed/"
+      },
+      {
+        "type": "github-user",
+        "username": "bryandam"
+      }
+    ]
+  },
+  {
+    "name": "Bluesky Social",
+    "handle": "bsky",
+    "title": "Community Publication",
+    "bio": "",
+    "links": {
+      "website": "https://bsky.app/profile/daalmans.com"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:4k5d7ytzf77y45b77imzuw3v/rss"
       }
     ]
   },
@@ -315,6 +385,10 @@
       {
         "type": "github-user",
         "username": "damienvanrobaeys"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.workplaceninjas.fr/feeds/posts/default"
       }
     ]
   },
@@ -388,6 +462,11 @@
         "type": "youtube",
         "channel": "@DeanEllerbyMVP",
         "channel_id": "UCAmbRekXkFXq4kdbH5KTIYw"
+      },
+      {
+        "type": "youtube",
+        "channel": "@thecmc",
+        "channel_id": "UCvGu4AIoZxB0NV7o-yUuQ2A"
       }
     ]
   },
@@ -420,6 +499,28 @@
     ]
   },
   {
+    "name": "Douglas Wilson",
+    "handle": "douglas-wilson",
+    "avatar": "https://images.mvp.microsoft.com/34048b50-20fa-e911-a99d-000d3a137208",
+    "mvp": {
+      "status": "active",
+      "category": "Security"
+    },
+    "title": "Overly complex home lab to support learning",
+    "bio": "I am a systems management enthusiast by trade, passionate about automation, security, and data reporting by training. End User experience expert with a specialty in systems management.",
+    "links": {
+      "facebook": "DouglasCWilson",
+      "twitter": "ManageDoug",
+      "linkedin": "douglas-wilson-2276b853"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:6se3qnoqhcxr5ainfgf2pjx6/rss"
+      }
+    ]
+  },
+  {
     "name": "Dustin Gullett",
     "handle": "dustin-gullett",
     "avatar": "https://images.mvp.microsoft.com/ccc685b5-0a1e-4d75-bcb2-d196a73709c8?638869647364614398",
@@ -440,6 +541,14 @@
       {
         "type": "github-user",
         "username": "dgulle"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:bhegzmytyifqewuriw535wps/rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://zerototrust.tech/feed"
       }
     ]
   },
@@ -484,6 +593,10 @@
       {
         "type": "github-user",
         "username": "eskonr"
+      },
+      {
+        "type": "blog",
+        "url": "https://eskonr.com/feed"
       }
     ]
   },
@@ -508,6 +621,14 @@
       {
         "type": "github-user",
         "username": "FlorianSLZ"
+      },
+      {
+        "type": "blog",
+        "url": "https://scloud.work/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:2vpeueulgk3izdh5uoyyv7li/rss"
       }
     ]
   },
@@ -545,6 +666,14 @@
       {
         "type": "github-user",
         "username": "foudendorp"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:eh7hwdjf6f4q3gb4dkqhlp3m/rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://talkingsecurity.nl/feed"
       }
     ]
   },
@@ -590,6 +719,10 @@
       {
         "type": "github-user",
         "username": "gnon17"
+      },
+      {
+        "type": "blog",
+        "url": "https://smbtothecloud.com/feed"
       }
     ]
   },
@@ -656,6 +789,14 @@
       {
         "type": "github-user",
         "username": "Allwayshype"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.allwayshype.com/allways-hype?format=rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:j25ig3ar6gigewdmk47fzwpd/rss"
       }
     ]
   },
@@ -680,6 +821,10 @@
       {
         "type": "github-user",
         "username": "harvansh007"
+      },
+      {
+        "type": "blog",
+        "url": "https://endusersupports.com/index.php/feed"
       }
     ]
   },
@@ -741,6 +886,14 @@
       {
         "type": "github-user",
         "username": "SkipToTheEndpoint"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:qwjsq326qowfmzoz52r6uwbu/rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://skiptotheendpoint.co.uk/rss"
       }
     ]
   },
@@ -770,6 +923,10 @@
       {
         "type": "github-user",
         "username": "JankeSkanke"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:abkard6fhdsew5i4bqa3lxgs/rss"
       }
     ]
   },
@@ -801,6 +958,14 @@
       {
         "type": "github-user",
         "username": "JayRHa"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:mqtcyzkhjv3hem2qcgatn5ai/rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://jannikreinhard.com/feed"
       }
     ]
   },
@@ -831,6 +996,10 @@
       {
         "type": "github-user",
         "username": "jsduchene"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.microsofttouch.fr/members/anonymous/activities/rss"
       }
     ]
   },
@@ -871,6 +1040,36 @@
       {
         "type": "github-user",
         "username": "BurgerhoutJ"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.burgerhout.org/rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:hbrt2gnnm7gwj66sdm7khpvn/rss"
+      }
+    ]
+  },
+  {
+    "name": "Jesus Octavio Rdz de Santiago",
+    "handle": "jesus-octavio-rdz-de-santiago",
+    "avatar": "https://images.mvp.microsoft.com/a19007f9-3c9a-e411-93f2-9cb65495d3c4?639011558835813185",
+    "mvp": {
+      "status": "active",
+      "category": "Security / Windows and Devices"
+    },
+    "title": "Senior Desktop Engineer",
+    "bio": "I am a Modern Endpoint Architect with more than a decade of experience driving End-User Computing (EUC) transformation projects across Latin America. In my role as Senior Desktop Engineer, I specialize in designing, implementing, and scaling Microsoft 365 + Windows solutions that enable secure, e...",
+    "links": {
+      "twitter": "DeploymentMX",
+      "facebook": "octavio.de.santiago",
+      "linkedin": "octaviordz"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://blogs.itpro.es/octaviordz/feed"
       }
     ]
   },
@@ -910,6 +1109,10 @@
       {
         "type": "github-user",
         "username": "j0eyv"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.joeyverlinden.com/feed"
       }
     ]
   },
@@ -960,6 +1163,10 @@
       {
         "type": "github-user",
         "username": "DeploymentResearch"
+      },
+      {
+        "type": "blog",
+        "url": "https://deploymentresearch.com/feed"
       }
     ]
   },
@@ -982,6 +1189,10 @@
       {
         "type": "blog",
         "url": "https://johannesblog.com/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:mt2if6rcohf2hy4ap6ysdfqe/rss"
       }
     ]
   },
@@ -1051,6 +1262,10 @@
       {
         "type": "blog",
         "url": "https://joostgelijsteen.com/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:l4apgym66befuiesio7hhcat/rss"
       }
     ]
   },
@@ -1107,6 +1322,14 @@
       {
         "type": "github-user",
         "username": "ccmexec"
+      },
+      {
+        "type": "github-user",
+        "username": "SweJorgen"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:4lojutgvrmstyfzzzifykvxu/rss"
       }
     ]
   },
@@ -1140,6 +1363,14 @@
       {
         "type": "github-user",
         "username": "schenardie"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:k3vhszfpd33p66admmhp4i5g/rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://intune.tech/feed.xml"
       }
     ]
   },
@@ -1164,6 +1395,10 @@
       {
         "type": "github-user",
         "username": "jbasuroy369"
+      },
+      {
+        "type": "blog",
+        "url": "https://joymalya.com/feed"
       }
     ]
   },
@@ -1204,6 +1439,18 @@
       {
         "type": "github-user",
         "username": "kooties"
+      },
+      {
+        "type": "blog",
+        "url": "https://kalonthe.net/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://winadmins.io/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:siaqre6arbxumqs7gcgf4xov/rss"
       }
     ]
   },
@@ -1226,6 +1473,14 @@
       {
         "type": "github-user",
         "username": "kennethvs"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:ig4vcvbphsbcjxyxpvw2xsfy/rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.vansurksum.com/feed"
       }
     ]
   },
@@ -1248,6 +1503,10 @@
       {
         "type": "github-user",
         "username": "Kimoppalfens"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.oscc.be/feed.xml"
       }
     ]
   },
@@ -1265,6 +1524,37 @@
         "type": "blog",
         "url": "https://blog.mindcore.dk/feed/",
         "author": "Lars Lohmann"
+      }
+    ]
+  },
+  {
+    "name": "Laurent Gébeau",
+    "handle": "laurent-gbeau",
+    "avatar": "https://images.mvp.microsoft.com/8f53d96c-3c9a-e411-93f2-9cb65495d3c4",
+    "mvp": {
+      "status": "active",
+      "category": "Security / Windows and Devices"
+    },
+    "title": "IT speclialised in Microsoft technologies, co-owner of Axeperf.com.",
+    "bio": "Laurent Gébeau is living close to Paris, France.    \n\nLaurent is Microsoft Certified (MCP) and has been troubleshooting Windows, network and computers problems since 1994.\n\nIn January 2004 Laurent was awarded Most Valuable Professional status (MVP) by Microsoft, renewed every year since.\n\nAfter m...",
+    "links": {
+      "facebook": "lgebeau",
+      "linkedin": "laurentgebeau",
+      "twitter": "mtoo",
+      "github": "LGebeau"
+    },
+    "feeds": [
+      {
+        "type": "github-user",
+        "username": "LGebeau"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.toutwindows.com/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:rkov3vchzabku3mffgpr2btx/rss"
       }
     ]
   },
@@ -1335,6 +1625,10 @@
       {
         "type": "github-user",
         "username": "Ch1c4n0"
+      },
+      {
+        "type": "youtube",
+        "channel_id": "UC4i2ExhasxQOCjFMUwsqAHw"
       }
     ]
   },
@@ -1371,6 +1665,10 @@
       {
         "type": "github-user",
         "username": "markorr321"
+      },
+      {
+        "type": "blog",
+        "url": "https://orr365.tech/feed"
       }
     ]
   },
@@ -1444,6 +1742,14 @@
       {
         "type": "github-user",
         "username": "matthewjlevy"
+      },
+      {
+        "type": "blog",
+        "url": "https://mattchatt.co.za/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:lgog3uicapcu2ichso4hqw6o/rss"
       }
     ]
   },
@@ -1478,6 +1784,10 @@
       {
         "type": "github-user",
         "username": "MMelkersen"
+      },
+      {
+        "type": "blog",
+        "url": "https://mindcore.dk/feed"
       }
     ]
   },
@@ -1507,6 +1817,14 @@
       {
         "type": "github-user",
         "username": "maurice-daly"
+      },
+      {
+        "type": "github-user",
+        "username": "MSEndpointMgr"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:hzpaaegs6euphrpwhn2wnatm/rss"
       }
     ]
   },
@@ -1529,6 +1847,10 @@
       {
         "type": "github-user",
         "username": "MG-Cloudflow"
+      },
+      {
+        "type": "blog",
+        "url": "https://cloudflow.be/feed"
       }
     ]
   },
@@ -1650,6 +1972,40 @@
       {
         "type": "github-user",
         "username": "slaet"
+      },
+      {
+        "type": "blog",
+        "url": "https://blog.colemberg.ch/feed"
+      }
+    ]
+  },
+  {
+    "name": "MSEndpointMgr",
+    "handle": "msendpointmgr",
+    "title": "Community Publication",
+    "bio": "",
+    "links": {
+      "website": "https://msendpointmgr.com/author/benw"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://msendpointmgr.com/feed"
+      }
+    ]
+  },
+  {
+    "name": "msnugget",
+    "handle": "msnugget",
+    "title": "Community Publication",
+    "bio": "",
+    "links": {
+      "website": "https://msnugget.com"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://msnugget.com/feed"
       }
     ]
   },
@@ -1673,6 +2029,10 @@
       {
         "type": "github-user",
         "username": "blasac5150"
+      },
+      {
+        "type": "blog",
+        "url": "https://nathanblasac.com/feed"
       }
     ]
   },
@@ -1713,6 +2073,14 @@
       {
         "type": "github-user",
         "username": "NicklasAhlberg"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:2ao2ufq62j275peqf3lbpmvv/rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.rockenroll.tech/feed"
       }
     ]
   },
@@ -1735,6 +2103,10 @@
       {
         "type": "blog",
         "url": "https://www.learnintune.net/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.learnintune.net/rss"
       }
     ]
   },
@@ -1764,6 +2136,10 @@
       {
         "type": "github-user",
         "username": "NickolajA"
+      },
+      {
+        "type": "github-user",
+        "username": "MSEndpointMgr"
       }
     ]
   },
@@ -1787,6 +2163,14 @@
       {
         "type": "github-user",
         "username": "nicolonsky"
+      },
+      {
+        "type": "blog",
+        "url": "https://tech.nicolonsky.ch/rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://nicolasuter.medium.com/feed"
       }
     ]
   },
@@ -1809,6 +2193,10 @@
       {
         "type": "github-user",
         "username": "Ruthhl3ss"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.nielskok.tech/feed"
       }
     ]
   },
@@ -1838,6 +2226,10 @@
       {
         "type": "github-user",
         "username": "thenikk"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.oceanleaf.ch/rss"
       }
     ]
   },
@@ -1866,6 +2258,10 @@
       {
         "type": "github-user",
         "username": "oktay-sari"
+      },
+      {
+        "type": "blog",
+        "url": "https://allthingscloud.blog/feed"
       }
     ]
   },
@@ -1900,6 +2296,31 @@
       {
         "type": "github-user",
         "username": "okieselbach"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:guqmnoxobqpqdvd5yklfuump/rss"
+      }
+    ]
+  },
+  {
+    "name": "Panu Saukko",
+    "handle": "panu-saukko",
+    "avatar": "https://images.mvp.microsoft.com/8182d172-3c9a-e411-93f2-9cb65495d3c4",
+    "mvp": {
+      "status": "active",
+      "category": "Security"
+    },
+    "title": "Endpoint management is what I do",
+    "bio": "I work for ProTrainIT Oy with many hats: trainer, consultant & CEO. \r\n\r\nI have been a MCT since 1995. Currently I mostly consult and train about Microsoft's endpoint management products (Intune, ConfigMgr, Windows etc). \r\n\r\nDuring my trainer years I have created a few thousand pages of training m...",
+    "links": {
+      "twitter": "panusaukko",
+      "linkedin": "panusaukko"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:l66dz5s5jhfwuutcf2e5acbr/rss"
       }
     ]
   },
@@ -1947,6 +2368,10 @@
       {
         "type": "youtube",
         "channel_id": "UCATgd7LEiyl94QogiEqHspA"
+      },
+      {
+        "type": "blog",
+        "url": "https://nl.wpninjas.global/feed"
       }
     ]
   },
@@ -1971,6 +2396,18 @@
       {
         "type": "blog",
         "url": "https://www.petervanderwoude.nl/feed"
+      },
+      {
+        "type": "github-user",
+        "username": "pvanderwoude"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:mvb3b5gu4ic3tovzs46abmh5/rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://petervanderwoude.nl/feed"
       }
     ]
   },
@@ -2002,6 +2439,18 @@
       {
         "type": "github-user",
         "username": "petripaavola"
+      },
+      {
+        "type": "blog",
+        "url": "https://Intune.ninja/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:j3z4xc35blc4y6kcic45wuyd/rss"
+      },
+      {
+        "type": "blog",
+        "url": "https://wpninjas.fi/feed.xml"
       }
     ]
   },
@@ -2027,6 +2476,27 @@
     ]
   },
   {
+    "name": "Ronni Pedersen",
+    "handle": "ronni-pedersen",
+    "avatar": "https://images.mvp.microsoft.com/732d88ae-3c9a-e411-93f2-9cb65495d3c4?638801716300627201",
+    "mvp": {
+      "status": "active",
+      "category": "Windows and Devices / Security"
+    },
+    "title": "Geek :-)",
+    "bio": "Ronni works as a Microsoft Certified Cloud Architect with APENTO in Denmark. He's working with designing and deploying management solutions based on Microsoft Endpoint Manager (SCCM and Microsoft Intune), Enterprise Mobility + Security and Microsoft Azure.\r\n\r\nMember of Microsoft Partner Expert Te...",
+    "links": {
+      "twitter": "ronnipedersen",
+      "facebook": "?ref=logo#!/groups/196465560389943"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://www.ronnipedersen.com/feed"
+      }
+    ]
+  },
+  {
     "name": "Rudy Ooms",
     "handle": "rudy-ooms",
     "avatar": "https://images.mvp.microsoft.com/33543f3c-f4bd-eb11-bacc-0022481f2c24",
@@ -2047,6 +2517,14 @@
       {
         "type": "blog",
         "url": "https://call4cloud.nl/feed/"
+      },
+      {
+        "type": "youtube",
+        "channel_id": "UC13sLCGRsNzZj_foX1yDQKg"
+      },
+      {
+        "type": "blog",
+        "url": "https://bsky.app/profile/did:plc:2xpj4rj7haxq2qzrhq5pfgr7/rss"
       }
     ]
   },
@@ -2087,6 +2565,10 @@
       {
         "type": "github-user",
         "username": "srozemuller"
+      },
+      {
+        "type": "blog",
+        "url": "https://rozemuller.com/index.xml"
       }
     ]
   },
@@ -2177,6 +2659,43 @@
     ]
   },
   {
+    "name": "Shehan Perera",
+    "handle": "shehan-perera",
+    "avatar": "https://images.mvp.microsoft.com/fafff9c8-ff3e-ed11-bba3-000d3a197333?638798945828877261",
+    "mvp": {
+      "status": "active",
+      "category": "Security"
+    },
+    "title": "Blogger, Endpoint and Identity Architect, Nerd",
+    "bio": "I’m Shehan, and I’m from Adelaide, Australia.\n\nI’m an Endpoint and Identity Architect at Bastion Technology Services, a 24/7 Microsoft 365 and Cloud enthusiast, a serial blogger, a Marvel and Star Wars Fanatic, a Metal Head, and a full-time dad.",
+    "links": {
+      "linkedin": "shehanperera85",
+      "twitter": "Shehanperera85",
+      "website": "https://emsroute.com",
+      "github": "shehanperera85"
+    },
+    "feeds": [
+      {
+        "type": "github-user",
+        "username": "shehanperera85"
+      },
+      {
+        "type": "youtube",
+        "channel": "@emsroute",
+        "channel_id": "UC97aP0SoCZ0LPhkJEW6IbmA"
+      },
+      {
+        "type": "youtube",
+        "channel": "@OOBCasts",
+        "channel_id": "UCHL-s4wzp7rw7G0yHuiWUfw"
+      },
+      {
+        "type": "blog",
+        "url": "https://emsroute.com/feed"
+      }
+    ]
+  },
+  {
     "name": "Sherry Kissinger",
     "handle": "sherry-kissinger",
     "title": "IT Professional",
@@ -2188,6 +2707,31 @@
       {
         "type": "blog",
         "url": "https://tcsmug.org/blogs/sherry-kissinger?format=feed&type=rss"
+      }
+    ]
+  },
+  {
+    "name": "Shuji Noguchi",
+    "handle": "shuji-noguchi",
+    "avatar": "https://images.mvp.microsoft.com/5f21ae4a-405c-461b-8736-4ac9fd89e4f0?638686519786774957",
+    "mvp": {
+      "status": "active",
+      "category": "Security"
+    },
+    "title": "Enterprise Mobility Expert",
+    "bio": "As an expert in enterprise mobility, I pride myself on my experience and knowledge in the fields of Microsoft Entra ID, Intune, Autopilot, thin clients, remote desktop, VDI, VPN, WiFi, GSA, certificates, and Active Directory. From mobile device management to network security, I provide solutions ...",
+    "links": {
+      "twitter": "nogushu",
+      "linkedin": "shuji-noguchi-36704844"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://www.docswell.com/feed/latest"
+      },
+      {
+        "type": "blog",
+        "url": "https://qiita.com/carol0226/feed"
       }
     ]
   },
@@ -2212,6 +2756,10 @@
       {
         "type": "github-user",
         "username": "Bindertech"
+      },
+      {
+        "type": "blog",
+        "url": "https://bindertech.wordpress.com/feed"
       }
     ]
   },
@@ -2236,6 +2784,10 @@
         "type": "youtube",
         "channel": "@IntuneInsiderDK",
         "channel_id": "UCKOqPRW8gZyPtM0z6Mqpvgw"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.simsenblog.dk/feed"
       }
     ]
   },
@@ -2339,6 +2891,10 @@
       {
         "type": "github-user",
         "username": "sophiakunii"
+      },
+      {
+        "type": "blog",
+        "url": "https://azuread.net/feed"
       }
     ]
   },
@@ -2356,6 +2912,21 @@
         "type": "blog",
         "url": "https://blog.mindcore.dk/feed/",
         "author": "Sune Thomsen"
+      }
+    ]
+  },
+  {
+    "name": "Syst &amp; Deploy",
+    "handle": "systanddeploy",
+    "title": "Community Publication",
+    "bio": "",
+    "links": {
+      "website": "https://www.systanddeploy.com"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://www.systanddeploy.com/feeds/posts/default"
       }
     ]
   },
@@ -2387,6 +2958,10 @@
       {
         "type": "github-user",
         "username": "Mr-Tbone"
+      },
+      {
+        "type": "blog",
+        "url": "https://www.tbone.se/feed"
       }
     ]
   },
@@ -2450,6 +3025,10 @@
       {
         "type": "github-user",
         "username": "ThomasKur"
+      },
+      {
+        "type": "blog",
+        "url": "https://medium.com/@kurtli_thomas/feed"
       }
     ]
   },
@@ -2483,6 +3062,21 @@
     ]
   },
   {
+    "name": "TimmyIT.com",
+    "handle": "timmyit",
+    "title": "Community Publication",
+    "bio": "",
+    "links": {
+      "website": "https://timmyit.com"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://timmyit.com/feed"
+      }
+    ]
+  },
+  {
     "name": "Tugay Taskin",
     "handle": "tugay-taskin",
     "avatar": "https://images.mvp.microsoft.com/3a7fc300-2f08-4a80-8599-0b9b18f5fbb5?638759203891857730",
@@ -2507,6 +3101,10 @@
       {
         "type": "github-user",
         "username": "tugich"
+      },
+      {
+        "type": "blog",
+        "url": "https://blog.tugi.ch/feed"
       }
     ]
   },
@@ -2535,6 +3133,25 @@
       {
         "type": "github-user",
         "username": "HotCakeX"
+      },
+      {
+        "type": "blog",
+        "url": "https://spynetgirl.medium.com/feed"
+      }
+    ]
+  },
+  {
+    "name": "Workplace Ninja Summit &#8211; The Workplace Summit of Europe",
+    "handle": "wpninjas",
+    "title": "Community Publication",
+    "bio": "",
+    "links": {
+      "website": "https://summit.wpninjas.global"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://summit.wpninjas.global/feed"
       }
     ]
   },
@@ -2559,6 +3176,18 @@
       {
         "type": "github-user",
         "username": "tamaiyutaro"
+      },
+      {
+        "type": "blog",
+        "url": "https://wccj.connpass.com/ja.atom"
+      },
+      {
+        "type": "blog",
+        "url": "https://sccm.jp/feed"
+      },
+      {
+        "type": "blog",
+        "url": "https://configmgr.connpass.com/ja.atom"
       }
     ]
   }
