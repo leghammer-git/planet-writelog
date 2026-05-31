@@ -1,0 +1,28 @@
+{
+  "name": "Prajwal Desai",
+  "handle": "prajwal-desai",
+  "title": "Consultant",
+  "bio": "Microsoft Intune, SCCM, and endpoint management.",
+  "links": {
+    "website": "https://www.prajwaldesai.com/",
+    "facebook": "prajwaldesaimvp",
+    "github": "PrajwalDesai",
+    "linkedin": "prajwaldesai",
+    "twitter": "PrajwalDesai",
+    "youtube": "@PrajwalDesaiHD"
+  },
+  "feeds": [
+    {
+      "type": "blog",
+      "url": "https://www.prajwaldesai.com/feed/"
+    },
+    {
+      "type": "youtube",
+      "channel": "@PrajwalDesaiHD"
+    },
+    {
+      "type": "github-user",
+      "username": "PrajwalDesai"
+    }
+  ]
+}
