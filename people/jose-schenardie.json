@@ -18,10 +18,6 @@
   "feeds":  [
         {
           "type":  "blog",
-          "url":  "https://intune.tech/feed/"
-        },
-        {
-          "type":  "blog",
           "url":  "https://msendpointmgr.com/feed/",
           "author":  "Jose Schenardie"
         },
