@@ -51,5 +51,5 @@ jobs:
           git config user.email "planet-writelog[bot]@users.noreply.github.com"
           git add _data/items.json _data/people.json
           git diff --cached --quiet || git commit -m "chore: update feed data"
-          git pull --rebase origin master
+          git pull --rebase -X theirs origin master
           git push
