@@ -1,0 +1,29 @@
+{
+  "name": "Merill Fernando",
+  "handle": "merill-fernando",
+  "title": "Principal Product Manager, Microsoft Entra",
+  "bio": "Microsoft Entra product manager focused on identity and access management tools, best practices, and community resources.",
+  "links": {
+    "website": "https://merill.net",
+    "bluesky": "merill.net",
+    "github": "merill",
+    "linkedin": "merill",
+    "mastodon": "infosec.exchange/@merill",
+    "twitter": "merill",
+    "youtube": "@merillx"
+  },
+  "feeds": [
+    {
+      "type": "blog",
+      "url": "https://merill.net/feed.xml"
+    },
+    {
+      "type": "github-user",
+      "username": "merill"
+    },
+    {
+      "type": "youtube",
+      "channel": "@merillx"
+    }
+  ]
+}
