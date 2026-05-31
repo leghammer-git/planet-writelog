@@ -23,10 +23,6 @@
         {
           "type":  "blog",
           "url":  "https://scloud.work/feed"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:2vpeueulgk3izdh5uoyyv7li/rss"
         }
       ]
 }

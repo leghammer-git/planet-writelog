@@ -19,11 +19,7 @@
         {
           "type":  "github-user",
           "username":  "dgulle"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:bhegzmytyifqewuriw535wps/rss"
-        },
+        }
         {
           "type":  "blog",
           "url":  "https://zerototrust.tech/feed"

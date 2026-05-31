@@ -24,10 +24,6 @@
         {
           "type":  "github-user",
           "username":  "JankeSkanke"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:abkard6fhdsew5i4bqa3lxgs/rss"
         }
       ]
 }

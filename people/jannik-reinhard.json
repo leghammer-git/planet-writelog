@@ -28,10 +28,6 @@
         },
         {
           "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:mqtcyzkhjv3hem2qcgatn5ai/rss"
-        },
-        {
-          "type":  "blog",
           "url":  "https://jannikreinhard.com/feed"
         }
       ]

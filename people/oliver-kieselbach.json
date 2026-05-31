@@ -29,10 +29,6 @@
         {
           "type":  "github-user",
           "username":  "okieselbach"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:guqmnoxobqpqdvd5yklfuump/rss"
         }
       ]
 }

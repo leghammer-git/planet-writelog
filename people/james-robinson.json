@@ -22,10 +22,6 @@
         },
         {
           "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:qwjsq326qowfmzoz52r6uwbu/rss"
-        },
-        {
-          "type":  "blog",
           "url":  "https://skiptotheendpoint.co.uk/rss"
         }
       ]

@@ -17,10 +17,6 @@
         {
           "type":  "blog",
           "url":  "https://johannesblog.com/feed"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:mt2if6rcohf2hy4ap6ysdfqe/rss"
         }
       ]
 }

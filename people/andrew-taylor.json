@@ -25,10 +25,6 @@
         {
           "type":  "blog",
           "url":  "https://infosec.exchange/@andrewtaylor.rss"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:4weetj2jgbbwy4w6skoygrpm/rss"
         }
       ]
 }

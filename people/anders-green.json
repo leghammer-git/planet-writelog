@@ -17,10 +17,6 @@
         {
           "type":  "blog",
           "url":  "https://blog.devicemetal.com/feed"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:yrj72ycu3rt7n2td74u6mrrf/rss"
         }
       ]
 }

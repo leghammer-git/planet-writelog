@@ -18,10 +18,6 @@
         {
           "type":  "blog",
           "url":  "https://joostgelijsteen.com/feed"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:l4apgym66befuiesio7hhcat/rss"
         }
       ]
 }

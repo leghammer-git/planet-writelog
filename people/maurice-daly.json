@@ -28,10 +28,6 @@
         {
           "type":  "github-user",
           "username":  "MSEndpointMgr"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:hzpaaegs6euphrpwhn2wnatm/rss"
         }
       ]
 }

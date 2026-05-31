@@ -28,10 +28,6 @@
         {
           "type":  "github-user",
           "username":  "SweJorgen"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:4lojutgvrmstyfzzzifykvxu/rss"
         }
       ]
 }

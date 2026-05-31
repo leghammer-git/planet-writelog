@@ -23,10 +23,6 @@
         {
           "type":  "youtube",
           "channel_id":  "UC13sLCGRsNzZj_foX1yDQKg"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:2xpj4rj7haxq2qzrhq5pfgr7/rss"
         }
       ]
 }

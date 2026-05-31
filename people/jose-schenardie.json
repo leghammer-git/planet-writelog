@@ -28,11 +28,7 @@
         {
           "type":  "github-user",
           "username":  "schenardie"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:k3vhszfpd33p66admmhp4i5g/rss"
-        },
+        }
         {
           "type":  "blog",
           "url":  "https://intune.tech/feed.xml"

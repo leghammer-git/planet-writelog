@@ -23,10 +23,6 @@
         {
           "type":  "blog",
           "url":  "https://www.allwayshype.com/allways-hype?format=rss"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:j25ig3ar6gigewdmk47fzwpd/rss"
         }
       ]
 }

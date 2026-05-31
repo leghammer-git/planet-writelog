@@ -22,10 +22,6 @@
         {
           "type":  "blog",
           "url":  "https://www.toutwindows.com/feed"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:rkov3vchzabku3mffgpr2btx/rss"
         }
       ]
 }

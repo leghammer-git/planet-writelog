@@ -32,10 +32,6 @@
         },
         {
           "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:j3z4xc35blc4y6kcic45wuyd/rss"
-        },
-        {
-          "type":  "blog",
           "url":  "https://wpninjas.fi/feed.xml"
         }
       ]

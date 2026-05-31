@@ -24,10 +24,6 @@
         {
           "type":  "blog",
           "url":  "https://www.burgerhout.org/rss"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:hbrt2gnnm7gwj66sdm7khpvn/rss"
         }
       ]
 }

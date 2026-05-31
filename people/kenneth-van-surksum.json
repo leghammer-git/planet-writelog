@@ -20,10 +20,6 @@
         },
         {
           "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:ig4vcvbphsbcjxyxpvw2xsfy/rss"
-        },
-        {
-          "type":  "blog",
           "url":  "https://www.vansurksum.com/feed"
         }
       ]

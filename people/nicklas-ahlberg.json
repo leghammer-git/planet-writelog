@@ -22,10 +22,6 @@
         },
         {
           "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:2ao2ufq62j275peqf3lbpmvv/rss"
-        },
-        {
-          "type":  "blog",
           "url":  "https://www.rockenroll.tech/feed"
         }
       ]

@@ -26,10 +26,6 @@
         },
         {
           "type":  "blog",
-          "url":  "https://bsky.app/profile/did:plc:mvb3b5gu4ic3tovzs46abmh5/rss"
-        },
-        {
-          "type":  "blog",
           "url":  "https://petervanderwoude.nl/feed"
         }
       ]
