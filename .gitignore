@@ -1,5 +1,6 @@
 node_modules/
 _site/
+*.db
 *.db-shm
 *.db-wal
 .env
