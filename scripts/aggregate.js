@@ -33,6 +33,11 @@ function openDb() {
       handle TEXT PRIMARY KEY,
       channel_id TEXT NOT NULL
     );
+    CREATE TABLE IF NOT EXISTS github_repos (
+      username    TEXT PRIMARY KEY,
+      repos_json  TEXT NOT NULL,
+      fetched_at  TEXT NOT NULL
+    );
     CREATE TABLE IF NOT EXISTS items (
       id TEXT PRIMARY KEY,
       person_handle TEXT NOT NULL,
@@ -88,6 +93,49 @@ async function fetchWithRetry(url, options = {}, retries = 2) {
       await new Promise((r) => setTimeout(r, 500 * 2 ** attempt));
     }
   }
+}
+
+// ── GitHub rate-limit-aware fetcher ───────────────────────────────────────────
+
+const GH_UA = "planet-writelog-aggregator";
+// Lower concurrency for the REST API: unauthenticated = 60 req/hr, authenticated = 5000 req/hr
+const ghLimit = pLimit(process.env.GITHUB_TOKEN ? 5 : 2);
+
+async function fetchGitHub(url, headers) {
+  for (let attempt = 0; attempt < 4; attempt++) {
+    let res;
+    try {
+      res = await fetchWithTimeout(url, { headers });
+    } catch (err) {
+      if (attempt === 3) throw err;
+      await new Promise((r) => setTimeout(r, 1000 * 2 ** attempt));
+      continue;
+    }
+
+    if (res.status === 429 || res.status === 403) {
+      const remaining = parseInt(res.headers.get("x-ratelimit-remaining") ?? "-1", 10);
+      const reset     = parseInt(res.headers.get("x-ratelimit-reset")     ?? "0",  10) * 1000;
+      const after     = parseInt(res.headers.get("retry-after")           ?? "0",  10) * 1000;
+      // Only back off when it's actually a rate limit, not a permission error
+      if (remaining === 0 || after > 0) {
+        const waitMs = after || Math.max(reset - Date.now(), 0) + 500;
+        if (waitMs > 60_000) {
+          const mins = Math.ceil(waitMs / 60_000);
+          throw new Error(
+            `GitHub rate limit exceeded — resets in ~${mins} min. Set GITHUB_TOKEN to increase quota.`
+          );
+        }
+        if (attempt < 3) {
+          console.warn(`  GitHub rate limited (${res.status}), waiting ${Math.ceil(waitMs / 1000)}s…`);
+          await new Promise((r) => setTimeout(r, waitMs));
+          continue;
+        }
+      }
+    }
+
+    return res;
+  }
+  throw new Error(`GitHub request failed after retries: ${url}`);
 }
 
 // ── text helpers ──────────────────────────────────────────────────────────────
@@ -254,43 +302,60 @@ const feedTypes = {
   },
 
   "github-user": {
-    async fetchAll(feedDef, handle) {
+    async fetchAll(feedDef, handle, db) {
       const { username } = feedDef;
-      const headers = {
+      const apiHeaders = {
         Accept: "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
-        "User-Agent": "planet-writelog-aggregator",
+        "User-Agent": GH_UA,
       };
-      if (process.env.GITHUB_TOKEN) headers["Authorization"] = `Bearer ${process.env.GITHUB_TOKEN}`;
+      if (process.env.GITHUB_TOKEN) apiHeaders["Authorization"] = `Bearer ${process.env.GITHUB_TOKEN}`;
 
-      const reposRes = await fetchWithRetry(
-        `https://api.github.com/users/${username}/repos?sort=pushed&per_page=30&type=public`,
-        { headers }
-      );
-      if (!reposRes.ok) throw new Error(`GitHub API ${reposRes.status} for user ${username}`);
-      const repos = await reposRes.json();
+      // Check DB cache first (24 hr TTL) to avoid redundant REST API calls
+      const REPOS_TTL_MS = 24 * 60 * 60 * 1000;
+      const cached = db.prepare("SELECT repos_json, fetched_at FROM github_repos WHERE username = ?").get(username);
+      let repos;
+      if (cached && Date.now() - new Date(cached.fetched_at).getTime() < REPOS_TTL_MS) {
+        repos = JSON.parse(cached.repos_json);
+      } else {
+        const reposRes = await ghLimit(() =>
+          fetchGitHub(
+            `https://api.github.com/users/${username}/repos?sort=pushed&per_page=30&type=public`,
+            apiHeaders
+          )
+        );
+        if (!reposRes.ok) throw new Error(`GitHub API ${reposRes.status} for user ${username}`);
+        repos = await reposRes.json();
+        db.prepare("INSERT OR REPLACE INTO github_repos (username, repos_json, fetched_at) VALUES (?, ?, ?)")
+          .run(username, JSON.stringify(repos), new Date().toISOString());
+      }
 
-      const innerLimit = pLimit(5);
+      // Use releases.atom instead of REST API — not subject to REST rate limits
+      const atomLimit = pLimit(5);
       const items = await Promise.all(
         repos.map((repo) =>
-          innerLimit(async () => {
-            const relRes = await fetchWithRetry(
-              `https://api.github.com/repos/${username}/${repo.name}/releases?per_page=1`,
-              { headers }
-            );
-            if (!relRes.ok) return null;
-            const latest = (await relRes.json()).filter((r) => !r.draft)[0];
-            if (latest) {
-              return {
-                id: repo.html_url,
-                person_handle: handle,
-                type: "github-releases",
-                title: `${repo.name} ${latest.tag_name}`,
-                description: cleanDesc(latest.body || ""),
-                link: latest.html_url,
-                published_at: toISO(latest.published_at || latest.created_at),
-              };
-            }
+          atomLimit(async () => {
+            try {
+              const r = await fetchWithRetry(
+                `https://github.com/${username}/${repo.name}/releases.atom`,
+                { headers: { "User-Agent": GH_UA } }
+              );
+              if (r.ok) {
+                const doc = parser.parse(await r.text());
+                const entry = (doc.feed?.entry || [])[0];
+                if (entry) {
+                  return {
+                    id: repo.html_url,
+                    person_handle: handle,
+                    type: "github-releases",
+                    title: `${repo.name} ${cleanText(entry.title)}`,
+                    description: cleanDesc(entry.content?.["#text"] || entry.content || ""),
+                    link: entry.link?.["@_href"] || repo.html_url,
+                    published_at: toISO(entry.updated),
+                  };
+                }
+              }
+            } catch {}
             return {
               id: repo.html_url,
               person_handle: handle,
@@ -452,20 +517,31 @@ async function main() {
   );
 
   // fetchAll feeds (e.g. github-user) are always per-person
-  const fetchAllTasks = fetchAllJobs.map(({ person, feedDef }) =>
-    limit(async () => {
-      const handler = feedTypes[feedDef.type];
-      try {
-        const source = deriveSource(feedDef);
-        const rawParsed = await handler.fetchAll(feedDef, person.handle);
-        const parsed = rawParsed.map((item) => ({ ...item, source }));
-        const newCount = upsertParsed(parsed);
-        results.push({ person: person.handle, feed: feedDef.type, newCount, total: parsed.length, ok: true });
-      } catch (err) {
-        results.push({ person: person.handle, feed: feedDef.type, ok: false, error: err.message });
-      }
-    })
-  );
+  const noToken = !process.env.GITHUB_TOKEN;
+  if (noToken && fetchAllJobs.some((j) => j.feedDef.type === "github-user")) {
+    console.warn(
+      "\n  ⚠ GITHUB_TOKEN is not set — skipping all github-user feeds.\n" +
+      "    Unauthenticated quota is 60 req/hr, insufficient for this many users.\n" +
+      "    Set GITHUB_TOKEN to enable GitHub feed aggregation.\n"
+    );
+  }
+
+  const fetchAllTasks = fetchAllJobs
+    .filter(({ feedDef }) => !(noToken && feedDef.type === "github-user"))
+    .map(({ person, feedDef }) =>
+      limit(async () => {
+        const handler = feedTypes[feedDef.type];
+        try {
+          const source = deriveSource(feedDef);
+          const rawParsed = await handler.fetchAll(feedDef, person.handle, db);
+          const parsed = rawParsed.map((item) => ({ ...item, source }));
+          const newCount = upsertParsed(parsed);
+          results.push({ person: person.handle, feed: feedDef.type, newCount, total: parsed.length, ok: true });
+        } catch (err) {
+          results.push({ person: person.handle, feed: feedDef.type, ok: false, error: err.message });
+        }
+      })
+    );
 
   await Promise.all([...urlTasks, ...fetchAllTasks]);
 
