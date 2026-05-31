@@ -57,7 +57,13 @@ function openDb() {
 function seedFromJson(db) {
   const path = join(DATA_DIR, "items.json");
   if (!existsSync(path)) return;
-  const existing = JSON.parse(readFileSync(path, "utf8"));
+  let existing;
+  try {
+    existing = JSON.parse(readFileSync(path, "utf8"));
+  } catch (err) {
+    console.warn(`  ⚠ items.json is invalid (${err.message}) — starting with empty history`);
+    return;
+  }
   const insert = db.prepare(`
     INSERT OR IGNORE INTO items (id, person_handle, type, title, description, link, published_at, fetched_at, source)
     VALUES (@id, @person_handle, @type, @title, @description, @link, @published_at, @fetched_at, @source)
