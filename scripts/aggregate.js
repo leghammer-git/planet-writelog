@@ -4,7 +4,6 @@ import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import { DatabaseSync } from "node:sqlite";
 import { XMLParser } from "fast-xml-parser";
-import fetch from "node-fetch";
 import pLimit from "p-limit";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
