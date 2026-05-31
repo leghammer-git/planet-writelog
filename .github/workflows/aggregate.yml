@@ -27,6 +27,13 @@ jobs:
           node-version: "22"
           cache: "npm"
 
+      - name: Restore aggregator DB cache
+        uses: actions/cache@v4
+        with:
+          path: aggregator.db
+          key: aggregator-db-${{ github.run_id }}
+          restore-keys: aggregator-db-
+
       - name: Install dependencies
         run: npm ci
 
