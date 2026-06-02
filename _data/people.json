@@ -2250,6 +2250,35 @@
     ]
   },
   {
+    "name": "Prajwal Desai",
+    "handle": "prajwal-desai",
+    "title": "Consultant",
+    "bio": "Microsoft Intune, SCCM, and endpoint management.",
+    "links": {
+      "website": "https://www.prajwaldesai.com/",
+      "facebook": "prajwaldesaimvp",
+      "github": "PrajwalDesai",
+      "linkedin": "prajwaldesai",
+      "twitter": "PrajwalDesai",
+      "youtube": "@PrajwalDesaiHD"
+    },
+    "feeds": [
+      {
+        "type": "blog",
+        "url": "https://www.prajwaldesai.com/feed/"
+      },
+      {
+        "type": "youtube",
+        "channel": "@PrajwalDesaiHD",
+        "channel_id": "UCoz4eku2gk65ZSemg85qbEQ"
+      },
+      {
+        "type": "github-user",
+        "username": "PrajwalDesai"
+      }
+    ]
+  },
+  {
     "name": "Roman Kleyn",
     "handle": "roman-kleyn",
     "avatar": "https://images.mvp.microsoft.com/1f658c91-4482-492d-a96f-1534b60b7737?638787773398210008",
