@@ -15,7 +15,7 @@
         "github":  "byteben",
         "linkedin":  "byteben",
         "twitter":  "byteben",
-        "youtube":  "UCYmYW0dOijMvq4FJwqy3c2g"
+        "youtube":  "@Byteben"
       },
   "feeds":  [
         {
@@ -33,7 +33,7 @@
         },
         {
           "type":  "youtube",
-          "channel_id":  "UCYmYW0dOijMvq4FJwqy3c2g"
+          "channel_id":  "@Byteben"
         }
       ]
 }

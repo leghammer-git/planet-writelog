@@ -1,7 +1,6 @@
 {
   "name": "Shehab Noaman",
   "handle": "shehab-noaman",
-  "avatar": "https://images.mvp.microsoft.com/fafff9c8-ff3e-ed11-bba3-000d3a197333?638798945828877261",
   "mvp": {
     "status": "active",
     "category": "Security"
@@ -9,20 +8,18 @@
   "title": "Consultant",
   "bio": "Blogger, Endpoint and Identity Architect, Nerd",
   "links": {
-    "website": "https://emsroute.com",
-    "github": "shehanperera85",
-    "linkedin": "shehanperera85",
-    "twitter": "Shehanperera85",
-    "youtube": "@emsroute"
+    "website": "https://sysadminhub.info",
+    "github": "Shehab1Noaman",
+    "linkedin": "shehab-noaman"
   },
   "feeds": [
     {
-      "type": "youtube",
-      "channel": "@emsroute"
+      "type": "blog",
+      "url": "https://sysadminhub.info/feed"
     },
     {
       "type": "github-user",
-      "username": "shehanperera85"
+      "username": "Shehab1Noaman"
     }
   ]
 }

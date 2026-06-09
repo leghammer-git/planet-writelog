@@ -13,12 +13,12 @@
         "github":  "oktay-sari",
         "linkedin":  "oktaysari",
         "twitter":  "oktay_sari",
-        "youtube":  "UCOH1EpeoyDNDZh813aqG0vw"
+        "youtube":  "@allthingscloud"
       },
   "feeds":  [
         {
           "type":  "youtube",
-          "channel_id":  "UCOH1EpeoyDNDZh813aqG0vw"
+          "channel_id":  "@allthingscloud"
         },
         {
           "type":  "github-user",

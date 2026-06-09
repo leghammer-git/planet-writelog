@@ -18,7 +18,7 @@
   "feeds":  [
         {
           "type":  "blog",
-          "url":  "https://blog.mindcore.dk/feed/",
+          "url":  "https://blog.mindcore.dk/author/mattias-melkersen-kalvaag/feed/",
           "author":  "Mattias Melkersen"
         },
         {
@@ -29,10 +29,6 @@
         {
           "type":  "github-user",
           "username":  "MMelkersen"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://mindcore.dk/feed"
         }
       ]
 }

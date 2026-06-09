@@ -9,7 +9,7 @@
   "feeds": [
     {
       "type": "blog",
-      "url": "https://tcsmug.org/blogs/sherry-kissinger?format=feed\u0026type=rss"
+      "url": "https://tcsmug.org/blogs/sherry-kissinger?format=feed&type=rss"
     }
   ]
 }

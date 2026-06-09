@@ -14,12 +14,12 @@
         "facebook":  "peter.daalmans",
         "linkedin":  "pdaalmans",
         "twitter":  "pdaalmans",
-        "youtube":  "UCATgd7LEiyl94QogiEqHspA"
+        "youtube":  "@EnterpriseMobilityTips"
       },
   "feeds":  [
         {
           "type":  "youtube",
-          "channel_id":  "UCATgd7LEiyl94QogiEqHspA"
+          "channel_id":  "@EnterpriseMobilityTips"
         },
         {
           "type":  "blog",

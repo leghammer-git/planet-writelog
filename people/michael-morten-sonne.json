@@ -7,7 +7,7 @@
   "feeds": [
     {
       "type": "blog",
-      "url": "https://blog.mindcore.dk/feed/",
+      "url": "https://blog.mindcore.dk/author/mmsmindcore-dk/feed/",
       "author": "Michael Morten Sonne"
     }
   ]

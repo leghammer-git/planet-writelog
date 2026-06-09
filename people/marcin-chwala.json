@@ -3,11 +3,13 @@
   "handle": "marcin-chwala",
   "title": "Consultant",
   "bio": "Modern workplace and infrastructure architect with focus on Microsoft 365.",
-  "links": {},
+  "links": {
+    "linkedin": "marcinchwala"
+  },
   "feeds": [
     {
       "type": "blog",
-      "url": "https://blog.mindcore.dk/feed/",
+      "url": "https://blog.mindcore.dk/author/mcmindcore-dk/feed/",
       "author": "Marcin Chwala"
     }
   ]

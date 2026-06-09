@@ -10,7 +10,7 @@
   "feeds": [
     {
       "type": "blog",
-      "url": "https://blog.mindcore.dk/feed/",
+      "url": "https://blog.mindcore.dk/author/lars-lohmann/feed/",
       "author": "Lars Lohmann"
     }
   ]

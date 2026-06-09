@@ -9,7 +9,7 @@
   "feeds": [
     {
       "type": "blog",
-      "url": "https://tcsmug.org/blogs/jeff-carreon?format=feed\u0026type=rss"
+      "url": "https://tcsmug.org/blogs/jeff-carreon?format=feed&type=rss"
     }
   ]
 }

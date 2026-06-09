@@ -9,6 +9,7 @@
   "title": "Developer",
   "bio": "IT Systemadministrator at Krones AG, Intune MVP",
   "links": {
+    "website": "https://mikemdm.de/",
     "github": "mmeierm",
     "linkedin": "michael-meier-ba3b72210"
   },
@@ -16,6 +17,10 @@
     {
       "type": "github-user",
       "username": "mmeierm"
+    },
+    {
+      "type": "blog",
+      "url": "https://mikemdm.de/feed/"
     }
   ]
 }

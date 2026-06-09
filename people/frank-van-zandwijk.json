@@ -7,7 +7,7 @@
   "feeds": [
     {
       "type": "blog",
-      "url": "https://blog.mindcore.dk/feed/",
+      "url": "https://blog.mindcore.dk/author/fzmindcore-dk/feed/",
       "author": "Frank van Zandwijk"
     }
   ]

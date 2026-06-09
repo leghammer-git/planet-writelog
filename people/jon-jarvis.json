@@ -7,17 +7,17 @@
     "category": "Security"
   },
   "title": "Other",
-  "bio": "Microsoft MVP - Intune \u0026 Windows 365",
+  "bio": "Microsoft MVP - Intune & Windows 365",
   "links": {
     "website": "https://www.cloudendpoint.ai",
     "linkedin": "jonjarvisuk",
     "twitter": "jonjarvis",
-    "youtube": "UChvsfcaPkPH-hLmfGmh9p1w"
+    "youtube": "@CloudEndpointAI"
   },
   "feeds": [
     {
       "type": "youtube",
-      "channel_id": "UChvsfcaPkPH-hLmfGmh9p1w"
+      "channel_id": "@CloudEndpointAI"
     }
   ]
 }

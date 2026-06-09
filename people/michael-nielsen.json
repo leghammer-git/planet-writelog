@@ -9,7 +9,7 @@
   "feeds": [
     {
       "type": "blog",
-      "url": "https://blog.mindcore.dk/feed/",
+      "url": "https://blog.mindcore.dk/author/michael-nielsen/feed/",
       "author": "Michael Nielsen"
     }
   ]

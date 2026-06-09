@@ -13,7 +13,7 @@
         "bluesky":  "call4cloud.nl",
         "linkedin":  "rudyooms",
         "twitter":  "Mister_MDM",
-        "youtube":  "UC13sLCGRsNzZj_foX1yDQKg"
+        "youtube":  "@Call4Cloud"
       },
   "feeds":  [
         {
@@ -22,7 +22,7 @@
         },
         {
           "type":  "youtube",
-          "channel_id":  "UC13sLCGRsNzZj_foX1yDQKg"
+          "channel_id":  "@Call4Cloud"
         }
       ]
 }

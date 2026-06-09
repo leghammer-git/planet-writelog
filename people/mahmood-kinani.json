@@ -1,5 +1,5 @@
 {
-  "name": "Mahmood Kinani",
+  "name": "Mahmood (Moe) Kinani",
   "handle": "mahmood-kinani",
   "avatar": "https://images.mvp.microsoft.com/ffdc7d5b-0cce-ed11-a7c6-000d3a5603d3",
   "mvp": {
@@ -9,8 +9,10 @@
   "title": "Consultant",
   "bio": "A husband, father and big fan of Bayern Munich soccer club",
   "links": {
+    "website": "https://cloudbymoe.com/",
     "github": "MoeKinani",
-    "linkedin": "moe-kinani-7b530159"
+    "linkedin": "moe-kinani-7b530159",
+    "twitter": "Moe_Kinani"
   },
   "feeds": [
     {
