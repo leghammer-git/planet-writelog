@@ -69,7 +69,7 @@ function seedFromJson(db) {
   `);
   db.exec("BEGIN");
   try {
-    for (const r of existing) insert.run(r);
+    for (const r of existing) insert.run(sanitizeForDb(r));
     db.exec("COMMIT");
   } catch (e) {
     db.exec("ROLLBACK");
@@ -189,6 +189,16 @@ function toISO(val) {
   return isNaN(d) ? new Date().toISOString() : d.toISOString();
 }
 
+function sanitizeForDb(obj) {
+  const out = {};
+  for (const [k, v] of Object.entries(obj)) {
+    if (v === undefined) out[k] = null;
+    else if (v !== null && typeof v === "object") out[k] = String(v["#text"] ?? v["@_href"] ?? "");
+    else out[k] = v;
+  }
+  return out;
+}
+
 // ── YouTube channel resolution ────────────────────────────────────────────────
 
 async function resolveYouTubeChannelId(handle, db) {
@@ -215,7 +225,7 @@ const parser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: "@_",
   isArray: (name) => ["entry", "item"].includes(name),
-  processEntities: { enabled: true, maxTotalExpansions: 10000 },
+  processEntities: { enabled: true, maxTotalExpansions: 100000 },
 });
 
 // ── feed type registry ────────────────────────────────────────────────────────
@@ -449,7 +459,7 @@ async function main() {
     try {
       for (const item of parsed) {
         if (!item.id || !item.link) continue;
-        const info = insertItem.run({ ...item, fetched_at: now });
+        const info = insertItem.run(sanitizeForDb({ ...item, fetched_at: now }));
         if (info.changes > 0) newCount++;
       }
       db.exec("COMMIT");
@@ -465,7 +475,7 @@ async function main() {
     try {
       for (const item of parsed) {
         if (!item.id || !item.link) continue;
-        replaceItem.run({ ...item, fetched_at: now });
+        replaceItem.run(sanitizeForDb({ ...item, fetched_at: now }));
       }
       db.exec("COMMIT");
     } catch (e) {

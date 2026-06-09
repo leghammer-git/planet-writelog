@@ -20,10 +20,6 @@
   "feeds":  [
         {
           "type":  "blog",
-          "url":  "https://byteben.com/bb/feed/"
-        },
-        {
-          "type":  "blog",
           "url":  "https://msendpointmgr.com/feed/",
           "author":  "Ben Whitmore"
         },
@@ -33,7 +29,7 @@
         },
         {
           "type":  "youtube",
-          "channel_id":  "@Byteben"
+          "channel":  "@Byteben"
         }
       ]
 }

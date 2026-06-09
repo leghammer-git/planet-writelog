@@ -22,7 +22,7 @@
         },
         {
           "type":  "youtube",
-          "channel_id":  "@Call4Cloud"
+          "channel":  "@Call4Cloud"
         }
       ]
 }

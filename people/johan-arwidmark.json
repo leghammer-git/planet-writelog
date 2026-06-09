@@ -24,10 +24,6 @@
         {
           "type":  "github-user",
           "username":  "DeploymentResearch"
-        },
-        {
-          "type":  "blog",
-          "url":  "https://deploymentresearch.com/feed"
         }
       ]
 }

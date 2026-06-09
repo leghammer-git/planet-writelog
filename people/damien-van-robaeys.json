@@ -19,7 +19,7 @@
   "feeds":  [
         {
           "type":  "youtube",
-          "channel_id":  "@damienvanrobaeys9136"
+          "channel":  "@damienvanrobaeys9136"
         },
         {
           "type":  "github-user",

@@ -17,7 +17,7 @@
   "feeds": [
     {
       "type": "youtube",
-      "channel_id": "@CloudEndpointAI"
+      "channel": "@CloudEndpointAI"
     }
   ]
 }

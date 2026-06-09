@@ -19,7 +19,7 @@
   "feeds":  [
         {
           "type":  "youtube",
-          "channel_id":  "@EnterpriseMobilityTips"
+          "channel":  "@EnterpriseMobilityTips"
         },
         {
           "type":  "blog",

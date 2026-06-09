@@ -15,7 +15,7 @@
       "github": "AdamGrossTX",
       "linkedin": "asquaredozen",
       "twitter": "AdamGrossTX",
-      "youtube": "UCfmMlhX5TW8cicxHw6ExYVA"
+      "youtube": "@IntuneTraining"
     },
     "feeds": [
       {
@@ -138,27 +138,6 @@
     ]
   },
   {
-    "name": "Angel Garcia Ayas",
-    "handle": "angel-garcia-ayas",
-    "avatar": "https://images.mvp.microsoft.com/fa7d1f4f-0cce-ed11-a7c6-000d3a5603d3",
-    "mvp": {
-      "status": "active",
-      "category": "Security"
-    },
-    "title": "Content Creator",
-    "bio": "Endpoint Management (MECM | SCCM | Intune | AzureVD | Security | MacOS | iOS )",
-    "links": {
-      "linkedin": "angelgarciaayas",
-      "youtube": "UCcFBkThqXF2iQWP-sUeW4gQ"
-    },
-    "feeds": [
-      {
-        "type": "youtube",
-        "channel_id": "UCcFBkThqXF2iQWP-sUeW4gQ"
-      }
-    ]
-  },
-  {
     "name": "Anoop C Nair",
     "handle": "anoopcnair",
     "title": "Community Publication",
@@ -207,13 +186,9 @@
       "github": "byteben",
       "linkedin": "byteben",
       "twitter": "byteben",
-      "youtube": "UCYmYW0dOijMvq4FJwqy3c2g"
+      "youtube": "@Byteben"
     },
     "feeds": [
-      {
-        "type": "blog",
-        "url": "https://byteben.com/bb/feed/"
-      },
       {
         "type": "blog",
         "url": "https://msendpointmgr.com/feed/",
@@ -225,6 +200,7 @@
       },
       {
         "type": "youtube",
+        "channel": "@Byteben",
         "channel_id": "UCYmYW0dOijMvq4FJwqy3c2g"
       }
     ]
@@ -317,7 +293,7 @@
     ]
   },
   {
-    "name": "Damien VAN ROBAEYS",
+    "name": "Damien Van Robaeys",
     "handle": "damien-van-robaeys",
     "avatar": "https://images.mvp.microsoft.com/b1c59ea6-c7fa-e611-8104-3863bb363e80?638285615608041604",
     "mvp": {
@@ -332,11 +308,12 @@
       "github": "damienvanrobaeys",
       "linkedin": "damien-van-robaeys-2a648627",
       "twitter": "syst_and_deploy",
-      "youtube": "UCcR6WiAcC3LXp7ulnu1LoCw"
+      "youtube": "@damienvanrobaeys9136"
     },
     "feeds": [
       {
         "type": "youtube",
+        "channel": "@damienvanrobaeys9136",
         "channel_id": "UCcR6WiAcC3LXp7ulnu1LoCw"
       },
       {
@@ -374,7 +351,7 @@
     "feeds": [
       {
         "type": "blog",
-        "url": "https://blog.mindcore.dk/feed/",
+        "url": "https://blog.mindcore.dk/author/dbmindcore-dk/feed/",
         "author": "Daniel Britze"
       }
     ]
@@ -564,7 +541,7 @@
     "feeds": [
       {
         "type": "blog",
-        "url": "https://blog.mindcore.dk/feed/",
+        "url": "https://blog.mindcore.dk/author/fzmindcore-dk/feed/",
         "author": "Frank van Zandwijk"
       }
     ]
@@ -1019,10 +996,6 @@
       {
         "type": "github-user",
         "username": "DeploymentResearch"
-      },
-      {
-        "type": "blog",
-        "url": "https://deploymentresearch.com/feed"
       }
     ]
   },
@@ -1062,11 +1035,12 @@
       "website": "https://www.cloudendpoint.ai",
       "linkedin": "jonjarvisuk",
       "twitter": "jonjarvis",
-      "youtube": "UChvsfcaPkPH-hLmfGmh9p1w"
+      "youtube": "@CloudEndpointAI"
     },
     "feeds": [
       {
         "type": "youtube",
+        "channel": "@CloudEndpointAI",
         "channel_id": "UChvsfcaPkPH-hLmfGmh9p1w"
       }
     ]
@@ -1350,21 +1324,21 @@
     "feeds": [
       {
         "type": "blog",
-        "url": "https://blog.mindcore.dk/feed/",
+        "url": "https://blog.mindcore.dk/author/lars-lohmann/feed/",
         "author": "Lars Lohmann"
       }
     ]
   },
   {
     "name": "Laurent Gébeau",
-    "handle": "laurent-gbeau",
+    "handle": "laurent-gebeau",
     "avatar": "https://images.mvp.microsoft.com/8f53d96c-3c9a-e411-93f2-9cb65495d3c4",
     "mvp": {
       "status": "active",
       "category": "Security / Windows and Devices"
     },
     "title": "IT speclialised in Microsoft technologies, co-owner of Axeperf.com.",
-    "bio": "Laurent Gébeau is living close to Paris, France.    \n\nLaurent is Microsoft Certified (MCP) and has been troubleshooting Windows, network and computers problems since 1994.\n\nIn January 2004 Laurent was awarded Most Valuable Professional status (MVP) by Microsoft, renewed every year since.\n\nAfter m...",
+    "bio": "Laurent Gébeau is living close to Paris, France. Laurent is Microsoft Certified (MCP) and has been troubleshooting Windows, network and computers problems since 1994.\n\nIn January 2004 Laurent was awarded Most Valuable Professional status (MVP) by Microsoft, renewed every year since.\n\nAfter m...",
     "links": {
       "facebook": "lgebeau",
       "linkedin": "laurentgebeau",
@@ -1383,30 +1357,7 @@
     ]
   },
   {
-    "name": "Laurent GÃ©beau",
-    "handle": "laurent-gebeau",
-    "avatar": "https://images.mvp.microsoft.com/8f53d96c-3c9a-e411-93f2-9cb65495d3c4",
-    "mvp": {
-      "status": "active",
-      "category": "Security"
-    },
-    "title": "Consultant",
-    "bio": "IT speclialised in Microsoft technologies, co-owner of Axeperf.com.",
-    "links": {
-      "facebook": "lgebeau",
-      "github": "LGebeau",
-      "linkedin": "laurentgebeau",
-      "twitter": "mtoo"
-    },
-    "feeds": [
-      {
-        "type": "github-user",
-        "username": "LGebeau"
-      }
-    ]
-  },
-  {
-    "name": "Mahmood Kinani",
+    "name": "Mahmood (Moe) Kinani",
     "handle": "mahmood-kinani",
     "avatar": "https://images.mvp.microsoft.com/ffdc7d5b-0cce-ed11-a7c6-000d3a5603d3",
     "mvp": {
@@ -1416,8 +1367,10 @@
     "title": "Consultant",
     "bio": "A husband, father and big fan of Bayern Munich soccer club",
     "links": {
+      "website": "https://cloudbymoe.com/",
       "github": "MoeKinani",
-      "linkedin": "moe-kinani-7b530159"
+      "linkedin": "moe-kinani-7b530159",
+      "twitter": "Moe_Kinani"
     },
     "feeds": [
       {
@@ -1431,11 +1384,13 @@
     "handle": "marcin-chwala",
     "title": "Consultant",
     "bio": "Modern workplace and infrastructure architect with focus on Microsoft 365.",
-    "links": {},
+    "links": {
+      "linkedin": "marcinchwala"
+    },
     "feeds": [
       {
         "type": "blog",
-        "url": "https://blog.mindcore.dk/feed/",
+        "url": "https://blog.mindcore.dk/author/mcmindcore-dk/feed/",
         "author": "Marcin Chwala"
       }
     ]
@@ -1478,7 +1433,7 @@
     "feeds": [
       {
         "type": "blog",
-        "url": "https://blog.mindcore.dk/feed/",
+        "url": "https://blog.mindcore.dk/author/martin-vittrup-henriksen/feed/",
         "author": "Martin Vittrup Henriksen"
       }
     ]
@@ -1563,7 +1518,7 @@
     "feeds": [
       {
         "type": "blog",
-        "url": "https://blog.mindcore.dk/feed/",
+        "url": "https://blog.mindcore.dk/author/mattias-melkersen-kalvaag/feed/",
         "author": "Mattias Melkersen"
       },
       {
@@ -1574,10 +1529,6 @@
       {
         "type": "github-user",
         "username": "MMelkersen"
-      },
-      {
-        "type": "blog",
-        "url": "https://mindcore.dk/feed"
       }
     ]
   },
@@ -1708,6 +1659,7 @@
     "title": "Developer",
     "bio": "IT Systemadministrator at Krones AG, Intune MVP",
     "links": {
+      "website": "https://mikemdm.de/",
       "github": "mmeierm",
       "linkedin": "michael-meier-ba3b72210"
     },
@@ -1715,6 +1667,10 @@
       {
         "type": "github-user",
         "username": "mmeierm"
+      },
+      {
+        "type": "blog",
+        "url": "https://mikemdm.de/feed/"
       }
     ]
   },
@@ -1727,7 +1683,7 @@
     "feeds": [
       {
         "type": "blog",
-        "url": "https://blog.mindcore.dk/feed/",
+        "url": "https://blog.mindcore.dk/author/mmsmindcore-dk/feed/",
         "author": "Michael Morten Sonne"
       }
     ]
@@ -1764,7 +1720,7 @@
     "feeds": [
       {
         "type": "blog",
-        "url": "https://blog.mindcore.dk/feed/",
+        "url": "https://blog.mindcore.dk/author/michael-nielsen/feed/",
         "author": "Michael Nielsen"
       }
     ]
@@ -1801,7 +1757,7 @@
     "title": "Community Publication",
     "bio": "",
     "links": {
-      "website": "https://msendpointmgr.com/author/benw"
+      "website": "https://msendpointmgr.com"
     },
     "feeds": [
       {
@@ -2060,11 +2016,12 @@
       "github": "oktay-sari",
       "linkedin": "oktaysari",
       "twitter": "oktay_sari",
-      "youtube": "UCOH1EpeoyDNDZh813aqG0vw"
+      "youtube": "@allthingscloud"
     },
     "feeds": [
       {
         "type": "youtube",
+        "channel": "@allthingscloud",
         "channel_id": "UCOH1EpeoyDNDZh813aqG0vw"
       },
       {
@@ -2149,11 +2106,12 @@
       "facebook": "peter.daalmans",
       "linkedin": "pdaalmans",
       "twitter": "pdaalmans",
-      "youtube": "UCATgd7LEiyl94QogiEqHspA"
+      "youtube": "@EnterpriseMobilityTips"
     },
     "feeds": [
       {
         "type": "youtube",
+        "channel": "@EnterpriseMobilityTips",
         "channel_id": "UCATgd7LEiyl94QogiEqHspA"
       },
       {
@@ -2294,6 +2252,7 @@
     "title": "Geek :-)",
     "bio": "Ronni works as a Microsoft Certified Cloud Architect with APENTO in Denmark. He's working with designing and deploying management solutions based on Microsoft Endpoint Manager (SCCM and Microsoft Intune), Enterprise Mobility + Security and Microsoft Azure.\r\n\r\nMember of Microsoft Partner Expert Te...",
     "links": {
+      "website": "https://www.ronnipedersen.com",
       "twitter": "ronnipedersen",
       "facebook": "?ref=logo#!/groups/196465560389943"
     },
@@ -2319,7 +2278,7 @@
       "bluesky": "call4cloud.nl",
       "linkedin": "rudyooms",
       "twitter": "Mister_MDM",
-      "youtube": "UC13sLCGRsNzZj_foX1yDQKg"
+      "youtube": "@Call4Cloud"
     },
     "feeds": [
       {
@@ -2328,6 +2287,7 @@
       },
       {
         "type": "youtube",
+        "channel": "@Call4Cloud",
         "channel_id": "UC13sLCGRsNzZj_foX1yDQKg"
       }
     ]
@@ -2436,7 +2396,6 @@
   {
     "name": "Shehab Noaman",
     "handle": "shehab-noaman",
-    "avatar": "https://images.mvp.microsoft.com/fafff9c8-ff3e-ed11-bba3-000d3a197333?638798945828877261",
     "mvp": {
       "status": "active",
       "category": "Security"
@@ -2444,21 +2403,18 @@
     "title": "Consultant",
     "bio": "Blogger, Endpoint and Identity Architect, Nerd",
     "links": {
-      "website": "https://emsroute.com",
-      "github": "shehanperera85",
-      "linkedin": "shehanperera85",
-      "twitter": "Shehanperera85",
-      "youtube": "@emsroute"
+      "website": "https://sysadminhub.info",
+      "github": "Shehab1Noaman",
+      "linkedin": "shehab-noaman"
     },
     "feeds": [
       {
-        "type": "youtube",
-        "channel": "@emsroute",
-        "channel_id": "UC97aP0SoCZ0LPhkJEW6IbmA"
+        "type": "blog",
+        "url": "https://sysadminhub.info/feed"
       },
       {
         "type": "github-user",
-        "username": "shehanperera85"
+        "username": "Shehab1Noaman"
       }
     ]
   },
@@ -2471,7 +2427,7 @@
       "category": "Security"
     },
     "title": "Blogger, Endpoint and Identity Architect, Nerd",
-    "bio": "I’m Shehan, and I’m from Adelaide, Australia.\n\nI’m an Endpoint and Identity Architect at Bastion Technology Services, a 24/7 Microsoft 365 and Cloud enthusiast, a serial blogger, a Marvel and Star Wars Fanatic, a Metal Head, and a full-time dad.",
+    "bio": "I'm Shehan, and I'm from Adelaide, Australia. I'm an Endpoint and Identity Architect at Bastion Technology Services, a 24/7 Microsoft 365 and Cloud enthusiast, a serial blogger, a Marvel and Star Wars Fanatic, a Metal Head, and a full-time dad.",
     "links": {
       "linkedin": "shehanperera85",
       "twitter": "Shehanperera85",
@@ -2660,13 +2616,13 @@
     "feeds": [
       {
         "type": "blog",
-        "url": "https://blog.mindcore.dk/feed/",
+        "url": "https://blog.mindcore.dk/author/sune-thomsen/feed/",
         "author": "Sune Thomsen"
       }
     ]
   },
   {
-    "name": "Syst &amp; Deploy",
+    "name": "Syst & Deploy",
     "handle": "systanddeploy",
     "title": "Community Publication",
     "bio": "",
@@ -2783,50 +2739,6 @@
     ]
   },
   {
-    "name": "Timmy Andersson",
-    "handle": "timmy-andersson",
-    "avatar": "https://images.mvp.microsoft.com/7e02d51f-2610-ea11-a811-000d3a8ccb3e",
-    "mvp": {
-      "status": "active",
-      "category": "M365"
-    },
-    "title": "Consultant",
-    "bio": ".",
-    "links": {
-      "website": "https://timmyit.com/",
-      "bluesky": "timmyit.com",
-      "github": "timmyit",
-      "linkedin": "timmy-andersson-61408292",
-      "twitter": "TimmyITdotcom",
-      "youtube": "UCStHA8I0cjpj4LpTQ3YS-tA"
-    },
-    "feeds": [
-      {
-        "type": "youtube",
-        "channel_id": "UCStHA8I0cjpj4LpTQ3YS-tA"
-      },
-      {
-        "type": "github-user",
-        "username": "timmyit"
-      }
-    ]
-  },
-  {
-    "name": "TimmyIT.com",
-    "handle": "timmyit",
-    "title": "Community Publication",
-    "bio": "",
-    "links": {
-      "website": "https://timmyit.com"
-    },
-    "feeds": [
-      {
-        "type": "blog",
-        "url": "https://timmyit.com/feed"
-      }
-    ]
-  },
-  {
     "name": "Tugay Taskin",
     "handle": "tugay-taskin",
     "avatar": "https://images.mvp.microsoft.com/3a7fc300-2f08-4a80-8599-0b9b18f5fbb5?638759203891857730",
@@ -2887,21 +2799,6 @@
       {
         "type": "blog",
         "url": "https://spynetgirl.medium.com/feed"
-      }
-    ]
-  },
-  {
-    "name": "Workplace Ninja Summit &#8211; The Workplace Summit of Europe",
-    "handle": "wpninjas",
-    "title": "Community Publication",
-    "bio": "",
-    "links": {
-      "website": "https://summit.wpninjas.global"
-    },
-    "feeds": [
-      {
-        "type": "blog",
-        "url": "https://summit.wpninjas.global/feed"
       }
     ]
   }

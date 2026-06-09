@@ -1,5 +1,16 @@
 [
   {
+    "id": "yt:video:9NeOIyx5TmY",
+    "person_handle": "shehan-perera",
+    "type": "youtube",
+    "title": "The 'no stupid questions' mentality makes a community thrive. While online searches often",
+    "description": "The 'no stupid questions' mentality makes a community thrive. While online searches often lead to the exact same problem with no answers, an active community ensures people jump in and help. A clip from the latest Out of Band episode. Full episode: https://youtu.be/HzexxiNmMOs",
+    "link": "https://www.youtube.com/shorts/9NeOIyx5TmY",
+    "published_at": "2026-06-09T23:30:43.000Z",
+    "fetched_at": "2026-06-09T23:34:17.647Z",
+    "source": "YouTube"
+  },
+  {
     "id": "https://www.prajwaldesai.com/?p=340597",
     "person_handle": "prajwal-desai",
     "type": "blog",
@@ -2013,6 +2024,17 @@
     "source": "4sysops"
   },
   {
+    "id": "https://sysadminhub.info/?p=1022",
+    "person_handle": "shehab-noaman",
+    "type": "blog",
+    "title": "Microsoft 365 Configuration Backup with a Simple PowerShell Tool",
+    "description": "Introduction Let’s be honest: Microsoft 365 isn’t just about email, Word docs, and Teams meetings anymore. It has quietly evolved into the absolute nerve centre of modern IT. Think about… The post Microsoft 365 Configuration Backup with a Simple PowerShell Tool first appeared on…",
+    "link": "https://sysadminhub.info/microsoft-365-configuration-backup-with-a-simple-powershell-tool/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=microsoft-365-configuration-backup-with-a-simple-powershell-tool",
+    "published_at": "2026-05-26T23:08:23.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "sysadminhub.info"
+  },
+  {
     "id": "https://joymalya.com/?p=7581",
     "person_handle": "joymalya-basu-roy",
     "type": "blog",
@@ -3883,6 +3905,17 @@
     "source": "call4cloud.nl"
   },
   {
+    "id": "https://mikemdm.de/?p=2436",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Intune introduces a new enhanced App inventory",
+    "description": "Intune finally gets an update to its App inventory for Windows, replacing the old discovered Apps report, which lacked some often requested properties and never felt really up-to-date. Use the report: You can access the new report from the new All Apps report, either in the new…",
+    "link": "https://mikemdm.de/2026/05/10/intune-introduces-a-new-enhanced-app-inventory/",
+    "published_at": "2026-05-10T11:38:09.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
+  },
+  {
     "id": "https://github.com/tugich/ActionPacks",
     "person_handle": "tugay-taskin",
     "type": "github-releases",
@@ -5588,6 +5621,17 @@
     "source": "GitHub"
   },
   {
+    "id": "https://mikemdm.de/?p=2384",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Windows 365 Link Bare Metal Recovery",
+    "description": "Today I want to show you, how you can recover your Windows 365 Link device using Bare Metal Recovery. This can be useful for example, when you removed the device from Intune and Entra ID without resetting the Link before and find yourself in the situation, that you would need…",
+    "link": "https://mikemdm.de/2026/04/12/windows-365-bare-metal-recovery/",
+    "published_at": "2026-04-12T07:20:47.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
+  },
+  {
     "id": "http://oofhours.com/?p=7007",
     "person_handle": "michael-niehaus",
     "type": "blog",
@@ -6169,6 +6213,17 @@
     "published_at": "2026-03-30T20:34:27.000Z",
     "fetched_at": "2026-06-09T22:42:26.250Z",
     "source": "GitHub"
+  },
+  {
+    "id": "https://sysadminhub.info/?p=1001",
+    "person_handle": "shehab-noaman",
+    "type": "blog",
+    "title": "How to Fix Windows 11 Devices Not Showing in Microsoft Defender Portal After Pro to Enterprise Upgrade",
+    "description": "A Windows device can look fully protected on the desktop and still fail the check that matters most to a security team: appearing and reporting correctly in the Microsoft Defender… The post How to Fix Windows 11 Devices Not Showing in Microsoft Defender Portal After Pro to…",
+    "link": "https://sysadminhub.info/how-to-fix-windows-11-devices-not-showing-in-microsoft-defender-portal-after-pro-to-enterprise-upgrade/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-fix-windows-11-devices-not-showing-in-microsoft-defender-portal-after-pro-to-enterprise-upgrade",
+    "published_at": "2026-03-30T20:28:51.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "sysadminhub.info"
   },
   {
     "id": "https://joymalya.com/?p=5965",
@@ -7027,6 +7082,17 @@
     "published_at": "2026-03-15T13:15:02.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "zerototrust.tech"
+  },
+  {
+    "id": "https://mikemdm.de/?p=2365",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "3D SpaceMouse RDP redirection in Windows 365 or AVD",
+    "description": "If you want to use your 3Dconnexion SpaceMouse on your Windows 365 CloudPC or on your Azure Virtual Desktop Session Host, you first need to enable RemoteFX USB Redirection as described here:…",
+    "link": "https://mikemdm.de/2026/03/15/3d-spacemouse-rdp-redirection-in-windows-365-or-avd/",
+    "published_at": "2026-03-15T10:28:09.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
   },
   {
     "id": "https://eskonr.com/?p=15039",
@@ -8316,6 +8382,17 @@
     "source": "GitHub"
   },
   {
+    "id": "https://mikemdm.de/?p=2348",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Intune Endpoint Privilege Management tips and tricks – Part 2",
+    "description": "Intune Endpoint Privilege Management is probably the tool that receives the most updates and improvements from the Intune Suite in the last months, so let’s take a look at it again. New Reports and Overview page The most obvious change in the portal is probably the new Overview…",
+    "link": "https://mikemdm.de/2026/02/15/intune-endpoint-privilege-management-tips-and-tricks-part-2/",
+    "published_at": "2026-02-15T14:55:32.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
+  },
+  {
     "id": "https://github.com/ChanderManiPandey2022/Set-lock-Screen-Wallpaper-Using-Intune",
     "person_handle": "chander-mani-pandey",
     "type": "github-releases",
@@ -8976,6 +9053,17 @@
     "source": "joeyverlinden.com"
   },
   {
+    "id": "https://mikemdm.de/?p=2328",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Intune join Azure Arc enabled Windows 11 machines",
+    "description": "When we think about ways to Entra and Intune join Windows 11 machines, we usually think about things like Autopilot or Provisioning Packages, but did you know there is an additional method for Azure VMs and Azure Arc enabled machines? Onboard machine to Azure Arc Azure Portal…",
+    "link": "https://mikemdm.de/2026/02/01/intune-join-azure-arc-enabled-windows-11-machines/",
+    "published_at": "2026-02-01T13:08:26.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
+  },
+  {
     "id": "https://joeloveless.com/blog/intune-documentation-as-code",
     "person_handle": "joe-loveless",
     "type": "blog",
@@ -9284,6 +9372,17 @@
     "source": "GitHub"
   },
   {
+    "id": "https://mikemdm.de/?p=2312",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Windows 365 RemoteFX USB Redirection for special devices",
+    "description": "A while ago, I showed you how to enable RemoteFX USB Redirection for your Windows 365 CloudPCs using Intune: https://mikemdm.de/2025/01/05/enable-remotefx-usb-redirection-for-avd-or-windows-365-using-intune/ Generic devices While this works fine for most USB Devices like your…",
+    "link": "https://mikemdm.de/2026/01/25/windows-365-remotefx-usb-redirection-for-special-devices/",
+    "published_at": "2026-01-25T13:35:10.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
+  },
+  {
     "id": "https://github.com/mmeierm/Scripts",
     "person_handle": "michael-meier",
     "type": "github-releases",
@@ -9414,6 +9513,17 @@
     "published_at": "2026-01-23T00:00:00.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "joeloveless.com"
+  },
+  {
+    "id": "https://sysadminhub.info/?p=989",
+    "person_handle": "shehab-noaman",
+    "type": "blog",
+    "title": "Secure Boot Certificates 2026 Deadline: How to Check Device Compliance",
+    "description": "Secure Boot is about to undergo its biggest change in over a decade. For years, the same digital certificates have safeguarded the Windows boot process. But beginning this June, that… The post Secure Boot Certificates 2026 Deadline: How to Check Device Compliance first appeared…",
+    "link": "https://sysadminhub.info/secure-boot-certificates-2026-deadline-how-to-check-device-compliance/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=secure-boot-certificates-2026-deadline-how-to-check-device-compliance",
+    "published_at": "2026-01-22T22:36:06.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "sysadminhub.info"
   },
   {
     "id": "https://allthingscloud.blog/?p=3204",
@@ -9568,6 +9678,17 @@
     "published_at": "2026-01-19T07:13:17.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "oofhours.com"
+  },
+  {
+    "id": "https://mikemdm.de/?p=2303",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Intune Win32 Apps now support PowerShell install scripts natively",
+    "description": "With the latest update, Intune got a cool new feature for Win32 Apps, it now allows you to alternatively specify a PowerShell script as an install or uninstall command instead of the classic commands that we are used to. Configure the Installer type In the program tab of any…",
+    "link": "https://mikemdm.de/2026/01/18/intune-win32-apps-now-support-powershell-install-scripts-natively/",
+    "published_at": "2026-01-18T13:44:21.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
   },
   {
     "id": "https://github.com/ChanderManiPandey2022/Intune-Win32-Custom-Detection-Logic-Generator-Script",
@@ -10901,6 +11022,28 @@
     "source": "GitHub"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=10763",
+    "person_handle": "michael-morten-sonne",
+    "type": "blog",
+    "title": "How to retrieve & save messages by InternetMessageID from Microsoft 365 mailboxes via Microsoft Graph",
+    "description": "Introduction If you need to find specific emails in a Microsoft 365 mailbox and export their contents for investigation, compliance, or troubleshooting, this PowerShell script can help. It leverages Microsoft Graph to search messages by their InternetMessageID and saves each one…",
+    "link": "https://blog.mindcore.dk/2025/12/how-to-retrieve-save-messages-by-internetmessageid-from-microsoft-365-mailboxes-via-microsoft-graph/",
+    "published_at": "2025-12-08T07:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
+    "id": "https://mikemdm.de/?p=2277",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Windows 365 RDP Ethernet Redirection",
+    "description": "Challenge If you ever were in the situation, that you needed to access a PLC or similar Ethernet device that is plugged in locally to your laptop from your CloudPC, you quickly noticed, that this can be a challenge in Windows 365 or AVD for that matter, as this article confirms…",
+    "link": "https://mikemdm.de/2025/12/07/windows-365-rdp-ethernet-redirection/",
+    "published_at": "2025-12-07T14:44:48.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
+  },
+  {
     "id": "https://github.com/MSEndpointMgr/IntuneLogCollector",
     "person_handle": "nickolaj-andersen",
     "type": "github-releases",
@@ -11108,6 +11251,17 @@
     "published_at": "2025-12-01T06:00:00.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "scloud.work"
+  },
+  {
+    "id": "https://sysadminhub.info/?p=971",
+    "person_handle": "shehab-noaman",
+    "type": "blog",
+    "title": "How to Automatically Categorise Intune Devices with PowerShell",
+    "description": "Introduction Intune device categories are fantastic for sorting devices by department, location, or business unit. They’re essential for things like setting specific policies or pulling clean reports. But there’s a… The post How to Automatically Categorise Intune Devices with…",
+    "link": "https://sysadminhub.info/how-to-automatically-categorise-intune-devices-with-powershell/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-automatically-categorise-intune-devices-with-powershell",
+    "published_at": "2025-11-30T22:03:36.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "sysadminhub.info"
   },
   {
     "id": "at://did:plc:bhegzmytyifqewuriw535wps/app.bsky.feed.post/3m6rk2alew22v",
@@ -11484,6 +11638,17 @@
     "source": "GitHub"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=11668",
+    "person_handle": "michael-morten-sonne",
+    "type": "blog",
+    "title": "How Community Feedback Shaped the New Entra ID App Management UI",
+    "description": "Back in September Microsoft has recently teaset App Management Policies in Microsoft Entra ID UI, which let you set tenant-wide restrictions on how applications and service principals can be configured from the UI – for example restricting certificate lifetimes, blocking new…",
+    "link": "https://blog.mindcore.dk/2025/11/how-community-feedback-shaped-the-new-entra-id-app-management-ui/",
+    "published_at": "2025-11-17T07:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "at://did:plc:rkov3vchzabku3mffgpr2btx/app.bsky.feed.post/3m5rp4dzniw2h",
     "person_handle": "laurent-gbeau",
     "type": "blog",
@@ -11504,6 +11669,17 @@
     "published_at": "2025-11-16T21:40:55.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "toutwindows.com"
+  },
+  {
+    "id": "https://mikemdm.de/?p=2253",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Windows App on Meta Quest is now GA",
+    "description": "With the recent GA of the Windows App on the Meta Quest, I want to take the opportunity to show you how it works and what it can do on your Meta Quest 3 / 3s. Connect to your PC using Mixed Reality Link If you want to connect to your PC, you can get […]",
+    "link": "https://mikemdm.de/2025/11/16/windows-app-on-meta-quest-is-now-ga/",
+    "published_at": "2025-11-16T11:06:31.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
   },
   {
     "id": "https://github.com/maurice-daly/PowerShell",
@@ -11946,6 +12122,17 @@
     "source": "bsky.app"
   },
   {
+    "id": "https://mikemdm.de/?p=2233",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Intune Endpoint Privilege Management now supports elevation in user context",
+    "description": "One of the most asked features just arrived in Intune Endpoint Privilege Management, the option to not only elevate a process using the virtual account, but also allow it within the current user session, eliminating challenges with network access due to missing Kerberos tickets,…",
+    "link": "https://mikemdm.de/2025/10/26/intune-endpoint-privilege-management-now-supports-elevation-in-user-context/",
+    "published_at": "2025-10-26T09:39:08.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
+  },
+  {
     "id": "https://github.com/merill/groups-agent",
     "person_handle": "merill-fernando",
     "type": "github-releases",
@@ -12386,6 +12573,17 @@
     "source": "YouTube"
   },
   {
+    "id": "https://mikemdm.de/?p=2195",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "First steps with Windows 365 Link",
+    "description": "If you are new to Windows 365 Link or are still in the progress of evaluating if it can fit your needs, I want to give you some insights on how to get started and what and how you can manage them. Enrollment There are plenty of unboxing videos / blogs out there, so I […]",
+    "link": "https://mikemdm.de/2025/10/12/first-steps-with-windows-365-link/",
+    "published_at": "2025-10-12T10:55:07.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
+  },
+  {
     "id": "https://github.com/Ruthhl3ss/AaronLocker",
     "person_handle": "niels-kok",
     "type": "github-releases",
@@ -12771,6 +12969,28 @@
     "source": "garytown.com"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=11647",
+    "person_handle": "marcin-chwala",
+    "type": "blog",
+    "title": "Windows 10 Extended support – does this change anything for enterprise users or is it only for personal devices?",
+    "description": "Update: The ESU program for European Economic Area [EEA] will be offered for free. This change comes as a consequence of consumer defense action of organizations like Euroconsumers [PDF file]. Every application and operating system have its date until which the vendor declares…",
+    "link": "https://blog.mindcore.dk/2025/09/windows-10-extended-support-does-this-change-anything-for-enterprise-users-or-is-it-only-for-personal-devices/",
+    "published_at": "2025-09-26T19:24:59.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
+    "id": "https://mikemdm.de/?p=2142",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Robopack, how to get started",
+    "description": "I’ve gotten the chance to play around with Robopack in my lab environment and wanted to give you the chance to follow along, what were my first impressions and what it can do for you. Getting started First thing you will want to do once signed in, is to connect Robopack to your…",
+    "link": "https://mikemdm.de/2025/09/26/robopack-how-to-get-started/",
+    "published_at": "2025-09-26T17:42:10.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
+  },
+  {
     "id": "https://nl.wpninjas.global/?p=1424",
     "person_handle": "peter-daalmans",
     "type": "blog",
@@ -12947,6 +13167,17 @@
     "source": "bsky.app"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=10878",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Azure Arc VM Onboarding Pt.2 – GPO Deep-Dive",
+    "description": "While I was writing part 1, I kept digging into more details on the GPO deployment method and figured that it deserves a post by itself. Here I’ll cover some pitfalls I’ve run into and things to make life easier such as logging the deployments and having a workbook to monitor…",
+    "link": "https://blog.mindcore.dk/2025/09/azure-arc-vm-onboarding-pt-2-gpo-deep-dive/",
+    "published_at": "2025-09-22T06:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "https://www.nielskok.tech/?p=8584",
     "person_handle": "niels-kok",
     "type": "blog",
@@ -13099,6 +13330,28 @@
     "published_at": "2025-09-15T11:16:05.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "orr365.tech"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=10729",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Azure Arc VM Onboarding Pt.1 – Introduction",
+    "description": "In my previous blogposts I’ve shown some of Azure Arc’s features, and interesting capabilities. All super cool ways to securely interact with your machines, regardless of where they are hosted. However, so far, I’ve glanced over a problem: How do you get started with onboarding…",
+    "link": "https://blog.mindcore.dk/2025/09/azure-arc-vm-onboarding-pt-1-introduction/",
+    "published_at": "2025-09-15T06:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
+    "id": "https://mikemdm.de/?p=2118",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "16 Bit Applications on Windows 11?",
+    "description": "With the EOL for Windows 10 in about a month not only does Windows 10 go EOL but with it also the last 32-bit Windows as there is no 32-bit version of Windows 11. Yes, I know there are ESU options and Windows 10 (IOT) LTSC is still around for a while, but let’s ignore […]",
+    "link": "https://mikemdm.de/2025/09/14/16-bit-applications-on-windows-11/",
+    "published_at": "2025-09-14T14:28:27.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
   },
   {
     "id": "at://did:plc:bhegzmytyifqewuriw535wps/app.bsky.feed.post/3lyqojhpf2k2s",
@@ -13255,6 +13508,17 @@
     "source": "YouTube"
   },
   {
+    "id": "https://sysadminhub.info/?p=963",
+    "person_handle": "shehab-noaman",
+    "type": "blog",
+    "title": "Windows Hello Readiness: A Practical Guide to Measuring Success",
+    "description": "Introduction: Stop guessing—measure Windows Hello Readiness Windows Hello for Business (WHfB) is a game-changer for modern security, replacing passwords with a phishing-resistant, two-factor sign-in. It relies on a device-bound key… The post Windows Hello Readiness: A Practical…",
+    "link": "https://sysadminhub.info/windows-hello-readiness-a-practical-guide-to-measuring-success/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=windows-hello-readiness-a-practical-guide-to-measuring-success",
+    "published_at": "2025-09-09T06:10:10.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "sysadminhub.info"
+  },
+  {
     "id": "https://github.com/pathaksomesh06/MacBeacon",
     "person_handle": "somesh-pathak",
     "type": "github-releases",
@@ -13275,6 +13539,17 @@
     "published_at": "2025-09-08T09:20:03.000Z",
     "fetched_at": "2026-06-09T22:42:26.250Z",
     "source": "GitHub"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=11285",
+    "person_handle": "michael-morten-sonne",
+    "type": "blog",
+    "title": "Microsoft Purview – Enabling Sensitivity (Purview) Labels for documents in Teams",
+    "description": "Introduction Microsoft Purview is Microsoft’s unified data governance, compliance, and risk platform. It lets you discover, classify, label, protect, retain, and monitor data across Microsoft 365, On-Premises, multicloud, and SaaS sources. It centralizes policies (like…",
+    "link": "https://blog.mindcore.dk/2025/09/microsoft-purview-enabling-sensitivity-purview-labels-for-documents-in-teams/",
+    "published_at": "2025-09-08T07:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
   },
   {
     "id": "https://ccmexec.com/?p=8510",
@@ -13420,6 +13695,17 @@
     "source": "medium.com"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=11498",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Microsoft Connected Cache for Enterprise and Education – HTTPS",
+    "description": "From my last blogpost, I showcased how to setup Microsoft Connected Cache (MCC) for Enterprise on both Windows and Linux. There I suggested folks go with the Linux solution and that’s the assumption I’ve made for this blogpost. So why bother with the complexity of configuring…",
+    "link": "https://blog.mindcore.dk/2025/09/microsoft-connected-cache-for-enterprise-and-education-https/",
+    "published_at": "2025-09-02T08:37:07.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "https://www.niallbrady.com/?p=9567",
     "person_handle": "niall-brady",
     "type": "blog",
@@ -13530,6 +13816,17 @@
     "source": "GitHub"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=11405",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Microsoft Connected Cache for Enterprise and Education – Deployment guide",
+    "description": "Something that flew under my radar this summer was the release of Microsoft Connected Cache for Enterprise and Education. Originally, Configuration Manager (SCCM) had a Connected Cache functionality through its Distribution Points. This is something I’ve successfully deployed…",
+    "link": "https://blog.mindcore.dk/2025/08/microsoft-connected-cache-for-enterprise-and-education-deployment-guide/",
+    "published_at": "2025-08-28T09:39:36.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "at://did:plc:2vpeueulgk3izdh5uoyyv7li/app.bsky.feed.post/3lxgws3girc2k",
     "person_handle": "florian-salzmann",
     "type": "blog",
@@ -13585,6 +13882,28 @@
     "source": "bsky.app"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=10567",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Modern Server Management – Azure Arc RDP with Entra ID Authentication",
+    "description": "In previous blogposts, I’ve described how we can use the OpenSSH extension through Azure Arc to gain better remote SSH and RDP sessions to machines without requiring direct network access. However, they’ve always required we login to the machine with local credentials (or…",
+    "link": "https://blog.mindcore.dk/2025/08/modern-server-management-azure-arc-rdp-with-entra-id-authentication/",
+    "published_at": "2025-08-25T06:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
+    "id": "https://mikemdm.de/?p=2101",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Intune Endpoint Privilege Management tips and tricks",
+    "description": "Intune Endpoint Privilege Management got more and more features in the last months (child process behavior, argument support, etc.), converting it from a relatively basic EPM solution to a competitive product. However even with all that improvements, there are still a few things…",
+    "link": "https://mikemdm.de/2025/08/24/intune-endpoint-privilege-management-tips-and-tricks/",
+    "published_at": "2025-08-24T11:16:46.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
+  },
+  {
     "id": "https://github.com/JayRHa/DocumentManager",
     "person_handle": "jannik-reinhard",
     "type": "github-releases",
@@ -13616,6 +13935,17 @@
     "published_at": "2025-08-24T08:08:03.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "nielskok.tech"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=11360",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "IaC using Bicep for Entra ID and AD Groups with writeback",
+    "description": "With the recent generally available Entra ID functionality into Bicep while I was on vacation, I couldn’t wait to get back and try it out. Specifically, I wanted to see if using this functionality would allow for some level of Infrastructure as code (IaC) to good ol’ Active…",
+    "link": "https://blog.mindcore.dk/2025/08/iac-using-bicep-for-entra-id-and-ad-groups-with-writeback/",
+    "published_at": "2025-08-21T07:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
   },
   {
     "id": "yt:video:xUGWJBHNlNs",
@@ -13717,6 +14047,17 @@
     "source": "tcsmug.org"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=10611",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Modern Server Management – Entra ID based SSH Login on Linux with Azure Arc",
+    "description": "In this deep dive into yet another Azure Arc extension, let’s see how we can get Entra ID logins to work with Linux SSH over Azure Arc! Azure Arc blog overview: 1. Modern Server Management with Azure Arc – Remote Management Pt.1 (SSH/RDP)2. Modern Server Management with Azure…",
+    "link": "https://blog.mindcore.dk/2025/08/modern-server-management-entra-id-based-ssh-login-on-linux-with-azure-arc/",
+    "published_at": "2025-08-18T06:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "https://www.deploymentresearch.com/?p=7129",
     "person_handle": "johan-arwidmark",
     "type": "blog",
@@ -13781,6 +14122,17 @@
     "published_at": "2025-08-16T04:45:20.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "oofhours.com"
+  },
+  {
+    "id": "https://sysadminhub.info/?p=958",
+    "person_handle": "shehab-noaman",
+    "type": "blog",
+    "title": "Intune Wildcard EPM Rules – Reduce Admin Overhead and Boost Windows Security",
+    "description": "The Pain of Manual Endpoint Privilege Management (EMP): A Story of Software Updates Every single week, a flood of support tickets arrives: users are unable to launch the updated app… The post Intune Wildcard EPM Rules – Reduce Admin Overhead and Boost Windows Security first…",
+    "link": "https://sysadminhub.info/intune-wildcard-epm-rules-reduce-admin-overhead-and-boost-windows-security/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=intune-wildcard-epm-rules-reduce-admin-overhead-and-boost-windows-security",
+    "published_at": "2025-08-15T19:58:16.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "sysadminhub.info"
   },
   {
     "id": "at://did:plc:mt2if6rcohf2hy4ap6ysdfqe/app.bsky.feed.post/3lwhk643ucc2m",
@@ -13926,6 +14278,17 @@
     "source": "GitHub"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=10450",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Modern Server Management with Azure Arc – Remote Management Pt.2 (Security/Linux)",
+    "description": "In part 1 of this series, I covered how to configure basic SSH on an Azure Arc-enabled server that allowed us to connect to any machine from anywhere in the world without needing a VPN or exposing that machine to the internet. Azure Arc blog overview: 1. Modern Server Management…",
+    "link": "https://blog.mindcore.dk/2025/08/modern-server-management-with-azure-arc-remote-management-pt-2-security-linux/",
+    "published_at": "2025-08-11T06:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "http://oofhours.com/?p=6716",
     "person_handle": "michael-niehaus",
     "type": "blog",
@@ -13935,6 +14298,17 @@
     "published_at": "2025-08-10T22:58:00.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "oofhours.com"
+  },
+  {
+    "id": "https://mikemdm.de/?p=2073",
+    "person_handle": "michael-meier",
+    "type": "blog",
+    "title": "Enable HTTPS Support for Microsoft Connected Cache for Enterprise – Part 2",
+    "description": "With the GA of the Microsoft Connected Cache for Enterprise it now also supports HTTPS Content, which allows it to also support Teams and future Intune Content which will move from HTTP to HTTPs. In this part, I will show you how you can enable HTTPS support for your Connected…",
+    "link": "https://mikemdm.de/2025/08/10/enable-https-support-for-microsoft-connected-cache-for-enterprise-part-2/",
+    "published_at": "2025-08-10T13:58:08.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "mikemdm.de"
   },
   {
     "id": "https://github.com/oktay-sari/TenuVault",
@@ -14001,6 +14375,17 @@
     "published_at": "2025-08-06T08:24:37.000Z",
     "fetched_at": "2026-06-09T22:42:26.250Z",
     "source": "GitHub"
+  },
+  {
+    "id": "https://sysadminhub.info/?p=947",
+    "person_handle": "shehab-noaman",
+    "type": "blog",
+    "title": "How to Bulk Rename Android Devices in Intune with Graph API and PowerShell",
+    "description": "Introduction Managing Android devices at scale in Microsoft Intune can become challenging — especially when device naming conventions are inconsistent or outdated. Native Intune enrollment profiles often restrict naming flexibility,… The post How to Bulk Rename Android Devices…",
+    "link": "https://sysadminhub.info/how-to-bulk-rename-android-devices-in-intune-with-graph-api-and-powershell/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=how-to-bulk-rename-android-devices-in-intune-with-graph-api-and-powershell",
+    "published_at": "2025-08-04T17:12:20.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "sysadminhub.info"
   },
   {
     "id": "yt:video:c129gDSn-wQ",
@@ -14124,6 +14509,17 @@
     "source": "bsky.app"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=10229",
+    "person_handle": "michael-morten-sonne",
+    "type": "blog",
+    "title": "Azure Arc & Hybrid Workers – Simplifying Hybrid Cloud Automation Pr.1",
+    "description": "What is Azure Arc Azure Arc is a Microsoft service that extends your Azure management and governance capabilities to your resources outside of Azure, and this can include on-premises servers, virtual machines, and other cloud environments. With Azure Arc, you can centrally…",
+    "link": "https://blog.mindcore.dk/2025/07/azure-arc-hybrid-workers-simplifying-hybrid-cloud-automation-pr-1/",
+    "published_at": "2025-07-28T06:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "https://github.com/gabrielluizbh/Config-Windows-LAPS",
     "person_handle": "gabriel-luiz",
     "type": "github-releases",
@@ -14245,6 +14641,17 @@
     "source": "GitHub"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=9826",
+    "person_handle": "michael-morten-sonne",
+    "type": "blog",
+    "title": "Microsoft Defender XDR – Advanced Hunting – Custom Detection rules",
+    "description": "In this small blog post, I will try to give you some insights on what Advanced hunting´s custom detection rules is – and how you can use it! Introduction Microsoft Defender XDR is a powerful security platform that uses AI, machine learning, and behavioral analytics to detect and…",
+    "link": "https://blog.mindcore.dk/2025/07/microsoft-defender-xdr-advanced-hunting-custom-detection-rules/",
+    "published_at": "2025-07-23T06:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "yt:video:cl1y722ao-w",
     "person_handle": "tugay-taskin",
     "type": "youtube",
@@ -14287,6 +14694,17 @@
     "published_at": "2025-07-22T01:11:40.000Z",
     "fetched_at": "2026-06-09T22:42:26.250Z",
     "source": "GitHub"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=10259",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Modern Server Management with Azure Arc – Remote Management Pt.1 (SSH/RDP)",
+    "description": "In this first Azure Arc Remote Management focused blogpost, let’s cover the OpenSSH extension and how it can be used to get a remote PowerShell connection over SSH and even a Remote Desktop Session, all without any direct network connectivity. The best part: It costs absolutely…",
+    "link": "https://blog.mindcore.dk/2025/07/modern-server-management-with-azure-arc-remote-management-pt-1-ssh-rdp/",
+    "published_at": "2025-07-21T06:00:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
   },
   {
     "id": "https://www.deploymentresearch.com/?p=7050",
@@ -14608,6 +15026,17 @@
     "source": "GitHub"
   },
   {
+    "id": "https://sysadminhub.info/?p=916",
+    "person_handle": "shehab-noaman",
+    "type": "blog",
+    "title": "Restrict Local Admin Access on Windows Devices with Intune",
+    "description": "Introduction Controlling local administrator rights is one of the fundamental security measures for protecting Windows endpoints in any organisation. Local admin access allows users to install software, change critical settings,… The post Restrict Local Admin Access on Windows…",
+    "link": "https://sysadminhub.info/restrict-local-admin-access-on-windows-devices-with-intune/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=restrict-local-admin-access-on-windows-devices-with-intune",
+    "published_at": "2025-07-08T22:30:09.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "sysadminhub.info"
+  },
+  {
     "id": "/automated-intune-security-baseline-comparisons-with-powershell/",
     "person_handle": "sander-rozemuller",
     "type": "blog",
@@ -14661,6 +15090,28 @@
     "published_at": "2025-07-02T12:55:39.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "talkingsecurity.nl"
+  },
+  {
+    "id": "https://sysadminhub.info/?p=869",
+    "person_handle": "shehab-noaman",
+    "type": "blog",
+    "title": "Intune + Task Scheduler: The Ultimate Guide to Automated Device Renaming",
+    "description": "Introduction One area I find lacking in Intune is the native ability to execute actions based on specific system events—such as triggering a task before a restart or after a… The post Intune + Task Scheduler: The Ultimate Guide to Automated Device Renaming first appeared on…",
+    "link": "https://sysadminhub.info/intune-task-scheduler-the-ultimate-guide-to-automated-device-renaming/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=intune-task-scheduler-the-ultimate-guide-to-automated-device-renaming",
+    "published_at": "2025-07-01T23:17:08.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "sysadminhub.info"
+  },
+  {
+    "id": "https://sysadminhub.info/?p=883",
+    "person_handle": "shehab-noaman",
+    "type": "blog",
+    "title": "Task Scheduler: How to Set Up Recurring Tasks on Windows",
+    "description": "Introduction Automating repetitive or system-level tasks in Windows environments can drastically improve efficiency and reduce human error. One of the most powerful tools for automation on Windows is Task Scheduler.… The post Task Scheduler: How to Set Up Recurring Tasks on…",
+    "link": "https://sysadminhub.info/task-scheduler-how-to-set-up-recurring-tasks-on-windows/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=task-scheduler-how-to-set-up-recurring-tasks-on-windows",
+    "published_at": "2025-07-01T22:49:55.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "sysadminhub.info"
   },
   {
     "id": "https://eskonr.com/?p=14817",
@@ -15189,6 +15640,17 @@
     "published_at": "2025-06-02T13:28:00.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "bsky.app"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=10215",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Microsoft’s changed recommendation on Secure Time Seeding for Windows Server",
+    "description": "Have you ever experienced unexplainable changes to your Windows Servers system time before? We sure have! And Microsoft has recently changed their recommendation on Secure Time Seeding which seems to be the root cause for these strange behaviors as described here. Microsoft has…",
+    "link": "https://blog.mindcore.dk/2025/06/microsofts-changed-recommendation-on-secure-time-seeding-for-windows-server/",
+    "published_at": "2025-06-02T11:01:25.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
   },
   {
     "id": "https://github.com/srozemuller/Identity",
@@ -16577,6 +17039,28 @@
     "source": "bsky.app"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=9899",
+    "person_handle": "michael-morten-sonne",
+    "type": "blog",
+    "title": "Entra ID – Managed Identity Permission Manager",
+    "description": "Managing permissions for Managed Identities in Azure/Entra ID has been a long-standing challenge. Microsoft has yet not provided a built-in interface for this, leaving administrators reliant on PowerShell to handle permissions – even if the “same” exists for App Registrations…",
+    "link": "https://blog.mindcore.dk/2025/04/entra-id-managed-identity-permission-manager/",
+    "published_at": "2025-04-08T12:00:37.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=9940",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Sensitivity Labels in .DOCX Files: How Secure Is That Metadata?",
+    "description": "After reading about cross-tenant quirks in sensitivity labels, I got curious: how are these labels stored in a .DOCX file—and can they be removed without encryption? Short answer: yes, and it’s surprisingly easy. The post Sensitivity Labels in .DOCX Files: How Secure Is That…",
+    "link": "https://blog.mindcore.dk/2025/04/sensitivity-labels-in-docx-files-how-secure-is-that-metadata/",
+    "published_at": "2025-04-08T11:49:36.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "180 at https://mattzaskeonline.info",
     "person_handle": "matt-zaske",
     "type": "blog",
@@ -16707,6 +17191,17 @@
     "published_at": "2025-04-02T10:09:00.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "bsky.app"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=9885",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Modern Server Management – Exploring Azure Arc Run Commands using Bicep",
+    "description": "With the release of DCSv3, I was excited to give it a try at-scale but since it hasn’t been integrated into Azure Machine Configuration (yet…) I figured I’d try a different approach to deploying and testing it. A lesser-known feature of Azure and Arc machines are Run Commands.…",
+    "link": "https://blog.mindcore.dk/2025/04/modern-server-management-exploring-azure-arc-run-commands-using-bicep/",
+    "published_at": "2025-04-01T12:21:49.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
   },
   {
     "id": "https://merill.net/2025/04/my-projects",
@@ -19327,6 +19822,17 @@
     "source": "bsky.app"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=9770",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Entra ID Cross-Tenant Access Settings vs. Teams Cross-Cloud meetings – Who wins?",
+    "description": "Recently we ran into a fun experience when adjusting the Cross-Cloud meetings within the Teams Admin Center which caused Entra ID Cross-Tenant Access Settings to be changed. This behavior didn’t seem to be documented anywhere and did cause some head-scratching before we figured…",
+    "link": "https://blog.mindcore.dk/2025/01/entra-id-cross-tenant-access-settings-vs-teams-cross-cloud-meetings-who-wins/",
+    "published_at": "2025-01-02T12:02:06.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "https://github.com/gabrielluizbh/Wallpaper-and-Lockscreen-Easy",
     "person_handle": "gabriel-luiz",
     "type": "github-releases",
@@ -19611,6 +20117,17 @@
     "published_at": "2024-12-16T15:02:04.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "skotheimsvik.no"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=9702",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Azure Automanage Machine Configuration Introduction – Configuration as Code",
+    "description": "Managing server configurations in hybrid or on-premises environments can be challenging, with outdated tools and manual processes leading to errors and inefficiencies. This post explores how to simplify configuration management with Desired State Configuration (DSC) and Azure…",
+    "link": "https://blog.mindcore.dk/2024/12/azure-automanage-machine-configuration-introduction/",
+    "published_at": "2024-12-16T12:02:41.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
   },
   {
     "id": "at://did:plc:4lojutgvrmstyfzzzifykvxu/app.bsky.feed.post/3ldfzxbhay626",
@@ -19974,6 +20491,17 @@
     "published_at": "2024-12-05T09:44:00.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "bsky.app"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=7490",
+    "person_handle": "marcin-chwala",
+    "type": "blog",
+    "title": "Languages confusion in Microsoft 365 portals",
+    "description": "Introduction You may think that setting up a language in Microsoft 365 [admin.microsoft.com] portals may be straightforward. However, it may not be as obvious as it seems at first, and there are many factors which can play a role in that. The Basics The interface language of…",
+    "link": "https://blog.mindcore.dk/2024/12/languages-confusion-in-microsoft-365-portals/",
+    "published_at": "2024-12-05T08:32:29.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
   },
   {
     "id": "at://did:plc:abkard6fhdsew5i4bqa3lxgs/app.bsky.feed.post/3lcj35wl65c24",
@@ -21173,6 +21701,17 @@
     "published_at": "2024-10-18T11:49:23.000Z",
     "fetched_at": "2026-05-31T05:18:35.737Z",
     "source": "YouTube"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=7521",
+    "person_handle": "marcin-chwala",
+    "type": "blog",
+    "title": "Accessing user’s OneDrive with Global Administrator or SharePoint Administrator role.",
+    "description": "Introduction Being a Global Administrator [GA] in Microsoft 365 portal gives you unlimited permissions to access and configure all of its components and settings. SharePoint Administrator on the other hand allows you to administer and configure everything that is related to…",
+    "link": "https://blog.mindcore.dk/2024/10/accessing-users-onedrive-with-global-administrator-or-sharepoint-administrator-role/",
+    "published_at": "2024-10-18T06:44:46.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
   },
   {
     "id": "https://github.com/MG-Cloudflow/fido2-manage.ps1",
@@ -24530,6 +25069,17 @@
     "source": "timmyit.com"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=6021",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "To Multitenant or not to Multitenant?",
+    "description": "Microsoft in recent months has made leaps and bounds to support Multitenant organizations utilizing Cross-tenant Synchronization to attempt to build a seamless end-user experience. Have they succeeded? Almost! Let’s take a look in this last blogpost of the year. Why even have…",
+    "link": "https://blog.mindcore.dk/2023/12/to-multitenant-or-not-to-multitenant/",
+    "published_at": "2023-12-22T12:10:02.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "656f3e6e5289312edd2ebff1",
     "person_handle": "james-robinson",
     "type": "blog",
@@ -25322,6 +25872,17 @@
     "source": "GitHub"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=5648",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Server 2012 (R2) Extended Security Updates – A Deep Dive",
+    "description": "Today, Tuesday, October 10th, 2023 marks the end of service for Server 2012 (R2). Are you prepared and ready to go with Extended Security Updates? If not, read this post to get up to speed with the details of ESU’s. This blog post serves as a follow up to my first call to arms…",
+    "link": "https://blog.mindcore.dk/2023/10/server-2012-r2-extended-security-updates-a-deep-dive/",
+    "published_at": "2023-10-10T11:18:12.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "yt:video:npsvuKfDZQw",
     "person_handle": "jon-jarvis",
     "type": "youtube",
@@ -25520,6 +26081,17 @@
     "source": "GitHub"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=5562",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Saying Goodbye to Windows Server 2012 R2: It’s Not You, It’s Us (Well, Mostly You)",
+    "description": "What’s Happening? Windows Server 2012 (R2) is approaching its end of support (EOS) date. Microsoft has officially set the clock, marking October 10, 2023, as the day when support for this trusted operating system will come to an end. This means no more security updates, patches,…",
+    "link": "https://blog.mindcore.dk/2023/09/windows-server-2012-r2-eos/",
+    "published_at": "2023-09-21T12:51:59.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "https://github.com/maurice-daly/memdocs",
     "person_handle": "maurice-daly",
     "type": "github-releases",
@@ -25553,6 +26125,17 @@
     "source": "GitHub"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=4613",
+    "person_handle": "daniel-britze",
+    "type": "blog",
+    "title": "GitHub Made Easy with PowerShell: A Beginner’s Handbook",
+    "description": "A Beginner's Handbook to git using Github and powershell. Learn how to get started today! The post GitHub Made Easy with PowerShell: A Beginner’s Handbook appeared first on Mindcore Techblog .",
+    "link": "https://blog.mindcore.dk/2023/09/github-made-easy-with-powershell-a-beginners-handbook/",
+    "published_at": "2023-09-14T08:41:59.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "https://github.com/stevecapacity/blobStorageDataMigration",
     "person_handle": "steven-weiner",
     "type": "github-releases",
@@ -25584,6 +26167,17 @@
     "published_at": "2023-09-10T07:05:24.000Z",
     "fetched_at": "2026-05-31T02:16:36.885Z",
     "source": "jannikreinhard.com"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=5529",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Azure Cloud Sync Wizard – Doesn’t like Group-assigned roles",
+    "description": "In configuring a lab environment I found myself setting up Azure Cloud Sync on an on-premise DC for testing purposes and found myself stuck on a seemingly simple error that I could not seem to get past: “Please provide the Azure AD credentials of a global administrator or a…",
+    "link": "https://blog.mindcore.dk/2023/09/azure-cloud-sync-wizard-doesnt-like-group-assigned-roles/",
+    "published_at": "2023-09-08T12:07:00.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
   },
   {
     "id": "https://medium.com/p/dfe8b6b626a1",
@@ -26301,6 +26895,17 @@
     "source": "rozemuller.com"
   },
   {
+    "id": "https://blog.mindcore.dk/?p=4631",
+    "person_handle": "frank-van-zandwijk",
+    "type": "blog",
+    "title": "Sentinel Teams Up: Integrations with Microsoft Teams",
+    "description": "Microsoft Sentinel is a powerful security information and event management (SIEM) system that provides real-time threat detection and response (you can read more about Sentinel in part 1 of this series). It allows security teams to collect, analyze, and act on security data from…",
+    "link": "https://blog.mindcore.dk/2023/06/sentinel-teams-up-integrations-with-microsoft-teams/",
+    "published_at": "2023-06-08T13:35:45.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
+  },
+  {
     "id": "https://github.com/JordanTheITGuy/miryoku_zmk",
     "person_handle": "jordan-benzing",
     "type": "github-releases",
@@ -26563,6 +27168,17 @@
     "published_at": "2023-05-08T00:31:04.000Z",
     "fetched_at": "2026-06-09T22:42:26.250Z",
     "source": "GitHub"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=7436",
+    "person_handle": "michael-morten-sonne",
+    "type": "blog",
+    "title": "Break Glass account – and how to get notified when a Break Glass account is used",
+    "description": "This blog post is original from my own blog, re-posted here Introduction What is a Break Glass Account? Break Glass accounts are emergency access accounts that are used to access critical systems or resources when other authentication mechanisms fail or are unavailable. In Azure…",
+    "link": "https://blog.mindcore.dk/2023/05/break-glass-account-and-how-to-get-notified-when-a-break-glass-account-is-used/",
+    "published_at": "2023-05-04T10:01:25.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
   },
   {
     "id": "https://github.com/JankeSkanke/MMS2023",
@@ -26981,6 +27597,17 @@
     "published_at": "2023-03-15T09:50:00.000Z",
     "fetched_at": "2026-06-09T22:42:26.250Z",
     "source": "GitHub"
+  },
+  {
+    "id": "https://blog.mindcore.dk/?p=4577",
+    "person_handle": "daniel-britze",
+    "type": "blog",
+    "title": "Write Smarter, Not Harder: A Beginner’s Guide to Markdown",
+    "description": "When it comes to creating content online, Markdown is a popular and powerful tool that can make formatting text easier and more efficient. This lightweight language can be used to create everything from simple notes and emails to full-blown websites, or assist with git CI/CD and…",
+    "link": "https://blog.mindcore.dk/2023/03/write-smarter-not-harder-a-beginners-guide-to-markdown/",
+    "published_at": "2023-03-15T08:53:35.000Z",
+    "fetched_at": "2026-06-09T23:05:58.189Z",
+    "source": "blog.mindcore.dk"
   },
   {
     "id": "/zero-trust-common-identity-and-device-access-protection/",
