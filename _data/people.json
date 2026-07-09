@@ -1225,7 +1225,8 @@
     "feeds": [
       {
         "type": "blog",
-        "url": "https://patchmypc.com/feed/"
+        "url": "https://patchmypc.com/feed/",
+        "author": "Justin Chalfant"
       }
     ]
   },
