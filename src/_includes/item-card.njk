@@ -25,4 +25,10 @@
   {% if item.description %}
     <p class="item-card__desc">{{ item.description }}</p>
   {% endif %}
+  <div class="item-card__footer">
+    <a class="archive-link" href="https://web.archive.org/web/2/{{ item.link }}" data-url="{{ item.link }}" rel="noopener noreferrer" target="_blank" title="View on Wayback Machine (checking…)">
+      <svg class="archive-link__icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/><path d="M7.5 4.75v3.5l2 1.2.5-.86-1.75-1.05V4.75H7.5z"/></svg>
+      Archive
+    </a>
+  </div>
 </article>

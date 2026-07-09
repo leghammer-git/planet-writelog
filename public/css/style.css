@@ -458,6 +458,26 @@ ul,ol { padding-left: 1.5rem; }
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.item-card__footer {
+  margin-top: .75rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.archive-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  font-size: .72rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  opacity: .55;
+  transition: opacity .15s, color .15s;
+}
+.archive-link:hover { opacity: 1; color: var(--color-accent); text-decoration: none; }
+.archive-link--available { opacity: .7; }
+.archive-link--unavailable { opacity: .2; pointer-events: none; }
+.archive-link__icon { width: .85em; height: .85em; flex-shrink: 0; }
 
 /* ── People directory ─────────────────────────────────────────────────── */
 .page-header { margin-bottom: 2rem; }

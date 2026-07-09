@@ -144,6 +144,44 @@
   applyFilters();
 })();
 
+/* ── Wayback Machine availability check ───────────────────────────────── */
+(function () {
+  const cache = new Map();
+
+  function applyResult(link, result) {
+    if (result.available) {
+      link.href = result.archiveUrl;
+      link.title = "View archived version on Wayback Machine";
+      link.classList.add("archive-link--available");
+    } else {
+      link.title = "Not yet archived by Wayback Machine";
+      link.classList.add("archive-link--unavailable");
+    }
+  }
+
+  document.querySelectorAll(".archive-link").forEach((link) => {
+    link.addEventListener("mouseenter", function check() {
+      link.removeEventListener("mouseenter", check);
+      const url = link.dataset.url;
+      if (!url) return;
+      if (cache.has(url)) { applyResult(link, cache.get(url)); return; }
+      fetch("https://archive.org/wayback/available?url=" + encodeURIComponent(url))
+        .then((r) => r.json())
+        .then((data) => {
+          const snap = data.archived_snapshots?.closest;
+          const result = snap?.available
+            ? { available: true, archiveUrl: snap.url }
+            : { available: false, archiveUrl: null };
+          cache.set(url, result);
+          applyResult(link, result);
+        })
+        .catch(() => {
+          link.title = "View on Wayback Machine";
+        });
+    });
+  });
+})();
+
 /* ── View Transitions ──────────────────────────────────────────────────── */
 if (!document.startViewTransition) {
   document.querySelectorAll("a[href]").forEach((a) => {
