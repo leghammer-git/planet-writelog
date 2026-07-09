@@ -117,16 +117,12 @@ ul,ol { padding-left: 1.5rem; }
   padding: .75rem clamp(1rem, 4vw, 2rem);
 }
 .site-logo {
-  font-weight: 700;
-  font-size: 1.05rem;
   color: var(--color-text);
-  letter-spacing: -.01em;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: .4rem;
+  flex-shrink: 0;
+  line-height: 1;
 }
-.site-logo__mark { color: var(--color-accent); }
+.site-logo__svg { display: block; }
 .site-nav {
   display: flex;
   gap: 1.25rem;

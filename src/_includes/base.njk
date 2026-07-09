@@ -4,17 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="view-transition" content="same-origin">
-  <title>{% if title %}{{ title }} · {% endif %}Planet Write-Log</title>
+  <title>{% if title %}{{ title }} · {% endif %}Write-Log</title>
   <meta name="description" content="Field notes for the admin who does it all">
   <link rel="stylesheet" href="/public/css/style.css">
-  <link rel="alternate" type="application/atom+xml" title="Planet Write-Log" href="/feed.xml">
+  <link rel="alternate" type="application/atom+xml" title="Write-Log" href="/feed.xml">
 </head>
 <body>
   <header class="site-header">
     <div class="site-header__inner">
-      <a class="site-logo" href="/">
-        <span class="site-logo__mark" aria-hidden="true">◈</span>
-        Planet Write-Log
+      <a class="site-logo" href="/" aria-label="Write-Log">
+        <svg class="site-logo__svg" viewBox="0 0 180 40" width="180" height="40" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="5" width="38" height="30" rx="3" fill="#0f172a"/>
+          <rect x="4" y="8"  width="10" height="6" rx="1" fill="#3b82f6" opacity="0.9"/>
+          <rect x="16" y="10" width="17" height="2" rx="1" fill="#94a3b8" opacity="0.45"/>
+          <rect x="4" y="17" width="10" height="6" rx="1" fill="#f59e0b" opacity="0.9"/>
+          <rect x="16" y="19" width="12" height="2" rx="1" fill="#94a3b8" opacity="0.45"/>
+          <rect x="4" y="26" width="10" height="6" rx="1" fill="#ef4444" opacity="0.9"/>
+          <rect x="16" y="28" width="15" height="2" rx="1" fill="#94a3b8" opacity="0.45"/>
+          <text x="48" y="28" font-family="ui-monospace, 'Cascadia Code', 'Courier New', monospace" font-size="17" font-weight="700" fill="currentColor">Write-Log</text>
+        </svg>
       </a>
       <nav class="site-nav" aria-label="Main navigation">
         <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Feed</a>
@@ -34,7 +42,7 @@
 
   <footer class="site-footer">
     <div class="site-footer__inner">
-      <span>Planet Write-Log</span>
+      <span>Write-Log</span>
       <span>
         <a href="/feed.xml">Atom feed</a> ·
         <a href="/opml.xml">OPML</a>
