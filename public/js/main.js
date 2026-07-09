@@ -160,24 +160,33 @@
   }
 
   document.querySelectorAll(".archive-link").forEach((link) => {
+    let timer = null;
+
     link.addEventListener("mouseenter", function check() {
       link.removeEventListener("mouseenter", check);
       const url = link.dataset.url;
       if (!url) return;
-      if (cache.has(url)) { applyResult(link, cache.get(url)); return; }
-      fetch("https://archive.org/wayback/available?url=" + encodeURIComponent(url))
-        .then((r) => r.json())
-        .then((data) => {
-          const snap = data.archived_snapshots?.closest;
-          const result = snap?.available
-            ? { available: true, archiveUrl: snap.url }
-            : { available: false, archiveUrl: null };
-          cache.set(url, result);
-          applyResult(link, result);
-        })
-        .catch(() => {
-          link.title = "View on Wayback Machine";
-        });
+
+      timer = setTimeout(() => {
+        if (cache.has(url)) { applyResult(link, cache.get(url)); return; }
+        fetch("https://archive.org/wayback/available?url=" + encodeURIComponent(url))
+          .then((r) => r.json())
+          .then((data) => {
+            const snap = data.archived_snapshots?.closest;
+            const result = snap?.available
+              ? { available: true, archiveUrl: snap.url }
+              : { available: false, archiveUrl: null };
+            cache.set(url, result);
+            applyResult(link, result);
+          })
+          .catch(() => {
+            link.title = "View on Wayback Machine";
+          });
+      }, 600);
+    });
+
+    link.addEventListener("mouseleave", () => {
+      clearTimeout(timer);
     });
   });
 })();
