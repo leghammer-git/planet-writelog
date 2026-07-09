@@ -35,32 +35,25 @@
 
   const PAGE_SIZE = 50;
   const cards = Array.from(grid.querySelectorAll(".item-card"));
-  let activeType = "all";
+  const activeTypes = new Set(["blog", "youtube"]);
   let activePerson = "all";
-  let activeSource = "all";
   let activeKeyword = "";
   let page = 1;
 
-  const sourceSelect = document.getElementById("source-select");
-  if (sourceSelect) {
-    const sources = [...new Set(cards.map((c) => c.dataset.source).filter(Boolean))].sort();
-    for (const s of sources) {
-      const opt = document.createElement("option");
-      opt.value = s;
-      opt.textContent = s;
-      sourceSelect.appendChild(opt);
-    }
-  }
+  const TYPE_ACTIVE_CLASS = {
+    "blog": "pill--active-blog",
+    "github-releases": "pill--active-releases",
+    "youtube": "pill--active-youtube",
+  };
 
   function applyFilters() {
     const keyword = activeKeyword.toLowerCase();
     const matched = [];
     for (const card of cards) {
-      const typeMatch = activeType === "all" || card.dataset.type === activeType;
+      const typeMatch = activeTypes.has(card.dataset.type);
       const personMatch = activePerson === "all" || card.dataset.person === activePerson;
-      const sourceMatch = activeSource === "all" || card.dataset.source === activeSource;
       const keywordMatch = !keyword || (card.dataset.title || "").includes(keyword);
-      if (typeMatch && personMatch && sourceMatch && keywordMatch) matched.push(card);
+      if (typeMatch && personMatch && keywordMatch) matched.push(card);
     }
 
     const limit = page * PAGE_SIZE;
@@ -81,22 +74,57 @@
     const groupName = group.dataset.filterGroup;
     group.querySelectorAll(".pill").forEach((pill) => {
       pill.addEventListener("click", () => {
-        group.querySelectorAll(".pill").forEach((p) => p.classList.remove("pill--active"));
-        pill.classList.add("pill--active");
-        if (groupName === "type") activeType = pill.dataset.value;
+        if (groupName === "type") {
+          const type = pill.dataset.value;
+          const cls = TYPE_ACTIVE_CLASS[type];
+          if (activeTypes.has(type)) {
+            activeTypes.delete(type);
+            pill.classList.remove(cls);
+          } else {
+            activeTypes.add(type);
+            pill.classList.add(cls);
+          }
+        }
         resetAndFilter();
       });
     });
   });
 
-  document.querySelectorAll("[data-filter-select]").forEach((select) => {
-    select.addEventListener("change", () => {
-      const groupName = select.dataset.filterSelect;
-      if (groupName === "person") activePerson = select.value;
-      if (groupName === "source") activeSource = select.value;
-      resetAndFilter();
+  const personPicker = document.getElementById("person-picker");
+  if (personPicker) {
+    const trigger = personPicker.querySelector(".person-picker__trigger");
+    const list = personPicker.querySelector(".person-picker__list");
+    const options = list.querySelectorAll(".person-picker__option");
+
+    const closePicker = () => {
+      list.hidden = true;
+      trigger.setAttribute("aria-expanded", "false");
+    };
+    const openPicker = () => {
+      list.hidden = false;
+      trigger.setAttribute("aria-expanded", "true");
+    };
+
+    trigger.addEventListener("click", (e) => {
+      e.stopPropagation();
+      list.hidden ? openPicker() : closePicker();
     });
-  });
+
+    options.forEach((opt) => {
+      opt.addEventListener("click", () => {
+        options.forEach((o) => o.setAttribute("aria-selected", "false"));
+        opt.setAttribute("aria-selected", "true");
+        activePerson = opt.dataset.value;
+        trigger.textContent = opt.querySelector(".person-picker__name").textContent.trim();
+        closePicker();
+        resetAndFilter();
+      });
+    });
+
+    document.addEventListener("click", closePicker);
+    list.addEventListener("click", (e) => e.stopPropagation());
+    personPicker.addEventListener("keydown", (e) => { if (e.key === "Escape") closePicker(); });
+  }
 
   const keywordInput = document.getElementById("keyword-input");
   if (keywordInput) {
