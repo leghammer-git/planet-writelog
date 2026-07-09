@@ -648,7 +648,7 @@ ul,ol { padding-left: 1.5rem; }
 .person-feed h2 { margin-bottom: 1.25rem; }
 
 /* ── Prose (about page) ───────────────────────────────────────────────── */
-.prose { max-width: 680px; }
+.prose { max-width: 80%; min-width: 800px; }
 .prose h1 { font-size: 1.75rem; margin-bottom: .5rem; }
 .prose h2 { font-size: 1.2rem; margin-top: 2rem; }
 .prose p, .prose li { color: var(--color-text); line-height: 1.7; }
